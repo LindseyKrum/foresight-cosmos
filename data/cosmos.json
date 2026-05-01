@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "generated": "2025-01-01",
+    "reportCount": 2,
+    "yearRange": [2024, 2025]
+  },
+  "signals": [
+    {
+      "id": "s001",
+      "name": "Ambient AI Integration",
+      "description": "AI becoming invisible infrastructure embedded in everyday environments rather than discrete tools.",
+      "sources": [
+        { "report": "Accenture Life Trends 2025", "year": 2025, "url": "" },
+        { "report": "Accenture Technology Vision 2024", "year": 2024, "url": "" }
+      ],
+      "firstSeen": 2024,
+      "lastSeen": 2025,
+      "strength": 0.9,
+      "connections": ["t001", "t003"]
+    },
+    {
+      "id": "s002",
+      "name": "Longevity Economy",
+      "description": "Consumer markets reshaping around extended healthy lifespans; 100-year planning horizons entering mainstream.",
+      "sources": [
+        { "report": "Euromonitor Global Consumer Trends 2025", "year": 2025, "url": "" }
+      ],
+      "firstSeen": 2025,
+      "lastSeen": 2025,
+      "strength": 0.7,
+      "connections": ["t002"]
+    },
+    {
+      "id": "s003",
+      "name": "Regenerative Business Models",
+      "description": "Companies redesigning operations to restore ecological and social systems rather than merely reduce harm.",
+      "sources": [
+        { "report": "Deloitte Global 2024", "year": 2024, "url": "" },
+        { "report": "McKinsey Global Trends 2024", "year": 2024, "url": "" }
+      ],
+      "firstSeen": 2023,
+      "lastSeen": 2024,
+      "strength": 0.5,
+      "connections": ["t004"]
+    },
+    {
+      "id": "s004",
+      "name": "Spatial Computing Interfaces",
+      "description": "Mixed reality becoming a primary computing surface, replacing screen-based interaction for knowledge work.",
+      "sources": [
+        { "report": "Adobe Creative Trends 2025", "year": 2025, "url": "" }
+      ],
+      "firstSeen": 2024,
+      "lastSeen": 2025,
+      "strength": 0.75,
+      "connections": ["t001", "t005"]
+    },
+    {
+      "id": "s005",
+      "name": "Trust Deficit in Institutions",
+      "description": "Accelerating erosion of public trust in governments, media, and corporations creating alternative authority structures.",
+      "sources": [
+        { "report": "Edelman Trust Barometer 2024", "year": 2024, "url": "" },
+        { "report": "Edelman Trust Barometer 2025", "year": 2025, "url": "" }
+      ],
+      "firstSeen": 2022,
+      "lastSeen": 2025,
+      "strength": 0.85,
+      "connections": ["t002", "t004"]
+    },
+    {
+      "id": "s006",
+      "name": "Synthetic Media Normalization",
+      "description": "AI-generated content indistinguishable from human-made becoming baseline for creative and informational media.",
+      "sources": [
+        { "report": "Adobe Creative Trends 2025", "year": 2025, "url": "" },
+        { "report": "Accenture Technology Vision 2024", "year": 2024, "url": "" }
+      ],
+      "firstSeen": 2024,
+      "lastSeen": 2025,
+      "strength": 0.8,
+      "connections": ["t001", "t003"]
+    },
+    {
+      "id": "s007",
+      "name": "Microbiome as Health Architecture",
+      "description": "Gut and skin microbiome interventions emerging as primary levers for disease prevention and mental health.",
+      "sources": [
+        { "report": "Euromonitor Global Consumer Trends 2024", "year": 2024, "url": "" }
+      ],
+      "firstSeen": 2023,
+      "lastSeen": 2024,
+      "strength": 0.4,
+      "connections": ["t002"]
+    },
+    {
+      "id": "s008",
+      "name": "Deglobalization Corridors",
+      "description": "Trade realigning along geopolitical blocs rather than efficiency, creating parallel supply chains.",
+      "sources": [
+        { "report": "McKinsey Global Trends 2024", "year": 2024, "url": "" },
+        { "report": "BlackRock Investment Outlook 2025", "year": 2025, "url": "" }
+      ],
+      "firstSeen": 2022,
+      "lastSeen": 2025,
+      "strength": 0.88,
+      "connections": ["t004", "t005"]
+    },
+    {
+      "id": "s009",
+      "name": "Phantom Work Economy",
+      "description": "Proliferation of AI agents doing knowledge work previously requiring human labor, blurring employment metrics.",
+      "sources": [
+        { "report": "WEF Future of Jobs 2025", "year": 2025, "url": "" }
+      ],
+      "firstSeen": 2025,
+      "lastSeen": 2025,
+      "strength": 0.65,
+      "connections": ["t001", "t003"]
+    },
+    {
+      "id": "s010",
+      "name": "Liquid Identity",
+      "description": "Individuals maintaining multiple authentic identity layers across digital, physical, and synthetic contexts simultaneously.",
+      "sources": [
+        { "report": "Accenture Life Trends 2025", "year": 2025, "url": "" }
+      ],
+      "firstSeen": 2024,
+      "lastSeen": 2025,
+      "strength": 0.6,
+      "connections": ["t003"]
+    },
+    {
+      "id": "s011",
+      "name": "Circular Material Passports",
+      "description": "Digital tracking of material origin and recyclability becoming mandatory infrastructure for product design.",
+      "sources": [
+        { "report": "Deloitte Global 2024", "year": 2024, "url": "" }
+      ],
+      "firstSeen": 2023,
+      "lastSeen": 2024,
+      "strength": 0.35,
+      "connections": ["t004"]
+    },
+    {
+      "id": "s012",
+      "name": "Sovereign AI Infrastructure",
+      "description": "Nation-states building independent AI compute and data infrastructure as a strategic defense priority.",
+      "sources": [
+        { "report": "Activate Technology and Media Outlook 2025", "year": 2025, "url": "" },
+        { "report": "ARK Invest Big Ideas 2025", "year": 2025, "url": "" }
+      ],
+      "firstSeen": 2024,
+      "lastSeen": 2025,
+      "strength": 0.78,
+      "connections": ["t001", "t005"]
+    },
+    {
+      "id": "s013",
+      "name": "Affective Computing",
+      "description": "Systems that detect and respond to human emotional states, embedding empathy as a design primitive.",
+      "sources": [
+        { "report": "Accenture Technology Vision 2024", "year": 2024, "url": "" }
+      ],
+      "firstSeen": 2022,
+      "lastSeen": 2024,
+      "strength": 0.45,
+      "connections": ["t001", "t002"]
+    },
+    {
+      "id": "s014",
+      "name": "Climate Migration Finance",
+      "description": "Financial instruments emerging to fund mass population relocation driven by uninhabitable climate zones.",
+      "sources": [
+        { "report": "BlackRock Investment Outlook 2024", "year": 2024, "url": "" }
+      ],
+      "firstSeen": 2024,
+      "lastSeen": 2024,
+      "strength": 0.3,
+      "connections": ["t004", "t005"]
+    },
+    {
+      "id": "s015",
+      "name": "Neuro-enhancement Mainstreaming",
+      "description": "Cognitive enhancement technologies moving from fringe medical use to consumer wellness and workplace productivity.",
+      "sources": [
+        { "report": "Euromonitor Global Consumer Trends 2025", "year": 2025, "url": "" }
+      ],
+      "firstSeen": 2025,
+      "lastSeen": 2025,
+      "strength": 0.55,
+      "connections": ["t002", "t003"]
+    }
+  ],
+  "trends": [
+    {
+      "id": "t001",
+      "name": "Machine Intelligence Diffusion",
+      "description": "AI capabilities distributing across all sectors simultaneously, compressing the adoption curve that previous general-purpose technologies followed over decades.",
+      "sources": [
+        { "report": "Accenture Life Trends 2025", "year": 2025, "url": "" },
+        { "report": "ARK Invest Big Ideas 2025", "year": 2025, "url": "" }
+      ],
+      "signals": ["s001", "s004", "s006", "s009", "s012", "s013"],
+      "scenarios": ["sc001", "sc002"],
+      "firstSeen": 2023,
+      "lastSeen": 2025,
+      "mass": 1.8
+    },
+    {
+      "id": "t002",
+      "name": "Human Redefinition",
+      "description": "Biological, psychological, and social definitions of humanity under simultaneous pressure from longevity science, AI cognition, and identity fluidity.",
+      "sources": [
+        { "report": "Euromonitor Global Consumer Trends 2025", "year": 2025, "url": "" }
+      ],
+      "signals": ["s002", "s005", "s007", "s013", "s015"],
+      "scenarios": ["sc003"],
+      "firstSeen": 2023,
+      "lastSeen": 2025,
+      "mass": 1.4
+    },
+    {
+      "id": "t003",
+      "name": "Reality Fragmentation",
+      "description": "Shared reality dissolving as synthetic media, personalized feeds, and virtual environments make consensus experience structurally impossible.",
+      "sources": [
+        { "report": "Adobe Creative Trends 2025", "year": 2025, "url": "" },
+        { "report": "Accenture Life Trends 2025", "year": 2025, "url": "" }
+      ],
+      "signals": ["s001", "s006", "s009", "s010", "s015"],
+      "scenarios": ["sc004", "sc005"],
+      "firstSeen": 2024,
+      "lastSeen": 2025,
+      "mass": 1.2
+    },
+    {
+      "id": "t004",
+      "name": "Systemic Sustainability Transition",
+      "description": "Environmental limits forcing redesign of industrial, agricultural, and urban systems at civilizational scale.",
+      "sources": [
+        { "report": "Deloitte Global 2024", "year": 2024, "url": "" },
+        { "report": "McKinsey Global Trends 2024", "year": 2024, "url": "" }
+      ],
+      "signals": ["s003", "s005", "s008", "s011", "s014"],
+      "scenarios": ["sc006"],
+      "firstSeen": 2022,
+      "lastSeen": 2024,
+      "mass": 1.0
+    },
+    {
+      "id": "t005",
+      "name": "Multipolar World Order",
+      "description": "Geopolitical power distributing away from post-Cold War unipolarity into competing blocs with incompatible governance, technology, and value systems.",
+      "sources": [
+        { "report": "BlackRock Investment Outlook 2025", "year": 2025, "url": "" },
+        { "report": "Activate Technology and Media Outlook 2025", "year": 2025, "url": "" }
+      ],
+      "signals": ["s008", "s012", "s014"],
+      "scenarios": ["sc007", "sc008"],
+      "firstSeen": 2022,
+      "lastSeen": 2025,
+      "mass": 1.6
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "sc001",
+      "name": "The Augmented Professional",
+      "description": "Knowledge workers operate as AI orchestrators rather than producers, with human value residing in judgment, ethics, and relationship. Organizations restructure around human-AI teams as the base unit.",
+      "trend": "t001",
+      "sources": [{ "report": "WEF Future of Jobs 2025", "year": 2025, "url": "" }]
+    },
+    {
+      "id": "sc002",
+      "name": "The Automation Fracture",
+      "description": "AI-driven productivity gains concentrate in capital, while displaced labor lacks retraining infrastructure. Social contract around work collapses in high-income economies first.",
+      "trend": "t001",
+      "sources": [{ "report": "McKinsey Global Trends 2024", "year": 2024, "url": "" }]
+    },
+    {
+      "id": "sc003",
+      "name": "Century Lives, Broken Systems",
+      "description": "Lifespans extending to 120+ while pension, healthcare, and retirement systems designed for 75-year horizons fail. New institutions emerge slowly; a lost generation funds both ends of the age curve.",
+      "trend": "t002",
+      "sources": [{ "report": "Euromonitor Global Consumer Trends 2025", "year": 2025, "url": "" }]
+    },
+    {
+      "id": "sc004",
+      "name": "Epistemological Collapse",
+      "description": "Synthetic media saturation makes shared factual ground unachievable. Verification infrastructure races against generation infrastructure and loses. Governance, courts, and journalism require foundational redesign.",
+      "trend": "t003",
+      "sources": [{ "report": "Accenture Life Trends 2025", "year": 2025, "url": "" }]
+    },
+    {
+      "id": "sc005",
+      "name": "The Consensus Brokers",
+      "description": "New institutions emerge as trusted arbiters of reality — certified media environments, cryptographic provenance systems, and deliberative assemblies that reconstruct shared ground from fragmented landscapes.",
+      "trend": "t003",
+      "sources": [{ "report": "Edelman Trust Barometer 2025", "year": 2025, "url": "" }]
+    },
+    {
+      "id": "sc006",
+      "name": "The Regenerative Industrial Complex",
+      "description": "Carbon, biodiversity, and water markets mature into primary capital allocation mechanisms. Companies that cannot price externalities lose access to institutional capital. Industrial geography rewrites around resource renewal.",
+      "trend": "t004",
+      "sources": [{ "report": "Deloitte Global 2024", "year": 2024, "url": "" }]
+    },
+    {
+      "id": "sc007",
+      "name": "Bloc Technology",
+      "description": "Incompatible AI, communications, and financial infrastructure splits the global digital economy into 2-3 sovereign stacks. Cross-bloc operations require active bridging; multinational business model collapses for mid-tier firms.",
+      "trend": "t005",
+      "sources": [{ "report": "BlackRock Investment Outlook 2025", "year": 2025, "url": "" }]
+    },
+    {
+      "id": "sc008",
+      "name": "Managed Multipolarity",
+      "description": "Major powers negotiate functional agreements on climate, AI safety, and pandemic response while competing on economics and influence. A minimal viable multilateralism holds enough global infrastructure together to avoid catastrophic fragmentation.",
+      "trend": "t005",
+      "sources": [{ "report": "Activate Technology and Media Outlook 2025", "year": 2025, "url": "" }]
+    }
+  ]
+}

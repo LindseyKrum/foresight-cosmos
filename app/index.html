@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foresight Cosmos</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #000008;
+      overflow: hidden;
+      font-family: 'Georgia', serif;
+      color: #e8e4d9;
+    }
+
+    #canvas-container {
+      width: 100vw;
+      height: 100vh;
+      cursor: grab;
+    }
+    #canvas-container:active { cursor: grabbing; }
+
+    /* ── Legend ── */
+    #legend {
+      position: fixed;
+      bottom: 28px;
+      left: 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 10;
+      pointer-events: none;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(232,228,217,0.55);
+    }
+    .legend-dot {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* ── Info panel ── */
+    #panel {
+      position: fixed;
+      top: 0; right: 0;
+      width: 380px;
+      height: 100vh;
+      background: rgba(4, 4, 18, 0.92);
+      border-left: 1px solid rgba(255,255,255,0.08);
+      backdrop-filter: blur(12px);
+      transform: translateX(100%);
+      transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      z-index: 20;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    #panel.open { transform: translateX(0); }
+
+    #panel-close {
+      position: absolute;
+      top: 20px; right: 20px;
+      background: none;
+      border: none;
+      color: rgba(232,228,217,0.4);
+      font-size: 20px;
+      cursor: pointer;
+      line-height: 1;
+      transition: color 0.2s;
+    }
+    #panel-close:hover { color: rgba(232,228,217,0.9); }
+
+    #panel-type {
+      font-size: 10px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(232,228,217,0.35);
+      padding: 32px 32px 0;
+    }
+
+    #panel-title {
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 1.3;
+      padding: 10px 32px 0;
+      color: #e8e4d9;
+    }
+
+    #panel-body {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px 32px 32px;
+    }
+    #panel-body::-webkit-scrollbar { width: 3px; }
+    #panel-body::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 2px; }
+
+    #panel-desc {
+      font-size: 14px;
+      line-height: 1.75;
+      color: rgba(232,228,217,0.72);
+      margin-bottom: 28px;
+    }
+
+    .panel-section-label {
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(232,228,217,0.3);
+      margin-bottom: 10px;
+    }
+
+    #panel-sources {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 28px;
+    }
+
+    .source-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 12px;
+      color: rgba(232,228,217,0.55);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      padding-bottom: 8px;
+      gap: 12px;
+    }
+    .source-name { flex: 1; }
+    .source-year {
+      font-size: 11px;
+      color: rgba(232,228,217,0.3);
+      white-space: nowrap;
+    }
+    .source-link {
+      color: rgba(140,180,255,0.6);
+      text-decoration: none;
+      font-size: 10px;
+      letter-spacing: 0.05em;
+      white-space: nowrap;
+    }
+    .source-link:hover { color: rgba(140,180,255,0.9); }
+
+    #panel-connections { margin-bottom: 28px; }
+    .connection-tag {
+      display: inline-block;
+      font-size: 11px;
+      padding: 4px 10px;
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 20px;
+      margin: 0 6px 6px 0;
+      color: rgba(232,228,217,0.5);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .connection-tag:hover {
+      border-color: rgba(255,255,255,0.3);
+      color: rgba(232,228,217,0.9);
+    }
+
+    /* ── Signal recency bar ── */
+    #panel-recency {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+    .recency-bar {
+      flex: 1;
+      height: 3px;
+      background: rgba(255,255,255,0.07);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .recency-fill {
+      height: 100%;
+      border-radius: 2px;
+      transition: width 0.5s ease;
+    }
+    .recency-label {
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      color: rgba(232,228,217,0.3);
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    /* ── Dying star notice ── */
+    .dying-notice {
+      font-size: 11px;
+      color: rgba(255, 120, 60, 0.7);
+      letter-spacing: 0.06em;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* ── Tooltip ── */
+    #tooltip {
+      position: fixed;
+      pointer-events: none;
+      background: rgba(4, 4, 18, 0.88);
+      border: 1px solid rgba(255,255,255,0.1);
+      padding: 8px 14px;
+      border-radius: 4px;
+      font-size: 12px;
+      color: rgba(232,228,217,0.8);
+      transform: translate(14px, -50%);
+      z-index: 30;
+      display: none;
+      max-width: 220px;
+      line-height: 1.5;
+    }
+    #tooltip-type {
+      font-size: 9px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(232,228,217,0.3);
+      margin-bottom: 2px;
+    }
+
+    /* ── Title ── */
+    #title {
+      position: fixed;
+      top: 28px;
+      left: 32px;
+      z-index: 10;
+      pointer-events: none;
+    }
+    #title h1 {
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(232,228,217,0.4);
+    }
+    #title p {
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      color: rgba(232,228,217,0.2);
+      margin-top: 4px;
+    }
+
+    /* ── Filter bar ── */
+    #filters {
+      position: fixed;
+      top: 28px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+      z-index: 10;
+    }
+    .filter-btn {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1);
+      color: rgba(232,228,217,0.45);
+      font-size: 10px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: inherit;
+    }
+    .filter-btn:hover, .filter-btn.active {
+      background: rgba(255,255,255,0.1);
+      border-color: rgba(255,255,255,0.25);
+      color: rgba(232,228,217,0.9);
+    }
+
+    /* ── Loading ── */
+    #loading {
+      position: fixed;
+      inset: 0;
+      background: #000008;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      flex-direction: column;
+      gap: 16px;
+    }
+    #loading p {
+      font-size: 12px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(232,228,217,0.3);
+    }
+    .loading-dots span {
+      display: inline-block;
+      width: 4px; height: 4px;
+      border-radius: 50%;
+      background: rgba(232,228,217,0.3);
+      margin: 0 3px;
+      animation: pulse 1.4s infinite ease-in-out;
+    }
+    .loading-dots span:nth-child(2) { animation-delay: 0.2s; }
+    .loading-dots span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes pulse {
+      0%, 80%, 100% { transform: scale(0.6); opacity: 0.3; }
+      40% { transform: scale(1); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+<div id="loading">
+  <div class="loading-dots"><span></span><span></span><span></span></div>
+  <p>Mapping the cosmos</p>
+</div>
+
+<div id="title">
+  <h1>Foresight Cosmos</h1>
+  <p id="report-count"></p>
+</div>
+
+<div id="filters">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="signals">Signals</button>
+  <button class="filter-btn" data-filter="trends">Trends</button>
+  <button class="filter-btn" data-filter="connections">Connections</button>
+</div>
+
+<div id="canvas-container"></div>
+
+<div id="legend">
+  <div class="legend-item">
+    <div class="legend-dot" style="background:#b0c8ff; box-shadow: 0 0 6px #b0c8ff;"></div>
+    Weak Signal
+  </div>
+  <div class="legend-item">
+    <div class="legend-dot" style="background:#f5c842; width:14px; height:14px; box-shadow: 0 0 10px #f5c842;"></div>
+    Trend
+  </div>
+  <div class="legend-item">
+    <div class="legend-dot" style="background:#ff7a3c; box-shadow: 0 0 6px #ff7a3c; opacity: 0.6;"></div>
+    Fading Signal
+  </div>
+</div>
+
+<div id="panel">
+  <button id="panel-close">✕</button>
+  <div id="panel-type"></div>
+  <div id="panel-title"></div>
+  <div id="panel-body">
+    <p id="panel-desc"></p>
+    <div id="dying-notice-container"></div>
+    <div id="panel-recency-container"></div>
+    <div id="panel-sources-container"></div>
+    <div id="panel-connections-container"></div>
+    <div id="panel-scenarios-container"></div>
+  </div>
+</div>
+
+<div id="tooltip">
+  <div id="tooltip-type"></div>
+  <div id="tooltip-name"></div>
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+
+<script type="module" src="cosmos.js"></script>
+
+</body>
+</html>
