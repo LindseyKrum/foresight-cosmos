@@ -382,6 +382,123 @@
       flex-shrink: 0;
     }
 
+    /* ── Driver filter panel ── */
+    #driver-panel {
+      position: fixed;
+      top: 50%;
+      left: 28px;
+      transform: translateY(calc(-50% + 180px));
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+    #driver-toggle {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1);
+      color: rgba(232,228,217,0.4);
+      font-size: 10px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 5px 12px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.2s;
+      margin-bottom: 4px;
+      width: 100%;
+    }
+    #driver-toggle:hover {
+      background: rgba(255,255,255,0.1);
+      color: rgba(232,228,217,0.9);
+    }
+    #driver-list {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      overflow: hidden;
+      transition: max-height 0.35s ease, opacity 0.35s ease;
+      max-height: 0;
+      opacity: 0;
+    }
+    #driver-list.visible {
+      max-height: 400px;
+      opacity: 1;
+    }
+    .driver-btn {
+      font-size: 9px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: rgba(232,228,217,0.45);
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 14px;
+      padding: 4px 10px;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.2s;
+      white-space: nowrap;
+      text-align: left;
+    }
+    .driver-btn:hover  { color: rgba(232,228,217,0.9); background: rgba(255,255,255,0.09); }
+    .driver-btn.active { border-color: currentColor; color: rgba(232,228,217,0.95); background: rgba(255,255,255,0.10); }
+
+    /* ── Convergence badge ── */
+    .convergence-badge {
+      display: inline-block;
+      font-size: 9px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 2px 9px;
+      border-radius: 12px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+
+    /* ── Org breakdown bar ── */
+    .org-breakdown {
+      display: flex;
+      gap: 4px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    .org-type-chip {
+      font-size: 9px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 3px 9px;
+      border-radius: 12px;
+      border: 1px solid transparent;
+      white-space: nowrap;
+    }
+
+    /* ── Driver tag ── */
+    .driver-tag {
+      display: inline-block;
+      font-size: 10px;
+      letter-spacing: 0.06em;
+      padding: 3px 10px;
+      border-radius: 12px;
+      margin: 0 5px 5px 0;
+      border: 1px solid rgba(255,255,255,0.12);
+      color: rgba(232,228,217,0.65);
+    }
+
+    /* ── Tension item ── */
+    .tension-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255,100,60,0.1);
+    }
+    .tension-item:last-child { border-bottom: none; }
+    .tension-arrow { color: rgba(255,120,60,0.7); font-size: 14px; flex-shrink: 0; margin-top: 1px; }
+    .tension-text { flex: 1; min-width: 0; }
+    .tension-partner { font-size: 12px; color: rgba(232,228,217,0.75); margin-bottom: 3px; cursor: pointer; }
+    .tension-partner:hover { color: rgba(255,160,100,0.95); }
+    .tension-label { font-size: 10px; color: rgba(255,120,60,0.55); letter-spacing: 0.05em; }
+
     /* ── Search ── */
     #search-wrap {
       position: fixed;
@@ -525,6 +642,7 @@
   <button class="filter-btn" data-filter="signals">Signals</button>
   <button class="filter-btn" data-filter="trends">Trends</button>
   <button class="filter-btn" data-filter="connections">Connections</button>
+  <button class="filter-btn" data-filter="tensions">Tensions</button>
 </div>
 
 <div id="canvas-container"></div>
@@ -533,6 +651,12 @@
 <div id="legend-planets">
   <button id="legend-toggle">⬡ Planets</button>
   <div id="planet-list"><!-- populated by JS --></div>
+</div>
+
+<!-- Driver filter -->
+<div id="driver-panel">
+  <button id="driver-toggle">⟡ Drivers</button>
+  <div id="driver-list"><!-- populated by JS --></div>
 </div>
 
 <!-- Search -->
@@ -574,6 +698,7 @@
     <p id="panel-desc"></p>
     <div id="dying-notice-container"></div>
     <div id="panel-recency-container"></div>
+    <div id="panel-ecology-container"></div>
     <div id="panel-connections-container"></div>
     <div id="panel-scenarios-container"></div>
     <div id="panel-sources-container"></div>

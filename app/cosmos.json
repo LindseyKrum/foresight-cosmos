@@ -26,7 +26,11 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s002",
@@ -46,7 +50,12 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s003",
@@ -68,7 +77,11 @@
         "t003",
         "t015",
         "t019"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s004",
@@ -89,7 +102,12 @@
       "connections": [
         "t003",
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s005",
@@ -110,7 +128,12 @@
       "connections": [
         "t003",
         "t001"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s006",
@@ -131,7 +154,12 @@
       "connections": [
         "t003",
         "t001"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s007",
@@ -152,7 +180,12 @@
       "connections": [
         "t003",
         "t001"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s008",
@@ -174,7 +207,11 @@
         "t003",
         "t001",
         "t012"
-      ]
+      ],
+      "drivers": [
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s009",
@@ -194,7 +231,12 @@
       "strength": 0.8,
       "connections": [
         "t001"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s010",
@@ -214,7 +256,12 @@
       "strength": 0.8,
       "connections": [
         "t001"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s011",
@@ -234,7 +281,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s012",
@@ -254,7 +306,11 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s013",
@@ -275,7 +331,12 @@
       "connections": [
         "t016",
         "t008"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s014",
@@ -295,7 +356,12 @@
       "strength": 0.8,
       "connections": [
         "t016"
-      ]
+      ],
+      "drivers": [
+        "resource-environmental-pressure",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s015",
@@ -315,7 +381,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s016",
@@ -337,7 +408,12 @@
         "t004",
         "t002",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s017",
@@ -360,6 +436,16 @@
         "t002",
         "t012",
         "t007"
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ],
+      "tensions": [
+        {
+          "signal": "s338",
+          "label": "Sustainability commitment vs. ESG backlash"
+        }
       ]
     },
     {
@@ -382,6 +468,15 @@
         "t014",
         "t013",
         "t007"
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": [
+        {
+          "signal": "s292",
+          "label": "Economic optimism vs. contraction risk"
+        }
       ]
     },
     {
@@ -403,7 +498,12 @@
       "connections": [
         "t014",
         "t013"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s020",
@@ -424,7 +524,11 @@
       "connections": [
         "t018",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s021",
@@ -445,7 +549,11 @@
       "connections": [
         "t018",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s022",
@@ -465,7 +573,11 @@
       "strength": 0.8,
       "connections": [
         "t013"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s023",
@@ -485,6 +597,16 @@
       "strength": 0.8,
       "connections": [
         "t013"
+      ],
+      "drivers": [
+        "economic-realignment",
+        "technological-acceleration"
+      ],
+      "tensions": [
+        {
+          "signal": "s292",
+          "label": "Economic optimism vs. contraction risk"
+        }
       ]
     },
     {
@@ -506,7 +628,11 @@
       "connections": [
         "t014",
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s025",
@@ -526,7 +652,12 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s026",
@@ -546,7 +677,11 @@
       "strength": 0.8,
       "connections": [
         "t017"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s027",
@@ -566,7 +701,12 @@
       "strength": 0.8,
       "connections": [
         "t017"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s028",
@@ -586,7 +726,12 @@
       "strength": 0.8,
       "connections": [
         "t013"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s029",
@@ -607,7 +752,12 @@
       "connections": [
         "t013",
         "t001"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s030",
@@ -627,7 +777,12 @@
       "strength": 0.8,
       "connections": [
         "t012"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s031",
@@ -649,7 +804,12 @@
         "t012",
         "t016",
         "t002"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s032",
@@ -670,7 +830,12 @@
       "connections": [
         "t015",
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s033",
@@ -691,7 +856,11 @@
       "connections": [
         "t015",
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s034",
@@ -712,7 +881,11 @@
       "connections": [
         "t015",
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s035",
@@ -733,7 +906,12 @@
       "connections": [
         "t004",
         "t005"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s036",
@@ -754,7 +932,12 @@
       "connections": [
         "t004",
         "t005"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s037",
@@ -775,7 +958,12 @@
       "connections": [
         "t008",
         "t017"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s038",
@@ -796,7 +984,12 @@
       "connections": [
         "t008",
         "t013"
-      ]
+      ],
+      "drivers": [
+        "geopolitical-fragmentation",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s039",
@@ -816,7 +1009,12 @@
       "strength": 0.8,
       "connections": [
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s040",
@@ -838,7 +1036,12 @@
         "t015",
         "t010",
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s041",
@@ -859,7 +1062,12 @@
       "connections": [
         "t015",
         "t010"
-      ]
+      ],
+      "drivers": [
+        "resource-environmental-pressure",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s042",
@@ -880,7 +1088,11 @@
       "connections": [
         "t015",
         "t010"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s043",
@@ -900,6 +1112,16 @@
       "strength": 0.8,
       "connections": [
         "t019"
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": [
+        {
+          "signal": "s162",
+          "label": "Globalisation vs. deglobalisation"
+        }
       ]
     },
     {
@@ -921,7 +1143,12 @@
       "connections": [
         "t019",
         "t013"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s045",
@@ -942,7 +1169,11 @@
       "connections": [
         "t018",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s046",
@@ -963,7 +1194,12 @@
       "connections": [
         "t018",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s047",
@@ -983,7 +1219,11 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s048",
@@ -1004,7 +1244,11 @@
       "connections": [
         "t005",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s049",
@@ -1025,7 +1269,12 @@
       "connections": [
         "t005",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s050",
@@ -1046,7 +1295,11 @@
       "connections": [
         "t014",
         "t012"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s051",
@@ -1067,7 +1320,12 @@
       "connections": [
         "t014",
         "t012"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s052",
@@ -1087,7 +1345,11 @@
       "strength": 0.6,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s053",
@@ -1107,7 +1369,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s054",
@@ -1128,7 +1395,11 @@
       "connections": [
         "t007",
         "t010"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s055",
@@ -1149,7 +1420,12 @@
       "connections": [
         "t007",
         "t010"
-      ]
+      ],
+      "drivers": [
+        "geopolitical-fragmentation",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s056",
@@ -1169,7 +1445,11 @@
       "strength": 0.8,
       "connections": [
         "t015"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s057",
@@ -1189,7 +1469,12 @@
       "strength": 0.8,
       "connections": [
         "t015"
-      ]
+      ],
+      "drivers": [
+        "governance-regulatory-change",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s058",
@@ -1209,7 +1494,12 @@
       "strength": 0.8,
       "connections": [
         "t015"
-      ]
+      ],
+      "drivers": [
+        "resource-environmental-pressure",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s059",
@@ -1230,7 +1520,11 @@
       "connections": [
         "t013",
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s060",
@@ -1251,7 +1545,12 @@
       "connections": [
         "t013",
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s061",
@@ -1272,7 +1571,12 @@
       "connections": [
         "t016",
         "t008"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s062",
@@ -1292,7 +1596,11 @@
       "strength": 0.8,
       "connections": [
         "t016"
-      ]
+      ],
+      "drivers": [
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s063",
@@ -1313,7 +1621,12 @@
       "connections": [
         "t005",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s064",
@@ -1334,7 +1647,11 @@
       "connections": [
         "t005",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s065",
@@ -1354,7 +1671,11 @@
       "strength": 0.8,
       "connections": [
         "t017"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s066",
@@ -1374,7 +1695,12 @@
       "strength": 0.8,
       "connections": [
         "t017"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s067",
@@ -1395,7 +1721,11 @@
       "connections": [
         "t012",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s068",
@@ -1416,7 +1746,12 @@
       "connections": [
         "t012",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s069",
@@ -1437,7 +1772,12 @@
       "connections": [
         "t001",
         "t002"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s070",
@@ -1458,7 +1798,11 @@
       "connections": [
         "t001",
         "t002"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s071",
@@ -1478,6 +1822,16 @@
       "strength": 0.8,
       "connections": [
         "t008"
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "demographic-shift"
+      ],
+      "tensions": [
+        {
+          "signal": "s316",
+          "label": "Wellness optimism vs. burnout reality"
+        }
       ]
     },
     {
@@ -1498,7 +1852,12 @@
       "strength": 0.8,
       "connections": [
         "t008"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s073",
@@ -1519,7 +1878,11 @@
       "connections": [
         "t001",
         "t003"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s074",
@@ -1540,7 +1903,12 @@
       "connections": [
         "t001",
         "t003"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s075",
@@ -1562,7 +1930,11 @@
         "t001",
         "t003",
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s076",
@@ -1583,7 +1955,11 @@
       "connections": [
         "t007",
         "t013"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s077",
@@ -1604,7 +1980,12 @@
       "connections": [
         "t007",
         "t013"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s078",
@@ -1624,7 +2005,12 @@
       "strength": 0.8,
       "connections": [
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s079",
@@ -1644,7 +2030,11 @@
       "strength": 0.8,
       "connections": [
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s080",
@@ -1664,7 +2054,12 @@
       "strength": 0.8,
       "connections": [
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s081",
@@ -1684,7 +2079,12 @@
       "strength": 0.8,
       "connections": [
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s082",
@@ -1704,7 +2104,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s083",
@@ -1724,7 +2129,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s084",
@@ -1744,7 +2154,11 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s085",
@@ -1765,7 +2179,11 @@
       "connections": [
         "t006",
         "t005"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s086",
@@ -1786,7 +2204,11 @@
       "connections": [
         "t004",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s087",
@@ -1807,7 +2229,12 @@
       "connections": [
         "t004",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s088",
@@ -1827,7 +2254,11 @@
       "strength": 0.8,
       "connections": [
         "t003"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s089",
@@ -1848,7 +2279,12 @@
       "connections": [
         "t003",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s090",
@@ -1869,7 +2305,12 @@
       "connections": [
         "t005",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s091",
@@ -1889,7 +2330,12 @@
       "strength": 0.8,
       "connections": [
         "t005"
-      ]
+      ],
+      "drivers": [
+        "geopolitical-fragmentation",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s092",
@@ -1910,7 +2356,12 @@
       "connections": [
         "t005",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s093",
@@ -1930,7 +2381,11 @@
       "strength": 0.8,
       "connections": [
         "t005"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s094",
@@ -1950,7 +2405,11 @@
       "strength": 0.8,
       "connections": [
         "t003"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s095",
@@ -1972,7 +2431,11 @@
         "t003",
         "t006",
         "t002"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s096",
@@ -1995,7 +2458,11 @@
         "t006",
         "t018",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s097",
@@ -2016,7 +2483,12 @@
       "connections": [
         "t001",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "demographic-shift",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s098",
@@ -2037,7 +2509,12 @@
       "connections": [
         "t001",
         "t012"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s099",
@@ -2057,7 +2534,12 @@
       "strength": 0.8,
       "connections": [
         "t001"
-      ]
+      ],
+      "drivers": [
+        "governance-regulatory-change",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s100",
@@ -2078,7 +2560,11 @@
       "connections": [
         "t001",
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s101",
@@ -2100,7 +2586,11 @@
         "t001",
         "t015",
         "t003"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s102",
@@ -2121,7 +2611,12 @@
       "connections": [
         "t011",
         "t010"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s103",
@@ -2142,7 +2637,12 @@
       "connections": [
         "t011",
         "t010"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s104",
@@ -2163,7 +2663,12 @@
       "connections": [
         "t012",
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s105",
@@ -2184,7 +2689,11 @@
       "connections": [
         "t012",
         "t015"
-      ]
+      ],
+      "drivers": [
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s106",
@@ -2205,7 +2714,11 @@
       "connections": [
         "t014",
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s107",
@@ -2225,7 +2738,12 @@
       "strength": 0.8,
       "connections": [
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s108",
@@ -2245,7 +2763,11 @@
       "strength": 0.8,
       "connections": [
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s109",
@@ -2266,6 +2788,15 @@
       "connections": [
         "t004",
         "t010"
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": [
+        {
+          "signal": "s174",
+          "label": "Digital connection vs. social isolation"
+        }
       ]
     },
     {
@@ -2287,6 +2818,16 @@
       "connections": [
         "t004",
         "t010"
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": [
+        {
+          "signal": "s317",
+          "label": "Human creativity vs. AI-generated content"
+        }
       ]
     },
     {
@@ -2307,7 +2848,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s112",
@@ -2327,7 +2873,11 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s113",
@@ -2348,7 +2898,11 @@
       "connections": [
         "t019",
         "t001"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s114",
@@ -2370,7 +2924,12 @@
         "t007",
         "t010",
         "t016"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s115",
@@ -2390,7 +2949,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s116",
@@ -2410,7 +2974,12 @@
       "strength": 0.8,
       "connections": [
         "t005"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s117",
@@ -2430,7 +2999,11 @@
       "strength": 0.8,
       "connections": [
         "t005"
-      ]
+      ],
+      "drivers": [
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s118",
@@ -2451,7 +3024,11 @@
       "connections": [
         "t006",
         "t014"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s119",
@@ -2472,6 +3049,15 @@
       "connections": [
         "t006",
         "t014"
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": [
+        {
+          "signal": "s292",
+          "label": "Economic optimism vs. contraction risk"
+        }
       ]
     },
     {
@@ -2492,6 +3078,16 @@
       "strength": 0.8,
       "connections": [
         "t007"
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": [
+        {
+          "signal": "s156",
+          "label": "Privacy rights vs. data monetisation"
+        }
       ]
     },
     {
@@ -2515,7 +3111,12 @@
         "t007",
         "t006",
         "t005"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s122",
@@ -2536,7 +3137,11 @@
       "connections": [
         "t019",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s123",
@@ -2556,7 +3161,12 @@
       "strength": 0.8,
       "connections": [
         "t013"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s124",
@@ -2577,7 +3187,11 @@
       "connections": [
         "t007",
         "t016"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s125",
@@ -2598,6 +3212,20 @@
       "connections": [
         "t006",
         "t002"
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": [
+        {
+          "signal": "s274",
+          "label": "Luxury growth vs. dupe / frugality culture"
+        },
+        {
+          "signal": "s162",
+          "label": "Globalisation vs. deglobalisation"
+        }
       ]
     },
     {
@@ -2618,7 +3246,11 @@
       "strength": 0.8,
       "connections": [
         "t012"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s127",
@@ -2639,7 +3271,12 @@
       "connections": [
         "t012",
         "t013"
-      ]
+      ],
+      "drivers": [
+        "geopolitical-fragmentation",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s128",
@@ -2660,7 +3297,11 @@
       "connections": [
         "t012",
         "t013"
-      ]
+      ],
+      "drivers": [
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s129",
@@ -2680,7 +3321,12 @@
       "strength": 0.8,
       "connections": [
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s130",
@@ -2700,7 +3346,12 @@
       "strength": 0.8,
       "connections": [
         "t011"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s131",
@@ -2720,7 +3371,12 @@
       "strength": 0.8,
       "connections": [
         "t013"
-      ]
+      ],
+      "drivers": [
+        "governance-regulatory-change",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s132",
@@ -2741,7 +3397,11 @@
       "connections": [
         "t018",
         "t004"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s133",
@@ -2761,7 +3421,12 @@
       "strength": 0.8,
       "connections": [
         "t019"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s134",
@@ -2781,7 +3446,11 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s135",
@@ -2801,7 +3470,12 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s136",
@@ -2821,7 +3495,11 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s137",
@@ -2842,6 +3520,15 @@
       "connections": [
         "t001",
         "t002"
+      ],
+      "drivers": [
+        "governance-regulatory-change"
+      ],
+      "tensions": [
+        {
+          "signal": "s156",
+          "label": "Privacy rights vs. data monetisation"
+        }
       ]
     },
     {
@@ -2863,7 +3550,12 @@
       "connections": [
         "t001",
         "t002"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s139",
@@ -2884,7 +3576,12 @@
       "connections": [
         "t001",
         "t019"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s140",
@@ -2905,7 +3602,11 @@
       "connections": [
         "t015",
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s141",
@@ -2926,7 +3627,12 @@
       "connections": [
         "t009",
         "t019"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s142",
@@ -2946,7 +3652,11 @@
       "strength": 0.8,
       "connections": [
         "t003"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s143",
@@ -2966,7 +3676,11 @@
       "strength": 0.8,
       "connections": [
         "t003"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s144",
@@ -2986,7 +3700,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s145",
@@ -3007,7 +3726,11 @@
       "connections": [
         "t008",
         "t004"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s146",
@@ -3027,7 +3750,12 @@
       "strength": 0.8,
       "connections": [
         "t008"
-      ]
+      ],
+      "drivers": [
+        "resource-environmental-pressure",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s147",
@@ -3047,7 +3775,11 @@
       "strength": 0.8,
       "connections": [
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s148",
@@ -3068,7 +3800,12 @@
       "connections": [
         "t003",
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s149",
@@ -3089,7 +3826,12 @@
       "connections": [
         "t003",
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s150",
@@ -3109,7 +3851,11 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s151",
@@ -3129,6 +3875,15 @@
       "strength": 0.8,
       "connections": [
         "t014"
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": [
+        {
+          "signal": "s119",
+          "label": "Economic optimism vs. contraction risk"
+        }
       ]
     },
     {
@@ -3149,7 +3904,12 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s153",
@@ -3169,7 +3929,11 @@
       "strength": 0.8,
       "connections": [
         "t001"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s154",
@@ -3189,7 +3953,12 @@
       "strength": 0.8,
       "connections": [
         "t001"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s155",
@@ -3211,7 +3980,11 @@
         "t015",
         "t002",
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s156",
@@ -3232,6 +4005,16 @@
       "connections": [
         "t004",
         "t006"
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ],
+      "tensions": [
+        {
+          "signal": "s179",
+          "label": "Privacy rights vs. data monetisation"
+        }
       ]
     },
     {
@@ -3253,7 +4036,12 @@
       "connections": [
         "t004",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s158",
@@ -3273,7 +4061,11 @@
       "strength": 0.8,
       "connections": [
         "t007"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s159",
@@ -3293,7 +4085,12 @@
       "strength": 0.8,
       "connections": [
         "t007"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s160",
@@ -3313,7 +4110,12 @@
       "strength": 0.8,
       "connections": [
         "t001"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s161",
@@ -3333,7 +4135,12 @@
       "strength": 0.8,
       "connections": [
         "t013"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s162",
@@ -3353,6 +4160,15 @@
       "strength": 0.8,
       "connections": [
         "t013"
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": [
+        {
+          "signal": "s207",
+          "label": "Globalisation vs. deglobalisation"
+        }
       ]
     },
     {
@@ -3374,6 +4190,15 @@
       "connections": [
         "t008",
         "t007"
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": [
+        {
+          "signal": "s317",
+          "label": "Human creativity vs. AI-generated content"
+        }
       ]
     },
     {
@@ -3396,7 +4221,12 @@
         "t008",
         "t007",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s165",
@@ -3416,7 +4246,11 @@
       "strength": 0.8,
       "connections": [
         "t017"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s166",
@@ -3437,7 +4271,11 @@
       "connections": [
         "t018",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s167",
@@ -3457,7 +4295,11 @@
       "strength": 0.8,
       "connections": [
         "t019"
-      ]
+      ],
+      "drivers": [
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s168",
@@ -3479,7 +4321,12 @@
         "t010",
         "t007",
         "t018"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s169",
@@ -3500,7 +4347,12 @@
       "connections": [
         "t010",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s170",
@@ -3522,7 +4374,11 @@
         "t006",
         "t003",
         "t010"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s171",
@@ -3543,7 +4399,12 @@
       "connections": [
         "t006",
         "t003"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s172",
@@ -3563,7 +4424,11 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s173",
@@ -3583,7 +4448,12 @@
       "strength": 0.8,
       "connections": [
         "t005"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s174",
@@ -3603,6 +4473,16 @@
       "strength": 0.8,
       "connections": [
         "t005"
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": [
+        {
+          "signal": "s337",
+          "label": "Digital connection vs. social isolation"
+        }
       ]
     },
     {
@@ -3623,7 +4503,12 @@
       "strength": 0.8,
       "connections": [
         "t003"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s176",
@@ -3645,7 +4530,11 @@
         "t012",
         "t013",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s177",
@@ -3666,7 +4555,12 @@
       "connections": [
         "t012",
         "t013"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s178",
@@ -3687,7 +4581,12 @@
       "connections": [
         "t007",
         "t010"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s179",
@@ -3708,6 +4607,15 @@
       "connections": [
         "t003",
         "t007"
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": [
+        {
+          "signal": "s156",
+          "label": "Privacy rights vs. data monetisation"
+        }
       ]
     },
     {
@@ -3729,7 +4637,12 @@
       "connections": [
         "t003",
         "t001"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s181",
@@ -3749,7 +4662,12 @@
       "strength": 0.8,
       "connections": [
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s182",
@@ -3769,7 +4687,11 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s183",
@@ -3790,7 +4712,12 @@
       "connections": [
         "t014",
         "t012"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s184",
@@ -3810,7 +4737,12 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s185",
@@ -3830,7 +4762,12 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s186",
@@ -3850,7 +4787,11 @@
       "strength": 0.8,
       "connections": [
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s187",
@@ -3870,7 +4811,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "geopolitical-fragmentation",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s188",
@@ -3891,7 +4837,11 @@
       "connections": [
         "t003",
         "t001"
-      ]
+      ],
+      "drivers": [
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s189",
@@ -3911,7 +4861,12 @@
       "strength": 0.8,
       "connections": [
         "t012"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s190",
@@ -3932,7 +4887,11 @@
       "connections": [
         "t005",
         "t013"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s191",
@@ -3952,7 +4911,11 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s192",
@@ -3974,7 +4937,11 @@
         "t013",
         "t007",
         "t012"
-      ]
+      ],
+      "drivers": [
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s193",
@@ -3994,7 +4961,11 @@
       "strength": 0.8,
       "connections": [
         "t007"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s194",
@@ -4014,7 +4985,11 @@
       "strength": 0.8,
       "connections": [
         "t007"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s195",
@@ -4034,7 +5009,11 @@
       "strength": 0.8,
       "connections": [
         "t007"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s196",
@@ -4055,7 +5034,11 @@
       "connections": [
         "t001",
         "t013"
-      ]
+      ],
+      "drivers": [
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s197",
@@ -4076,7 +5059,11 @@
       "connections": [
         "t001",
         "t014"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s198",
@@ -4096,7 +5083,12 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s199",
@@ -4117,7 +5109,12 @@
       "connections": [
         "t001",
         "t009"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s200",
@@ -4138,7 +5135,12 @@
       "connections": [
         "t001",
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s201",
@@ -4158,7 +5160,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s202",
@@ -4178,7 +5185,12 @@
       "strength": 0.8,
       "connections": [
         "t007"
-      ]
+      ],
+      "drivers": [
+        "governance-regulatory-change",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s203",
@@ -4198,7 +5210,11 @@
       "strength": 0.8,
       "connections": [
         "t007"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s204",
@@ -4218,6 +5234,15 @@
       "strength": 0.8,
       "connections": [
         "t013"
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": [
+        {
+          "signal": "s366",
+          "label": "AI productivity vs. job displacement"
+        }
       ]
     },
     {
@@ -4238,7 +5263,12 @@
       "strength": 0.8,
       "connections": [
         "t013"
-      ]
+      ],
+      "drivers": [
+        "geopolitical-fragmentation",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s206",
@@ -4259,7 +5289,11 @@
       "connections": [
         "t015",
         "t014"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s207",
@@ -4279,6 +5313,16 @@
       "strength": 0.8,
       "connections": [
         "t015"
+      ],
+      "drivers": [
+        "economic-realignment",
+        "technological-acceleration"
+      ],
+      "tensions": [
+        {
+          "signal": "s162",
+          "label": "Globalisation vs. deglobalisation"
+        }
       ]
     },
     {
@@ -4299,7 +5343,12 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s209",
@@ -4320,7 +5369,12 @@
       "connections": [
         "t014",
         "t013"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s210",
@@ -4341,7 +5395,11 @@
       "connections": [
         "t014",
         "t013"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s211",
@@ -4361,7 +5419,12 @@
       "strength": 0.8,
       "connections": [
         "t018"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s212",
@@ -4381,7 +5444,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s213",
@@ -4402,7 +5470,12 @@
       "connections": [
         "t005",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s214",
@@ -4422,7 +5495,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s215",
@@ -4442,7 +5520,11 @@
       "strength": 0.8,
       "connections": [
         "t007"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s216",
@@ -4463,7 +5545,12 @@
       "connections": [
         "t011",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s217",
@@ -4483,7 +5570,11 @@
       "strength": 0.8,
       "connections": [
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s218",
@@ -4503,7 +5594,12 @@
       "strength": 0.8,
       "connections": [
         "t019"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s219",
@@ -4524,7 +5620,11 @@
       "connections": [
         "t001",
         "t003"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s220",
@@ -4546,7 +5646,12 @@
         "t008",
         "t006",
         "t005"
-      ]
+      ],
+      "drivers": [
+        "demographic-shift",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s221",
@@ -4566,7 +5671,12 @@
       "strength": 0.8,
       "connections": [
         "t008"
-      ]
+      ],
+      "drivers": [
+        "demographic-shift",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s222",
@@ -4586,6 +5696,16 @@
       "strength": 0.8,
       "connections": [
         "t016"
+      ],
+      "drivers": [
+        "resource-environmental-pressure",
+        "economic-realignment"
+      ],
+      "tensions": [
+        {
+          "signal": "s315",
+          "label": "Luxury growth vs. dupe / frugality culture"
+        }
       ]
     },
     {
@@ -4606,7 +5726,11 @@
       "strength": 0.8,
       "connections": [
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s224",
@@ -4627,7 +5751,12 @@
       "connections": [
         "t009",
         "t012"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s225",
@@ -4647,7 +5776,11 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s226",
@@ -4668,6 +5801,15 @@
       "connections": [
         "t013",
         "t007"
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": [
+        {
+          "signal": "s317",
+          "label": "Human creativity vs. AI-generated content"
+        }
       ]
     },
     {
@@ -4689,7 +5831,12 @@
       "connections": [
         "t013",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "resource-environmental-pressure",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s228",
@@ -4710,7 +5857,12 @@
       "connections": [
         "t005",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s229",
@@ -4730,7 +5882,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s230",
@@ -4751,7 +5908,11 @@
       "connections": [
         "t006",
         "t018"
-      ]
+      ],
+      "drivers": [
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s231",
@@ -4772,7 +5933,12 @@
       "connections": [
         "t010",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s232",
@@ -4792,7 +5958,11 @@
       "strength": 0.8,
       "connections": [
         "t016"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s233",
@@ -4812,7 +5982,11 @@
       "strength": 0.8,
       "connections": [
         "t016"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s234",
@@ -4832,7 +6006,12 @@
       "strength": 0.8,
       "connections": [
         "t016"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s235",
@@ -4852,7 +6031,12 @@
       "strength": 0.8,
       "connections": [
         "t003"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s236",
@@ -4873,7 +6057,12 @@
       "connections": [
         "t014",
         "t019"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s237",
@@ -4893,7 +6082,11 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s238",
@@ -4913,7 +6106,11 @@
       "strength": 0.8,
       "connections": [
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s239",
@@ -4933,6 +6130,15 @@
       "strength": 0.8,
       "connections": [
         "t015"
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": [
+        {
+          "signal": "s119",
+          "label": "Economic optimism vs. contraction risk"
+        }
       ]
     },
     {
@@ -4953,7 +6159,12 @@
       "strength": 0.8,
       "connections": [
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s241",
@@ -4973,7 +6184,12 @@
       "strength": 0.8,
       "connections": [
         "t019"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s242",
@@ -4994,7 +6210,11 @@
       "connections": [
         "t003",
         "t011"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s243",
@@ -5015,7 +6235,12 @@
       "connections": [
         "t007",
         "t010"
-      ]
+      ],
+      "drivers": [
+        "geopolitical-fragmentation",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s244",
@@ -5035,7 +6260,11 @@
       "strength": 0.8,
       "connections": [
         "t008"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s245",
@@ -5056,7 +6285,11 @@
       "connections": [
         "t001",
         "t002"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s246",
@@ -5077,7 +6310,12 @@
       "connections": [
         "t001",
         "t002"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s247",
@@ -5097,7 +6335,11 @@
       "strength": 0.8,
       "connections": [
         "t013"
-      ]
+      ],
+      "drivers": [
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s248",
@@ -5117,7 +6359,11 @@
       "strength": 0.8,
       "connections": [
         "t013"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s249",
@@ -5137,6 +6383,15 @@
       "strength": 0.8,
       "connections": [
         "t018"
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": [
+        {
+          "signal": "s366",
+          "label": "AI productivity vs. job displacement"
+        }
       ]
     },
     {
@@ -5157,7 +6412,12 @@
       "strength": 0.8,
       "connections": [
         "t018"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s251",
@@ -5177,6 +6437,16 @@
       "strength": 0.8,
       "connections": [
         "t009"
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": [
+        {
+          "signal": "s316",
+          "label": "Wellness optimism vs. burnout reality"
+        }
       ]
     },
     {
@@ -5197,7 +6467,11 @@
       "strength": 0.8,
       "connections": [
         "t008"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s253",
@@ -5217,7 +6491,11 @@
       "strength": 0.8,
       "connections": [
         "t019"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s254",
@@ -5237,7 +6515,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s255",
@@ -5258,7 +6541,12 @@
       "connections": [
         "t006",
         "t018"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s256",
@@ -5279,7 +6567,12 @@
       "connections": [
         "t006",
         "t018"
-      ]
+      ],
+      "drivers": [
+        "demographic-shift",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s257",
@@ -5300,7 +6593,12 @@
       "connections": [
         "t005",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "resource-environmental-pressure",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s258",
@@ -5321,7 +6619,12 @@
       "connections": [
         "t017",
         "t002"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s259",
@@ -5342,7 +6645,12 @@
       "connections": [
         "t017",
         "t002"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s260",
@@ -5363,7 +6671,12 @@
       "connections": [
         "t018",
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s261",
@@ -5383,7 +6696,12 @@
       "strength": 0.6,
       "connections": [
         "t012"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s262",
@@ -5403,7 +6721,12 @@
       "strength": 0.8,
       "connections": [
         "t012"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s263",
@@ -5423,7 +6746,12 @@
       "strength": 0.8,
       "connections": [
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s264",
@@ -5444,7 +6772,12 @@
       "connections": [
         "t008",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s265",
@@ -5466,6 +6799,16 @@
         "t004",
         "t007",
         "t017"
+      ],
+      "drivers": [
+        "demographic-shift",
+        "technological-acceleration"
+      ],
+      "tensions": [
+        {
+          "signal": "s315",
+          "label": "Luxury growth vs. dupe / frugality culture"
+        }
       ]
     },
     {
@@ -5487,7 +6830,12 @@
       "connections": [
         "t004",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "governance-regulatory-change",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s267",
@@ -5507,7 +6855,12 @@
       "strength": 0.8,
       "connections": [
         "t012"
-      ]
+      ],
+      "drivers": [
+        "resource-environmental-pressure",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s268",
@@ -5527,7 +6880,12 @@
       "strength": 0.8,
       "connections": [
         "t012"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s269",
@@ -5547,7 +6905,12 @@
       "strength": 0.8,
       "connections": [
         "t008"
-      ]
+      ],
+      "drivers": [
+        "resource-environmental-pressure",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s270",
@@ -5567,7 +6930,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s271",
@@ -5587,7 +6955,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s272",
@@ -5607,7 +6980,11 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s273",
@@ -5627,7 +7004,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s274",
@@ -5648,6 +7030,15 @@
       "connections": [
         "t003",
         "t006"
+      ],
+      "drivers": [
+        "geopolitical-fragmentation"
+      ],
+      "tensions": [
+        {
+          "signal": "s315",
+          "label": "Luxury growth vs. dupe / frugality culture"
+        }
       ]
     },
     {
@@ -5669,7 +7060,12 @@
       "connections": [
         "t014",
         "t011"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s276",
@@ -5689,7 +7085,11 @@
       "strength": 0.8,
       "connections": [
         "t002"
-      ]
+      ],
+      "drivers": [
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s277",
@@ -5709,7 +7109,12 @@
       "strength": 0.8,
       "connections": [
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s278",
@@ -5729,7 +7134,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s279",
@@ -5749,7 +7159,12 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s280",
@@ -5769,7 +7184,11 @@
       "strength": 0.8,
       "connections": [
         "t007"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s281",
@@ -5789,7 +7208,12 @@
       "strength": 0.8,
       "connections": [
         "t017"
-      ]
+      ],
+      "drivers": [
+        "geopolitical-fragmentation",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s282",
@@ -5810,7 +7234,11 @@
       "connections": [
         "t018",
         "t005"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s283",
@@ -5831,7 +7259,11 @@
       "connections": [
         "t018",
         "t005"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s284",
@@ -5851,7 +7283,12 @@
       "strength": 0.8,
       "connections": [
         "t018"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s285",
@@ -5872,6 +7309,15 @@
       "connections": [
         "t014",
         "t012"
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": [
+        {
+          "signal": "s338",
+          "label": "Sustainability commitment vs. ESG backlash"
+        }
       ]
     },
     {
@@ -5893,6 +7339,16 @@
       "connections": [
         "t014",
         "t012"
+      ],
+      "drivers": [
+        "resource-environmental-pressure",
+        "demographic-shift"
+      ],
+      "tensions": [
+        {
+          "signal": "s285",
+          "label": "Sustainability commitment vs. ESG backlash"
+        }
       ]
     },
     {
@@ -5914,7 +7370,11 @@
       "connections": [
         "t003",
         "t001"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s288",
@@ -5935,7 +7395,12 @@
       "connections": [
         "t003",
         "t001"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s289",
@@ -5955,7 +7420,12 @@
       "strength": 0.8,
       "connections": [
         "t013"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s290",
@@ -5975,7 +7445,12 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s291",
@@ -5995,7 +7470,12 @@
       "strength": 0.8,
       "connections": [
         "t013"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s292",
@@ -6015,6 +7495,15 @@
       "strength": 0.6,
       "connections": [
         "t014"
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": [
+        {
+          "signal": "s119",
+          "label": "Economic optimism vs. contraction risk"
+        }
       ]
     },
     {
@@ -6035,7 +7524,11 @@
       "strength": 0.8,
       "connections": [
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s294",
@@ -6055,7 +7548,11 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s295",
@@ -6075,7 +7572,11 @@
       "strength": 0.8,
       "connections": [
         "t001"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s296",
@@ -6096,6 +7597,16 @@
       "connections": [
         "t011",
         "t003"
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": [
+        {
+          "signal": "s274",
+          "label": "Luxury growth vs. dupe / frugality culture"
+        }
       ]
     },
     {
@@ -6117,7 +7628,12 @@
       "connections": [
         "t001",
         "t014"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s298",
@@ -6137,7 +7653,11 @@
       "strength": 0.8,
       "connections": [
         "t001"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s299",
@@ -6157,7 +7677,12 @@
       "strength": 0.8,
       "connections": [
         "t012"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s300",
@@ -6177,6 +7702,16 @@
       "strength": 0.8,
       "connections": [
         "t008"
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ],
+      "tensions": [
+        {
+          "signal": "s226",
+          "label": "Human creativity vs. AI-generated content"
+        }
       ]
     },
     {
@@ -6197,7 +7732,11 @@
       "strength": 0.8,
       "connections": [
         "t008"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s302",
@@ -6217,7 +7756,12 @@
       "strength": 0.8,
       "connections": [
         "t010"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s303",
@@ -6237,7 +7781,12 @@
       "strength": 0.8,
       "connections": [
         "t010"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s304",
@@ -6257,7 +7806,12 @@
       "strength": 0.8,
       "connections": [
         "t011"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s305",
@@ -6277,7 +7831,12 @@
       "strength": 0.8,
       "connections": [
         "t001"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s306",
@@ -6298,7 +7857,11 @@
       "connections": [
         "t007",
         "t012"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s307",
@@ -6319,7 +7882,12 @@
       "connections": [
         "t005",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s308",
@@ -6339,7 +7907,11 @@
       "strength": 0.8,
       "connections": [
         "t015"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s309",
@@ -6360,6 +7932,16 @@
       "connections": [
         "t006",
         "t004"
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": [
+        {
+          "signal": "s226",
+          "label": "Human creativity vs. AI-generated content"
+        }
       ]
     },
     {
@@ -6381,7 +7963,12 @@
       "connections": [
         "t007",
         "t018"
-      ]
+      ],
+      "drivers": [
+        "demographic-shift",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s311",
@@ -6402,7 +7989,12 @@
       "connections": [
         "t007",
         "t018"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s312",
@@ -6422,6 +8014,16 @@
       "strength": 0.8,
       "connections": [
         "t007"
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": [
+        {
+          "signal": "s174",
+          "label": "Digital connection vs. social isolation"
+        }
       ]
     },
     {
@@ -6442,7 +8044,12 @@
       "strength": 0.8,
       "connections": [
         "t007"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s314",
@@ -6463,7 +8070,11 @@
       "connections": [
         "t016",
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s315",
@@ -6484,6 +8095,16 @@
       "connections": [
         "t008",
         "t007"
+      ],
+      "drivers": [
+        "demographic-shift",
+        "technological-acceleration"
+      ],
+      "tensions": [
+        {
+          "signal": "s274",
+          "label": "Luxury growth vs. dupe / frugality culture"
+        }
       ]
     },
     {
@@ -6505,6 +8126,16 @@
       "connections": [
         "t010",
         "t009"
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ],
+      "tensions": [
+        {
+          "signal": "s354",
+          "label": "Wellness optimism vs. burnout reality"
+        }
       ]
     },
     {
@@ -6525,6 +8156,15 @@
       "strength": 0.8,
       "connections": [
         "t005"
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": [
+        {
+          "signal": "s226",
+          "label": "Human creativity vs. AI-generated content"
+        }
       ]
     },
     {
@@ -6545,7 +8185,11 @@
       "strength": 0.8,
       "connections": [
         "t005"
-      ]
+      ],
+      "drivers": [
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s319",
@@ -6565,7 +8209,12 @@
       "strength": 0.8,
       "connections": [
         "t005"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s320",
@@ -6585,7 +8234,11 @@
       "strength": 0.8,
       "connections": [
         "t007"
-      ]
+      ],
+      "drivers": [
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s321",
@@ -6605,7 +8258,12 @@
       "strength": 0.8,
       "connections": [
         "t007"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s322",
@@ -6625,7 +8283,12 @@
       "strength": 0.8,
       "connections": [
         "t011"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s323",
@@ -6645,7 +8308,11 @@
       "strength": 0.8,
       "connections": [
         "t011"
-      ]
+      ],
+      "drivers": [
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s324",
@@ -6666,7 +8333,12 @@
       "connections": [
         "t007",
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s325",
@@ -6686,7 +8358,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "resource-environmental-pressure",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s326",
@@ -6707,7 +8384,12 @@
       "connections": [
         "t014",
         "t001"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s327",
@@ -6728,7 +8410,11 @@
       "connections": [
         "t001",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s328",
@@ -6751,7 +8437,12 @@
         "t017",
         "t016",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "resource-environmental-pressure",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s329",
@@ -6771,7 +8462,12 @@
       "strength": 0.8,
       "connections": [
         "t007"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s330",
@@ -6791,7 +8487,12 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s331",
@@ -6811,7 +8512,12 @@
       "strength": 0.8,
       "connections": [
         "t014"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s332",
@@ -6831,7 +8537,12 @@
       "strength": 0.8,
       "connections": [
         "t001"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s333",
@@ -6851,7 +8562,12 @@
       "strength": 0.8,
       "connections": [
         "t011"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s334",
@@ -6871,7 +8587,12 @@
       "strength": 0.8,
       "connections": [
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s335",
@@ -6891,7 +8612,12 @@
       "strength": 0.8,
       "connections": [
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s336",
@@ -6911,7 +8637,11 @@
       "strength": 0.8,
       "connections": [
         "t009"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s337",
@@ -6932,6 +8662,20 @@
       "connections": [
         "t009",
         "t010"
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ],
+      "tensions": [
+        {
+          "signal": "s354",
+          "label": "Wellness optimism vs. burnout reality"
+        },
+        {
+          "signal": "s174",
+          "label": "Digital connection vs. social isolation"
+        }
       ]
     },
     {
@@ -6953,6 +8697,16 @@
       "connections": [
         "t019",
         "t012"
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": [
+        {
+          "signal": "s285",
+          "label": "Sustainability commitment vs. ESG backlash"
+        }
       ]
     },
     {
@@ -6973,7 +8727,11 @@
       "strength": 0.8,
       "connections": [
         "t019"
-      ]
+      ],
+      "drivers": [
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s340",
@@ -6993,7 +8751,11 @@
       "strength": 0.8,
       "connections": [
         "t019"
-      ]
+      ],
+      "drivers": [
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s341",
@@ -7014,7 +8776,11 @@
       "connections": [
         "t002",
         "t003"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s342",
@@ -7034,7 +8800,12 @@
       "strength": 0.8,
       "connections": [
         "t008"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "demographic-shift"
+      ],
+      "tensions": []
     },
     {
       "id": "s343",
@@ -7055,7 +8826,12 @@
       "connections": [
         "t004",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s344",
@@ -7078,7 +8854,12 @@
         "t008",
         "t017",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s345",
@@ -7099,7 +8880,12 @@
       "connections": [
         "t004",
         "t008"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s346",
@@ -7120,7 +8906,12 @@
       "connections": [
         "t008",
         "t007"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s347",
@@ -7141,7 +8932,12 @@
       "connections": [
         "t004",
         "t012"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s348",
@@ -7162,7 +8958,12 @@
       "connections": [
         "t004",
         "t012"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s349",
@@ -7182,7 +8983,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "geopolitical-fragmentation",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s350",
@@ -7202,7 +9008,12 @@
       "strength": 0.8,
       "connections": [
         "t007"
-      ]
+      ],
+      "drivers": [
+        "demographic-shift",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s351",
@@ -7223,7 +9034,12 @@
       "connections": [
         "t012",
         "t001"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s352",
@@ -7243,7 +9059,11 @@
       "strength": 0.8,
       "connections": [
         "t002"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s353",
@@ -7264,7 +9084,12 @@
       "connections": [
         "t011",
         "t012"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": []
     },
     {
       "id": "s354",
@@ -7285,6 +9110,16 @@
       "connections": [
         "t007",
         "t010"
+      ],
+      "drivers": [
+        "cultural-reorientation",
+        "economic-realignment"
+      ],
+      "tensions": [
+        {
+          "signal": "s316",
+          "label": "Wellness optimism vs. burnout reality"
+        }
       ]
     },
     {
@@ -7305,7 +9140,12 @@
       "strength": 0.8,
       "connections": [
         "t007"
-      ]
+      ],
+      "drivers": [
+        "governance-regulatory-change",
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s356",
@@ -7325,7 +9165,12 @@
       "strength": 0.8,
       "connections": [
         "t015"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ],
+      "tensions": []
     },
     {
       "id": "s357",
@@ -7345,7 +9190,12 @@
       "strength": 0.8,
       "connections": [
         "t016"
-      ]
+      ],
+      "drivers": [
+        "resource-environmental-pressure",
+        "technological-acceleration"
+      ],
+      "tensions": []
     },
     {
       "id": "s358",
@@ -7365,7 +9215,12 @@
       "strength": 0.8,
       "connections": [
         "t006"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "geopolitical-fragmentation"
+      ],
+      "tensions": []
     },
     {
       "id": "s359",
@@ -7386,7 +9241,11 @@
       "connections": [
         "t006",
         "t005"
-      ]
+      ],
+      "drivers": [
+        "economic-realignment"
+      ],
+      "tensions": []
     },
     {
       "id": "s360",
@@ -7406,6 +9265,16 @@
       "strength": 0.8,
       "connections": [
         "t005"
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "resource-environmental-pressure"
+      ],
+      "tensions": [
+        {
+          "signal": "s249",
+          "label": "AI productivity vs. job displacement"
+        }
       ]
     },
     {
@@ -7426,6 +9295,15 @@
       "strength": 0.8,
       "connections": [
         "t005"
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": [
+        {
+          "signal": "s354",
+          "label": "Wellness optimism vs. burnout reality"
+        }
       ]
     },
     {
@@ -7446,7 +9324,12 @@
       "strength": 0.8,
       "connections": [
         "t005"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s363",
@@ -7466,7 +9349,11 @@
       "strength": 0.8,
       "connections": [
         "t005"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s364",
@@ -7487,7 +9374,11 @@
       "connections": [
         "t018",
         "t005"
-      ]
+      ],
+      "drivers": [
+        "cultural-reorientation"
+      ],
+      "tensions": []
     },
     {
       "id": "s365",
@@ -7507,6 +9398,15 @@
       "strength": 0.8,
       "connections": [
         "t003"
+      ],
+      "drivers": [
+        "technological-acceleration"
+      ],
+      "tensions": [
+        {
+          "signal": "s249",
+          "label": "AI productivity vs. job displacement"
+        }
       ]
     },
     {
@@ -7527,6 +9427,16 @@
       "strength": 0.8,
       "connections": [
         "t003"
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ],
+      "tensions": [
+        {
+          "signal": "s249",
+          "label": "AI productivity vs. job displacement"
+        }
       ]
     },
     {
@@ -7547,7 +9457,12 @@
       "strength": 0.8,
       "connections": [
         "t003"
-      ]
+      ],
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ],
+      "tensions": []
     }
   ],
   "trends": [
@@ -7825,7 +9740,21 @@
       ],
       "firstSeen": 2024,
       "lastSeen": 2025,
-      "mass": 2.5
+      "mass": 2.5,
+      "convergenceScore": 0.667,
+      "convergenceLabel": "Cross-sector",
+      "orgTypeBreakdown": {
+        "Consultancy": 16,
+        "Research": 11,
+        "Tech": 7,
+        "Agency": 1,
+        "Financial": 8,
+        "Media": 1
+      },
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ]
     },
     {
       "id": "t002",
@@ -7939,7 +9868,18 @@
       "scenarios": [],
       "firstSeen": 2023,
       "lastSeen": 2025,
-      "mass": 1.6
+      "mass": 1.6,
+      "convergenceScore": 0.444,
+      "convergenceLabel": "Emerging",
+      "orgTypeBreakdown": {
+        "Agency": 4,
+        "Consultancy": 5,
+        "Research": 3,
+        "Tech": 5
+      },
+      "drivers": [
+        "technological-acceleration"
+      ]
     },
     {
       "id": "t003",
@@ -8157,7 +10097,20 @@
       ],
       "firstSeen": 2023,
       "lastSeen": 2025,
-      "mass": 2.5
+      "mass": 2.5,
+      "convergenceScore": 0.556,
+      "convergenceLabel": "Cross-sector",
+      "orgTypeBreakdown": {
+        "Research": 10,
+        "Consultancy": 6,
+        "Tech": 14,
+        "Government": 2,
+        "Agency": 3
+      },
+      "drivers": [
+        "technological-acceleration",
+        "governance-regulatory-change"
+      ]
     },
     {
       "id": "t004",
@@ -8281,7 +10234,20 @@
       "scenarios": [],
       "firstSeen": 2024,
       "lastSeen": 2025,
-      "mass": 1.76
+      "mass": 1.76,
+      "convergenceScore": 0.556,
+      "convergenceLabel": "Cross-sector",
+      "orgTypeBreakdown": {
+        "Agency": 10,
+        "Tech": 2,
+        "Research": 5,
+        "Financial": 2,
+        "Media": 1
+      },
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ]
     },
     {
       "id": "t005",
@@ -8516,7 +10482,19 @@
       "scenarios": [],
       "firstSeen": 2023,
       "lastSeen": 2025,
-      "mass": 2.12
+      "mass": 2.12,
+      "convergenceScore": 0.444,
+      "convergenceLabel": "Emerging",
+      "orgTypeBreakdown": {
+        "Tech": 17,
+        "Financial": 2,
+        "Agency": 8,
+        "Research": 6
+      },
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ]
     },
     {
       "id": "t006",
@@ -8915,7 +10893,22 @@
       "scenarios": [],
       "firstSeen": 2023,
       "lastSeen": 2025,
-      "mass": 2.5
+      "mass": 2.5,
+      "convergenceScore": 0.778,
+      "convergenceLabel": "Universal",
+      "orgTypeBreakdown": {
+        "Tech": 16,
+        "Media": 3,
+        "Consultancy": 5,
+        "Financial": 4,
+        "Research": 14,
+        "Industry": 2,
+        "Agency": 20
+      },
+      "drivers": [
+        "technological-acceleration",
+        "economic-realignment"
+      ]
     },
     {
       "id": "t007",
@@ -9306,7 +11299,20 @@
       ],
       "firstSeen": 2023,
       "lastSeen": 2026,
-      "mass": 2.5
+      "mass": 2.5,
+      "convergenceScore": 0.667,
+      "convergenceLabel": "Cross-sector",
+      "orgTypeBreakdown": {
+        "Industry": 7,
+        "Consultancy": 4,
+        "Research": 23,
+        "Agency": 18,
+        "Media": 3,
+        "Tech": 6
+      },
+      "drivers": [
+        "cultural-reorientation"
+      ]
     },
     {
       "id": "t008",
@@ -9498,7 +11504,20 @@
       ],
       "firstSeen": 2023,
       "lastSeen": 2025,
-      "mass": 2.03
+      "mass": 2.03,
+      "convergenceScore": 0.556,
+      "convergenceLabel": "Cross-sector",
+      "orgTypeBreakdown": {
+        "Media": 5,
+        "Agency": 7,
+        "Research": 4,
+        "Tech": 5,
+        "Industry": 2
+      },
+      "drivers": [
+        "cultural-reorientation",
+        "economic-realignment"
+      ]
     },
     {
       "id": "t009",
@@ -9683,7 +11702,20 @@
       ],
       "firstSeen": 2024,
       "lastSeen": 2025,
-      "mass": 2.33
+      "mass": 2.33,
+      "convergenceScore": 0.667,
+      "convergenceLabel": "Cross-sector",
+      "orgTypeBreakdown": {
+        "Financial": 7,
+        "Consultancy": 7,
+        "Research": 9,
+        "Agency": 3,
+        "Media": 1,
+        "Industry": 1
+      },
+      "drivers": [
+        "technological-acceleration"
+      ]
     },
     {
       "id": "t010",
@@ -9836,7 +11868,20 @@
       "scenarios": [],
       "firstSeen": 2023,
       "lastSeen": 2025,
-      "mass": 1.72
+      "mass": 1.72,
+      "convergenceScore": 0.556,
+      "convergenceLabel": "Cross-sector",
+      "orgTypeBreakdown": {
+        "Media": 3,
+        "Industry": 7,
+        "Consultancy": 3,
+        "Agency": 6,
+        "Research": 2
+      },
+      "drivers": [
+        "cultural-reorientation",
+        "technological-acceleration"
+      ]
     },
     {
       "id": "t011",
@@ -9966,7 +12011,19 @@
       "scenarios": [],
       "firstSeen": 2023,
       "lastSeen": 2025,
-      "mass": 1.48
+      "mass": 1.48,
+      "convergenceScore": 0.444,
+      "convergenceLabel": "Emerging",
+      "orgTypeBreakdown": {
+        "Consultancy": 4,
+        "Agency": 3,
+        "Tech": 4,
+        "Research": 1
+      },
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ]
     },
     {
       "id": "t012",
@@ -10155,7 +12212,22 @@
       ],
       "firstSeen": 2024,
       "lastSeen": 2028,
-      "mass": 2.11
+      "mass": 2.11,
+      "convergenceScore": 0.778,
+      "convergenceLabel": "Universal",
+      "orgTypeBreakdown": {
+        "Tech": 2,
+        "Financial": 5,
+        "Consultancy": 8,
+        "Government": 4,
+        "Research": 7,
+        "Agency": 7,
+        "UN & IGO": 1
+      },
+      "drivers": [
+        "resource-environmental-pressure",
+        "technological-acceleration"
+      ]
     },
     {
       "id": "t013",
@@ -10359,7 +12431,21 @@
       ],
       "firstSeen": 2024,
       "lastSeen": 2025,
-      "mass": 2.5
+      "mass": 2.5,
+      "convergenceScore": 0.667,
+      "convergenceLabel": "Cross-sector",
+      "orgTypeBreakdown": {
+        "Consultancy": 3,
+        "Financial": 14,
+        "Research": 10,
+        "Agency": 3,
+        "Government": 2,
+        "Media": 1
+      },
+      "drivers": [
+        "economic-realignment",
+        "geopolitical-fragmentation"
+      ]
     },
     {
       "id": "t014",
@@ -10640,7 +12726,17 @@
       ],
       "firstSeen": 2024,
       "lastSeen": 2025,
-      "mass": 2.5
+      "mass": 2.5,
+      "convergenceScore": 0.333,
+      "convergenceLabel": "Emerging",
+      "orgTypeBreakdown": {
+        "Research": 6,
+        "Consultancy": 6,
+        "Financial": 30
+      },
+      "drivers": [
+        "economic-realignment"
+      ]
     },
     {
       "id": "t015",
@@ -10914,7 +13010,20 @@
       "scenarios": [],
       "firstSeen": 2023,
       "lastSeen": 2025,
-      "mass": 2.44
+      "mass": 2.44,
+      "convergenceScore": 0.667,
+      "convergenceLabel": "Cross-sector",
+      "orgTypeBreakdown": {
+        "Research": 7,
+        "Financial": 8,
+        "Media": 3,
+        "Agency": 1,
+        "Tech": 12,
+        "Consultancy": 6
+      },
+      "drivers": [
+        "technological-acceleration"
+      ]
     },
     {
       "id": "t016",
@@ -11025,7 +13134,20 @@
       "scenarios": [],
       "firstSeen": 2024,
       "lastSeen": 2025,
-      "mass": 1.44
+      "mass": 1.44,
+      "convergenceScore": 0.556,
+      "convergenceLabel": "Cross-sector",
+      "orgTypeBreakdown": {
+        "Industry": 7,
+        "Agency": 2,
+        "Research": 3,
+        "UN & IGO": 1,
+        "Tech": 1
+      },
+      "drivers": [
+        "resource-environmental-pressure",
+        "technological-acceleration"
+      ]
     },
     {
       "id": "t017",
@@ -11113,7 +13235,19 @@
       "scenarios": [],
       "firstSeen": 2024,
       "lastSeen": 2025,
-      "mass": 1.36
+      "mass": 1.36,
+      "convergenceScore": 0.444,
+      "convergenceLabel": "Emerging",
+      "orgTypeBreakdown": {
+        "Industry": 6,
+        "Agency": 3,
+        "Research": 2,
+        "Media": 1
+      },
+      "drivers": [
+        "technological-acceleration",
+        "cultural-reorientation"
+      ]
     },
     {
       "id": "t018",
@@ -11245,7 +13379,21 @@
       "scenarios": [],
       "firstSeen": 2024,
       "lastSeen": 2025,
-      "mass": 1.64
+      "mass": 1.64,
+      "convergenceScore": 0.667,
+      "convergenceLabel": "Cross-sector",
+      "orgTypeBreakdown": {
+        "Consultancy": 2,
+        "Industry": 2,
+        "Research": 9,
+        "Media": 1,
+        "Agency": 5,
+        "Tech": 2
+      },
+      "drivers": [
+        "technological-acceleration",
+        "demographic-shift"
+      ]
     },
     {
       "id": "t019",
@@ -11373,7 +13521,20 @@
       "scenarios": [],
       "firstSeen": 2023,
       "lastSeen": 2025,
-      "mass": 1.56
+      "mass": 1.56,
+      "convergenceScore": 0.556,
+      "convergenceLabel": "Cross-sector",
+      "orgTypeBreakdown": {
+        "Financial": 2,
+        "Consultancy": 5,
+        "Agency": 4,
+        "Research": 3,
+        "UN & IGO": 3
+      },
+      "drivers": [
+        "governance-regulatory-change",
+        "technological-acceleration"
+      ]
     }
   ],
   "scenarios": [

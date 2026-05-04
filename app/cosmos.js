@@ -288,23 +288,59 @@ async function init() {
     });
   });
 
+  // ── Tension arcs ──
+  const tensionGroup = new THREE.Group();
+  tensionGroup.visible = false;
+  scene.add(tensionGroup);
+
+  const tensionPairsSeen = new Set();
+  data.signals.forEach(sig => {
+    (sig.tensions || []).forEach(t => {
+      const key = [sig.id, t.signal].sort().join('|');
+      if (tensionPairsSeen.has(key)) return;
+      tensionPairsSeen.add(key);
+      const from = signalPos[sig.id];
+      const to   = signalPos[t.signal];
+      if (!from || !to) return;
+      const geo = new THREE.BufferGeometry().setFromPoints([from, to]);
+      const mat = new THREE.LineDashedMaterial({
+        color:       new THREE.Color(1.0, 0.45, 0.20),
+        transparent: true,
+        opacity:     0.50,
+        dashSize:    0.55,
+        gapSize:     0.80,
+      });
+      const line = new THREE.Line(geo, mat);
+      line.computeLineDistances();
+      line.userData.label = t.label;
+      tensionGroup.add(line);
+    });
+  });
+
   // ── Interactables ──
   const interactable = [];
   const objMeta      = new Map(); // mesh → { type, data }
 
   // ── Trend planets ──
   const dyingSignalMeshes = []; // for pulsing animation
+  const signalMeshList    = []; // { mesh, sig } — for driver filter
 
   data.trends.forEach(trend => {
     const pos      = trendPos[trend.id];
     const size     = 2.8 + trend.mass * 1.8;
     const pCol     = (PLANET_COLORS[trend.id] ?? new THREE.Color(0.96, 0.78, 0.26)).clone();
 
+    // Convergence-scaled glow
+    const conv  = trend.convergenceScore ?? 0.33;
+    const emInt = 0.18 + conv * 0.55;          // 0.18 (niche) → 0.73 (universal)
+    const glowR = size * (4.0 + conv * 6.0);   // tighter for niche, expansive for universal
+    const glowO = 0.12 + conv * 0.28;          // 0.12 → 0.40
+
     const geo  = new THREE.SphereGeometry(size, 40, 40);
     const mat  = new THREE.MeshStandardMaterial({
       color:             pCol.clone().multiplyScalar(0.55),
       emissive:          pCol.clone(),
-      emissiveIntensity: 0.30,
+      emissiveIntensity: emInt,
       roughness:         0.50,
       metalness:         0.20,
     });
@@ -314,13 +350,14 @@ async function init() {
     interactable.push(mesh);
     objMeta.set(mesh, { type: 'trend', data: trend });
 
-    // Atmosphere ring — tinted to planet colour
-    const ringGeo = new THREE.RingGeometry(size + 0.4, size + 1.6, 64);
+    // Atmosphere ring — tinted to planet colour, width scales with convergence
+    const ringOuter = size + 1.2 + conv * 1.8;
+    const ringGeo = new THREE.RingGeometry(size + 0.4, ringOuter, 64);
     const ringMat = new THREE.MeshBasicMaterial({
       color:      pCol.clone(),
       side:       THREE.DoubleSide,
       transparent: true,
-      opacity:    0.10,
+      opacity:    0.06 + conv * 0.10,
       depthWrite: false,
     });
     const ring = new THREE.Mesh(ringGeo, ringMat);
@@ -328,7 +365,7 @@ async function init() {
     ring.position.copy(pos);
     scene.add(ring);
 
-    addGlow(scene, pos, pCol, size * 5.5, 0.22);
+    addGlow(scene, pos, pCol, glowR, glowO);
 
     // Scenarios as city-lights on surface
     const scenarios = data.scenarios.filter(s => s.trend === trend.id);
@@ -364,9 +401,13 @@ async function init() {
     const mat  = new THREE.MeshBasicMaterial({ color: col, transparent: true, opacity: op });
     const mesh = new THREE.Mesh(geo, mat);
     mesh.position.copy(pos);
+    mesh.userData.baseOp   = op;
+    mesh.userData.drivers  = sig.drivers  || [];
+    mesh.userData.tensions = sig.tensions || [];
     scene.add(mesh);
     interactable.push(mesh);
     objMeta.set(mesh, { type: 'signal', data: sig });
+    signalMeshList.push({ mesh, sig });
 
     const glowOp   = age >= DYING_AGE ? 0.12 : 0.22 + sig.strength * 0.2;
     const glowSize = age >= DYING_AGE ? size * 5 : size * 6 + sig.strength * 3;
@@ -440,6 +481,52 @@ async function init() {
 
   document.getElementById('legend-toggle').addEventListener('click', () => {
     planetList.classList.toggle('hidden');
+  });
+
+  // ── Driver filters ──
+  const DRIVERS = [
+    { id: 'technological-acceleration',   label: 'Technological Acceleration', color: '#a78bfa' },
+    { id: 'demographic-shift',            label: 'Demographic Shift',          color: '#fb923c' },
+    { id: 'geopolitical-fragmentation',   label: 'Geopolitical Fragmentation', color: '#f87171' },
+    { id: 'resource-environmental-pressure', label: 'Resource & Environmental Pressure', color: '#34d399' },
+    { id: 'economic-realignment',         label: 'Economic Realignment',       color: '#f5c842' },
+    { id: 'cultural-reorientation',       label: 'Cultural Reorientation',     color: '#ff85c2' },
+    { id: 'governance-regulatory-change', label: 'Governance & Regulatory Change', color: '#7eb8f7' },
+  ];
+
+  let activeDriver = null;
+  const driverList = document.getElementById('driver-list');
+
+  DRIVERS.forEach(d => {
+    const btn = document.createElement('button');
+    btn.className = 'driver-btn';
+    btn.dataset.driver = d.id;
+    btn.textContent = d.label;
+    btn.style.setProperty('--driver-color', d.color);
+    btn.addEventListener('click', () => {
+      const isActive = btn.classList.contains('active');
+      driverList.querySelectorAll('.driver-btn').forEach(b => b.classList.remove('active'));
+      if (isActive) {
+        activeDriver = null;
+        // Restore all signal meshes
+        signalMeshList.forEach(({ mesh }) => {
+          mesh.material.opacity = mesh.userData.baseOp;
+        });
+      } else {
+        btn.classList.add('active');
+        activeDriver = d.id;
+        // Dim non-matching signals
+        signalMeshList.forEach(({ mesh }) => {
+          const matches = (mesh.userData.drivers || []).includes(activeDriver);
+          mesh.material.opacity = matches ? mesh.userData.baseOp : 0.04;
+        });
+      }
+    });
+    driverList.appendChild(btn);
+  });
+
+  document.getElementById('driver-toggle').addEventListener('click', () => {
+    driverList.classList.toggle('visible');
   });
 
   // ── Search ──
@@ -519,13 +606,35 @@ async function init() {
       document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       const f = btn.dataset.filter;
-      lineGroup.visible = (f === 'all' || f === 'connections');
+
+      lineGroup.visible    = (f === 'all' || f === 'connections');
+      tensionGroup.visible = (f === 'tensions');
+
+      // Clear any active driver filter when switching main filters
+      if (activeDriver) {
+        activeDriver = null;
+        driverList.querySelectorAll('.driver-btn').forEach(b => b.classList.remove('active'));
+        signalMeshList.forEach(({ mesh }) => { mesh.material.opacity = mesh.userData.baseOp; });
+      }
+
       interactable.forEach(m => {
         const info = objMeta.get(m);
         if (!info) return;
-        m.visible = f === 'all' || f === 'connections'
-          || (f === 'signals' && info.type === 'signal')
-          || (f === 'trends'  && (info.type === 'trend' || info.type === 'scenario'));
+        if (f === 'tensions') {
+          // Show only signals that have tension links; hide trends
+          m.visible = info.type === 'signal' && (m.userData.tensions?.length > 0);
+          if (info.type === 'signal') {
+            const hasTension = m.userData.tensions?.length > 0;
+            m.material.opacity = hasTension ? m.userData.baseOp : 0.04;
+            m.visible = true; // keep all visible but dim non-tension ones
+          }
+        } else {
+          m.visible = true;
+          if (info.type === 'signal') m.material.opacity = m.userData.baseOp;
+          m.visible = f === 'all' || f === 'connections'
+            || (f === 'signals' && info.type === 'signal')
+            || (f === 'trends'  && (info.type === 'trend' || info.type === 'scenario'));
+        }
       });
     });
   });
@@ -607,12 +716,13 @@ function openPanel({ type, data: obj }, cosmos) {
   document.getElementById('panel-title').textContent = obj.name;
   document.getElementById('panel-desc').textContent  = obj.description;
 
-  const dying     = document.getElementById('dying-notice-container');
-  const recency   = document.getElementById('panel-recency-container');
-  const sources   = document.getElementById('panel-sources-container');
-  const conns     = document.getElementById('panel-connections-container');
+  const dying    = document.getElementById('dying-notice-container');
+  const recency  = document.getElementById('panel-recency-container');
+  const ecology  = document.getElementById('panel-ecology-container');
+  const sources  = document.getElementById('panel-sources-container');
+  const conns    = document.getElementById('panel-connections-container');
   const scenarios = document.getElementById('panel-scenarios-container');
-  [dying, recency, sources, conns, scenarios].forEach(el => { el.innerHTML = ''; });
+  [dying, recency, ecology, sources, conns, scenarios].forEach(el => { el.innerHTML = ''; });
 
   // Signal-specific
   if (type === 'signal') {
@@ -648,10 +758,87 @@ function openPanel({ type, data: obj }, cosmos) {
           }).join('')}
         </div>`;
     }
+
+    // Drivers
+    const DRIVER_META = {
+      'technological-acceleration':       { label: 'Technological Acceleration', color: '#a78bfa' },
+      'demographic-shift':                { label: 'Demographic Shift',          color: '#fb923c' },
+      'geopolitical-fragmentation':       { label: 'Geopolitical Fragmentation', color: '#f87171' },
+      'resource-environmental-pressure':  { label: 'Resource & Environmental Pressure', color: '#34d399' },
+      'economic-realignment':             { label: 'Economic Realignment',       color: '#f5c842' },
+      'cultural-reorientation':           { label: 'Cultural Reorientation',     color: '#ff85c2' },
+      'governance-regulatory-change':     { label: 'Governance & Regulatory Change', color: '#7eb8f7' },
+    };
+    if (obj.drivers?.length) {
+      ecology.innerHTML += `
+        <div class="panel-section-label" style="margin-bottom:8px;">Underlying Driver</div>
+        <div style="margin-bottom:20px;">
+          ${obj.drivers.map(d => {
+            const dm = DRIVER_META[d] || { label: d, color: '#888' };
+            return `<span class="driver-tag" style="border-color:${dm.color}44;color:${dm.color};">${dm.label}</span>`;
+          }).join('')}
+        </div>`;
+    }
+
+    // Tensions
+    if (obj.tensions?.length) {
+      const sigMap = Object.fromEntries(cosmos.signals.map(s => [s.id, s]));
+      ecology.innerHTML += `
+        <div class="panel-section-label" style="margin-bottom:8px;">In Tension With</div>
+        <div style="margin-bottom:20px;">
+          ${obj.tensions.map(t => {
+            const other = sigMap[t.signal];
+            if (!other) return '';
+            return `
+              <div class="tension-item">
+                <span class="tension-arrow">↔</span>
+                <div class="tension-text">
+                  <div class="tension-partner">${other.name}</div>
+                  <div class="tension-label">${t.label}</div>
+                </div>
+              </div>`;
+          }).join('')}
+        </div>`;
+    }
   }
 
   // Trend-specific
   if (type === 'trend') {
+    // Convergence
+    if (obj.convergenceScore !== undefined) {
+      const conv  = obj.convergenceScore;
+      const label = obj.convergenceLabel || '';
+      const CONV_COLORS = { 'Universal': '#f5c842', 'Cross-sector': '#88ffaa', 'Emerging': '#7eb8f7', 'Niche': '#aaa' };
+      const convColor = CONV_COLORS[label] || '#aaa';
+      const ORG_TYPE_COLORS = {
+        'Consultancy': '#7eb8f7', 'Financial': '#f5c842', 'Agency': '#ff85c2',
+        'Research': '#88ffaa',   'Tech': '#a78bfa',       'Industry': '#fb923c',
+        'Government': '#94a3b8', 'UN & IGO': '#34d399',   'Media': '#f87171',
+      };
+      const breakdown = obj.orgTypeBreakdown || {};
+      const chips = Object.entries(breakdown)
+        .sort((a, b) => b[1] - a[1])
+        .map(([type, count]) => {
+          const c = ORG_TYPE_COLORS[type] || '#aaa';
+          return `<span class="org-type-chip" style="border-color:${c}44;color:${c};background:${c}11;">${type} <span style="opacity:0.6">${count}</span></span>`;
+        }).join('');
+
+      ecology.innerHTML = `
+        <div style="margin-bottom:20px;">
+          <div class="panel-section-label" style="margin-bottom:8px;">
+            Cross-sector Convergence
+            <span class="convergence-badge" style="border:1px solid ${convColor}55;color:${convColor};background:${convColor}11;">${label}</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+            <div style="flex:1;height:3px;background:rgba(255,255,255,0.07);border-radius:2px;overflow:hidden;">
+              <div style="width:${Math.round(conv*100)}%;height:100%;background:${convColor};border-radius:2px;"></div>
+            </div>
+            <span style="font-size:10px;color:rgba(232,228,217,0.35);letter-spacing:0.08em;">${Math.round(conv*100)}%</span>
+          </div>
+          <div class="org-breakdown">${chips}</div>
+        </div>`;
+    }
+
     if (obj.signals?.length) {
       const sigs = cosmos.signals.filter(s => obj.signals.includes(s.id));
       conns.innerHTML = `
