@@ -397,7 +397,11 @@ async function init() {
     const op   = signalOpacity(sig);
     const size = 0.35 + sig.strength * 0.75;
 
-    const geo  = new THREE.SphereGeometry(size, 10, 10);
+    // Merged signals get a size and glow boost
+    const mergeBoost = sig.mergeCount ? 1 + (sig.mergeCount - 1) * 0.35 : 1;
+    const drawSize   = size * mergeBoost;
+
+    const geo  = new THREE.SphereGeometry(drawSize, 10, 10);
     const mat  = new THREE.MeshBasicMaterial({ color: col, transparent: true, opacity: op });
     const mesh = new THREE.Mesh(geo, mat);
     mesh.position.copy(pos);
@@ -409,8 +413,8 @@ async function init() {
     objMeta.set(mesh, { type: 'signal', data: sig });
     signalMeshList.push({ mesh, sig });
 
-    const glowOp   = age >= DYING_AGE ? 0.12 : 0.22 + sig.strength * 0.2;
-    const glowSize = age >= DYING_AGE ? size * 5 : size * 6 + sig.strength * 3;
+    const glowOp   = age >= DYING_AGE ? 0.12 : (0.22 + sig.strength * 0.2) * mergeBoost;
+    const glowSize = age >= DYING_AGE ? drawSize * 5 : drawSize * 6 + sig.strength * 3;
     addGlow(scene, pos, col, glowSize, glowOp);
 
     if (age >= DYING_AGE) {
@@ -746,6 +750,13 @@ function openPanel({ type, data: obj }, cosmos) {
         <span class="recency-label">${obj.lastSeen}</span>
       </div>`;
 
+    // Merged signal notice
+    if (obj.mergeCount > 1) {
+      dying.innerHTML += `<div style="font-size:11px;color:rgba(180,210,255,0.65);letter-spacing:0.06em;margin-bottom:16px;display:flex;align-items:center;gap:8px;">
+        <span style="font-size:13px;">◈</span> Confirmed by ${obj.mergeCount} independent reports
+      </div>`;
+    }
+
     if (obj.connections?.length) {
       const linked = cosmos.trends.filter(t => obj.connections.includes(t.id));
       conns.innerHTML = `
@@ -889,22 +900,38 @@ function openPanel({ type, data: obj }, cosmos) {
       'UN & IGO':     '#34d399',
       'Media':        '#f87171',
     };
+    const ORG_BIAS = {
+      'Consultancy': 'Solution-forward; identifies problems primarily as engagement opportunities. Tends to over-index on enterprise and B2B contexts.',
+      'Financial':   'Frames everything through returns and risk management. Tends to smooth political disruption into "macro headwinds" and underweight systemic risk.',
+      'Agency':      'Amplifies cultural novelty because novelty is their product. Tends toward optimistic consumer narratives and brand-centric framing.',
+      'Research':    'Curatorial and pattern-matching. Can create self-fulfilling trend cycles; watch for recency bias and sampling toward English-language sources.',
+      'Tech':        'Often self-serving toward platform or tool adoption. Frames adoption curves as destiny and underweights labor, regulatory, and equity concerns.',
+      'Industry':    'Reporting from inside the sector. Strong domain depth; structural bias toward growth narratives that serve their own business case.',
+      'Government':  'Risk-focused and compliance-driven. Slower-moving; tends to lag private-sector signals and under-represent commercial opportunity.',
+      'UN & IGO':    'Equity and development lens. Highlights systemic failures the private sector underweights. Can be aspirational rather than predictive.',
+      'Media':       'Audience-driven framing; tends toward the newsworthy, alarming, or culturally resonant. Watch for recency and novelty bias.',
+    };
+
     sources.innerHTML = `
       <div class="panel-section-label">Sources (${obj.sources.length})</div>
       <div id="panel-sources">
         ${obj.sources.map(s => {
           const typeColor = ORG_TYPE_COLORS[s.orgType] || '#aaa';
+          const bias      = ORG_BIAS[s.orgType] || '';
           return `
-          <div class="source-item">
-            <div style="flex:1;min-width:0;">
-              ${s.org ? `<div style="font-size:11px;color:rgba(232,228,217,0.75);margin-bottom:2px;">${s.org}</div>` : ''}
-              <div style="font-size:10px;color:rgba(232,228,217,0.35);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${s.report}</div>
+          <div class="source-item" style="flex-direction:column;align-items:flex-start;gap:6px;">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;width:100%;gap:10px;">
+              <div style="flex:1;min-width:0;">
+                ${s.org ? `<div style="font-size:11px;color:rgba(232,228,217,0.75);margin-bottom:2px;">${s.org}</div>` : ''}
+                <div style="font-size:10px;color:rgba(232,228,217,0.35);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${s.report}</div>
+              </div>
+              <div style="display:flex;align-items:center;gap:8px;flex-shrink:0;">
+                ${s.orgType ? `<span style="font-size:9px;letter-spacing:0.08em;text-transform:uppercase;color:${typeColor};opacity:0.85;border:1px solid ${typeColor}44;padding:2px 7px;border-radius:10px;">${s.orgType}</span>` : ''}
+                <span class="source-year">${s.year}</span>
+                ${s.url ? `<a class="source-link" href="${s.url}" target="_blank">↗</a>` : ''}
+              </div>
             </div>
-            <div style="display:flex;align-items:center;gap:8px;flex-shrink:0;">
-              ${s.orgType ? `<span style="font-size:9px;letter-spacing:0.08em;text-transform:uppercase;color:${typeColor};opacity:0.85;border:1px solid ${typeColor}44;padding:2px 7px;border-radius:10px;">${s.orgType}</span>` : ''}
-              <span class="source-year">${s.year}</span>
-              ${s.url ? `<a class="source-link" href="${s.url}" target="_blank">↗</a>` : ''}
-            </div>
+            ${bias ? `<div style="font-size:10px;color:rgba(232,228,217,0.28);line-height:1.55;font-style:italic;padding-left:1px;">${bias}</div>` : ''}
           </div>`;
         }).join('')}
       </div>`;
