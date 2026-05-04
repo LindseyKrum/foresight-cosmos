@@ -392,26 +392,42 @@
       flex-direction: column;
       align-items: flex-end;
       gap: 6px;
+      isolation: isolate;
+    }
+    #search-field {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    #search-icon {
+      position: absolute;
+      top: 9px;
+      left: 12px;
+      font-size: 14px;
+      color: rgba(180,210,255,0.65);
+      pointer-events: none;
+      z-index: 1;
+      line-height: 1;
     }
     #search-input {
-      background: rgba(10,10,30,0.90);
-      border: 1px solid rgba(255,255,255,0.28);
-      color: rgba(232,228,217,0.9);
+      background: rgba(15,15,40,0.96);
+      border: 1px solid rgba(255,255,255,0.42);
+      color: rgba(232,228,217,0.95);
       font-family: inherit;
       font-size: 12px;
       letter-spacing: 0.05em;
-      padding: 8px 16px;
+      padding: 8px 16px 8px 32px;
       border-radius: 20px;
-      width: 230px;
+      width: 240px;
       outline: none;
       transition: border-color 0.2s, width 0.3s, box-shadow 0.2s;
-      box-shadow: 0 0 0 1px rgba(255,255,255,0.06);
+      box-shadow: 0 0 14px rgba(140,180,255,0.18), inset 0 0 0 1px rgba(255,255,255,0.04);
     }
-    #search-input::placeholder { color: rgba(232,228,217,0.4); }
+    #search-input::placeholder { color: rgba(232,228,217,0.55); }
     #search-input:focus {
-      border-color: rgba(255,255,255,0.5);
-      width: 280px;
-      box-shadow: 0 0 12px rgba(180,200,255,0.15);
+      border-color: rgba(180,210,255,0.75);
+      width: 290px;
+      box-shadow: 0 0 22px rgba(140,180,255,0.30), inset 0 0 0 1px rgba(255,255,255,0.06);
     }
     #search-results {
       background: rgba(4,4,18,0.92);
@@ -521,7 +537,10 @@
 
 <!-- Search -->
 <div id="search-wrap">
-  <input id="search-input" type="text" placeholder="Search signals &amp; trends…" autocomplete="off" spellcheck="false">
+  <div id="search-field">
+    <span id="search-icon">⌕</span>
+    <input id="search-input" type="text" placeholder="Search signals &amp; trends…" autocomplete="off" spellcheck="false">
+  </div>
   <div id="search-results"></div>
 </div>
 
@@ -555,9 +574,9 @@
     <p id="panel-desc"></p>
     <div id="dying-notice-container"></div>
     <div id="panel-recency-container"></div>
-    <div id="panel-sources-container"></div>
     <div id="panel-connections-container"></div>
     <div id="panel-scenarios-container"></div>
+    <div id="panel-sources-container"></div>
   </div>
 </div>
 
