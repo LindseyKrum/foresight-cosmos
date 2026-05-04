@@ -1133,17 +1133,31 @@ function openPanel({ type, data: obj }, cosmos) {
         ${obj.sources.map(s => {
           const typeColor = ORG_TYPE_COLORS[s.orgType] || '#aaa';
           const bias      = ORG_BIAS[s.orgType] || '';
+          // Clean up raw filename for display
+          const reportDisplay = s.report
+            .replace(/_CAIG$/i, '')   // strip batch suffix
+            .replace(/_/g, ' ')       // underscores → spaces
+            .trim();
+          // Use stored URL if present, otherwise generate a Google search for the report
+          const reportHref = s.url
+            ? s.url
+            : `https://www.google.com/search?q=${encodeURIComponent(`"${reportDisplay}" ${s.org || ''} report`)}`;
+
           return `
           <div class="source-item" style="flex-direction:column;align-items:flex-start;gap:6px;">
             <div style="display:flex;justify-content:space-between;align-items:baseline;width:100%;gap:10px;">
               <div style="flex:1;min-width:0;">
                 ${s.org ? `<div style="font-size:11px;color:rgba(232,228,217,0.75);margin-bottom:2px;">${s.org}</div>` : ''}
-                <div style="font-size:10px;color:rgba(232,228,217,0.35);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${s.report}</div>
+                <a href="${reportHref}" target="_blank" rel="noopener noreferrer"
+                   style="font-size:10px;color:rgba(160,195,255,0.55);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;text-decoration:none;transition:color 0.2s;"
+                   onmouseover="this.style.color='rgba(160,195,255,0.9)'" onmouseout="this.style.color='rgba(160,195,255,0.55)'"
+                   title="${s.url ? 'Open source report' : 'Search for this report'}"
+                >${reportDisplay}</a>
               </div>
               <div style="display:flex;align-items:center;gap:8px;flex-shrink:0;">
                 ${s.orgType ? `<span style="font-size:9px;letter-spacing:0.08em;text-transform:uppercase;color:${typeColor};opacity:0.85;border:1px solid ${typeColor}44;padding:2px 7px;border-radius:10px;">${s.orgType}</span>` : ''}
                 <span class="source-year">${s.year}</span>
-                ${s.url ? `<a class="source-link" href="${s.url}" target="_blank">↗</a>` : ''}
+                <a class="source-link" href="${reportHref}" target="_blank" rel="noopener noreferrer" title="${s.url ? 'Open report' : 'Search for report'}">↗</a>
               </div>
             </div>
             ${bias ? `<div style="font-size:10px;color:rgba(232,228,217,0.28);line-height:1.55;font-style:italic;padding-left:1px;">${bias}</div>` : ''}
