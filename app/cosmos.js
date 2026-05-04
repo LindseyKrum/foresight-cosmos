@@ -195,18 +195,38 @@ async function init() {
   scene.add(lineGroup);
 
   data.signals.forEach(sig => {
-    sig.connections.forEach(tid => {
+    sig.connections.forEach((tid, connIdx) => {
       const from = signalPos[sig.id];
       const to   = trendPos[tid];
       if (!from || !to) return;
 
-      const age  = CURRENT_YEAR - sig.lastSeen;
-      const col  = age >= DYING_AGE ? 0x331100 : 0x1a2244;
-      const op   = age >= DYING_AGE ? 0.08 : 0.12;
+      const age        = CURRENT_YEAR - sig.lastSeen;
+      const isPrimary  = connIdx === 0;
+      const isDying    = age >= DYING_AGE;
+
+      // Colour: primary = planet gold tint, secondary = cyan tint, dying = ember
+      const col = isDying   ? 0x442200
+                : isPrimary ? 0x2a3a6a   // blue-indigo for primary
+                            : 0x1a4a4a;  // teal for cross-planet links
+
+      const op  = isDying   ? 0.10
+                : isPrimary ? 0.22
+                            : 0.30;      // secondary links slightly brighter to stand out
 
       const geo  = new THREE.BufferGeometry().setFromPoints([from, to]);
-      const mat  = new THREE.LineBasicMaterial({ color: col, transparent: true, opacity: op });
-      lineGroup.add(new THREE.Line(geo, mat));
+
+      // Primary connections: dashed.  Cross-planet secondary: dotted (shorter dash).
+      const mat = new THREE.LineDashedMaterial({
+        color:       col,
+        transparent: true,
+        opacity:     op,
+        dashSize:    isPrimary ? 1.2 : 0.5,
+        gapSize:     isPrimary ? 0.8 : 0.5,
+      });
+
+      const line = new THREE.Line(geo, mat);
+      line.computeLineDistances();   // required for dashed material
+      lineGroup.add(line);
     });
   });
 
