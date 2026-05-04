@@ -417,6 +417,102 @@ async function init() {
     document.getElementById('panel').classList.remove('open');
   });
 
+  // ── Planet legend ──
+  const planetList = document.getElementById('planet-list');
+  data.trends.forEach(trend => {
+    const pc  = PLANET_COLORS[trend.id] ?? new THREE.Color(1,1,1);
+    const hex = '#' + pc.getHexString();
+    const item = document.createElement('div');
+    item.className = 'planet-legend-item';
+    item.innerHTML = `
+      <div class="planet-legend-dot" style="background:${hex};box-shadow:0 0 5px ${hex}88;"></div>
+      ${trend.name}`;
+    item.addEventListener('click', () => {
+      const pos  = trendPos[trend.id];
+      if (!pos) return;
+      const size   = 2.8 + trend.mass * 1.8;
+      const offset = new THREE.Vector3(0, size * 2, size * 6 + 18);
+      flyTo(pos.clone().add(offset), pos.clone());
+      openPanel({ type: 'trend', data: trend }, data);
+    });
+    planetList.appendChild(item);
+  });
+
+  document.getElementById('legend-toggle').addEventListener('click', () => {
+    planetList.classList.toggle('hidden');
+  });
+
+  // ── Search ──
+  const searchInput   = document.getElementById('search-input');
+  const searchResults = document.getElementById('search-results');
+
+  // Build flat search index: trends + signals
+  const searchIndex = [
+    ...data.trends.map(t  => ({ type: 'trend',  data: t,  text: `${t.name} ${t.description}`.toLowerCase() })),
+    ...data.signals.map(s => ({ type: 'signal', data: s,  text: `${s.name} ${s.description}`.toLowerCase() })),
+  ];
+
+  function highlight(str, query) {
+    const re = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+    return str.replace(re, '<mark>$1</mark>');
+  }
+
+  searchInput.addEventListener('input', () => {
+    const q = searchInput.value.trim().toLowerCase();
+    if (q.length < 2) { searchResults.style.display = 'none'; return; }
+
+    const hits = searchIndex.filter(entry => entry.text.includes(q)).slice(0, 20);
+    if (hits.length === 0) {
+      searchResults.style.display = 'block';
+      searchResults.innerHTML = `<div id="search-empty">No matches for "${q}"</div>`;
+      return;
+    }
+
+    searchResults.style.display = 'block';
+    searchResults.innerHTML = hits.map((entry, i) => `
+      <div class="search-result-item" data-idx="${i}">
+        <div class="search-result-type">${entry.type === 'trend' ? 'Trend Planet' : 'Weak Signal'}</div>
+        <div class="search-result-name">${highlight(entry.data.name, searchInput.value.trim())}</div>
+      </div>`).join('');
+
+    searchResults.querySelectorAll('.search-result-item').forEach((el, i) => {
+      el.addEventListener('click', () => {
+        const entry = hits[i];
+        searchInput.value = '';
+        searchResults.style.display = 'none';
+
+        if (entry.type === 'trend') {
+          const pos  = trendPos[entry.data.id];
+          if (!pos) return;
+          const size = 2.8 + entry.data.mass * 1.8;
+          flyTo(pos.clone().add(new THREE.Vector3(0, size * 2, size * 6 + 18)), pos.clone());
+          openPanel({ type: 'trend', data: entry.data }, data);
+        } else {
+          const pos = signalPos[entry.data.id];
+          if (!pos) return;
+          const offset = new THREE.Vector3(0, 4, 14);
+          flyTo(pos.clone().add(offset), pos.clone());
+          openPanel({ type: 'signal', data: entry.data }, data);
+        }
+      });
+    });
+  });
+
+  // Close search results when clicking outside
+  document.addEventListener('click', e => {
+    if (!document.getElementById('search-wrap').contains(e.target)) {
+      searchResults.style.display = 'none';
+    }
+  });
+
+  searchInput.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      searchInput.value = '';
+      searchResults.style.display = 'none';
+      searchInput.blur();
+    }
+  });
+
   // ── Filters ──
   document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
