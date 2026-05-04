@@ -508,6 +508,8 @@ async function init() {
 
   document.getElementById('panel-close').addEventListener('click', () => {
     document.getElementById('panel').classList.remove('open');
+    history.replaceState(null, '', location.pathname + location.search.replace(/[?&][st]=\w+/, '').replace(/^&/, '?'));
+    if (location.search === '?') history.replaceState(null, '', location.pathname);
   });
 
   // ── Planet legend ──
@@ -688,16 +690,25 @@ async function init() {
       interactable.forEach(m => {
         const info = objMeta.get(m);
         if (!info) return;
+        m.visible = true;
         if (f === 'tensions') {
-          // Show only signals that have tension links; hide trends
-          m.visible = info.type === 'signal' && (m.userData.tensions?.length > 0);
           if (info.type === 'signal') {
             const hasTension = m.userData.tensions?.length > 0;
             m.material.opacity = hasTension ? m.userData.baseOp : 0.04;
-            m.visible = true; // keep all visible but dim non-tension ones
+          }
+        } else if (f === 'new') {
+          // Highlight signals from 2025 reports; dim older ones
+          if (info.type === 'signal') {
+            const isNew = (info.data.lastSeen ?? 0) >= 2025;
+            m.material.opacity = isNew ? m.userData.baseOp : 0.04;
+          }
+        } else if (f === 'weak') {
+          // Highlight single-source signals (not yet corroborated)
+          if (info.type === 'signal') {
+            const isWeak = (info.data.sources?.length ?? 0) === 1;
+            m.material.opacity = isWeak ? m.userData.baseOp : 0.04;
           }
         } else {
-          m.visible = true;
           if (info.type === 'signal') m.material.opacity = m.userData.baseOp;
           m.visible = f === 'all' || f === 'connections'
             || (f === 'signals' && info.type === 'signal')
@@ -775,6 +786,131 @@ async function init() {
   loading.style.transition = 'opacity 0.8s';
   loading.style.opacity    = '0';
   setTimeout(() => { loading.style.display = 'none'; }, 900);
+
+  // ── Deep link: auto-open signal or trend from URL params ──
+  const qp       = new URLSearchParams(location.search);
+  const deepSig  = qp.get('s');
+  const deepTrnd = qp.get('t');
+  if (deepSig || deepTrnd) {
+    setTimeout(() => {
+      if (deepSig) {
+        const sig = data.signals.find(s => s.id === deepSig);
+        if (sig) {
+          openPanel({ type: 'signal', data: sig }, data);
+          const pos = signalPos[deepSig];
+          if (pos) flyTo(pos.clone().add(new THREE.Vector3(0, 4, 14)), pos);
+        }
+      } else if (deepTrnd) {
+        const trend = data.trends.find(t => t.id === deepTrnd);
+        if (trend) {
+          openPanel({ type: 'trend', data: trend }, data);
+          const pos = trendPos[deepTrnd];
+          if (pos) {
+            const size = 2.8 + trend.mass * 1.8;
+            flyTo(pos.clone().add(new THREE.Vector3(0, size * 2, size * 6 + 18)), pos);
+          }
+        }
+      }
+    }, 600);
+  }
+
+  // ── What's New ──
+  const LAST_VISIT_KEY = 'foresight_last_visit';
+  const lastVisit      = localStorage.getItem(LAST_VISIT_KEY);
+  const today          = new Date().toISOString().split('T')[0];
+  const newSignals     = lastVisit
+    ? data.signals.filter(s => s.addedDate && s.addedDate > lastVisit)
+    : [];
+
+  const updatesBtn    = document.getElementById('updates-btn');
+  const updatesBadge  = document.getElementById('updates-badge');
+  const updatesDrawer = document.getElementById('updates-drawer');
+  const updatesBody   = document.getElementById('updates-body');
+
+  if (newSignals.length > 0 && updatesBadge) {
+    updatesBadge.textContent      = newSignals.length;
+    updatesBadge.style.display    = 'inline-block';
+  }
+
+  function buildUpdatesContent() {
+    const lastUpdated = data.meta?.generated || 'unknown';
+    const [yr0, yr1]  = data.meta?.yearRange ?? [2024, 2025];
+    let html = `
+      <div class="updates-meta">
+        Last updated <strong>${lastUpdated}</strong>
+        <span class="updates-meta-sub">${data.signals.length} signals · ${data.meta?.reportCount ?? '—'} reports · ${yr0}–${yr1}</span>
+      </div>`;
+
+    if (newSignals.length > 0) {
+      html += `<div class="updates-section-label">New since ${lastVisit}</div>`;
+      const byTrend = {};
+      newSignals.forEach(s => {
+        const tid   = s.connections?.[0];
+        const tname = (tid && data.trends.find(t => t.id === tid)?.name) || 'Other';
+        if (!byTrend[tname]) byTrend[tname] = [];
+        byTrend[tname].push(s);
+      });
+      Object.entries(byTrend).forEach(([trendName, sigs]) => {
+        html += `<div class="updates-trend-group">
+          <div class="updates-trend-name">${trendName}</div>
+          ${sigs.map(s => `<div class="updates-signal-item" data-sid="${s.id}">★ ${s.name}</div>`).join('')}
+        </div>`;
+      });
+    } else if (lastVisit) {
+      html += `<div class="updates-empty">Up to date — no new signals since ${lastVisit}.</div>`;
+    } else {
+      html += `<div class="updates-empty">First visit — all ${data.signals.length} signals loaded.</div>`;
+    }
+
+    html += `
+      <div class="updates-quick-btns">
+        <button class="updates-quick-btn" data-filter="new">Show 2025 signals</button>
+        <button class="updates-quick-btn" data-filter="weak">Show weak signals</button>
+      </div>`;
+
+    if (updatesBody) updatesBody.innerHTML = html;
+
+    // Wire up signal-item clicks inside drawer
+    updatesBody?.querySelectorAll('.updates-signal-item[data-sid]').forEach(el => {
+      el.addEventListener('click', () => {
+        const sig = data.signals.find(s => s.id === el.dataset.sid);
+        if (!sig) return;
+        closeUpdatesDrawer();
+        openPanel({ type: 'signal', data: sig }, data);
+        const pos = signalPos[sig.id];
+        if (pos) flyTo(pos.clone().add(new THREE.Vector3(0, 4, 14)), pos);
+      });
+    });
+
+    // Quick filter buttons inside drawer
+    updatesBody?.querySelectorAll('.updates-quick-btn[data-filter]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelector(`.filter-btn[data-filter="${btn.dataset.filter}"]`)?.click();
+        closeUpdatesDrawer();
+      });
+    });
+  }
+
+  function openUpdatesDrawer() {
+    buildUpdatesContent();
+    updatesDrawer?.classList.add('open');
+    localStorage.setItem(LAST_VISIT_KEY, today);
+    if (updatesBadge) updatesBadge.style.display = 'none';
+  }
+
+  function closeUpdatesDrawer() {
+    updatesDrawer?.classList.remove('open');
+  }
+
+  updatesBtn?.addEventListener('click', e => { e.stopPropagation(); openUpdatesDrawer(); });
+  document.getElementById('updates-close')?.addEventListener('click', closeUpdatesDrawer);
+  document.addEventListener('click', e => {
+    if (updatesDrawer?.classList.contains('open') &&
+        !updatesDrawer.contains(e.target) &&
+        e.target !== updatesBtn) {
+      closeUpdatesDrawer();
+    }
+  });
 }
 
 // ── Panel ───────────────────────────────────────────────────────────────────
@@ -1014,6 +1150,28 @@ function openPanel({ type, data: obj }, cosmos) {
           </div>`;
         }).join('')}
       </div>`;
+  }
+
+  // ── Excerpt (appears just below description) ──
+  const excerptEl = document.getElementById('panel-excerpt-container');
+  if (excerptEl) {
+    excerptEl.innerHTML = (type === 'signal' && obj.excerpt)
+      ? `<blockquote class="panel-excerpt">“${obj.excerpt}”</blockquote>`
+      : '';
+  }
+
+  // ── URL permalink ──
+  if (type === 'signal') history.replaceState(null, '', `?s=${obj.id}`);
+  else if (type === 'trend') history.replaceState(null, '', `?t=${obj.id}`);
+
+  // ── Share button handler ──
+  const shareBtn = document.getElementById('panel-share-btn');
+  if (shareBtn) {
+    shareBtn.onclick = () => {
+      navigator.clipboard.writeText(location.href).catch(() => {});
+      const toast = document.getElementById('copy-toast');
+      if (toast) { toast.classList.add('show'); setTimeout(() => toast.classList.remove('show'), 2200); }
+    };
   }
 
   document.getElementById('panel').classList.add('open');

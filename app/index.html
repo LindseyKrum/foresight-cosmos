@@ -114,9 +114,235 @@
       color: rgba(232,228,217,0.32);
       letter-spacing: 0.04em;
       font-style: italic;
-      margin-bottom: 26px;
+      margin-bottom: 14px;
       padding-top: 10px;
       border-top: 1px solid rgba(255,255,255,0.05);
+    }
+
+    /* ── Excerpt quote ── */
+    .panel-excerpt {
+      font-size: 12px;
+      line-height: 1.75;
+      color: rgba(232,228,217,0.52);
+      border-left: 2px solid rgba(176,200,255,0.25);
+      padding: 10px 14px;
+      margin-bottom: 26px;
+      font-style: italic;
+      background: rgba(176,200,255,0.03);
+      border-radius: 0 4px 4px 0;
+    }
+
+    /* ── Share button ── */
+    #panel-share-btn {
+      position: absolute;
+      top: 20px;
+      right: 52px;
+      background: none;
+      border: 1px solid rgba(255,255,255,0.08);
+      color: rgba(232,228,217,0.3);
+      font-size: 9px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.2s;
+    }
+    #panel-share-btn:hover {
+      border-color: rgba(255,255,255,0.25);
+      color: rgba(232,228,217,0.8);
+      background: rgba(255,255,255,0.05);
+    }
+
+    /* ── Copy toast ── */
+    #copy-toast {
+      position: fixed;
+      bottom: 80px;
+      left: 50%;
+      transform: translateX(-50%) translateY(8px);
+      background: rgba(20,20,40,0.96);
+      border: 1px solid rgba(176,200,255,0.2);
+      color: rgba(176,200,255,0.9);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      padding: 8px 18px;
+      border-radius: 20px;
+      z-index: 100;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.25s, transform 0.25s;
+    }
+    #copy-toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    /* ── Updates button ── */
+    #updates-btn {
+      position: fixed;
+      top: 28px;
+      right: 32px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1);
+      color: rgba(232,228,217,0.4);
+      font-size: 9px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 5px 12px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.2s;
+      z-index: 11;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    #updates-btn:hover {
+      background: rgba(255,255,255,0.08);
+      color: rgba(232,228,217,0.8);
+    }
+    #updates-badge {
+      display: none;
+      background: rgba(245,200,66,0.85);
+      color: #000;
+      font-size: 8px;
+      font-weight: bold;
+      padding: 1px 5px;
+      border-radius: 8px;
+      letter-spacing: 0;
+    }
+
+    /* ── Updates drawer ── */
+    #updates-drawer {
+      position: fixed;
+      top: 60px;
+      right: 32px;
+      width: 300px;
+      max-height: 70vh;
+      overflow-y: auto;
+      background: rgba(6,6,22,0.97);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 10px;
+      z-index: 22;
+      backdrop-filter: blur(12px);
+      transform: translateY(-8px);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+    #updates-drawer.open {
+      transform: translateY(0);
+      opacity: 1;
+      pointer-events: auto;
+    }
+    #updates-drawer::-webkit-scrollbar { width: 3px; }
+    #updates-drawer::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 2px; }
+    #updates-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 18px;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(232,228,217,0.4);
+    }
+    #updates-close {
+      background: none;
+      border: none;
+      color: rgba(232,228,217,0.35);
+      font-size: 14px;
+      cursor: pointer;
+      line-height: 1;
+      transition: color 0.2s;
+    }
+    #updates-close:hover { color: rgba(232,228,217,0.8); }
+    #updates-body { padding: 14px 18px 18px; }
+    .updates-meta {
+      font-size: 12px;
+      color: rgba(232,228,217,0.55);
+      margin-bottom: 14px;
+      line-height: 1.7;
+    }
+    .updates-meta strong { color: rgba(232,228,217,0.8); }
+    .updates-meta-sub {
+      display: block;
+      font-size: 10px;
+      color: rgba(232,228,217,0.3);
+      letter-spacing: 0.04em;
+      margin-top: 2px;
+    }
+    .updates-section-label {
+      font-size: 9px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(232,228,217,0.28);
+      margin-bottom: 10px;
+    }
+    .updates-trend-group { margin-bottom: 14px; }
+    .updates-trend-name {
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      color: rgba(245,200,66,0.6);
+      margin-bottom: 5px;
+      text-transform: uppercase;
+    }
+    .updates-signal-item {
+      font-size: 12px;
+      color: rgba(176,200,255,0.65);
+      padding: 4px 0;
+      cursor: pointer;
+      transition: color 0.15s;
+      line-height: 1.5;
+    }
+    .updates-signal-item:hover { color: rgba(176,200,255,1); }
+    .updates-empty {
+      font-size: 12px;
+      color: rgba(232,228,217,0.3);
+      font-style: italic;
+      margin-bottom: 16px;
+      line-height: 1.6;
+    }
+    .updates-quick-btns {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-top: 16px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding-top: 14px;
+    }
+    .updates-quick-btn {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1);
+      color: rgba(232,228,217,0.5);
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 6px 12px;
+      border-radius: 16px;
+      cursor: pointer;
+      font-family: inherit;
+      text-align: left;
+      transition: all 0.2s;
+    }
+    .updates-quick-btn:hover {
+      background: rgba(255,255,255,0.08);
+      color: rgba(232,228,217,0.9);
+    }
+
+    /* ── NEW / WEAK filter button highlights ── */
+    .filter-btn[data-filter="new"].active {
+      background: rgba(176,200,255,0.12);
+      border-color: rgba(176,200,255,0.4);
+      color: rgba(176,200,255,0.95);
+    }
+    .filter-btn[data-filter="weak"].active {
+      background: rgba(255,180,120,0.10);
+      border-color: rgba(255,180,120,0.4);
+      color: rgba(255,180,120,0.95);
     }
 
     .panel-section-label {
@@ -751,6 +977,26 @@
       }
       .source-item { padding-bottom: 12px; gap: 8px; }
       .tension-partner { font-size: 13px; min-height: 32px; display: flex; align-items: center; }
+
+      /* ── Share button — move further left on mobile (close is closer to edge) ── */
+      #panel-share-btn { right: 46px; font-size: 8px; padding: 3px 8px; }
+
+      /* ── Updates button — hide text, keep icon ── */
+      #updates-btn { top: auto !important; bottom: 54px; right: 14px; font-size: 9px; padding: 5px 11px; }
+
+      /* ── Updates drawer — full-width on mobile ── */
+      #updates-drawer {
+        top: auto !important;
+        bottom: 90px;
+        right: 0 !important;
+        left: 0 !important;
+        width: 100vw !important;
+        border-radius: 14px 14px 0 0;
+        max-height: 60vh;
+      }
+
+      /* ── Toast — above filter bar ── */
+      #copy-toast { bottom: 110px; }
     }
 
     /* ── Very small screens (≤ 380 px) ── */
@@ -812,7 +1058,21 @@
   <button class="filter-btn" data-filter="trends">Trends</button>
   <button class="filter-btn" data-filter="connections">Connections</button>
   <button class="filter-btn" data-filter="tensions">Tensions</button>
+  <button class="filter-btn" data-filter="new">New (2025)</button>
+  <button class="filter-btn" data-filter="weak">Weak</button>
 </div>
+
+<button id="updates-btn">◈ Updates <span id="updates-badge"></span></button>
+
+<div id="updates-drawer">
+  <div id="updates-header">
+    <span>What's New</span>
+    <button id="updates-close">✕</button>
+  </div>
+  <div id="updates-body"></div>
+</div>
+
+<div id="copy-toast">⎘ Link copied</div>
 
 <div id="canvas-container"></div>
 
@@ -861,11 +1121,13 @@
 
 <div id="panel">
   <button id="panel-close">✕</button>
+  <button id="panel-share-btn">⎘ Share</button>
   <div id="panel-type"></div>
   <div id="panel-title"></div>
   <div id="panel-body">
     <p id="panel-desc"></p>
     <p id="panel-report-note"></p>
+    <div id="panel-excerpt-container"></div>
     <div id="dying-notice-container"></div>
     <div id="panel-recency-container"></div>
     <div id="panel-ecology-container"></div>
