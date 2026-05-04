@@ -601,6 +601,191 @@
       letter-spacing: 0.05em;
     }
 
+    /* ══════════════════════════════════════════════════════
+       Mobile  (≤ 767 px)
+       ══════════════════════════════════════════════════════ */
+    @media (max-width: 767px) {
+
+      /* Canvas — tell browser not to interfere with Three.js touch */
+      #canvas-container canvas { touch-action: none; }
+
+      /* Title — compact top-left */
+      #title { top: 14px; left: 14px; }
+      #title h1 { font-size: 11px; letter-spacing: 0.14em; }
+      #title p  { display: none; }
+
+      /* Filter bar — scrollable strip below title */
+      #filters {
+        top: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transform: none;
+        justify-content: flex-start;
+        gap: 6px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        flex-wrap: nowrap;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding: 10px 14px 14px;
+        background: linear-gradient(to top, rgba(0,0,8,0.92) 70%, transparent);
+        backdrop-filter: none;
+        z-index: 12;
+      }
+      #filters::-webkit-scrollbar { display: none; }
+      .filter-btn {
+        padding: 6px 12px;
+        font-size: 9px;
+        white-space: nowrap;
+        flex-shrink: 0;
+        min-height: 32px;
+        touch-action: manipulation;
+      }
+
+      /* Panel — bottom sheet instead of right drawer */
+      #panel {
+        width: 100%;
+        height: 78vh;
+        max-height: 78vh;
+        top: auto;
+        bottom: 0;
+        right: 0;
+        border-radius: 18px 18px 0 0;
+        border-left: none;
+        border-top: 1px solid rgba(255,255,255,0.1);
+        transform: translateY(100%);
+        transition: transform 0.38s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        padding-top: 0;
+      }
+      #panel.open { transform: translateY(0); }
+
+      /* Drag handle */
+      #panel::before {
+        content: '';
+        display: block;
+        width: 36px;
+        height: 3px;
+        background: rgba(255,255,255,0.18);
+        border-radius: 2px;
+        margin: 10px auto 0;
+        flex-shrink: 0;
+      }
+      #panel-type  { padding-top: 16px; }
+      #panel-title { font-size: 18px; padding-top: 8px; }
+      #panel-close { top: 12px; right: 14px; font-size: 18px; }
+      #panel-body  { padding: 16px 20px 40px; }
+
+      /* Planet legend — top-left below title area */
+      #legend-planets {
+        top: 50px;
+        left: 14px;
+        transform: none;
+        max-width: 164px;
+        z-index: 11;
+      }
+      #legend-toggle {
+        font-size: 9px;
+        padding: 5px 10px;
+        touch-action: manipulation;
+      }
+      .planet-legend-item {
+        font-size: 9px;
+        min-height: 28px;
+        touch-action: manipulation;
+      }
+      #planet-list {
+        max-height: 40vh;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      /* Driver panel — hidden by default on mobile,
+         accessible via toggle but positioned differently */
+      #driver-panel {
+        top: auto;
+        bottom: 54px;   /* just above filter bar */
+        left: 14px;
+        transform: none;
+        max-width: 172px;
+        z-index: 11;
+      }
+      #driver-toggle {
+        font-size: 9px;
+        padding: 5px 10px;
+        touch-action: manipulation;
+      }
+      .driver-btn {
+        font-size: 9px;
+        min-height: 28px;
+        touch-action: manipulation;
+      }
+      #driver-list { max-height: 36vh; overflow-y: auto; }
+
+      /* Search — collapses to icon; expands on focus */
+      #search-wrap { top: 10px; right: 12px; z-index: 13; }
+      #search-input {
+        width: 36px;
+        padding: 8px 8px 8px 28px;
+        border-color: rgba(255,255,255,0.22);
+        box-shadow: none;
+      }
+      #search-input:focus {
+        width: min(220px, 58vw);
+        border-color: rgba(180,210,255,0.75);
+        box-shadow: 0 0 18px rgba(140,180,255,0.25);
+      }
+      #search-icon { top: 10px; left: 10px; font-size: 13px; }
+      #search-results { width: min(260px, 88vw); }
+
+      /* Nav hint — swap for touch copy, bottom-right above filter strip */
+      #nav-hint {
+        bottom: 52px;
+        right: 14px;
+        text-align: right;
+      }
+      #nav-hint .nav-hint-line:first-child::before {
+        content: 'Pinch to zoom · Drag to orbit';
+      }
+      #nav-hint .nav-hint-line:first-child { font-size: 0; } /* hide original text */
+      #nav-hint .nav-hint-line:first-child::before { font-size: 9px; }
+      #nav-hint .nav-hint-line:last-child { display: none; }
+
+      /* Reset button — above filter strip, right */
+      #reset-view {
+        bottom: 52px;
+        right: 14px;
+        padding: 5px 12px;
+        font-size: 9px;
+      }
+
+      /* Bottom signal-type legend — hide (too small to be useful) */
+      #legend { display: none; }
+
+      /* Tooltip — shift so it doesn't get cut off */
+      #tooltip { max-width: 180px; font-size: 11px; }
+
+      /* Connection / source items — more thumb-friendly */
+      .connection-tag {
+        padding: 6px 12px;
+        font-size: 11px;
+        min-height: 32px;
+        display: inline-flex;
+        align-items: center;
+        touch-action: manipulation;
+      }
+      .source-item { padding-bottom: 12px; gap: 8px; }
+      .tension-partner { font-size: 13px; min-height: 32px; display: flex; align-items: center; }
+    }
+
+    /* Very small screens (≤ 380 px) */
+    @media (max-width: 380px) {
+      #panel { height: 82vh; }
+      #panel-title { font-size: 16px; }
+      #search-input:focus { width: min(180px, 55vw); }
+      #legend-planets { max-width: 148px; }
+    }
+
     /* ── Loading ── */
     #loading {
       position: fixed;

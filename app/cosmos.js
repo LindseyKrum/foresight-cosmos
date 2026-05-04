@@ -157,15 +157,19 @@ function signalOpacity(signal) {
 
 // ── Main ────────────────────────────────────────────────────────────────────
 async function init() {
-  const data = await fetch('../data/cosmos.json').then(r => r.json());
+  const data    = await fetch('../data/cosmos.json').then(r => r.json());
+  const isMobile = window.innerWidth <= 767;
 
   // Scene / renderer
   const scene    = new THREE.Scene();
-  const camera   = new THREE.PerspectiveCamera(55, innerWidth / innerHeight, 0.1, 2000);
-  camera.position.set(0, 30, 150);
+  const camera   = new THREE.PerspectiveCamera(
+    isMobile ? 65 : 55,   // wider FOV on mobile — fits more in frame
+    innerWidth / innerHeight, 0.1, 2000
+  );
+  camera.position.set(0, 30, isMobile ? 185 : 150);
 
-  const renderer = new THREE.WebGLRenderer({ antialias: true });
-  renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+  const renderer = new THREE.WebGLRenderer({ antialias: !isMobile });
+  renderer.setPixelRatio(Math.min(devicePixelRatio, isMobile ? 1.5 : 2));
   renderer.setSize(innerWidth, innerHeight);
   renderer.setClearColor(0x000008);
   document.getElementById('canvas-container').appendChild(renderer.domElement);
@@ -173,12 +177,23 @@ async function init() {
   const controls = new OrbitControls(camera, renderer.domElement);
   controls.enableDamping    = true;
   controls.dampingFactor    = 0.06;
-  controls.minDistance      = 3;     // allow flying inside the cloud
+  controls.minDistance      = 3;
   controls.maxDistance      = 450;
   controls.autoRotate       = true;
-  controls.autoRotateSpeed  = 0.10;
+  controls.autoRotateSpeed  = isMobile ? 0.06 : 0.10;
   controls.enablePan        = true;
-  controls.panSpeed         = 0.8;
+  controls.panSpeed         = isMobile ? 0.5 : 0.8;
+  controls.touches = {
+    ONE:   THREE.TOUCH.ROTATE,
+    TWO:   THREE.TOUCH.DOLLY_PAN,
+  };
+
+  // Mobile nav hint — tap instead of click
+  if (isMobile) {
+    const hints = document.querySelectorAll('.nav-hint-line');
+    if (hints[0]) hints[0].textContent = 'Pinch to zoom · Drag to orbit';
+    if (hints[1]) hints[1].textContent = 'Tap any object to explore';
+  }
 
   // ── Camera fly-to animation state ──
   const DEFAULT_CAM_POS  = new THREE.Vector3(0, 30, 150);
@@ -422,9 +437,9 @@ async function init() {
     }
   });
 
-  // ── Raycaster / hover ──
+  // ── Raycaster / hover + tap ──
   const raycaster = new THREE.Raycaster();
-  raycaster.params.Mesh.threshold = 0.5;
+  raycaster.params.Mesh.threshold = isMobile ? 1.2 : 0.5;  // bigger hit target on mobile
   const mouse     = new THREE.Vector2(-9999, -9999);
   let hoveredMesh = null;
   const tooltip   = document.getElementById('tooltip');
@@ -437,6 +452,39 @@ async function init() {
     tooltip.style.left = (e.clientX + 16) + 'px';
     tooltip.style.top  = e.clientY + 'px';
   });
+
+  // Mobile tap detection — fire on touchend if finger didn't move much
+  if (isMobile) {
+    let touchStartX = 0, touchStartY = 0;
+    renderer.domElement.addEventListener('touchstart', e => {
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+    }, { passive: true });
+    renderer.domElement.addEventListener('touchend', e => {
+      const dx = e.changedTouches[0].clientX - touchStartX;
+      const dy = e.changedTouches[0].clientY - touchStartY;
+      if (Math.hypot(dx, dy) > 10) return; // was a drag, not a tap
+      const cx = e.changedTouches[0].clientX;
+      const cy = e.changedTouches[0].clientY;
+      mouse.x = (cx / innerWidth)  *  2 - 1;
+      mouse.y = (cy / innerHeight) * -2 + 1;
+      raycaster.setFromCamera(mouse, camera);
+      const hits = raycaster.intersectObjects(interactable);
+      if (!hits.length) return;
+      const obj  = hits[0].object;
+      const info = objMeta.get(obj);
+      if (!info) return;
+      const objPos = obj.position.clone();
+      if (info.type === 'trend') {
+        const sz = 2.8 + (info.data.mass ?? 1) * 1.8;
+        flyTo(objPos.clone().add(new THREE.Vector3(0, sz * 2, sz * 6 + 18)), objPos);
+      } else {
+        flyTo(objPos.clone().add(new THREE.Vector3(0, 4, 14)), objPos);
+      }
+      openPanel(info, data);
+    }, { passive: true });
+    tooltip.style.display = 'none'; // no hover tooltip on mobile
+  }
 
   window.addEventListener('click', () => {
     if (!hoveredMesh || !objMeta.has(hoveredMesh)) return;
