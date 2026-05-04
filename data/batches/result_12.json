@@ -1,0 +1,116 @@
+{
+  "batch": 12,
+  "entries": [
+    {
+      "filename": "INTERNATIONAL BAR ASSOCIATION - AI and the Legal Profession_CAIG.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "AI Transforming Legal Practice", "description": "Artificial intelligence poised to transform the legal profession more profoundly than the internet — reshaping how law firms operate, how legal advice is delivered, and how legal governance functions."},
+        {"name": "AI Governance Frameworks in Law", "description": "Legal profession developing AI governance frameworks as both a practice requirement and a client service area — with bar associations beginning to establish standards for responsible AI use in legal work."}
+      ],
+      "signals": [
+        {"name": "AI Impact on Rule of Law Emerging as Critical Question", "description": "International Bar Association identifying AI's implications for the rule of law — judicial impartiality, access to justice, and legal process integrity — as the most fundamental governance challenge of the AI era."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "INTERNATIONAL ENERGY AGENCY_Renewables Forecast to 2028.pdf",
+      "year": 2028,
+      "trends": [
+        {"name": "Renewable Energy Tripling Commitment", "description": "130+ nations at COP28 committing to triple global renewable energy capacity to 11,000 GW by 2030 — the most significant collective clean energy commitment in history, with major infrastructure and investment implications."}
+      ],
+      "signals": [
+        {"name": "Biogas and Biomethane Forecast Entering Mainstream", "description": "IEA explicitly forecasting biogas and biomethane as material components of the renewable energy mix by 2028 — signaling the sector graduating from niche to infrastructure-scale deployment."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "INTERNATIONAL LABOUR ORGANIZATION_World Employment and Social Outlook 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Employment Divergence Across Global Labor Markets", "description": "Global labor markets diverging sharply — with AI, automation, and sectoral shifts creating strong demand in some categories while leaving other workers and regions structurally behind."}
+      ],
+      "signals": [],
+      "scenarios": []
+    },
+    {
+      "filename": "INTERSECT - 2025-TheFutureOfSocialMediaConsumption-LATAM_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "De-Influencing as Counter-Current", "description": "Consumer rejection of influencer-driven overconsumption emerging as a structural counter-movement — with audiences actively questioning and pushing back against the purchase-driving influencer model."},
+        {"name": "Platform Pluralism Replacing Winner-Take-All", "description": "Social media ecosystem evolving from platform dominance toward genuine pluralism — with audiences distributing across multiple platforms serving distinct social functions rather than concentrating on one."}
+      ],
+      "signals": [
+        {"name": "Experiential Consumption Replacing Aspirational Purchase in LatAm", "description": "Latin American consumers shifting social media aspiration from product acquisition to experience — favoring content that reflects lived experience over aspirational ownership display."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "INVESCO - 2025 Investment Outlook_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Post-Landing Growth Reacceleration", "description": "Global economy expected to reaccelerate after the soft landing in 2025 — with central bank rate cuts and moderate real wage growth fostering a favorable risk asset environment globally."}
+      ],
+      "signals": [
+        {"name": "Emerging Markets Benefiting from Rate Cut Cycle", "description": "EM assets positioned to benefit from developed market rate cuts — with lower US rates reducing EM debt servicing pressure and improving relative growth attractiveness."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "IPSOS - Almanac_2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Incumbent Punishment as Global Political Pattern", "description": "Voters worldwide punishing incumbent governments regardless of political stripe — driven by inflationary hysteresis that persists even as rates fall, creating a structural anti-establishment political wave."},
+        {"name": "Technology Wonder Coexisting with Technology Anxiety", "description": "Global public simultaneously expressing wonder at technology's potential — especially for solving future problems — and deep anxiety about its social impacts and governance implications."}
+      ],
+      "signals": [
+        {"name": "Hottest Year on Record Driving Policy Attention", "description": "2024's record global temperatures and extreme weather cascade generating new momentum for climate adaptation policy, with specific events in Portugal, Brazil, Spain, and Pakistan focusing public attention."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "IPSOS - Predictions 2025 Report_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Global Optimism Recovery Despite Persistent Concern", "description": "Global public optimism recovering — 71% expect 2025 will be better than 2024, up from 70% last year — even as structural concerns about prices, technology, and security remain elevated."}
+      ],
+      "signals": [
+        {"name": "65% Say 2024 Was Bad for Their Country", "description": "Majority of global public assessing 2024 negatively for their country — though improving from 70% last year — indicating continued dissatisfaction with national trajectories despite macro improvement."},
+        {"name": "Public Unease About Technology Role Growing", "description": "Ipsos data showing rising public unease about technology's role in society, particularly AI — even among those who see its positive potential — creating a complex demand environment for tech companies."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "IPSOS x WSGN_Report for mobile phone_trends and insights 2023.pdf",
+      "year": 2023,
+      "trends": [],
+      "signals": [
+        {"name": "AI Reshaping User Experience Interaction Models", "description": "AI beginning to fundamentally alter how users interact with digital devices and services — with key trends identified in how AI changes the UX paradigm for high-end smartphone users."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "IPSOS_Global_Advisor_Predictions_2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "AI Expected to Lead Decision-Making", "description": "Global public predicting AI will begin to meaningfully influence major decisions in business, government, and personal life in 2024 — marking a shift from AI as tool to AI as decision agent."}
+      ],
+      "signals": [
+        {"name": "Security Concerns Rising Globally", "description": "Ipsos global data showing rising public concern about world security — with geopolitical tensions, conflict, and emerging threats elevating security as a top-of-mind issue for citizens worldwide."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "J P MORGAN - 2025 Year-Ahead Investment Outlook_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "AI Arms Race Investment Acceleration", "description": "Technology companies accelerating AI infrastructure investment at unprecedented pace — creating an AI-driven capital expenditure cycle that is one of the defining investment themes of 2025."},
+        {"name": "Post-Cyclical Normalization in US Economy", "description": "US economy normalizing across growth, jobs, inflation, and earnings after the extraordinary post-pandemic cycle — entering a more conventional macro environment with different investment implications."}
+      ],
+      "signals": [
+        {"name": "Risk Assets Delivering Strong Returns Through Macro Turbulence", "description": "US risk assets generating strong returns despite significant macro disruptions over 2020-2024 — validating the case for equity exposure as the default asset class through cyclical turbulence."}
+      ],
+      "scenarios": []
+    }
+  ]
+}

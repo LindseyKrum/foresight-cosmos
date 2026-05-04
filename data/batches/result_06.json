@@ -1,0 +1,127 @@
+{
+  "batch": 6,
+  "entries": [
+    {
+      "filename": "DENTSU CREATIVE - Trends_2025_FRAGMENT_FORWARD_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Algorithmic Era Brand Homogenization", "description": "AI-optimized content converging on similar aesthetics and messages across brands, making distinctiveness harder to achieve and more valuable when achieved."},
+        {"name": "Technology-Quality of Life Decoupling", "description": "Technology advancing rapidly while quality of life fails to keep pace — creating a growing gap between technological capability and human flourishing."},
+        {"name": "Fragmented Cultural Identity", "description": "Cultural fragmentation driven by algorithm-mediated consumption creating audiences with incompatible reference points, making mass cultural communication structurally harder."}
+      ],
+      "signals": [
+        {"name": "AI Companions as Imperfect Social Substitutes", "description": "Virtual AI companions emerging as partial substitutes for human connection, with brands beginning to deploy AI personas to fill loneliness gaps — with significant ethical implications."},
+        {"name": "AI-Assisted Production Needing Human Craft", "description": "Leading brands discovering that AI efficiency gains require deliberate injection of human craft and brand distinctiveness to avoid the sea of algorithmic sameness."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "DENTSU_Unlocking GenZ China Focus 2024.pdf",
+      "year": 2024,
+      "trends": [],
+      "signals": [],
+      "scenarios": []
+    },
+    {
+      "filename": "DETERM - PR Trends and Challenges in 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "AI Integration in PR and Communications", "description": "Public relations industry rapidly integrating AI for content creation, monitoring, and strategic planning — with 8 in 10 PR professionals planning AI use for writing assistance."}
+      ],
+      "signals": [
+        {"name": "PR Professionals Demanding Predictive Event Forecasting Tools", "description": "Growing demand from communications professionals for AI tools that forecast future events and crises rather than just monitoring current coverage."},
+        {"name": "AI Literacy as Critical PR Competency", "description": "Businesses across sizes identifying AI and technology integration as the critical professional skill for communications success in 2024."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "DFF_Navigating Megatrends-2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Megatrend Navigation as Governance Capability", "description": "Governments and institutions treating megatrend analysis as a core governance function — building institutional capacity to detect signals, model futures, and seize opportunities."},
+        {"name": "Devaluation of Raw Data as Megatrend", "description": "Raw data losing intrinsic value as volume explodes — value shifting to data interpretation, synthesis, and the AI infrastructure that processes it."}
+      ],
+      "signals": [
+        {"name": "UAE Institutionalizing Foresight Practice", "description": "UAE government embedding formal foresight capacity through Dubai Future Foundation — a model of state-level futures infrastructure being studied globally."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "DIAGEO - Distilled-foresight-report-2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Neo-Hedonism", "description": "Consumers pursuing pleasure, indulgence, and sensory experience more deliberately and unapologetically after years of restraint — rebalancing toward present-tense enjoyment."},
+        {"name": "Conscious Wellbeing", "description": "Wellness evolving beyond physical health to encompass mental, emotional, and social dimensions — consumers making conscious trade-offs across all wellbeing domains."},
+        {"name": "Expanding Reality", "description": "Physical and digital realities blending into a continuous consumer experience space — with social, virtual, and AI-mediated environments becoming legitimate venues for human connection."},
+        {"name": "Collective Belonging", "description": "Consumers seeking authentic community, shared identity, and genuine belonging as antidote to social fragmentation and algorithmic isolation."},
+        {"name": "Betterment Brands", "description": "Brands expected to demonstrably improve consumers' lives — not just serve them — with meaningful positive impact becoming a threshold requirement rather than a differentiator."}
+      ],
+      "signals": [
+        {"name": "AI FlavorPrint for Personalized Drinks", "description": "Diageo deploying AI to generate personalized flavor recommendations, signaling AI-personalized product suggestions entering food and beverage consumption."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "DIAGEO_Distilled_a_Diageo_Foresight_Report_2023.pdf",
+      "year": 2023,
+      "trends": [
+        {"name": "Future-Back Brand Strategy", "description": "Leading brands adopting 'future-back' innovation methodology — designing from anticipated futures toward present action, rather than extrapolating from current trends."}
+      ],
+      "signals": [
+        {"name": "AI Modeling Integrated into Foresight Systems", "description": "Sophisticated brand foresight systems (like Diageo's) integrating supervised learning and AI modeling to detect and track long-term consumer shifts at scale."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "DIGITAL VOICES - The State of Influence_Insights Report 2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Creators as Cultural Catalysts", "description": "Content creators transcending promotional roles to become genuine cultural architects — shaping trends, discourse, and consumer identity rather than simply distributing brand messages."},
+        {"name": "Content Value Over Volume", "description": "Audience attention rewarding depth and authenticity over production volume — creating competitive advantage for creators and brands prioritizing quality and resonance."}
+      ],
+      "signals": [
+        {"name": "YouTube Long-Form Resurgence", "description": "YouTube experiencing renewed growth in long-form content engagement as audiences seek substantive depth — a counter-signal to the short-form dominance narrative."},
+        {"name": "TikTok Redefining Search for Gen Z", "description": "TikTok functioning as the primary search and discovery engine for Gen Z consumers, fundamentally challenging Google's dominance in information-seeking behavior."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "EBIQUITY_Predictions 2024 Media Trends.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Retail Media Surpassing Big Tech in Ad Revenue Growth", "description": "Retail media projected to nearly double to $109.4bn by 2027 while Big Tech and social media ad revenue growth declines — a structural rebalancing of the digital ad ecosystem."},
+        {"name": "Long vs Short-Term Investment Rebalancing", "description": "Advertisers beginning to correct years of over-investment in short-term performance at the expense of brand building — 35% planning to increase brand spend vs 21% for performance."}
+      ],
+      "signals": [
+        {"name": "Generative AI Reshaping Search Advertising", "description": "AI-powered search experiences disrupting keyword-based search advertising models, threatening established Google and Bing ad revenue streams."},
+        {"name": "Six in Ten Advertisers Planning Media Budget Increase", "description": "Advertiser confidence in 2024 media investment significantly up from prior year, signaling recovery from the 2022-23 spending contraction."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "ECONSULTANCY_Consumer_Trends_Index_2023_Final.pdf",
+      "year": 2023,
+      "trends": [
+        {"name": "Consumer Technology Catching Up to Expectations", "description": "Technology finally delivering on personalization, privacy, and convenience promises that consumers have demanded for years — reducing the gap between capability and expectation."},
+        {"name": "Cost-of-Living Crisis Reshaping Brand Loyalty", "description": "Economic pressure causing consumers to de-prioritize brand loyalty in favor of value — structurally weakening legacy brand equity advantages built over decades."}
+      ],
+      "signals": [
+        {"name": "Privacy-Personalization Balance Shifting", "description": "Consumer attitudes toward data sharing becoming more nuanced — willing to share data for clearly valuable personalization while demanding transparency and control."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "EDELMAN - Trend_Report_25_CAIG.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Deep Cultural Tipping Points Approaching", "description": "Underlying cultural forces — around technology, identity, trust, and meaning — nearing inflection points that will create discontinuous change rather than incremental shifts."},
+        {"name": "Search for Stability as Consumer Imperative", "description": "Consumers across markets expressing primary desire for stability and predictability amid compounding disruption — creating demand for brands that deliver constancy rather than novelty."}
+      ],
+      "signals": [
+        {"name": "AI Transforming Creator Relationships with Brands", "description": "AI tools changing the economics and creative process of influencer marketing — enabling scale while potentially commoditizing creator distinctiveness."},
+        {"name": "Communicators as Cultural Navigators", "description": "Role of communications professionals evolving from message delivery to helping organizations navigate complex, volatile cultural environments with genuine intelligence."}
+      ],
+      "scenarios": []
+    }
+  ]
+}

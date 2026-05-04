@@ -1,0 +1,129 @@
+{
+  "batch": 9,
+  "entries": [
+    {
+      "filename": "GENSLER_DesignForecast 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Design for Resilience Amid Volatility", "description": "Architecture and design industry orienting toward resilience as a core design value — addressing climate, geopolitical, and economic pressures through built environment solutions."}
+      ],
+      "signals": [
+        {"name": "Aging Building Stock as Stranded Asset Risk", "description": "Real estate and design industry confronting a growing inventory of aging, energy-inefficient buildings that face stranded asset risk — driving retrofit and adaptive reuse demand."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "GLOBANT - Tech-Trends-2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Quantum Computing Commercialization", "description": "Quantum computing transitioning from theoretical to practical application — with enterprise use cases in aerospace, AI optimization, and cryptography emerging ahead of expectations."}
+      ],
+      "signals": [
+        {"name": "Quantum Networks Enabling New Data Infrastructure", "description": "Quantum networking advances beginning to create the foundation for fundamentally different data security and communication infrastructure, with implications for enterprise and government systems."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "GLOBANT_2024 Tech Trends report.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "AI Window Opening for All Business Sizes", "description": "Generative AI making enterprise-grade AI capabilities accessible to businesses of all sizes — not just platform giants — democratizing customer experience personalization and operational AI."},
+        {"name": "Blockchain Industrial Applications Moving Beyond Hype", "description": "Blockchain enterprise applications beginning to deliver real value in supply chain, identity, and financial settlement — though mass adoption continuing to lag pilot deployments."}
+      ],
+      "signals": [
+        {"name": "Versatile Robotics Paving Novel Applications", "description": "New generation of flexible robots capable of operating across diverse physical environments creating application opportunities beyond traditional manufacturing and logistics use cases."},
+        {"name": "Immersive 3D Experience Interest Persisting Despite Investment Decline", "description": "Consumer and enterprise interest in immersive 3D experiences remaining strong even as headline investment in metaverse projects declines — signaling underlying demand awaiting better delivery mechanisms."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "GOLDMAN SACHS - Markets-Outlook-2025-Trading-Tails-and-Tailwinds_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Tariff Risk as Macro Variable", "description": "US tariff policy emerging as a primary macroeconomic variable in 2025 — with broad tariff scenarios creating inflationary pressure, dollar strength, and risk-off dynamics that markets must price."},
+        {"name": "Fiscal Risk Raising Terminal Rate Expectations", "description": "Post-election US fiscal expansion joining Japan, UK, and emerging markets in raising the structural level of interest rates — creating a higher-for-longer rate environment that reprices all assets."}
+      ],
+      "signals": [
+        {"name": "Dollar Strength Reinforced by US Growth Divergence", "description": "US economic outperformance relative to developed market peers structurally reinforcing dollar strength in 2025, with significant implications for global capital flows and EM assets."}
+      ],
+      "scenarios": [
+        {"name": "Across-the-Board Tariff Scenario", "description": "Goldman Sachs scenario analysis of broad US tariffs — more inflationary, more dollar-positive, and more risk-off than baseline, representing the key tail risk for 2025 market outcomes."}
+      ]
+    },
+    {
+      "filename": "GOLDMAN SACHS_Macro Outlook 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Soft Landing as Base Case", "description": "Global economy defying recession forecasts to achieve a soft landing — with inflation declining toward target while growth remains positive, validating central bank policy navigation."}
+      ],
+      "signals": [
+        {"name": "Global GDP Beating Consensus by 1pp in 2023", "description": "Global economic outperformance in 2023 relative to consensus forecasts — with US growth 2pp above year-ago projections — establishing the soft landing as the base case for 2024."},
+        {"name": "Core Inflation Falling Toward 2% by End-2024", "description": "Goldman Sachs forecasting core inflation returning to 2-2.5% target range by end of 2024, enabling central banks to shift from tightening to easing posture."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "GP BULLHOUND - Technology+Predictions+2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Multimodal AI Reshaping Human-Technology Collaboration", "description": "Multimodal AI — combining text, image, audio, and video understanding — moving from demonstration to practical deployment, fundamentally reshaping how humans and machines interact and collaborate."},
+        {"name": "Agentic AI Advancing in Niche Use Cases", "description": "AI agents capable of autonomous multi-step task execution advancing rapidly in specialized domains before achieving broad enterprise deployment — niche first, general later."},
+        {"name": "AI Governance as Structural Enterprise Requirement", "description": "AI governance frameworks transitioning from optional best practice to structural enterprise requirement as regulation, liability, and stakeholder expectations converge."}
+      ],
+      "signals": [
+        {"name": "Enterprise AI Moving from Experimentation to Deep Integration", "description": "Leading enterprises moving beyond AI pilots to deep integration — automating complex decision-making and restructuring roles and processes around AI capabilities."},
+        {"name": "Accessible Specialized AI Models Emerging", "description": "Rise of specialized, accessible AI models alongside large general-purpose models — creating a bifurcated AI landscape where fit-for-purpose models often outperform general ones for specific tasks."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "GS1_Trend Research 2023-2024.pdf",
+      "year": 2023,
+      "trends": [
+        {"name": "Supply Chain Digitalization as Business Imperative", "description": "Digital transformation of supply chains accelerating as resilience, traceability, and sustainability requirements converge — with GS1 standards providing the shared infrastructure for interoperability."},
+        {"name": "Traceability as Competitive and Compliance Requirement", "description": "Product traceability evolving from a supply chain optimization tool to a regulatory compliance and consumer trust asset — particularly in food, pharma, and sustainability-sensitive categories."}
+      ],
+      "signals": [
+        {"name": "Personalized Healthcare Emerging as Consumer Trend", "description": "Healthcare personalization extending beyond clinical settings into consumer wellness — driven by wearables, genetic data, and AI — creating new product and service categories at the health-consumer intersection."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "HANNAH GREY - Cultural Vibrations_ Shifting Ground 2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "AI as New Cultural Bedrock", "description": "AI transitioning from a technological feature to foundational infrastructure analogous to electricity or the internet — rewiring everyday life, expectations, and human potential at civilizational scale."},
+        {"name": "Cultural Readiness Tracking as Innovation Intelligence", "description": "Sophisticated measurement of cultural readiness for emerging technology becoming a distinct intelligence capability — enabling earlier identification of demand, value shifts, and underserved market gaps."}
+      ],
+      "signals": [
+        {"name": "AI Comfort Levels Evolving Non-Linearly", "description": "Human comfort with AI progressing unevenly across contexts, demographics, and use cases — requiring nuanced tracking rather than simple adoption metrics to understand AI's cultural integration."},
+        {"name": "AI Dilemma Entering Public Discourse", "description": "Mainstream awareness of AI's ethical, safety, and societal risks entering public consciousness — with 'AI dilemma' framing beginning to shape consumer attitudes and regulatory momentum."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "HAVAS RED NETWORK - 2025 Red Sky Predictions_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Rage as Cultural Operating System", "description": "Polarization, heightened political tension, and societal division operating as the default cultural context for brands and communicators — with rage seeping into consumer choices, health debates, and workplace dynamics."},
+        {"name": "Stability and Connection as Counter-Demand", "description": "Citizens and consumers seeking stability and genuine connection as an antidote to the prevailing cultural rage — creating brand opportunity in constancy, trust, and community."}
+      ],
+      "signals": [
+        {"name": "Political Polarization Entering Consumer Behavior", "description": "Political divisions increasingly shaping consumer brand choices, product preferences, and media consumption — requiring brands to navigate values-based polarization as a commercial consideration."},
+        {"name": "DEI and Sustainability Under Scrutiny", "description": "Corporate DEI and sustainability commitments facing increased scrutiny and backlash in a polarized environment — with communicators needing new approaches that are defensible and authentic."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "HBR_The Year in Tech 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "ChatGPT as AI Tipping Point", "description": "ChatGPT's ability to produce competent text and code on demand marking a genuine tipping point for AI — transforming work, creative production, and economic value from theory to operational reality."}
+      ],
+      "signals": [
+        {"name": "3D Printing and Simulation Changing Labor Cost Calculations", "description": "Advanced manufacturing tools — 3D printing, simulation, and AI — shifting the economics of production in ways that alter global labor cost comparisons and supply chain geography decisions."}
+      ],
+      "scenarios": []
+    }
+  ]
+}

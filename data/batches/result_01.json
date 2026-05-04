@@ -1,0 +1,133 @@
+{
+  "batch": 1,
+  "entries": [
+    {
+      "filename": "ALIX PARTNERS_Media & Entertainment Industry 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Content Fragmentation Acceleration", "description": "Media consumption fracturing across proliferating platforms and channels, collapsing shared cultural moments and forcing legacy broadcasters to reinvent value extraction."},
+        {"name": "Ad Spend Migration to Digital", "description": "Advertising dollars accelerating out of legacy channels into digital and social, structurally undermining the revenue base of traditional media incumbents."}
+      ],
+      "signals": [
+        {"name": "Streaming Platform Profitability Crisis", "description": "Streaming services facing simultaneous pressure from content costs, subscriber saturation, and advertiser demand for performance metrics — triggering consolidation."},
+        {"name": "Consumer Fatigue with Subscription Proliferation", "description": "Household spending on streaming subscriptions hitting a ceiling as consumers rationalize multiple services into fewer bundles."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "ALLIANZ - Global Economic Outlook 2024_2025_CAIG.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Slowdown of Global Growth Engine", "description": "Global GDP growth decelerating to 2.8% in 2024-25, with US growth slowing to 1.7% and Eurozone at 1.4%, marking the end of post-pandemic bounce."},
+        {"name": "Geopolitical Fragmentation of Trade", "description": "Rising geopolitical friction reshaping trade flows, with economic policy divergence between major blocs creating parallel economic zones."}
+      ],
+      "signals": [
+        {"name": "Manufacturing Sector in Excess Supply", "description": "Global manufacturing operating with significant idle capacity as demand from Eurozone and key markets weakens, signaling deeper structural rebalancing."},
+        {"name": "US Labor Market Softening", "description": "Early indicators of US labor market loosening after historic tightness, raising recession probability and complicating Fed policy trajectory."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "ALLIANZ GI - Outlook_2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Private Markets as Core Allocation", "description": "Institutional and private investors moving illiquid assets like private debt and infrastructure from alternative to core portfolio allocations."},
+        {"name": "Trump Policy Uncertainty Premium", "description": "US political unpredictability adding a new volatility layer to global markets, with trade and fiscal policy shifts repricing risk across asset classes."}
+      ],
+      "signals": [
+        {"name": "Rate Cuts Supporting Risk Assets", "description": "Fed rate cutting cycle beginning to relieve pressure on interest-rate sensitive assets, creating tailwinds for biotech, Bitcoin, and gold."},
+        {"name": "Re-emergent Inflation Risk in 2025", "description": "Markets pricing in aggressive rate cuts while underlying conditions — particularly in services and housing — sustain inflationary pressure that could derail the cutting cycle."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "AMADEUS-x-GLOBETRENDER - Travel-Trends-2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Experience-Led Travel Motivation", "description": "Travel decisions increasingly driven by specific experiences, cultural moments, and personal meaning rather than destination prestige or convenience."}
+      ],
+      "signals": [
+        {"name": "Concert and Event Tourism Surge", "description": "Major music tours and sporting events becoming primary travel catalysts, with fans planning international trips specifically around cultural events."},
+        {"name": "Travel Trend Synchronization Across Markets", "description": "Global travelers showing convergent preferences for authenticity, wellness, and slow travel despite different geographic starting points."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "AMUNDI - Investment_Outlook_2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Multi-Speed Global Economic Divergence", "description": "World economy splitting into distinct growth tracks — robust Emerging Asia, moderating US, recovering Europe — ending the assumption of synchronized global cycles."},
+        {"name": "Emerging Asia Regional Connectivity Rise", "description": "Asian economies deepening intra-regional trade and investment ties, reducing dependence on Western markets and creating independent growth momentum."}
+      ],
+      "signals": [
+        {"name": "US Economic Cycle Becoming More Balanced", "description": "Extraordinary US post-pandemic outperformance moderating toward trend growth, reducing American exceptionalism premium in global portfolios."},
+        {"name": "Hot Debate: AI Investment Returns Timing", "description": "Significant market uncertainty about when and whether massive AI infrastructure investment will translate into measurable productivity and earnings gains."}
+      ],
+      "scenarios": [
+        {"name": "World of Anomalies", "description": "A scenario where positive economic outlook coexists with persistent structural anomalies — high debt, geopolitical fragmentation, tech disruption — requiring investors to navigate without historical precedent."}
+      ]
+    },
+    {
+      "filename": "APTEAN - F&B-Industry-Report-UK&I-2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Sustainability Mandates in Food Manufacturing", "description": "Climate and regulatory pressure forcing food and beverage manufacturers to embed sustainability into operations, supply chains, and product design — beyond voluntary commitment."}
+      ],
+      "signals": [
+        {"name": "F&B Manufacturers Struggling to Keep Pace with Customers", "description": "UK and Ireland food manufacturers reporting significant concern about ability to meet rapidly evolving consumer expectations in 2025, particularly around technology adoption."},
+        {"name": "Cybersecurity Emerging as F&B Operational Risk", "description": "Food and beverage sector citing cybersecurity threats as a top operational concern, reflecting growing digital dependency of industrial food systems."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "ARK INVEST - Big Ideas 2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Five Convergent Innovation Platforms", "description": "Artificial Intelligence, public blockchains, multiomic sequencing, energy storage, and robotics converging simultaneously to catalyze accelerated transformation across all economic sectors."},
+        {"name": "AI-Enabled Drug Discovery", "description": "Artificial intelligence compressing pharmaceutical R&D timelines from decades to years, with over 30% of new drugs potentially incorporating AI techniques in discovery and trial design by 2025."}
+      ],
+      "signals": [
+        {"name": "In-Silico Drug Trials Emerging", "description": "AI enabling computer-simulated clinical trial phases, reducing time and cost of pharmaceutical development while improving candidate selection accuracy."},
+        {"name": "Robotics Entering Physical Economy at Scale", "description": "Autonomous robotic systems beginning to penetrate logistics, manufacturing, and healthcare delivery, transitioning from demonstration to operational deployment."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "ARK_Big Ideas 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Platform Convergence Driving Exponential Value", "description": "Five major technology platforms — AI, blockchains, multiomics, energy storage, robotics — beginning to interact and amplify each other, creating non-linear growth trajectories."},
+        {"name": "Multiomic Sequencing Transforming Medicine", "description": "Tools reading DNA, RNA, and proteins simultaneously enabling personalized medicine, early disease detection, and biological engineering at population scale."}
+      ],
+      "signals": [
+        {"name": "Public Blockchain Infrastructure Maturing", "description": "Layer-2 scaling solutions and institutional adoption making blockchain infrastructure viable for mainstream financial and data applications beyond speculation."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "ARTLIST_Trend+Report+2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "AI Democratization of Creative Production", "description": "AI tools lowering barriers to high-quality content creation, enabling smaller teams and individual creators to produce at scales previously requiring large studios."},
+        {"name": "Creator Economy Mainstreaming", "description": "Individual content creators becoming primary media entities with global reach, bypassing traditional media infrastructure and brand gatekeepers."}
+      ],
+      "signals": [
+        {"name": "AI Already in Most Creators' Workflows", "description": "Significant majority of creative professionals reporting active AI use in their production processes in 2024, marking transition from experimentation to standard practice."},
+        {"name": "Authenticity Valued Over Polish in Content", "description": "Audience preference shifting toward raw, genuine content over highly produced material — paradoxically as production quality becomes easier to fake with AI."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "ARTNET_Year_Ahead_24.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Art Market Contraction After Pandemic Boom", "description": "Global art market correcting from pandemic-era highs as economic headwinds, rising interest rates, and buyer hesitation reduce transaction volumes and prices."}
+      ],
+      "signals": [
+        {"name": "Auction Houses Becoming Experiential Entertainment", "description": "Major auction houses increasingly staging events as theater — spectacle, narrative, celebrity — to maintain relevance and drive premium prices in a contracting market."},
+        {"name": "Hong Kong Art Market Under Pressure", "description": "Hong Kong's role as Asian art hub facing structural challenge from geopolitical friction and shifting collector behavior toward Singapore and other markets."}
+      ],
+      "scenarios": []
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "batch": 14,
+  "entries": [
+    {
+      "filename": "KANTAR MEDIA - 2025 Media Trends and Predictions Report_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Media Industry Identity Crisis", "description": "Media ecosystem experiencing a crisis of confidence and identity — with convergence of market volatility, evolving audience behaviors, and AI creating fundamental uncertainty about media's future purpose and structure."},
+        {"name": "Audience Measurement Redefinition", "description": "Traditional audience measurement paradigms breaking down in a fragmented media world — with new standards needed for cross-platform, AI-influenced media consumption that current tools cannot capture."}
+      ],
+      "signals": [
+        {"name": "Human Skills as Media Industry Foundation", "description": "Kantar identifying people and skills — not just technology — as the critical resource for future-proofing the media ecosystem, with AI tools requiring human judgment to deliver value."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "KANTAR_Connected Innovation 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Connected Innovation Integrating Launch and Advertising", "description": "Brand growth requiring the integration of innovation, advertising, and brand experience as a connected system — with brands that align all three growing at double the rate of those relying on any single element."}
+      ],
+      "signals": [
+        {"name": "Meaningful Difference as Growth Driver", "description": "Kantar data showing brands perceived as meaningfully different growing 2.5x faster in market share — with AI being used to unlock new connections that amplify meaningful brand differentiation."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "KANTAR_Marketing_Trends_2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Brand Control Eroding in Creator Economy", "description": "Brand control over messaging weakening as influencer-created content and social media amplification create risks and opportunities that traditional brand management frameworks cannot fully govern."},
+        {"name": "AI Measurement and Attention Prediction Scaling", "description": "AI-based creative measurement and attention prediction tools scaling rapidly in marketing — enabling pre-testing and optimization that reduce waste and improve campaign effectiveness."}
+      ],
+      "signals": [
+        {"name": "59% of Marketers Increasing Influencer Spend in 2024", "description": "Majority of global marketers committed to increasing influencer content investment in 2024 — with half having invested in 2023, indicating accelerating mainstream adoption of creator channels."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "KARMA - 2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [],
+      "signals": [
+        {"name": "Open-Source Trend Intelligence Culture Emerging", "description": "A community-based, open-source approach to trend report curation and sharing gaining traction — with collaborative aggregation of hundreds of trend reports annually creating a shared intelligence commons."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "KLAVIYO QUALTRICS_Consumer-Survey-2023.pdf",
+      "year": 2023,
+      "trends": [
+        {"name": "Generational Spending Divergence Under Inflation", "description": "Inflation affecting all consumers but creating opposite behavioral responses by generation — with younger consumers more optimistic and maintaining discretionary spend while older consumers retrench."}
+      ],
+      "signals": [
+        {"name": "91% of Consumers Report Inflation Impacting Spending", "description": "Near-universal inflation impact on consumer spending habits — with 69% saying it affects future plans — marking a significant behavioral recalibration that will persist beyond the inflationary peak."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "KOMMUNE - Consumed Report_CAIG.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "India-Bharat Digital Divide as Growth Dynamic", "description": "India's consumer culture bifurcating between urban digital natives ('India') and the vast domestic market of traditional consumers ('Bharat') — with brands needing to serve both simultaneously."},
+        {"name": "Default Mode Online for Indian Consumers", "description": "Indian consumers moving into a permanent 'default mode online' state — where digital access, social media, and e-commerce are the default frame for consumption, information, and social life."},
+        {"name": "Compulsive Convenience vs. Conscious Consumption", "description": "Indian market tension between the pull of frictionless digital convenience and the growing awareness of its environmental and social costs — creating a values-behavior gap that brands must navigate."}
+      ],
+      "signals": [
+        {"name": "Worlds of One — Hyper-Personalized India", "description": "Indian consumers increasingly expecting individually tailored experiences across media, commerce, and services — despite the mass-market scale that has traditionally defined Indian business models."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "KPMG_Future of Health 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Healthcare Investment Innovation Driving Deal Market Evolution", "description": "Healthcare and life sciences investment market adapting to absorb breakthrough innovations — with biopharma, medical devices, and healthcare IT all requiring new deal structures and valuation frameworks."}
+      ],
+      "signals": [
+        {"name": "Healthcare IT as Fastest Growing Investment Subsector", "description": "Healthcare IT — spanning AI diagnostics, digital health, and care management software — attracting growing investment share as technology becomes the primary productivity lever in healthcare."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "KPMG_Futuresphere-Annual-Foresight-2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Strong AI as Foresight Horizon", "description": "KPMG foresight identifying the emergence of strong AI — capable of general reasoning and autonomous action — as the most transformative signal on the horizon, with implications across work, ethics, and governance."},
+        {"name": "Systemic Risk Convergence", "description": "Climate, AI, geopolitical fragility, and brittle social structures converging to create systemic risks that interact and amplify each other — requiring integrated foresight beyond siloed risk management."}
+      ],
+      "signals": [
+        {"name": "AI Systematizing Bias as Governance Risk", "description": "KPMG identifying the risk that AI systems systematize and amplify existing societal biases at scale — creating a governance challenge that goes beyond algorithmic fairness to structural justice implications."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "KPMG_Global Tech Report.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Trusted Transformation as Technology Investment Imperative", "description": "Technology transformation requiring explicit trust frameworks — with organizations that combine innovation ambition with governance rigor outperforming peers on both security and business outcomes."},
+        {"name": "Do More with Less Technology Mandate", "description": "Technology leaders facing pressure to accelerate digital transformation while operating with smaller budgets — driving efficiency, prioritization, and ROI discipline into previously expansion-oriented tech functions."}
+      ],
+      "signals": [
+        {"name": "Digital Transformation Leaders Realizing Strong Returns", "description": "KPMG data showing that committed digital transformation leaders continue generating strong returns despite macro headwinds — reinforcing technology investment as a competitive differentiator even in constrained environments."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "LEFTY - Report_A Year in Data2024_CAIG.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Fragrance's Male Appeal Driving Beauty Growth", "description": "Male fragrance market becoming a significant growth driver in beauty — with men's fragrance social media engagement and influencer-driven purchase behavior creating a structural shift in beauty category dynamics."}
+      ],
+      "signals": [
+        {"name": "Automotive Brands Entering Influencer Marketing", "description": "Automotive sector making significant moves into influencer marketing — with creator-led content outperforming traditional automotive advertising in younger demographics."},
+        {"name": "Emerging Influencer Cohort Reshaping Industry", "description": "New generation of emerging micro- and nano-influencers achieving disproportionate brand impact versus follower count — shifting investment calculations toward engagement depth over reach breadth."}
+      ],
+      "scenarios": []
+    }
+  ]
+}

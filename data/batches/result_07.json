@@ -1,0 +1,122 @@
+{
+  "batch": 7,
+  "entries": [
+    {
+      "filename": "EDELMAN_Trust Barometer Global Report_2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Global Trust Referendum on Innovation", "description": "Societies globally conducting a de facto referendum on whether technological innovation — particularly AI — serves or harms public interests, with trust outcomes determining adoption trajectories."}
+      ],
+      "signals": [
+        {"name": "Innovation Trust Diverging by Market", "description": "Edelman data revealing significant cross-market divergence in how much citizens trust innovation, with emerging markets more optimistic and developed markets more skeptical."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "EMARKETER - The trends driving 'dupe' culture mainstream_CAIG.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Dupe Culture Mainstreaming", "description": "Consumer embrace of affordable product alternatives ('dupes') crossing from niche behavior to mainstream — with store brand spending hitting $236.6B in 2023 and projected to surpass $250B in 2024."},
+        {"name": "Private Label Premiumization", "description": "Retailers elevating private label products with premium positioning and branding, blurring the line between store brands and national brands in consumer perception."}
+      ],
+      "signals": [
+        {"name": "Store Brand Spending Record in 2023", "description": "Private label spending hitting all-time records as financial pressure drives consumers toward affordable alternatives, with sustained growth projected beyond 2024."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "EMARKETER_Advertising Trends to Watch in 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Digital Ad Market Maturation", "description": "US digital advertising entering a period of modest, predictable growth after years of pandemic-driven volatility — a mature market with growth decelerating toward 11% by 2027."},
+        {"name": "Cookie Deprecation Final Chapter", "description": "Third-party cookie elimination finally arriving after years of delays, forcing the entire advertising ecosystem to complete the transition to alternative identity and targeting infrastructure."}
+      ],
+      "signals": [
+        {"name": "CTV Measurement Fragmentation Persisting", "description": "Connected TV advertising still hampered by measurement inconsistency across platforms, limiting advertiser confidence and slowing budget migration from linear TV."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "EPA_AutomotiveTrendsReport.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Automotive Emissions Technology Acceleration Since 1975", "description": "EPA data showing continuous improvement in vehicle fuel economy and emissions technology over five decades — with electrification representing the steepest inflection in the historical trend."}
+      ],
+      "signals": [
+        {"name": "EV Technology Adoption Curve Steepening", "description": "EPA vehicle technology data showing accelerating EV adoption across vehicle categories, with electric powertrains reaching meaningful market share for the first time in the manufacturer compliance data."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "EPRS_Ten Issues to Watch-2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Twin Transition Delivery Pressure", "description": "European Union facing critical delivery test on its twin digital and green transitions — policy commitments requiring accelerated implementation in 2024 as political will wavers and complexity grows."},
+        {"name": "Multipolarity Reshaping Global Order", "description": "Geopolitical power distributing across multiple centers as US-EU-China relationships destabilize and emerging markets expand influence over global agenda-setting."}
+      ],
+      "signals": [
+        {"name": "India Emerging as Great Power Candidate", "description": "India's economic trajectory and geopolitical positioning qualifying it as a genuine great power candidate in 2024, reshaping Indo-Pacific dynamics and global supply chain strategies."},
+        {"name": "EU Automotive Sector at Inflection", "description": "European automotive industry facing existential strategic decisions about electrification pace, Chinese competition, and industrial policy support — with major consequences for EU employment."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "EQUINIX_Global Interconnection Index 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Digital Infrastructure as Revenue Driver", "description": "Leading businesses treating technology infrastructure investment as a direct revenue multiplier rather than a cost center — digital interconnection driving growth rather than supporting it."},
+        {"name": "Edge and Ecosystem Integration", "description": "Interconnected digital ecosystems at the edge becoming the architecture for business value creation — moving beyond centralized cloud toward distributed digital proximity infrastructure."}
+      ],
+      "signals": [
+        {"name": "Digital Economy Growth Measurable via Interconnection Bandwidth", "description": "Interconnection bandwidth emerging as a leading indicator of digital economy health, with Equinix GXI data providing real-time visibility into enterprise technology investment patterns."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "ESFERA - Risk in Focus, Ciberseguridad 2024 ES.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Cybersecurity and Talent as Top Enterprise Risks", "description": "Cybersecurity and talent management emerging as co-equal top risks for internal auditors across European organizations — linking digital and human capital risks at the governance level."}
+      ],
+      "signals": [
+        {"name": "Third-Party Risk Escalating", "description": "Third-party and supply chain risk elevating as a board-level concern, driven by interconnected digital dependencies and high-profile vendor failure incidents."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "EY_2024-Geostrategic Outlook.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Economic Fragmentation Hardening", "description": "Global economy hardening toward fragmentation into competing trading blocs — a structural trend accelerating in 2024 as great power competition, tariffs, and industrial policy diverge."},
+        {"name": "Geopolitical Swing States Rising", "description": "Mid-tier geopolitical actors gaining outsized influence by positioning themselves as swing states between major power blocs — expanding their leverage over global trade, investment, and governance."}
+      ],
+      "signals": [
+        {"name": "2024 US Election as Geostrategic Pivot", "description": "US 2024 election identified by EY as a key geostrategic variable with major implications for trade policy, alliance structures, and global business operating environments."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "EZRA EEMAN - Wayfinder_Trends-2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Media Power Redistribution", "description": "Fundamental shift in who holds creative and editorial power in the media ecosystem — from traditional publishers toward AI systems, individual creators, and algorithmically empowered audiences."},
+        {"name": "AI Agency in Media Creation", "description": "AI transitioning from content creation tool to an entity with genuine agency in shaping the information landscape — not merely automating tasks but altering who controls narrative."}
+      ],
+      "signals": [
+        {"name": "Publishers Yielding Authority to AI Systems", "description": "Traditional media publishers losing editorial authority to AI systems capable of generating content instantly and at scale, disrupting the gatekeeping function of legacy media."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "EZRA EEMAN_Wayfinder Review Preview 23-24 Trends Report.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Future Shock Entering Mainstream Experience", "description": "Alvin Toffler's 'future shock' concept — stress from rapid change outpacing adaptability — becoming a lived mass experience as exponential AI growth surpasses collective capacity to adjust."}
+      ],
+      "signals": [
+        {"name": "AI Adoption Hockey Stick Mirroring TikTok Growth", "description": "AI application adoption curves matching TikTok's explosive growth trajectory — indicating a similar cultural and behavioral transformation is underway at comparable speed."}
+      ],
+      "scenarios": []
+    }
+  ]
+}

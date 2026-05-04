@@ -1,0 +1,125 @@
+{
+  "batch": 5,
+  "entries": [
+    {
+      "filename": "DATA AXLE_Predicting 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Generative AI as Business Fulcrum", "description": "Generative AI becoming the central organizing principle for marketing technology, data strategy, and customer engagement — not a feature but the foundation."}
+      ],
+      "signals": [
+        {"name": "AI-Driven Personalization at Individual Scale", "description": "Shift from segment-based to truly individual-level personalization becoming technically achievable for mainstream businesses, not just platform giants."},
+        {"name": "Privacy-Safe Data Infrastructure Mandate", "description": "Privacy regulations and cookie deprecation forcing brands to build first-party data infrastructure as the foundational asset for all marketing and AI operations."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "DATAAI_State of Mobile 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "AI Ubiquity Across Mobile Applications", "description": "AI functionality embedding into nearly every mobile app category simultaneously — not as a feature but as baseline infrastructure for personalization, discovery, and engagement."},
+        {"name": "Social Commerce Becoming Primary Mobile Revenue Model", "description": "TikTok-popularized in-app tipping and direct creator payments reshaping mobile monetization, with subscriptions and in-app purchases overtaking traditional advertising in key categories."},
+        {"name": "Mobile as IRL Companion", "description": "Mobile devices becoming essential infrastructure for physical-world experiences — concerts, sports, travel — deepening the integration of digital and physical life."}
+      ],
+      "signals": [
+        {"name": "Non-Gaming Apps Driving Mobile Growth", "description": "Streaming, dating, and UGC apps driving 11% YoY consumer spending growth in mobile, with gaming growth lagging for the first time — indicating maturation of entertainment app economy."},
+        {"name": "Revenge Travel Driving Mobile Engagement", "description": "Post-pandemic travel surge driving significant mobile activity in booking, experience, and documentation — with Swiftie and sports fan travel creating new demand spikes."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "DCDX_Gen Z Screen Time Report 2023.pdf",
+      "year": 2023,
+      "trends": [],
+      "signals": [],
+      "scenarios": []
+    },
+    {
+      "filename": "DCDX_Gen Z Top 25 Most Magnetic Brands 2023.pdf",
+      "year": 2023,
+      "trends": [],
+      "signals": [],
+      "scenarios": []
+    },
+    {
+      "filename": "DELOITTE - A study of AI's environmental footprint .pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "AI's Environmental Footprint as Strategic Risk", "description": "Energy and water demands of AI infrastructure becoming a material ESG and operational risk factor, linking AI ambition to climate commitments in ways organizations cannot ignore."}
+      ],
+      "signals": [
+        {"name": "Data Center Energy Demand Surge", "description": "AI-driven data center expansion creating significant new electricity demand that threatens to reverse progress on grid decarbonization in key markets."},
+        {"name": "Green AI Policy Emerging for Data Centers", "description": "First regulatory and voluntary frameworks specifically addressing AI infrastructure's environmental impact beginning to appear, foreshadowing compliance requirements."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "DELOITTE - Tech-trends-2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "AI as Universal Infrastructure Layer", "description": "AI transitioning from application to infrastructure — becoming as invisible and expected as HTTP or electricity, embedded in the substructure of all technology operations."},
+        {"name": "Spatial Computing Taking Center Stage", "description": "Spatial computing moving from consumer novelty to enterprise operational tool, enabling new human-machine interaction paradigms across healthcare, manufacturing, and design."},
+        {"name": "Quantum Computing for Cryptography", "description": "Quantum advances forcing organizations to begin migrating to post-quantum cryptographic standards before quantum computers make current encryption vulnerable."},
+        {"name": "Hardware Eating the World", "description": "Custom silicon, specialized chips, and purpose-built hardware becoming strategic competitive assets as software alone no longer differentiates AI performance."}
+      ],
+      "signals": [
+        {"name": "AI Elevating IT Function's Strategic Remit", "description": "AI capabilities elevating the technology function from operational support to strategic business driver, reshaping the CTO/CIO role and its relationship to the board."},
+        {"name": "Core Systems Modernization as AI Prerequisite", "description": "Organizations realizing legacy core systems are blocking AI adoption — modernization projects accelerating not for their own sake but to enable AI deployment."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "DELOITTE INSIGHTS_Global-Human-Capital-Trends-2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Boundaryless Work Organizations", "description": "Traditional organizational boundaries between departments, companies, and worker classifications dissolving as talent, work, and accountability flow across structural lines."},
+        {"name": "Human Sustainability as Business Imperative", "description": "Organizations recognizing that worker wellbeing, dignity, and flourishing are prerequisites for sustainable business performance — not trade-offs against it."}
+      ],
+      "signals": [
+        {"name": "Traditional Productivity Metrics Failing", "description": "Standard productivity measurements becoming inadequate for knowledge work environments where AI augmentation, collaboration, and adaptability drive value creation."},
+        {"name": "Transparency Paradox in Workplace Trust", "description": "Research showing that more data transparency about worker performance and organizational decisions can sometimes reduce rather than increase trust — complicating HR analytics."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "DELOITTE_2024 Global Automotive Consumer Study.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "EV Transition Pace Slower Than Forecast", "description": "Consumer interest in electric vehicles decelerating from peak levels as range anxiety, charging infrastructure gaps, and price premiums persist despite technological improvement."},
+        {"name": "Connected Vehicle as Platform", "description": "Automotive industry restructuring around connected vehicle software and data services as the primary value creation layer, with hardware becoming commoditized."}
+      ],
+      "signals": [
+        {"name": "Shared Mobility Adoption Plateauing", "description": "Consumer adoption of ride-sharing and mobility-as-a-service showing slower growth than forecast, with personal vehicle ownership remaining dominant preference globally."},
+        {"name": "Consumer Autonomy Interest Stalling on Safety", "description": "Consumer interest in full autonomous vehicles plateauing amid persistent safety concerns and high-profile incidents, slowing regulatory and commercial deployment timelines."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "DELOITTE_2024-Consumer-products-industry-outlook.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Profitable Volume Over Revenue Growth", "description": "Consumer goods companies shifting from price-driven revenue maximization to 'profitable volume' strategies — growing units sold at sustainable margins rather than premium pricing."},
+        {"name": "GLP-1 Drugs Reshaping Consumer Products", "description": "GLP-1 weight loss drugs beginning to structurally reshape food, beverage, and fitness consumption patterns — a pharmaceutical signal with broad consumer products implications."}
+      ],
+      "signals": [
+        {"name": "Price-Focused Era Ending for Consumer Goods", "description": "Consumer goods companies reaching the limits of price increase tolerance — retailers and consumers pushing back, forcing return to volume and innovation competition."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "DELOITTE_Future of Health 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Consumer-Centric Health System Transformation", "description": "Healthcare restructuring around empowered consumers who use AI, retail health, and digital tools to navigate and direct their own care — shifting power from providers to patients."},
+        {"name": "AI Shifting Medical Power to Patients", "description": "Generative AI giving consumers access to medical knowledge previously gated behind professional consultation, fundamentally altering the patient-clinician relationship."}
+      ],
+      "signals": [
+        {"name": "16% of Patients Using AI to Understand Treatment Options", "description": "Significant early adoption of AI tools by patients for medical decision support, pointing toward a future where AI is a routine part of health navigation."},
+        {"name": "Retail Health Expansion into Primary Care", "description": "Retail chains and pharmacy networks expanding into primary care delivery, disrupting the traditional healthcare provider model with convenience-first access points."}
+      ],
+      "scenarios": [
+        {"name": "The New Health CEO", "description": "A future where consumers function as their own health executives — directing care pathways, evaluating providers, and using AI tools to make informed medical decisions with unprecedented autonomy."}
+      ]
+    }
+  ]
+}

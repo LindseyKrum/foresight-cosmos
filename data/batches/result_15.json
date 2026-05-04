@@ -1,0 +1,127 @@
+{
+  "batch": 15,
+  "entries": [
+    {
+      "filename": "LIONELHITCHEN_Flavour-Trends-20242025-Exploring-the-Future-of-Food-and-Beverage.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Global Flavor Fusion as Food Innovation Engine", "description": "Food and beverage innovation accelerating around exotic, cross-cultural flavor combinations — with regional authenticity and bold unconventional pairings becoming primary product differentiation vectors."},
+        {"name": "AI Enhancing Food Flavor Development", "description": "Artificial intelligence entering the flavor development process — enabling new ingredient combinations, predictive consumer preference modeling, and accelerated R&D cycles in food and beverage."}
+      ],
+      "signals": [
+        {"name": "Umami Obsession Continuing Beyond Asian Cuisine", "description": "Umami as a flavor principle expanding from Asian cuisine origin to permeate all food and beverage categories — with savory depth becoming a universal premium flavor signal across global markets."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "LLYC_Forecast_Healthcare_2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Personalized, Decentralized, and Green Healthcare", "description": "Healthcare evolving simultaneously toward greater personalization, geographic decentralization from hospitals to homes and communities, and sustainability — three structural shifts converging to transform care delivery."},
+        {"name": "AI Accelerating Drug and Vaccine Development", "description": "Big data and AI compressing pharmaceutical development timelines — with AI-enabled target identification, trial design, and biomarker analysis creating step-change improvements in R&D productivity."}
+      ],
+      "signals": [
+        {"name": "Home Automation and Robotics Entering Healthcare Delivery", "description": "Home automation and robotic assistive technologies beginning to enable clinical-quality care delivery in domestic settings — extending healthcare beyond institutional walls to patients' homes."},
+        {"name": "ESG Integration in Healthcare Sector Accelerating", "description": "ESG considerations becoming core to healthcare operations and communications — with sustainability of health systems and environmental impact of care delivery entering mainstream strategic agendas."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "M&G INVESTMENT_Peak views what lies ahead in 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Peak Rates as Investment Inflection", "description": "Interest rates approaching or at cyclical peak in 2024 — creating an investment inflection that repositions fixed income, reduces refinancing risk, and opens valuation opportunity in rate-sensitive assets."}
+      ],
+      "signals": [
+        {"name": "Emerging Market Bonds Offering Value at Higher Rates", "description": "EM fixed income presenting attractive value opportunity as developed market rates peak — with risk-adjusted yields in EM debt among the most compelling in the post-pandemic rate cycle."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "MARIAN SALZMAN - 10-Trends-for-2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Fragmenting Global Village", "description": "The global village concept fragmenting as national sovereignty, cultural identity, and political polarization push toward localism and tribalism — reversing decades of globalization's homogenizing momentum."},
+        {"name": "Burrowing In — Retreat to the Private Sphere", "description": "Consumers retreating into private, controllable spaces — homes, close relationships, local communities — as the global environment feels threatening and institutions feel untrustworthy."},
+        {"name": "Death of Hustle Culture", "description": "Hustle culture exhaustion reaching a generational tipping point — with the relentless productivity ethos of the 2010s giving way to intentional rest, boundaries, and anti-overwork values."},
+        {"name": "Lifecare — Holistic Life Management", "description": "A new holistic concept of care emerging that integrates health, financial wellbeing, and life management — with consumers seeking integrated support systems rather than fragmented service providers."},
+        {"name": "AI as Creative Muse", "description": "AI transitioning from productivity tool to creative inspiration source — with artists, writers, and creators using AI to unlock new creative directions rather than merely automate existing work."},
+        {"name": "Slowing Tech's Roll — Technology Backlash", "description": "Growing pushback against technology's pace and pervasiveness — with consumers, regulators, and policymakers seeking to slow, constrain, and redirect technological change toward human values."}
+      ],
+      "signals": [
+        {"name": "Slow Fame Revival", "description": "Return of 'slow fame' — celebrity and influence built over time through craft and authenticity rather than viral moments — as audiences grow fatigued by manufactured overnight success."},
+        {"name": "Climate Action Getting Personal", "description": "Climate concern moving from macro political debate to personal behavioral change — with individuals making consumption, travel, and lifestyle adjustments that reflect internalized climate responsibility."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "MARKETSCALE_B2B Content Strategy Trends 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "AI in B2B Content Strategy", "description": "B2B marketing organizations adopting AI for content creation, personalization, and distribution — with sustainability and authenticity as key strategic overlays shaping responsible AI deployment."}
+      ],
+      "signals": [],
+      "scenarios": []
+    },
+    {
+      "filename": "MCCANN_Influencer Trends Wrapped 2023.pdf",
+      "year": 2023,
+      "trends": [
+        {"name": "Veil of Influence Lifted — Audience Awareness Increasing", "description": "Audiences becoming increasingly aware of influencer marketing's commercial mechanics — with rising scrutiny, deinfluencing, and criticism of inauthenticity marking a maturation of the influencer relationship."},
+        {"name": "Year of the Girlie — Female Cultural Ascent", "description": "2023 marked by celebrations of female achievement and joy — Barbie, Taylor Swift, Beyoncé, Women's World Cup — signaling a structural moment of cultural investment in and celebration of women."}
+      ],
+      "signals": [
+        {"name": "Deinfluencing Goes Mainstream", "description": "Content explicitly pushing back against influencer-driven consumption going viral — with deinfluencing becoming its own influential content genre as audiences reclaim agency from commercial social pressure."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "MCCANN_Social Media Trends Set to Define 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Social Media as Primary Brand Channel", "description": "Social media completing its transition from supplementary to primary brand communications channel — requiring fundamentally different creative, measurement, and organizational capabilities from brands."}
+      ],
+      "signals": [
+        {"name": "260% Increase in AI Use for Social Content", "description": "AI-generated social content growing 260% — with initial skepticism about AI-created content expected to subside as quality improves and audiences normalize AI-assisted brand expression."},
+        {"name": "Boomer Social Media Engagement Growing", "description": "Baby Boomer demographic becoming increasingly reachable through social media — creating a newly accessible audience segment for brands that previously focused social investment on younger cohorts."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "MCKINSEY - Sporting-Goods-2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Sporting Goods Industry Rebalancing Growth and Productivity", "description": "Sporting goods sector navigating a new balancing act — with slowing growth forecasts compelling simultaneous focus on revenue growth and productivity improvement after years of demand-driven expansion."}
+      ],
+      "signals": [
+        {"name": "Sporting Goods Companies Turning Uncertainty to Opportunity", "description": "McKinsey analysis identifying sporting goods companies that proactively convert economic and consumer behavior uncertainty into competitive advantage through agile strategy and operational excellence."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "MDLZ - State of Snacking_report 2024_CAIG.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Mindful Consumption and Indulgent Snacking Coexisting", "description": "Consumer snacking behavior simultaneously trending toward mindfulness and guilt-free indulgence — with 'better for you' and 'permissive treat' consumption both growing, driven by different need states."},
+        {"name": "Snacking as Evergreen Consumer Ritual", "description": "Snacking maintaining its central role in daily life across all demographics, geographies, and economic conditions — proving resilient to health trends and economic pressure as a core consumption behavior."}
+      ],
+      "signals": [
+        {"name": "Snack Curation Behavior Emerging", "description": "Consumers developing curated snacking preferences and rituals — selecting snacks with deliberation and intention rather than impulse, signaling snacking's elevation to a more considered purchase category."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "MDLZ_State of Snacking_future_Trends_Report.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Snackification of Food Culture", "description": "Meal occasions fragmenting into continuous snacking moments as lifestyles become more fluid — with traditional meal structures giving way to continuous grazing patterns that reshape food manufacturing and retail."},
+        {"name": "Middle Class Expansion Driving Global Snacking Growth", "description": "Expanding middle classes in emerging markets driving next wave of snacking growth — with rising disposable income creating first-time access to branded snack products for hundreds of millions of consumers."}
+      ],
+      "signals": [
+        {"name": "Plant-Based and Alternative Ingredients Entering Snacking", "description": "Plant-based and alternative protein ingredients moving from specialist to mainstream snack formulations — driven by environmental concern, health motivation, and improving taste technology."},
+        {"name": "Sustainable and Ethical Sourcing Becoming Snack Requirement", "description": "Consumer expectations for sustainable sourcing extending to snack categories — with packaging, ingredient origin, and labor practices increasingly factored into snack brand selection."}
+      ],
+      "scenarios": []
+    }
+  ]
+}

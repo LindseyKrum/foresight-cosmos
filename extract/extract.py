@@ -22,9 +22,10 @@ import fitz  # PyMuPDF
 from tqdm import tqdm
 
 # ── Config ───────────────────────────────────────────────────────────────────
-CURRENT_YEAR   = datetime.now().year
+CURRENT_YEAR    = datetime.now().year
 MAX_CHUNK_CHARS = 12_000   # chars per Claude call (stays within context)
-MODEL           = "claude-opus-4-7"
+EXTRACT_MODEL   = "claude-haiku-4-5"   # fast + cheap for per-chunk extraction
+MERGE_MODEL     = "claude-sonnet-4-5"  # stronger for deduplication + graph build
 
 EXTRACT_PROMPT = """You are analyzing a section of a foresight trend report.
 
@@ -162,7 +163,7 @@ def extract_from_pdf(client: anthropic.Anthropic, pdf_path: Path) -> dict:
             continue
         try:
             msg = client.messages.create(
-                model=MODEL,
+                model=EXTRACT_MODEL,
                 max_tokens=2048,
                 messages=[{"role": "user", "content": EXTRACT_PROMPT + chunk}],
             )
@@ -209,7 +210,7 @@ def consolidate(client: anthropic.Anthropic, raw_reports: list[dict]) -> dict:
     prompt = MERGE_PROMPT.format(n=len(raw_reports)) + payload
 
     msg = client.messages.create(
-        model=MODEL,
+        model=MERGE_MODEL,
         max_tokens=8192,
         messages=[{"role": "user", "content": prompt}],
     )

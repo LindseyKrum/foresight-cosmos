@@ -1,0 +1,123 @@
+{
+  "batch": 13,
+  "entries": [
+    {
+      "filename": "J P MORGAN - LTCMA-report_CAIG.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "New Economic Era — Higher Growth and Returns", "description": "Global economy entering a new era characterized by stronger capital investment, higher interest rates, and better growth prospects than the low-growth, low-rate decade that preceded it."}
+      ],
+      "signals": [
+        {"name": "Fixed Income Role Strengthening in Portfolios", "description": "Higher interest rates restoring fixed income's portfolio diversification and income-generation role after a decade of near-zero yields — fundamentally changing long-term asset allocation strategy."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "J P MORGAN - Outlook-2025-building-on-strength_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "AI Boom or Bust Decision Point", "description": "2025 identified as a critical year for AI investment thesis validation — with capital expenditure acceleration requiring evidence of returns that markets are beginning to demand."},
+        {"name": "Healthcare Disruption by AI and Automation", "description": "Healthcare sector facing AI-driven disruption as automation, robotics, and AI diagnostics begin reshaping care delivery economics and the role of human practitioners."},
+        {"name": "Power Infrastructure as Strategic Investment Theme", "description": "Energy grid and power infrastructure emerging as a primary investment theme driven by AI data center demand, EV adoption, and industrial reshoring — creating decade-long capital deployment opportunity."}
+      ],
+      "signals": [
+        {"name": "Anti-Establishment Surge Defining Political Economy", "description": "JP Morgan identifying the global anti-establishment political surge as a defining macro variable for 2025 — shaping fiscal, trade, and regulatory policy in ways that alter investment environments."},
+        {"name": "21st Century Space Race Accelerating", "description": "Commercial and governmental space activity accelerating to levels that create investable infrastructure opportunities — satellites, launch capability, and space services becoming asset class material."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "JOHN LEWIS - Shop-Live-Look-Report-2024-25_CAIG.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Brand Collaboration as Retail Differentiation", "description": "UK retail embracing unexpected brand collaborations and new designer partnerships as primary mechanisms for creating excitement and distinctiveness in a competitive physical retail environment."}
+      ],
+      "signals": [
+        {"name": "Physical Retail Experience Investment Returning", "description": "John Lewis data showing renewed investment in physical retail environments — from cookery schools to in-store experiences — as retailers compete for visits with experience-led formats."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "JUAN ISAZA - Tendencias-2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [],
+      "signals": [],
+      "scenarios": []
+    },
+    {
+      "filename": "JUAN ISAZA - Trends 2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Hostile World Seeking Safety", "description": "Global consumers experiencing the world as genuinely hostile — with uncertainty, anxiety, and geopolitical tension driving a primary desire for security, safety, and predictable refuge."},
+        {"name": "Micro Happiness as Coping Strategy", "description": "In the absence of macro stability, consumers cultivating small, personal moments of genuine happiness — micro-scale joy becoming a primary psychological survival mechanism and consumption driver."},
+        {"name": "Testosterone Fury — Masculinity in Crisis and Reaction", "description": "Male identity crisis generating both extreme reactions (toxic masculinity amplification) and genuine recalibration — with 'testosterone fury' shaping politics, media, and brand strategy in 2025."},
+        {"name": "Realverse — Authenticity Over Metaverse", "description": "Consumer appetite for authentic, tangible reality growing in reaction to digital saturation — prioritizing real experiences, real community, and real emotion over virtual and synthetic alternatives."}
+      ],
+      "signals": [
+        {"name": "Opposition Candidates Winning on Extremist Rhetoric", "description": "2024 elections globally showing opposition candidates winning despite (or because of) extremist promises — signaling that voter disillusionment with incumbents is overriding policy rationality."},
+        {"name": "AI Becoming Daily Life Infrastructure in 2025", "description": "DDB's Juan Isaza identifying AI as transitioning from disruption to everyday infrastructure in 2025 — permeating all eight cultural trend vectors rather than operating as a standalone theme."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "JUAN ISAZA_DDB LATINA_Tendencias2024_ES.pdf",
+      "year": 2024,
+      "trends": [],
+      "signals": [],
+      "scenarios": []
+    },
+    {
+      "filename": "JUAN ISAZA_DDB LATINA_Trends2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Polycrisis as Cultural Operating System 2024", "description": "The convergence of geopolitical, economic, technological, and social crises creating a permanent polycrisis state — not a temporary disruption but the new structural backdrop for all human activity."},
+        {"name": "Collapsing Truth and Information Decay", "description": "Accelerating collapse of shared truth — enabled by social media, AI, and political polarization — making consensus reality structurally unstable and communication fundamentally adversarial."},
+        {"name": "All Are Creators", "description": "Universal democratization of content creation — with every individual now having the tools, platform, and audience potential to function as a media entity — reshaping attention, influence, and cultural production."},
+        {"name": "Controversial AI — 'Polemic Intelligence'", "description": "AI becoming a source of genuine societal controversy rather than merely a technology — with its impacts on jobs, truth, creativity, and power generating organized resistance and political mobilization."}
+      ],
+      "signals": [
+        {"name": "Neo-Syndicalism and Labor Organizing Revival", "description": "New forms of labor organizing emerging in response to AI displacement, gig economy precarity, and post-pandemic worker power — combining traditional union logic with digital-native organizing."},
+        {"name": "Age Tension as Cultural Fault Line", "description": "Generational conflict intensifying across work, politics, media, and consumption — with fundamentally different values, economic realities, and cultural reference points creating structural age tension."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "JULIUS  BAR - Secular-outlook-2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Innovation Supercycle Defining the Decade", "description": "A multi-decade innovation supercycle — driven by AI, biotech, energy transition, and computing — creating the dominant structural growth force for the 2020s and reshaping capital allocation globally."},
+        {"name": "Out-of-System Assets Rising", "description": "Assets outside traditional financial system — gold, Bitcoin, real assets — gaining allocation as investors hedge against fiscal risk, currency debasement, and institutional fragility."},
+        {"name": "China's Balance Sheet Recession", "description": "China entering a balance sheet recession — with deflation, property sector distress, and deleveraging combining to create a Japan-1990s-style drag that reorients global growth and investment flows."}
+      ],
+      "signals": [
+        {"name": "Store-of-Value Equity Markets Emerging", "description": "Equity markets in select economies beginning to function as inflation-protected stores of value — with earnings growth and real asset backing displacing bonds as the capital preservation vehicle."},
+        {"name": "Active Industrial and Fiscal Policies Reshaping Capitalism", "description": "Government-directed industrial policy becoming mainstream across developed markets — subsidies, tariffs, and state investment programs fundamentally altering market structure in energy, tech, and manufacturing."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "JULIUS  BAR_PWC - Family-barometer-2024_CAIG.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Intergenerational Wealth Transfer as Global Priority", "description": "Record intergenerational wealth transfer underway as Baby Boomer wealth passes to younger generations — creating new demands for wealth management, estate planning, and financial education at scale."}
+      ],
+      "signals": [
+        {"name": "Hybrid Advisory Models for Wealth Management", "description": "Wealthy families demanding hybrid digital-human advisory models — combining AI-powered analytics with relationship-based human judgment for complex multi-generational financial decisions."},
+        {"name": "Taxation and Political Stability Shaping Wealth Location", "description": "Wealthy families increasingly factoring political stability and tax policy trajectories into wealth structure and domicile decisions — with geopolitical turbulence accelerating capital mobility."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "JULIUS BAR_SecularOutlook 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Great Normalization After Pandemic Extremes", "description": "Global economy undergoing normalization from extraordinary pandemic-era distortions — with interest rates, growth, and inflation converging toward sustainable secular levels that define a new equilibrium."},
+        {"name": "Multipolarity and Strategic Reshoring", "description": "Global economy restructuring around a multipolar world order — with strategic reshoring, friend-shoring, and active industrial policies relocating supply chains and manufacturing capacity."}
+      ],
+      "signals": [
+        {"name": "Return of Income Investing", "description": "Higher interest rates restoring the case for income-generating investments — with bonds, dividend equities, and credit re-entering institutional and private portfolios after a decade of yield famine."}
+      ],
+      "scenarios": []
+    }
+  ]
+}

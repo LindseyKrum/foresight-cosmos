@@ -1,0 +1,116 @@
+{
+  "batch": 8,
+  "entries": [
+    {
+      "filename": "FIDELITY - outlook-2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Divergence as Investment Paradigm", "description": "Global economy entering a period of structural divergence across countries, asset classes, and sectors — replacing the synchronized post-pandemic recovery with differentiated performance trajectories."}
+      ],
+      "signals": [
+        {"name": "US Mid-Caps as Overlooked Opportunity", "description": "Fidelity analysts identifying US mid-cap equities as undervalued relative to large-cap tech concentration — a thematic signal of attention shifting beyond the AI-dominated mega-cap narrative."},
+        {"name": "Pro-Innovation US Administration Signaling", "description": "Post-2024 US election administration posture toward innovation and business signaling a more permissive environment for technology investment and deployment."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "FILMSUPPLY - Trend-Report_2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Authenticity as Commercial Film Premium", "description": "Commercial filmmaking audiences becoming more discerning — demanding content that feels emotionally authentic and resonant over polished production, raising the bar for brand storytelling."}
+      ],
+      "signals": [
+        {"name": "Rapid Trend Cycle in Commercial Production", "description": "Commercial filmmaking trend cycles accelerating, requiring brands and agencies to adapt creative approaches continuously rather than relying on established visual languages for extended periods."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "FIRJAN - Report Macrotendencias 2025_2026_CAIG.pdf",
+      "year": 2025,
+      "trends": [],
+      "signals": [],
+      "scenarios": []
+    },
+    {
+      "filename": "FRESHFIELDS - Data Trends 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "AI Regulatory Compliance Complexity Escalating", "description": "Legal and regulatory complexity around AI deployment — spanning privacy, data portability, cybersecurity, and liability — accelerating faster than most organizations' compliance infrastructure."},
+        {"name": "Data Litigation as Emerging Risk Category", "description": "Data-related litigation emerging as a significant enterprise risk category, with class actions, regulatory enforcement, and private claims creating new legal exposure for data-intensive businesses."}
+      ],
+      "signals": [
+        {"name": "Privacy Law Convergence Emerging Globally", "description": "Global privacy regulatory frameworks beginning to show common elements despite different jurisdictions — creating both compliance opportunities and the risk of complex multi-regime requirements."},
+        {"name": "Data Portability Rights Expanding", "description": "Consumer data portability rights expanding across jurisdictions, creating new obligations for data holders and opportunities for platforms that make data transfer seamless."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "FROG - Futurescape_2025_Insight_Report_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "AI Form Factor Problem Unsolved", "description": "Generative AI's full potential constrained by the absence of a unified form factor that truly embodies AI-enabled experiences — siloed apps remain the dominant delivery mechanism."},
+        {"name": "Optimism as Innovation Prerequisite", "description": "Design and innovation leaders framing positive futures vision as a prerequisite to meaningful transformation — optimism as methodology and competitive tool, not sentiment."}
+      ],
+      "signals": [
+        {"name": "AI Impact on Human Vision — Literal and Metaphorical", "description": "frog's Futurescape identifying AI's effect on how humans perceive, frame, and generate visual experiences as one of 25 key forces transforming the next quarter-century."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "FTI_2024_Tech Trends_Report.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Technology Supercycle", "description": "Convergence of AI, biotechnology, and a third transformative force creating an extended supercycle of technological change — more potent and pervasive than prior waves, reshaping every industry simultaneously."},
+        {"name": "Biotech-AI Convergence", "description": "Artificial intelligence and biotechnology converging to accelerate drug discovery, personalized medicine, and biological engineering — creating a combined field that transforms healthcare and life sciences."}
+      ],
+      "signals": [
+        {"name": "Every Technology Category Under Simultaneous Transformation", "description": "FTI's 2024 analysis showing AR/VR, AI, biotech, energy, mobility, computing, and more all experiencing significant inflections simultaneously — reinforcing the supercycle thesis."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "FTI_2024_Tech Trends_Report_Executive_Summary.pdf",
+      "year": 2024,
+      "trends": [],
+      "signals": [
+        {"name": "Strategic Foresight as Competitive Differentiator", "description": "FTI arguing that trend data alone offers limited foresight — the interplay between trends and strategic anticipation of futures is where genuine competitive advantage is generated."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "G7 - Driving Factors and Challenges of AI Adoption and Development.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "AI Adoption Gap for Small Businesses", "description": "G7 analysis identifying a structural gap in AI adoption between large enterprises and micro/small businesses — threatening to widen economic inequality as AI productivity gains concentrate at scale."}
+      ],
+      "signals": [
+        {"name": "AI Applications in Manufacturing SMEs", "description": "Small and medium manufacturers beginning to adopt AI for production process optimization, signaling that AI's industrial use is extending beyond large enterprise into the broader economy."},
+        {"name": "Computational Capacity as AI Barrier for SMEs", "description": "Lack of computational infrastructure identified as a primary barrier to AI adoption among micro and small enterprises, creating demand for cloud-based AI access models."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "GAD INSIGHTS - Edicao 2024(BR)_CAIG.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Overbranding — Brandification of Everyday Life", "description": "Brands extending their presence into all fields of human existence enabled by digital technology — with consumers in an increasingly distrustful world questioning the appropriate limits of brand intrusion."}
+      ],
+      "signals": [
+        {"name": "AI-Made Content Labeling Emerging", "description": "Brands beginning to tag content as 'AI-Made' to differentiate non-human content — an early signal of disclosure norms forming around AI-generated brand communication."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "GENSLER - Design-Forecast-2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Design as Agent of Positive Change", "description": "Architecture and design industry positioning design as a primary tool for addressing climate, social, and economic challenges — with 2025 marked by renewed client investment after a cautious period."},
+        {"name": "AI and AR Transforming Design Process", "description": "AI and augmented reality tools fundamentally changing how designers work, prototype, and deliver — accelerating iterations and enabling new forms of client collaboration and spatial visualization."}
+      ],
+      "signals": [
+        {"name": "Interest Rate Easing Unlocking Design Investment", "description": "Global interest rate declines in 2025 enabling clients to move off the sidelines and commit to new building and design projects that were deferred during the high-rate environment."}
+      ],
+      "scenarios": []
+    }
+  ]
+}

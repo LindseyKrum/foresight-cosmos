@@ -1,0 +1,135 @@
+{
+  "batch": 2,
+  "entries": [
+    {
+      "filename": "ASPID - Trends Pharma 2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "AI Tsunami in Pharma", "description": "Artificial intelligence penetrating pharmaceutical sector simultaneously across R&D, patient engagement, personalized medicine, and regulatory processes."},
+        {"name": "Hyperconnected Patient", "description": "Patients increasingly connected to pharmaceutical brands and healthcare systems through AI-powered apps, chatbots, and virtual assistants — reshaping the drug adherence and patient experience model."},
+        {"name": "Personalized Medicine Mainstreaming", "description": "Precision medicine moving from rare disease niche to broader pharmaceutical strategy, with AI enabling individualized treatment protocols at population scale."}
+      ],
+      "signals": [
+        {"name": "Augmented Intelligence in Clinical Practice", "description": "The concept of 'augmented intelligence' — efficient combination of human and artificial intelligence — emerging as the dominant operational model in pharmaceutical decision-making."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "ASTROTWINS - 2025-Trend-Report_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Fourth Industrial Revolution Acceleration", "description": "Simultaneous advances in biotech, AI, energy, and human enhancement converging to transform work, living, and social structures in the second half of the 2020s."},
+        {"name": "Biohacking and Human Enhancement Mainstreaming", "description": "Technologies spanning psilocybin therapy, neuro-enhancement, bioscaping, and longevity science transitioning from fringe to consumer mainstream."}
+      ],
+      "signals": [
+        {"name": "Psilocybin Entering Wellness Mainstream", "description": "Psychedelic-assisted therapy and micro-dosing transitioning from clinical research to accessible wellness intervention in progressive regulatory markets."},
+        {"name": "Nuclear Power Renaissance", "description": "Nuclear energy re-entering mainstream energy transition discourse as governments and technology companies seek reliable low-carbon baseload power beyond variable renewables."},
+        {"name": "New Community and Coexistence Models", "description": "Experimental approaches to collective living, community governance, and social organization emerging as responses to loneliness, housing costs, and institutional distrust."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "AXA_100 Reasons to Love the Future.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Risk Identification as Strategic Opportunity", "description": "Proactive identification and anticipation of emerging risks transitioning from defensive necessity to competitive advantage, particularly in insurance and financial services."},
+        {"name": "Positive Future Framing as Strategic Tool", "description": "Organizations explicitly cultivating optimistic future scenarios as a driver of innovation and decision-making quality — optimism as methodology, not just sentiment."}
+      ],
+      "signals": [
+        {"name": "Insurance Industry Reimagining Risk Taxonomy", "description": "Insurance sector expanding its risk identification to include emerging categories — climate, AI, social fragmentation — driving product and underwriting innovation."},
+        {"name": "Multi-Front Risk Convergence", "description": "Climate, AI, geopolitical, and social risks increasingly interacting and amplifying each other, creating compound risk scenarios that outpace traditional actuarial models."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "BANANAS MUSIC - Music Trends 2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Gen Z Music Breaking Geographic Borders", "description": "Music consumption patterns among Gen Z increasingly cross-cultural and multilingual, with non-English music achieving global penetration across streaming platforms."},
+        {"name": "Nostalgia Cycles Compressing", "description": "New cycles of musical nostalgia emerging on compressed timescales — 2010s sounds already becoming retro — driven by algorithm-mediated rediscovery."},
+        {"name": "Sustainability and Music Longevity Alignment", "description": "Music industry grappling with environmental impact of live events and streaming infrastructure while extending audience engagement across longer-lived artist relationships."}
+      ],
+      "signals": [
+        {"name": "AI Hyper-Personalization in Music Experiences", "description": "Music platforms deploying AI to create individualized listening experiences, curated festivals, and personalized artist interactions that go beyond algorithmic playlists."},
+        {"name": "Festival Model Reinvention", "description": "Live music festival format evolving beyond traditional headliner model toward immersive, multi-day community experiences with deeper brand integration and sustainability commitments."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "BANCO SANTANDER - Informe de Mercado 2024 ES.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Post-Pandemic Economic Pattern Deviation", "description": "Global economy displaying behavior patterns that diverge from historical models — inflation, rates, and growth not following traditional macro relationships, demanding new analytical frameworks."}
+      ],
+      "signals": [
+        {"name": "Interest Rate Cuts Beginning in 2024", "description": "Central banks initiating rate cutting cycle in 2024 after aggressive tightening, creating new investment regime with implications across bonds, equities, and real assets."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "BANK OF AMERICA_Online Media Year Ahead 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Short-Form Video Dominance Cementing", "description": "Short-form video solidifying as the dominant digital media format across demographics, driving ad spend reallocation and forcing all platforms to restructure content strategies."},
+        {"name": "Online Ad Spend Recovery and AI Integration", "description": "Digital advertising recovering from 2022-23 contraction as AI tools improve targeting precision and measurement, driving renewed investment from brand and performance advertisers."}
+      ],
+      "signals": [
+        {"name": "AI Features Becoming Advertising Platform Differentiator", "description": "Major ad platforms competing on AI-powered creative tools, audience targeting, and measurement capabilities as the primary basis of advertiser choice."},
+        {"name": "Global Ad Spend Exceeding Forecasts", "description": "Global advertising spending growing 11% to $560bn in 2023, exceeding initial estimates — signaling stronger-than-expected digital economy resilience."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "BARCLAYS - Outlook-2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "AI Investment Returns Under Scrutiny", "description": "Markets beginning to critically evaluate whether massive AI infrastructure investment will deliver earnings growth on the timelines that valuations imply — a structural test of AI's economic thesis."},
+        {"name": "Portfolio Decarbonization as Investment Imperative", "description": "Climate risk becoming a core investment factor rather than ESG overlay, with 2025 positioned as a key decision year for investors on decarbonization positioning."}
+      ],
+      "signals": [
+        {"name": "AI Reaching Its Limits in Some Domains", "description": "Emerging evidence that AI performance plateaus in certain complex reasoning and real-world application tasks, tempering expectations about near-term universal capability."},
+        {"name": "ESG Material Factors Diverging from Values", "description": "Investment community increasingly distinguishing between material ESG risk factors (affecting returns) and values-based ESG criteria — with the former gaining analytical rigor."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "BASIS TECHNOLOGIES - Reality-Check_The-2025-Advertising-Trends-Report_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Commerce Media Expansion Beyond Retail", "description": "Retail media networks expanding into non-retail commerce environments — financial services, travel, healthcare — creating new first-party data advertising infrastructure."},
+        {"name": "Connected TV Reaching Advertising Potential", "description": "CTV finally delivering on its promise as a precision advertising channel, combining TV's reach with digital's targeting and measurement capabilities."}
+      ],
+      "signals": [
+        {"name": "AI After the Hype — Practical Deployment", "description": "Advertising AI moving past generative novelty toward practical workflow automation, audience segmentation, and creative optimization with measurable performance lift."},
+        {"name": "Search Evolving Beyond Keywords", "description": "AI-powered search transforming the search marketing landscape — intent-based queries replacing keyword matching, reshaping SEO and paid search strategy."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "BERLIN PACKAGING_2024-Consumer-Trends.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Experiential Escapism in Consumer Spending", "description": "Consumers under economic and global uncertainty seeking feel-good, escapist experiences — with sensory delight, humor, and nostalgia becoming primary purchase drivers."},
+        {"name": "Technology-Induced Loneliness Backlash", "description": "Growing consumer awareness that technology — despite connecting people — is generating burnout, stress, and isolation, fueling demand for human interaction and analog experiences."}
+      ],
+      "signals": [
+        {"name": "Tech Happening To People Rather Than For Them", "description": "Accenture Life Trends data showing consumers increasingly feeling technology as an external force acting on them rather than a tool serving them — triggering pushback."},
+        {"name": "Pantone Peach Fuzz Color Reflecting Joy-Seeking", "description": "Annual color selection reflecting broader consumer trend toward warmth, softness, and feel-good aesthetics after years of crisis-driven austerity and darkness."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "BITCOIN SUISSE_CryptoOutlook2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Crypto Market Maturation and Institutionalization", "description": "Cryptocurrency transitioning from speculative retail asset class to institutionally integrated financial infrastructure, with ETFs, custody, and regulation creating new legitimacy layer."},
+        {"name": "Bitcoin as Climate Investment Thesis", "description": "Emerging narrative reframing Bitcoin's energy consumption as potential driver of renewable energy investment and grid stabilization — repositioning Bitcoin within ESG discourse."}
+      ],
+      "signals": [
+        {"name": "Bitcoin Halving 2024 as Cycle Catalyst", "description": "Bitcoin's 2024 halving event expected to reduce new supply and historically has preceded significant price appreciation — creating structured market anticipation."},
+        {"name": "Crypto Regulatory Clarity Emerging in 2024", "description": "Multiple jurisdictions developing more defined cryptocurrency regulatory frameworks, reducing legal uncertainty and enabling institutional participation at scale."}
+      ],
+      "scenarios": []
+    }
+  ]
+}

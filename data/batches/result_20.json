@@ -1,0 +1,117 @@
+{
+  "batch": 20,
+  "entries": [
+    {
+      "filename": "REUTERS-NEWMAN_Trends and Predictions 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "AI Sweeping Through Information Space", "description": "Generative AI disrupting the information ecosystem simultaneously across content production, search, distribution, and trust — with implications for media sustainability, information reliability, and democratic discourse."},
+        {"name": "Platform Referral Model Ending for Publishers", "description": "Social media platform algorithm changes reducing outbound link sharing, cutting referral traffic to news publishers — ending the model where social platforms were a primary audience acquisition channel."}
+      ],
+      "signals": [
+        {"name": "Majority of Internet Content Synthetically Produced by 2026", "description": "Forecasts suggesting the vast majority of all internet content will be AI-synthetically produced by 2026 — with profound implications for information trust, content quality, and human creative employment."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "ROBECO INVESTMENT_2024 Outlook.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Goldilocks Era Ending for Financial Markets", "description": "The Goldilocks economic environment of 2023 (strong growth + falling inflation) not sustainable into 2024 — with higher-for-longer rates, slowing growth, and ESG regulatory expansion creating a more complex investment landscape."}
+      ],
+      "signals": [
+        {"name": "ESG Bond Market Growth Moderating", "description": "Green and sustainable bond market growth slowing from peak issuance levels — with regulatory scrutiny, greenwashing concerns, and higher rates creating a more selective investor environment for ESG fixed income."},
+        {"name": "2024 AGM Season Testing Shareholder Climate Engagement", "description": "2024 annual general meeting season expected to test the durability of shareholder climate activism — with rising ESG fatigue and political pressure potentially reducing coordinated investor action on climate issues."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "S&P -  Global Trends in AI.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "AI Widely Implemented Across Enterprise", "description": "Enterprise AI moving from experimentation to wide implementation — with the majority of organizations reporting AI broadly deployed and driving operational outcomes rather than isolated in pilot programs."},
+        {"name": "Generative AI Eclipsing All Other AI Categories", "description": "Generative AI rapidly dominating organizational AI investment and attention — eclipsing traditional ML, RPA, and predictive analytics as the primary focus of enterprise AI strategy and spending."}
+      ],
+      "signals": [
+        {"name": "GPU Availability as AI Scaling Bottleneck", "description": "GPU scarcity emerging as a material constraint on AI project scaling — with organizations unable to access sufficient compute to match their AI ambitions, driving alternative optimization strategies."},
+        {"name": "AI Environmental Practices Shaping Enterprise AI Strategy", "description": "Environmental impact of AI infrastructure becoming a factor in enterprise AI decision-making — with sustainability considerations influencing cloud provider selection, model efficiency requirements, and AI governance frameworks."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "S&P Global - APAC Sector Roundup Q1 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Slowing Dragons, Roaring Tigers in APAC", "description": "APAC economic growth prospects shifting from China/Japan/Australia toward Southeast Asia and India — with Taiwan, Vietnam, Singapore, and India accelerating as China slows, reshaping the region's investment geography."}
+      ],
+      "signals": [
+        {"name": "China Property Crisis Threatening APAC Growth", "description": "China's property sector distress creating downside scenario risk for regional APAC growth — with credit tightening, demand weakness, and developer defaults having potential systemic spillover effects."}
+      ],
+      "scenarios": [
+        {"name": "China Property Crisis Deepening Scenario", "description": "S&P's downside scenario where China's property crisis deepens significantly — with cascading effects on domestic consumption, banking system stability, and regional trade that could substantially slow Asian economic growth."}
+      ]
+    },
+    {
+      "filename": "S&P_Global Credit Outlook 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "New Risks, New Playbook for Credit Markets", "description": "Return to higher real interest rates ending the cheap money era — requiring fundamentally different credit analysis, liquidity management, and issuer strategy as refinancing costs rise and economic activity slows."}
+      ],
+      "signals": [
+        {"name": "Maturity Wall Approaching for Leveraged Borrowers", "description": "Significant volume of debt maturities approaching in 2024-2026 — creating refinancing stress for leveraged borrowers who locked in cheap money during 2020-2021 and must now refinance at materially higher rates."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "SANTANDER PRIVATE BANKING_Market Outlook 2024.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Four Global Structural Shifts Defining the Decade", "description": "Santander identifying four simultaneous global structural shifts — in energy, geopolitics, technology use, and financing access — requiring investors to extend horizons beyond short-term rate cycles."}
+      ],
+      "signals": [
+        {"name": "Post-Pandemic Economy Defying Historical Patterns", "description": "The fastest rate increase in decades producing slower-than-historical growth moderation — challenging conventional macro models and creating genuine uncertainty about the interest rate transmission mechanism."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "SCHRODERS - Multi-Asset 2025 Outlook_CAIG.pdf",
+      "year": 2025,
+      "trends": [
+        {"name": "Trump 47 Repricing Market Expectations", "description": "Donald Trump's 2024 election victory causing markets to reprice US growth expectations higher — with investors weighing whether pro-growth policies can offset inflationary forces of his protectionist agenda."}
+      ],
+      "signals": [
+        {"name": "US Fed Soft Landing Achieved", "description": "US Federal Reserve delivering a soft landing — robust growth alongside falling inflation allowing rate cuts — marking one of the most successful central bank policy navigations in modern history."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "SIEMENS - Industrial Metaverse Research Study.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Industrial Metaverse Evolving from IIoT to Digital Twin", "description": "Industrial technology evolving through successive layers — from Industrial IoT to digital twin to industrial metaverse — with each layer adding richer simulation, collaboration, and predictive capability for manufacturing operations."}
+      ],
+      "signals": [
+        {"name": "Industrial Metaverse Market Rapidly Segmenting by Maturity", "description": "Industrial metaverse market segmenting between early adopters deploying full digital twin and simulation capabilities and mainstream organizations still building foundational IIoT infrastructure — creating two distinct competitive environments."}
+      ],
+      "scenarios": []
+    },
+    {
+      "filename": "SKED SOCIAL - Trends-Report_2025_CAIG.pdf",
+      "year": 2025,
+      "trends": [],
+      "signals": [],
+      "scenarios": []
+    },
+    {
+      "filename": "SMALLWORLD - How Brands Win In The Entertainment Era_CAIG.pdf",
+      "year": 2024,
+      "trends": [
+        {"name": "Entertainment as Brand Strategy", "description": "Brands winning by becoming genuine entertainment entities — earning share of voice through creativity and cultural relevance rather than buying it through paid media, competing on entertainment value against legacy brand effects."}
+      ],
+      "signals": [
+        {"name": "Eight Entertainment Brand Archetypes Emerging", "description": "Smallworld identifying eight distinct brand entertainment archetypes — demonstrating that entertainment strategy is not monolithic but requires brands to find their authentic entertainer persona for cultural resonance."}
+      ],
+      "scenarios": []
+    }
+  ]
+}
