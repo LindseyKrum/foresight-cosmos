@@ -533,9 +533,9 @@
       position: fixed;
       top: 28px;
       left: 50%;
-      transform: translateX(-50%);
+      transform: translateX(calc(-50% - 50px)); /* nudge left to clear search bar */
       display: flex;
-      gap: 8px;
+      gap: 6px;
       z-index: 10;
     }
     .filter-btn {
@@ -545,7 +545,7 @@
       font-size: 10px;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      padding: 6px 14px;
+      padding: 6px 11px;
       border-radius: 20px;
       cursor: pointer;
       transition: all 0.2s;
@@ -557,13 +557,21 @@
       color: rgba(232,228,217,0.9);
     }
 
-    /* ── Planet Legend ── */
-    #legend-planets {
+    /* ── Left panel stack (Planets + Drivers) ── */
+    #left-panels {
       position: fixed;
       top: 50%;
       left: 28px;
       transform: translateY(-50%);
       z-index: 10;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      max-height: calc(100vh - 80px);
+    }
+
+    /* ── Planet Legend ── */
+    #legend-planets {
       display: flex;
       flex-direction: column;
       gap: 7px;
@@ -620,11 +628,6 @@
 
     /* ── Driver filter panel ── */
     #driver-panel {
-      position: fixed;
-      top: 50%;
-      left: 28px;
-      transform: translateY(calc(-50% + 180px));
-      z-index: 10;
       display: flex;
       flex-direction: column;
       gap: 7px;
@@ -739,7 +742,7 @@
     #search-wrap {
       position: fixed;
       top: 28px;
-      right: 32px;
+      right: 130px;  /* leaves room for #updates-btn at right:32px */
       z-index: 10;
       display: flex;
       flex-direction: column;
@@ -899,6 +902,13 @@
       #panel-close { top: 12px; right: 14px; font-size: 18px; }
       #panel-body  { padding: 14px 20px 44px; }
 
+      /* ── Left panel stack: break out of wrapper on mobile ── */
+      #left-panels {
+        position: static !important;
+        transform: none !important;
+        display: contents; /* children become direct children of body for positioning */
+      }
+
       /* ── Planet legend — top-left below title, STARTS COLLAPSED ── */
       #legend-planets {
         position: fixed !important;
@@ -943,7 +953,7 @@
       .driver-btn { font-size: 9px; min-height: 28px; touch-action: manipulation; }
 
       /* ── Search — icon until focused ── */
-      #search-wrap { top: 10px; right: 12px; z-index: 14; }
+      #search-wrap { top: 10px; right: 12px !important; z-index: 14; }
       #search-input {
         width: 34px;
         padding: 7px 7px 7px 27px;
@@ -1076,16 +1086,16 @@
 
 <div id="canvas-container"></div>
 
-<!-- Planet legend -->
-<div id="legend-planets">
-  <button id="legend-toggle">⬡ Planets</button>
-  <div id="planet-list"><!-- populated by JS --></div>
-</div>
-
-<!-- Driver filter -->
-<div id="driver-panel">
-  <button id="driver-toggle">⟡ Drivers</button>
-  <div id="driver-list"><!-- populated by JS --></div>
+<!-- Left panel stack: Planets + Drivers -->
+<div id="left-panels">
+  <div id="legend-planets">
+    <button id="legend-toggle">⬡ Planets</button>
+    <div id="planet-list"><!-- populated by JS --></div>
+  </div>
+  <div id="driver-panel">
+    <button id="driver-toggle">⟡ Drivers</button>
+    <div id="driver-list"><!-- populated by JS --></div>
+  </div>
 </div>
 
 <!-- Search -->
