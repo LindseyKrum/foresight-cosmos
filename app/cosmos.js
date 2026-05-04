@@ -9,8 +9,30 @@ const C = {
   fresh:    new THREE.Color(0.68, 0.82, 1.0),   // cool blue-white
   aging:    new THREE.Color(0.94, 0.87, 0.55),  // warm yellow
   dying:    new THREE.Color(1.0,  0.47, 0.22),  // ember orange
-  trend:    new THREE.Color(0.96, 0.78, 0.26),  // golden
   scenario: new THREE.Color(0.53, 0.95, 0.65),  // green
+};
+
+// ── Per-planet colors (19 macro-planets, ordered t001–t019) ────────────────
+const PLANET_COLORS = {
+  t001: new THREE.Color(0.27, 0.53, 1.00),  // electric blue    — AI Infrastructure
+  t002: new THREE.Color(0.60, 0.27, 1.00),  // deep violet      — Cybersecurity & Data
+  t003: new THREE.Color(0.27, 0.73, 0.95),  // steel blue       — AI in Business
+  t004: new THREE.Color(1.00, 0.27, 0.67),  // hot magenta      — AI in Creativity
+  t005: new THREE.Color(1.00, 0.42, 0.27),  // coral            — Creator Economy
+  t006: new THREE.Color(1.00, 0.67, 0.13),  // amber            — Brand & Marketing
+  t007: new THREE.Color(0.67, 0.90, 0.20),  // yellow-green     — Consumer Behavior
+  t008: new THREE.Color(1.00, 0.65, 0.80),  // rose pink        — Fashion & Aesthetics
+  t009: new THREE.Color(0.20, 1.00, 0.65),  // mint             — Health & Medicine
+  t010: new THREE.Color(0.33, 0.87, 0.50),  // soft green       — Wellbeing
+  t011: new THREE.Color(0.13, 0.90, 1.00),  // bright cyan      — Future of Work
+  t012: new THREE.Color(0.13, 0.80, 0.38),  // emerald          — Climate & Sustainability
+  t013: new THREE.Color(1.00, 0.33, 0.20),  // red-orange       — Geopolitics
+  t014: new THREE.Color(1.00, 0.80, 0.20),  // gold             — Financial Markets
+  t015: new THREE.Color(0.00, 0.93, 1.00),  // neon cyan        — Emerging Tech & Crypto
+  t016: new THREE.Color(1.00, 0.55, 0.15),  // orange           — Food & Nutrition
+  t017: new THREE.Color(0.40, 0.80, 1.00),  // sky blue         — Travel & Experience
+  t018: new THREE.Color(0.80, 0.27, 1.00),  // vivid purple     — Gaming & Entertainment
+  t019: new THREE.Color(0.85, 0.85, 1.00),  // silver-white     — Futures & Foresight
 };
 
 // ── Glow sprite factory ─────────────────────────────────────────────────────
@@ -200,32 +222,31 @@ async function init() {
       const to   = trendPos[tid];
       if (!from || !to) return;
 
-      const age        = CURRENT_YEAR - sig.lastSeen;
-      const isPrimary  = connIdx === 0;
-      const isDying    = age >= DYING_AGE;
+      const age       = CURRENT_YEAR - sig.lastSeen;
+      const isPrimary = connIdx === 0;
+      const isDying   = age >= DYING_AGE;
+      const strength  = sig.strength ?? 0.6;   // 0–1
 
-      // Colour: primary = planet gold tint, secondary = cyan tint, dying = ember
-      const col = isDying   ? 0x442200
-                : isPrimary ? 0x2a3a6a   // blue-indigo for primary
-                            : 0x1a4a4a;  // teal for cross-planet links
+      // Colour: use the target planet's colour; dying signals go ember
+      const planetCol = PLANET_COLORS[tid] ?? new THREE.Color(0.4, 0.5, 0.8);
+      const lineCol   = isDying ? C.dying.clone().multiplyScalar(0.5) : planetCol.clone();
 
-      const op  = isDying   ? 0.10
-                : isPrimary ? 0.22
-                            : 0.30;      // secondary links slightly brighter to stand out
+      // Opacity: scaled by signal strength, dimmer for secondaries and dying
+      const baseOp = isDying   ? 0.06 + strength * 0.08
+                   : isPrimary ? 0.15 + strength * 0.25   // 0.15–0.40
+                               : 0.12 + strength * 0.20;  // cross-planet slightly dimmer
 
-      const geo  = new THREE.BufferGeometry().setFromPoints([from, to]);
-
-      // Primary connections: dashed.  Cross-planet secondary: dotted (shorter dash).
+      const geo = new THREE.BufferGeometry().setFromPoints([from, to]);
       const mat = new THREE.LineDashedMaterial({
-        color:       col,
+        color:       lineCol,
         transparent: true,
-        opacity:     op,
-        dashSize:    isPrimary ? 1.2 : 0.5,
-        gapSize:     isPrimary ? 0.8 : 0.5,
+        opacity:     baseOp,
+        dashSize:    isPrimary ? 1.4 : 0.5,
+        gapSize:     isPrimary ? 0.9 : 0.5,
       });
 
       const line = new THREE.Line(geo, mat);
-      line.computeLineDistances();   // required for dashed material
+      line.computeLineDistances();
       lineGroup.add(line);
     });
   });
@@ -238,16 +259,17 @@ async function init() {
   const dyingSignalMeshes = []; // for pulsing animation
 
   data.trends.forEach(trend => {
-    const pos  = trendPos[trend.id];
-    const size = 2.8 + trend.mass * 1.8;
+    const pos      = trendPos[trend.id];
+    const size     = 2.8 + trend.mass * 1.8;
+    const pCol     = (PLANET_COLORS[trend.id] ?? new THREE.Color(0.96, 0.78, 0.26)).clone();
 
     const geo  = new THREE.SphereGeometry(size, 40, 40);
     const mat  = new THREE.MeshStandardMaterial({
-      color:            C.trend.clone().multiplyScalar(0.6),
-      emissive:         C.trend.clone(),
-      emissiveIntensity: 0.22,
-      roughness:        0.55,
-      metalness:        0.15,
+      color:             pCol.clone().multiplyScalar(0.55),
+      emissive:          pCol.clone(),
+      emissiveIntensity: 0.30,
+      roughness:         0.50,
+      metalness:         0.20,
     });
     const mesh = new THREE.Mesh(geo, mat);
     mesh.position.copy(pos);
@@ -255,13 +277,13 @@ async function init() {
     interactable.push(mesh);
     objMeta.set(mesh, { type: 'trend', data: trend });
 
-    // Atmosphere ring
+    // Atmosphere ring — tinted to planet colour
     const ringGeo = new THREE.RingGeometry(size + 0.4, size + 1.6, 64);
     const ringMat = new THREE.MeshBasicMaterial({
-      color: C.trend.clone(),
-      side: THREE.DoubleSide,
+      color:      pCol.clone(),
+      side:       THREE.DoubleSide,
       transparent: true,
-      opacity: 0.06,
+      opacity:    0.10,
       depthWrite: false,
     });
     const ring = new THREE.Mesh(ringGeo, ringMat);
@@ -269,7 +291,7 @@ async function init() {
     ring.position.copy(pos);
     scene.add(ring);
 
-    addGlow(scene, pos, C.trend, size * 5, 0.18);
+    addGlow(scene, pos, pCol, size * 5.5, 0.22);
 
     // Scenarios as city-lights on surface
     const scenarios = data.scenarios.filter(s => s.trend === trend.id);
@@ -462,9 +484,11 @@ function openPanel({ type, data: obj }, cosmos) {
       conns.innerHTML = `
         <div class="panel-section-label">Connected Trends</div>
         <div style="margin-bottom:20px;">
-          ${linked.map(t =>
-            `<span class="connection-tag" style="border-color:rgba(245,200,66,0.2);color:rgba(245,200,66,0.7);">◉ ${t.name}</span>`
-          ).join('')}
+          ${linked.map(t => {
+            const pc = PLANET_COLORS[t.id];
+            const hex = pc ? '#' + pc.getHexString() : '#f5c842';
+            return `<span class="connection-tag" style="border-color:${hex}44;color:${hex}cc;">◉ ${t.name}</span>`;
+          }).join('')}
         </div>`;
     }
   }
