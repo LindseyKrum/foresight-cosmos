@@ -173,10 +173,47 @@ async function init() {
   const controls = new OrbitControls(camera, renderer.domElement);
   controls.enableDamping    = true;
   controls.dampingFactor    = 0.06;
-  controls.minDistance      = 25;
+  controls.minDistance      = 3;     // allow flying inside the cloud
   controls.maxDistance      = 450;
   controls.autoRotate       = true;
-  controls.autoRotateSpeed  = 0.12;
+  controls.autoRotateSpeed  = 0.10;
+  controls.enablePan        = true;
+  controls.panSpeed         = 0.8;
+
+  // ── Camera fly-to animation state ──
+  const DEFAULT_CAM_POS  = new THREE.Vector3(0, 30, 150);
+  const DEFAULT_CAM_LOOK = new THREE.Vector3(0, 0, 0);
+
+  const fly = {
+    active:    false,
+    t:         0,
+    duration:  1.8,           // seconds
+    fromPos:   new THREE.Vector3(),
+    fromLook:  new THREE.Vector3(),
+    toPos:     new THREE.Vector3(),
+    toLook:    new THREE.Vector3(),
+  };
+
+  function flyTo(targetPos, lookAt, dur = 1.8) {
+    fly.fromPos.copy(camera.position);
+    fly.fromLook.copy(controls.target);
+    fly.toPos.copy(targetPos);
+    fly.toLook.copy(lookAt);
+    fly.t        = 0;
+    fly.duration = dur;
+    fly.active   = true;
+    controls.autoRotate = false;
+    document.getElementById('reset-view').style.display = 'block';
+  }
+
+  function resetView() {
+    flyTo(DEFAULT_CAM_POS, DEFAULT_CAM_LOOK, 1.6);
+    controls.autoRotate = true;
+    document.getElementById('reset-view').style.display = 'none';
+  }
+
+  document.getElementById('reset-view').addEventListener('click', resetView);
+  window.addEventListener('keydown', e => { if (e.key === 'r' || e.key === 'R') resetView(); });
 
   // Fog for depth
   scene.fog = new THREE.FogExp2(0x000008, 0.0018);
@@ -357,15 +394,27 @@ async function init() {
   });
 
   window.addEventListener('click', () => {
-    if (hoveredMesh && objMeta.has(hoveredMesh)) {
-      openPanel(objMeta.get(hoveredMesh), data);
-      controls.autoRotate = false;
+    if (!hoveredMesh || !objMeta.has(hoveredMesh)) return;
+    const info = objMeta.get(hoveredMesh);
+
+    // Fly camera toward the clicked object before opening the panel
+    const objPos = hoveredMesh.position.clone();
+    if (info.type === 'trend') {
+      // For planets: pull back to show the whole planet + its signal cluster
+      const size    = 2.8 + (info.data.mass ?? 1) * 1.8;
+      const offset  = camera.position.clone().sub(objPos).normalize().multiplyScalar(size * 6 + 18);
+      flyTo(objPos.clone().add(offset), objPos);
+    } else {
+      // For signals / scenarios: zoom close
+      const offset = camera.position.clone().sub(objPos).normalize().multiplyScalar(12);
+      flyTo(objPos.clone().add(offset), objPos);
     }
+
+    openPanel(info, data);
   });
 
   document.getElementById('panel-close').addEventListener('click', () => {
     document.getElementById('panel').classList.remove('open');
-    controls.autoRotate = true;
   });
 
   // ── Filters ──
@@ -397,13 +446,25 @@ async function init() {
   });
 
   // ── Render loop ──
-  const clock = new THREE.Clock();
+  const clock   = new THREE.Clock();
+  let elapsed   = 0;
 
   function animate() {
     requestAnimationFrame(animate);
-    const t = clock.getElapsedTime();
+    const delta = clock.getDelta();   // call once per frame
+    elapsed    += delta;
+    const t     = elapsed;
 
     starMat.uniforms.time.value = t;
+
+    // ── Camera fly animation ──
+    if (fly.active) {
+      fly.t = Math.min(1, fly.t + delta / fly.duration);
+      const ease = 1 - Math.pow(1 - fly.t, 3);   // cubic ease-out
+      camera.position.lerpVectors(fly.fromPos, fly.toPos, ease);
+      controls.target.lerpVectors(fly.fromLook, fly.toLook, ease);
+      if (fly.t >= 1) fly.active = false;
+    }
 
     // Pulse dying signals
     dyingSignalMeshes.forEach(({ mesh, baseOp }, i) => {
