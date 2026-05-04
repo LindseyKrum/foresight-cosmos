@@ -606,36 +606,37 @@
        ══════════════════════════════════════════════════════ */
     @media (max-width: 767px) {
 
-      /* Canvas — tell browser not to interfere with Three.js touch */
+      /* Three.js owns all touch on the canvas */
       #canvas-container canvas { touch-action: none; }
 
-      /* Title — compact top-left */
+      /* ── Title ── */
       #title { top: 14px; left: 14px; }
       #title h1 { font-size: 11px; letter-spacing: 0.14em; }
       #title p  { display: none; }
 
-      /* Filter bar — scrollable strip below title */
+      /* ── Filter bar — fixed bottom, horizontal scroll ── */
       #filters {
-        top: auto;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        transform: none;
+        position: fixed !important;
+        top: auto !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        transform: none !important;
+        display: flex;
         justify-content: flex-start;
-        gap: 6px;
+        flex-wrap: nowrap;
         overflow-x: auto;
         overflow-y: hidden;
-        flex-wrap: nowrap;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
-        padding: 10px 14px 14px;
-        background: linear-gradient(to top, rgba(0,0,8,0.92) 70%, transparent);
-        backdrop-filter: none;
+        gap: 6px;
+        padding: 10px 14px 18px;
+        background: linear-gradient(to top, rgba(0,0,8,0.96) 55%, transparent);
         z-index: 12;
       }
       #filters::-webkit-scrollbar { display: none; }
       .filter-btn {
-        padding: 6px 12px;
+        padding: 6px 13px;
         font-size: 9px;
         white-space: nowrap;
         flex-shrink: 0;
@@ -643,147 +644,120 @@
         touch-action: manipulation;
       }
 
-      /* Panel — bottom sheet instead of right drawer */
+      /* ── Panel — bottom sheet ── */
       #panel {
-        width: 100%;
-        height: 78vh;
-        max-height: 78vh;
-        top: auto;
-        bottom: 0;
-        right: 0;
+        width: 100vw !important;
+        height: 80vh !important;
+        max-height: 80vh !important;
+        top: auto !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        transform: translateY(100%) !important;
         border-radius: 18px 18px 0 0;
         border-left: none;
         border-top: 1px solid rgba(255,255,255,0.1);
-        transform: translateY(100%);
         transition: transform 0.38s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-        padding-top: 0;
+        z-index: 25;
       }
-      #panel.open { transform: translateY(0); }
-
-      /* Drag handle */
+      #panel.open { transform: translateY(0) !important; }
       #panel::before {
         content: '';
         display: block;
-        width: 36px;
-        height: 3px;
+        width: 36px; height: 3px;
         background: rgba(255,255,255,0.18);
         border-radius: 2px;
         margin: 10px auto 0;
-        flex-shrink: 0;
       }
       #panel-type  { padding-top: 16px; }
-      #panel-title { font-size: 18px; padding-top: 8px; }
+      #panel-title { font-size: 18px; padding-top: 6px; }
       #panel-close { top: 12px; right: 14px; font-size: 18px; }
-      #panel-body  { padding: 16px 20px 40px; }
+      #panel-body  { padding: 14px 20px 44px; }
 
-      /* Planet legend — top-left below title area */
+      /* ── Planet legend — top-left below title, STARTS COLLAPSED ── */
       #legend-planets {
-        top: 50px;
-        left: 14px;
-        transform: none;
-        max-width: 164px;
-        z-index: 11;
+        position: fixed !important;
+        top: 46px !important;
+        left: 14px !important;
+        bottom: auto !important;
+        transform: none !important;
+        z-index: 13;
+        gap: 4px;
       }
-      #legend-toggle {
-        font-size: 9px;
-        padding: 5px 10px;
-        touch-action: manipulation;
-      }
-      .planet-legend-item {
-        font-size: 9px;
-        min-height: 28px;
-        touch-action: manipulation;
-      }
+      #legend-toggle { font-size: 9px; padding: 5px 11px; touch-action: manipulation; width: auto !important; align-self: flex-start; }
+      /* Planet list: hidden by default on mobile (JS adds .hidden class at init) */
       #planet-list {
-        max-height: 40vh;
+        max-height: 50vh;
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
+        background: rgba(2,2,16,0.94);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 8px;
+        padding: 6px 4px;
       }
+      .planet-legend-item { font-size: 9px; min-height: 28px; padding: 2px 4px; touch-action: manipulation; }
 
-      /* Driver panel — hidden by default on mobile,
-         accessible via toggle but positioned differently */
+      /* ── Driver panel — top-left, below planets button ── */
       #driver-panel {
-        top: auto;
-        bottom: 54px;   /* just above filter bar */
-        left: 14px;
-        transform: none;
-        max-width: 172px;
-        z-index: 11;
+        position: fixed !important;
+        top: 84px !important;
+        left: 14px !important;
+        bottom: auto !important;
+        transform: none !important;
+        z-index: 13;
+        gap: 4px;
       }
-      #driver-toggle {
-        font-size: 9px;
-        padding: 5px 10px;
-        touch-action: manipulation;
+      #driver-toggle { font-size: 9px; padding: 5px 11px; touch-action: manipulation; width: auto !important; align-self: flex-start; }
+      #driver-list {
+        background: rgba(2,2,16,0.94);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 8px;
+        padding: 6px 4px;
+        -webkit-overflow-scrolling: touch;
       }
-      .driver-btn {
-        font-size: 9px;
-        min-height: 28px;
-        touch-action: manipulation;
-      }
-      #driver-list { max-height: 36vh; overflow-y: auto; }
+      .driver-btn { font-size: 9px; min-height: 28px; touch-action: manipulation; }
 
-      /* Search — collapses to icon; expands on focus */
-      #search-wrap { top: 10px; right: 12px; z-index: 13; }
+      /* ── Search — icon until focused ── */
+      #search-wrap { top: 10px; right: 12px; z-index: 14; }
       #search-input {
-        width: 36px;
-        padding: 8px 8px 8px 28px;
+        width: 34px;
+        padding: 7px 7px 7px 27px;
         border-color: rgba(255,255,255,0.22);
         box-shadow: none;
       }
       #search-input:focus {
-        width: min(220px, 58vw);
+        width: min(210px, 54vw);
         border-color: rgba(180,210,255,0.75);
-        box-shadow: 0 0 18px rgba(140,180,255,0.25);
+        box-shadow: 0 0 16px rgba(140,180,255,0.22);
       }
-      #search-icon { top: 10px; left: 10px; font-size: 13px; }
-      #search-results { width: min(260px, 88vw); }
+      #search-icon { top: 9px; left: 9px; font-size: 13px; }
+      #search-results { width: min(250px, 88vw); max-height: 260px; }
 
-      /* Nav hint — swap for touch copy, bottom-right above filter strip */
-      #nav-hint {
-        bottom: 52px;
-        right: 14px;
-        text-align: right;
-      }
-      #nav-hint .nav-hint-line:first-child::before {
-        content: 'Pinch to zoom · Drag to orbit';
-      }
-      #nav-hint .nav-hint-line:first-child { font-size: 0; } /* hide original text */
-      #nav-hint .nav-hint-line:first-child::before { font-size: 9px; }
-      #nav-hint .nav-hint-line:last-child { display: none; }
+      /* ── Nav hint — above filter strip ── */
+      #nav-hint { bottom: 52px; right: 14px; }
+      .nav-hint-line { font-size: 9px; }
 
-      /* Reset button — above filter strip, right */
-      #reset-view {
-        bottom: 52px;
-        right: 14px;
-        padding: 5px 12px;
-        font-size: 9px;
-      }
+      /* ── Reset button ── */
+      #reset-view { bottom: 52px; right: 14px; font-size: 9px; padding: 5px 12px; }
 
-      /* Bottom signal-type legend — hide (too small to be useful) */
-      #legend { display: none; }
-
-      /* Tooltip — shift so it doesn't get cut off */
+      /* ── Hide non-essentials ── */
+      #legend  { display: none; }
       #tooltip { max-width: 180px; font-size: 11px; }
 
-      /* Connection / source items — more thumb-friendly */
+      /* ── Panel content touch sizing ── */
       .connection-tag {
-        padding: 6px 12px;
-        font-size: 11px;
-        min-height: 32px;
-        display: inline-flex;
-        align-items: center;
+        padding: 6px 12px; font-size: 11px;
+        min-height: 32px; display: inline-flex; align-items: center;
         touch-action: manipulation;
       }
       .source-item { padding-bottom: 12px; gap: 8px; }
       .tension-partner { font-size: 13px; min-height: 32px; display: flex; align-items: center; }
     }
 
-    /* Very small screens (≤ 380 px) */
+    /* ── Very small screens (≤ 380 px) ── */
     @media (max-width: 380px) {
-      #panel { height: 82vh; }
+      #panel { height: 85vh !important; }
       #panel-title { font-size: 16px; }
-      #search-input:focus { width: min(180px, 55vw); }
-      #legend-planets { max-width: 148px; }
+      #search-input:focus { width: min(180px, 52vw); }
     }
 
     /* ── Loading ── */

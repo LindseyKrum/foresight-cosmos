@@ -531,8 +531,20 @@ async function init() {
     planetList.appendChild(item);
   });
 
+  // On mobile: planet list starts collapsed, also close panel on planet click
+  if (isMobile) {
+    planetList.classList.add('hidden');
+    planetList.querySelectorAll('.planet-legend-item').forEach(el => {
+      el.addEventListener('click', () => { planetList.classList.add('hidden'); });
+    });
+  }
+
   document.getElementById('legend-toggle').addEventListener('click', () => {
     planetList.classList.toggle('hidden');
+    // On mobile: close driver list when opening planet list
+    if (isMobile && !planetList.classList.contains('hidden')) {
+      document.getElementById('driver-list').classList.remove('visible');
+    }
   });
 
   // ── Driver filters ──
@@ -579,6 +591,10 @@ async function init() {
 
   document.getElementById('driver-toggle').addEventListener('click', () => {
     driverList.classList.toggle('visible');
+    // On mobile: close planet list when opening driver list
+    if (isMobile && driverList.classList.contains('visible')) {
+      planetList.classList.add('hidden');
+    }
   });
 
   // ── Search ──
