@@ -5,120 +5,227 @@
       "filename": "HUMAN8-2024-What-Matters-Report.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Collective Desire to Move from Less Harm to More Good", "description": "A fundamental shift in societal ambition — from minimizing negative impact to actively generating positive change — driven by 8 in 10 people worldwide seriously worried about the future."},
-        {"name": "Polycrisis as Permanent Operating Context", "description": "The convergence of political instability, cost-of-living pressure, armed conflict, and climate impact creating a sustained polycrisis that reshapes what people expect from brands and institutions."}
+        {
+          "name": "Collective Desire to Move from Less Harm to More Good",
+          "description": "A fundamental shift in societal ambition \u2014 from minimizing negative impact to actively generating positive change \u2014 driven by 8 in 10 people worldwide seriously worried about the future."
+        },
+        {
+          "name": "Polycrisis as Permanent Operating Context",
+          "description": "The convergence of political instability, cost-of-living pressure, armed conflict, and climate impact creating a sustained polycrisis that reshapes what people expect from brands and institutions."
+        }
       ],
       "signals": [
-        {"name": "Brands Expected to Close the Say-Do Gap", "description": "Consumer expectation that brands bridge the gap between stated values and actual behavior — with the say-do gap becoming a primary source of brand trust erosion."},
-        {"name": "Cultural AI Analytics Enabling Human Insight at Scale", "description": "AI-powered cultural analytics tools enabling brands and researchers to analyze what truly matters to people at population scale — combining AI efficiency with human understanding depth."}
+        {
+          "name": "Brands Expected to Close the Say-Do Gap",
+          "description": "Consumer expectation that brands bridge the gap between stated values and actual behavior \u2014 with the say-do gap becoming a primary source of brand trust erosion."
+        },
+        {
+          "name": "Cultural AI Analytics Enabling Human Insight at Scale",
+          "description": "AI-powered cultural analytics tools enabling brands and researchers to analyze what truly matters to people at population scale \u2014 combining AI efficiency with human understanding depth."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Human8",
+      "orgType": "Research"
     },
     {
       "filename": "IKEA_Life-at-Home-Report-2023.pdf",
       "year": 2023,
       "trends": [
-        {"name": "Home as Contested Space of Tensions", "description": "The home becoming a site of active negotiation between competing needs — doing more vs. less, togetherness vs. privacy, living well vs. living within means — reflecting broader societal polarities."},
-        {"name": "Life at Home as Wellbeing Indicator", "description": "Home satisfaction emerging as a primary wellbeing metric — with 60% positive about home life but structural tensions around affordability, privacy, and rest defining the modern domestic experience."}
+        {
+          "name": "Home as Contested Space of Tensions",
+          "description": "The home becoming a site of active negotiation between competing needs \u2014 doing more vs. less, togetherness vs. privacy, living well vs. living within means \u2014 reflecting broader societal polarities."
+        },
+        {
+          "name": "Life at Home as Wellbeing Indicator",
+          "description": "Home satisfaction emerging as a primary wellbeing metric \u2014 with 60% positive about home life but structural tensions around affordability, privacy, and rest defining the modern domestic experience."
+        }
       ],
       "signals": [
-        {"name": "Future of Home in 2030 Being Actively Imagined", "description": "IKEA research surfacing multiple distinct scenarios for home life in 2030 — signaling that the trajectory of domestic life is genuinely uncertain and subject to technological, economic, and social forces."}
+        {
+          "name": "Future of Home in 2030 Being Actively Imagined",
+          "description": "IKEA research surfacing multiple distinct scenarios for home life in 2030 \u2014 signaling that the trajectory of domestic life is genuinely uncertain and subject to technological, economic, and social forces."
+        }
       ],
       "scenarios": [
-        {"name": "Three Tensions for 2023 Home Life", "description": "IKEA scenario framework identifying three defining tensions shaping domestic life in 2023: doing more vs. doing less, togetherness vs. privacy, and living well vs. living within means."}
-      ]
+        {
+          "name": "Three Tensions for 2023 Home Life",
+          "description": "IKEA scenario framework identifying three defining tensions shaping domestic life in 2023: doing more vs. doing less, togetherness vs. privacy, and living well vs. living within means."
+        }
+      ],
+      "org": "IKEA",
+      "orgType": "Industry"
     },
     {
       "filename": "ILUNION HOTELS - ObservatorioTendencias 2024-25_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Geopolitical and Economic Uncertainty in Tourism", "description": "Tourism sector navigating compounding geopolitical and macroeconomic uncertainty as a primary business environment challenge in 2024-2025 — requiring adaptive strategy across all hospitality operations."}
+        {
+          "name": "Geopolitical and Economic Uncertainty in Tourism",
+          "description": "Tourism sector navigating compounding geopolitical and macroeconomic uncertainty as a primary business environment challenge in 2024-2025 \u2014 requiring adaptive strategy across all hospitality operations."
+        }
       ],
       "signals": [],
-      "scenarios": []
+      "scenarios": [],
+      "org": "ILUNION Hotels",
+      "orgType": "Industry"
     },
     {
       "filename": "INFOSYS - CPG-industry-outlook_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "AI Across the CPG Value Chain", "description": "Consumer packaged goods companies integrating AI across all major business functions — with marketing technology, demand forecasting, and supply chain optimization becoming AI-dependent."},
-        {"name": "Emerging Markets as CPG Growth Engine", "description": "Emerging markets driving disproportionate CPG growth as their middle classes expand — with 24% growth expected from these markets requiring fundamentally different product and distribution strategies."}
+        {
+          "name": "AI Across the CPG Value Chain",
+          "description": "Consumer packaged goods companies integrating AI across all major business functions \u2014 with marketing technology, demand forecasting, and supply chain optimization becoming AI-dependent."
+        },
+        {
+          "name": "Emerging Markets as CPG Growth Engine",
+          "description": "Emerging markets driving disproportionate CPG growth as their middle classes expand \u2014 with 24% growth expected from these markets requiring fundamentally different product and distribution strategies."
+        }
       ],
       "signals": [
-        {"name": "Resilient Marketing Technology as CPG Priority", "description": "CPG companies prioritizing resilient, privacy-compliant marketing technology infrastructure as the foundation for AI-driven personalization and first-party data strategies."}
+        {
+          "name": "Resilient Marketing Technology as CPG Priority",
+          "description": "CPG companies prioritizing resilient, privacy-compliant marketing technology infrastructure as the foundation for AI-driven personalization and first-party data strategies."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Infosys",
+      "orgType": "Tech"
     },
     {
       "filename": "INFOSYS - Generative-AI-radar-retail-hospitality_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Generative AI Adoption in Retail and Hospitality Mainstream", "description": "80% of retail and hospitality companies already initiating generative AI journeys — with spending growth expected to significantly exceed the already-strong overall enterprise AI trend."}
+        {
+          "name": "Generative AI Adoption in Retail and Hospitality Mainstream",
+          "description": "80% of retail and hospitality companies already initiating generative AI journeys \u2014 with spending growth expected to significantly exceed the already-strong overall enterprise AI trend."
+        }
       ],
       "signals": [
-        {"name": "GenAI Spending Growing Faster in Retail Than Other Sectors", "description": "Retail and hospitality generative AI investment growing faster than most other industry sectors, signaling the consumer-facing industries as primary early adopters of GenAI capabilities."}
+        {
+          "name": "GenAI Spending Growing Faster in Retail Than Other Sectors",
+          "description": "Retail and hospitality generative AI investment growing faster than most other industry sectors, signaling the consumer-facing industries as primary early adopters of GenAI capabilities."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Infosys",
+      "orgType": "Tech"
     },
     {
       "filename": "INFOSYS - Telecom-industry-outlook_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "5G Standalone Deployment Accelerating", "description": "Telecom operators deploying 5G Standalone networks — enabling ultra-low latency applications that 5G Non-Standalone cannot support — ahead of complete 5G coverage rollout, driven by revenue urgency."},
-        {"name": "AI-Native Telecom Operations", "description": "AI becoming foundational to telecom operations — from network management and customer experience to sales and fraud detection — transforming telecommunications from connectivity to intelligence provider."}
+        {
+          "name": "5G Standalone Deployment Accelerating",
+          "description": "Telecom operators deploying 5G Standalone networks \u2014 enabling ultra-low latency applications that 5G Non-Standalone cannot support \u2014 ahead of complete 5G coverage rollout, driven by revenue urgency."
+        },
+        {
+          "name": "AI-Native Telecom Operations",
+          "description": "AI becoming foundational to telecom operations \u2014 from network management and customer experience to sales and fraud detection \u2014 transforming telecommunications from connectivity to intelligence provider."
+        }
       ],
       "signals": [
-        {"name": "Edge Computing Becoming Telecom Revenue Opportunity", "description": "Telecom companies positioning edge computing infrastructure as a new revenue stream — leveraging their distributed network assets to provide compute capacity for latency-sensitive applications."}
+        {
+          "name": "Edge Computing Becoming Telecom Revenue Opportunity",
+          "description": "Telecom companies positioning edge computing infrastructure as a new revenue stream \u2014 leveraging their distributed network assets to provide compute capacity for latency-sensitive applications."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Infosys",
+      "orgType": "Tech"
     },
     {
       "filename": "ING - Bank_Outlook_2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Private Markets Vulnerabilities Entering View", "description": "Private credit and private equity market vulnerabilities becoming visible as rate environment shifts — with opacity and leverage in private markets emerging as systemic risk concerns for 2025."}
+        {
+          "name": "Private Markets Vulnerabilities Entering View",
+          "description": "Private credit and private equity market vulnerabilities becoming visible as rate environment shifts \u2014 with opacity and leverage in private markets emerging as systemic risk concerns for 2025."
+        }
       ],
       "signals": [
-        {"name": "ECB Rate Cuts Benefiting Bank Loan Quality", "description": "European Central Bank rate cuts expected to improve bank loan portfolio quality in 2025 — reducing credit costs after elevated levels, benefiting banks with exposure to rate-sensitive borrowers."},
-        {"name": "Sustainable Bank Bond Issuance Slowing", "description": "Green and sustainable bank bond issuance expected to grow only modestly in 2025, signaling that sustainable finance growth is entering a more measured phase after the initial rush."}
+        {
+          "name": "ECB Rate Cuts Benefiting Bank Loan Quality",
+          "description": "European Central Bank rate cuts expected to improve bank loan portfolio quality in 2025 \u2014 reducing credit costs after elevated levels, benefiting banks with exposure to rate-sensitive borrowers."
+        },
+        {
+          "name": "Sustainable Bank Bond Issuance Slowing",
+          "description": "Green and sustainable bank bond issuance expected to grow only modestly in 2025, signaling that sustainable finance growth is entering a more measured phase after the initial rush."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "ING",
+      "orgType": "Financial"
     },
     {
       "filename": "ING_Banks Outlook 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Banks Navigating Higher-for-Longer Rate Environment", "description": "European banking sector adapting business models to a structurally higher interest rate environment — with winners and losers emerging based on funding structures, loan book quality, and capital positioning."}
+        {
+          "name": "Banks Navigating Higher-for-Longer Rate Environment",
+          "description": "European banking sector adapting business models to a structurally higher interest rate environment \u2014 with winners and losers emerging based on funding structures, loan book quality, and capital positioning."
+        }
       ],
       "signals": [
-        {"name": "European Taxonomy Driving Bank Disclosure Expansion", "description": "EU Taxonomy requirements forcing European banks to dramatically expand environmental and sustainability disclosures — creating significant reporting burden and beginning to shape lending strategy."},
-        {"name": "Nordic Banks Most Exposed to CRE Risk", "description": "Nordic banking systems showing disproportionate commercial real estate exposure — creating specific vulnerability as property values adjust to higher rate environment."}
+        {
+          "name": "European Taxonomy Driving Bank Disclosure Expansion",
+          "description": "EU Taxonomy requirements forcing European banks to dramatically expand environmental and sustainability disclosures \u2014 creating significant reporting burden and beginning to shape lending strategy."
+        },
+        {
+          "name": "Nordic Banks Most Exposed to CRE Risk",
+          "description": "Nordic banking systems showing disproportionate commercial real estate exposure \u2014 creating specific vulnerability as property values adjust to higher rate environment."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "ING",
+      "orgType": "Financial"
     },
     {
       "filename": "INSIDER_HealthTrends2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Healthcare Trust Fragmentation", "description": "Consumers losing confidence in traditional healthcare organizations and turning to family, friends, social media, and online sources for medical information — fragmenting the patient journey away from institutional pathways."},
-        {"name": "Social Media Shaping Health Decisions", "description": "Social media platforms exerting outsized influence on consumer health decisions — including medication choices, treatment approaches, and health identity — creating both opportunity and misinformation risk."}
+        {
+          "name": "Healthcare Trust Fragmentation",
+          "description": "Consumers losing confidence in traditional healthcare organizations and turning to family, friends, social media, and online sources for medical information \u2014 fragmenting the patient journey away from institutional pathways."
+        },
+        {
+          "name": "Social Media Shaping Health Decisions",
+          "description": "Social media platforms exerting outsized influence on consumer health decisions \u2014 including medication choices, treatment approaches, and health identity \u2014 creating both opportunity and misinformation risk."
+        }
       ],
       "signals": [
-        {"name": "Retail Healthcare Drawing Patients from Traditional Care Path", "description": "Retail health clinics and pharmacies capturing patients who would previously enter traditional care settings — structurally changing the first point of care for many health conditions."}
+        {
+          "name": "Retail Healthcare Drawing Patients from Traditional Care Path",
+          "description": "Retail health clinics and pharmacies capturing patients who would previously enter traditional care settings \u2014 structurally changing the first point of care for many health conditions."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Insider Intelligence",
+      "orgType": "Research"
     },
     {
       "filename": "INTERBRAND_Bestglobalbrands23.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Brand Growth Deceleration After Peak", "description": "Global brand value growth decelerating sharply — from 16% in 2022 to 5.7% in 2023 — as the post-pandemic premium era ends and brand investment strategies become more cautious and incremental."},
-        {"name": "Leading Across Multiple Brand Arenas", "description": "The most valuable global brands succeeding by operating across multiple distinct arenas rather than owning a single category — expanding the definition of competitive relevance."}
+        {
+          "name": "Brand Growth Deceleration After Peak",
+          "description": "Global brand value growth decelerating sharply \u2014 from 16% in 2022 to 5.7% in 2023 \u2014 as the post-pandemic premium era ends and brand investment strategies become more cautious and incremental."
+        },
+        {
+          "name": "Leading Across Multiple Brand Arenas",
+          "description": "The most valuable global brands succeeding by operating across multiple distinct arenas rather than owning a single category \u2014 expanding the definition of competitive relevance."
+        }
       ],
       "signals": [
-        {"name": "C-Suite Playing It Safe on Brand Strategy", "description": "Interbrand research finding widespread C-suite tendency toward brand risk avoidance — driving incremental rather than transformative investment and contributing to deceleration in brand value creation."}
+        {
+          "name": "C-Suite Playing It Safe on Brand Strategy",
+          "description": "Interbrand research finding widespread C-suite tendency toward brand risk avoidance \u2014 driving incremental rather than transformative investment and contributing to deceleration in brand value creation."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Interbrand",
+      "orgType": "Agency"
     }
   ]
 }

@@ -5,119 +5,223 @@
       "filename": "THE NEW CONSUMER-COEFFICIENT CAPITAL_Consumer-Trends-2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Digitally Powered Consumer Brand Wave", "description": "A new generation of digitally native consumer brands building on functional wellness, sustainability, and personalization — with direct-to-consumer, content-led, and data-driven models outperforming legacy consumer goods incumbents."}
+        {
+          "name": "Digitally Powered Consumer Brand Wave",
+          "description": "A new generation of digitally native consumer brands building on functional wellness, sustainability, and personalization \u2014 with direct-to-consumer, content-led, and data-driven models outperforming legacy consumer goods incumbents."
+        }
       ],
       "signals": [
-        {"name": "Personalized Pet Nutrition as Consumer Trend Signal", "description": "Personalized pet nutrition emerging as a significant consumer category — extending the human wellness personalization trend to companion animals, signaling how deeply individualization is penetrating consumer product markets."}
+        {
+          "name": "Personalized Pet Nutrition as Consumer Trend Signal",
+          "description": "Personalized pet nutrition emerging as a significant consumer category \u2014 extending the human wellness personalization trend to companion animals, signaling how deeply individualization is penetrating consumer product markets."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "The New Consumer \u00d7 Coefficient Capital",
+      "orgType": "Research"
     },
     {
       "filename": "THE NEW CONSUMER_COEFFICIENT CAPITAL - Consumer-Trends-2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Future of Alcohol and Fun Food Emerging", "description": "Alcohol category facing structural disruption as consumer preferences evolve — with non-alcoholic alternatives, functional beverages, and 'fun food' innovations redefining the social indulgence category for health-conscious consumers."}
+        {
+          "name": "Future of Alcohol and Fun Food Emerging",
+          "description": "Alcohol category facing structural disruption as consumer preferences evolve \u2014 with non-alcoholic alternatives, functional beverages, and 'fun food' innovations redefining the social indulgence category for health-conscious consumers."
+        }
       ],
       "signals": [
-        {"name": "Direct-to-Patient Healthcare Brand Models Scaling", "description": "Direct-to-patient healthcare brands demonstrating commercial viability — with consumer health companies bypassing traditional healthcare channels to build direct relationships with patients around chronic and preventive care."}
+        {
+          "name": "Direct-to-Patient Healthcare Brand Models Scaling",
+          "description": "Direct-to-patient healthcare brands demonstrating commercial viability \u2014 with consumer health companies bypassing traditional healthcare channels to build direct relationships with patients around chronic and preventive care."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "The New Consumer \u00d7 Coefficient Capital",
+      "orgType": "Research"
     },
     {
       "filename": "THE REALREAL_Resale-Report-2024_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Fashion Goes Grassroots — Bottom-Up Trend Creation", "description": "Fashion trend creation shifting from runway-down to street-up — with TikTok, television, and everyday style displacing fashion weeks as the primary trend-setting force, empowering consumers to shape fashion direction."},
-        {"name": "Resale as Investment in Enduring Value", "description": "Fashion resale shifting from thrift-seeking to quality investment — with consumers paying more for pieces that will retain value, as 'what will last' replaces 'what is new' as the primary luxury purchase criterion."}
+        {
+          "name": "Fashion Goes Grassroots \u2014 Bottom-Up Trend Creation",
+          "description": "Fashion trend creation shifting from runway-down to street-up \u2014 with TikTok, television, and everyday style displacing fashion weeks as the primary trend-setting force, empowering consumers to shape fashion direction."
+        },
+        {
+          "name": "Resale as Investment in Enduring Value",
+          "description": "Fashion resale shifting from thrift-seeking to quality investment \u2014 with consumers paying more for pieces that will retain value, as 'what will last' replaces 'what is new' as the primary luxury purchase criterion."
+        }
       ],
       "signals": [
-        {"name": "Average Order and Sale Prices Rising Across All Resale Generations", "description": "TheRealReal data showing average order values and sale prices rising up to 14% across all demographics — signaling consumer willingness to invest more in quality resale as a rational response to economic uncertainty."}
+        {
+          "name": "Average Order and Sale Prices Rising Across All Resale Generations",
+          "description": "TheRealReal data showing average order values and sale prices rising up to 14% across all demographics \u2014 signaling consumer willingness to invest more in quality resale as a rational response to economic uncertainty."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "The RealReal",
+      "orgType": "Industry"
     },
     {
       "filename": "THE WELLHUB - Trends Report_2024 in Review_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Employee Wellness as Comprehensive Life Infrastructure", "description": "Employee wellness evolving beyond gym memberships to encompass fitness, nutrition, sleep, mindfulness, therapy, and healthy habits — with employers providing comprehensive wellbeing infrastructure rather than isolated benefits."},
-        {"name": "Strength Training Dominance in Fitness Culture", "description": "Strength and resistance training cementing its position as the dominant fitness category globally — displacing cardio-focused fitness as the primary wellbeing modality, with implications for employer wellness programs and consumer fitness brands."}
+        {
+          "name": "Employee Wellness as Comprehensive Life Infrastructure",
+          "description": "Employee wellness evolving beyond gym memberships to encompass fitness, nutrition, sleep, mindfulness, therapy, and healthy habits \u2014 with employers providing comprehensive wellbeing infrastructure rather than isolated benefits."
+        },
+        {
+          "name": "Strength Training Dominance in Fitness Culture",
+          "description": "Strength and resistance training cementing its position as the dominant fitness category globally \u2014 displacing cardio-focused fitness as the primary wellbeing modality, with implications for employer wellness programs and consumer fitness brands."
+        }
       ],
       "signals": [
-        {"name": "Mindfulness and Therapy Entering Employer Wellness Programs", "description": "Mental health services — therapy access, meditation, and mindfulness tools — becoming standard employer wellness offerings rather than supplementary benefits, reflecting the mainstreaming of mental health as a workplace priority."}
+        {
+          "name": "Mindfulness and Therapy Entering Employer Wellness Programs",
+          "description": "Mental health services \u2014 therapy access, meditation, and mindfulness tools \u2014 becoming standard employer wellness offerings rather than supplementary benefits, reflecting the mainstreaming of mental health as a workplace priority."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Wellhub",
+      "orgType": "Industry"
     },
     {
       "filename": "TIK TOK - Whats_Next_2025_Trend_Report_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Brand Chemistry — Authenticity-Driven Platform Connection", "description": "TikTok identifying 'Brand Chem' as the defining 2025 dynamic — brands succeeding through genuine chemistry with communities rather than transactional advertising, built through Brand Fusion, Identity Osmosis, and Creative Catalysts."},
-        {"name": "Identity Osmosis on Social Platforms", "description": "Consumer and brand identities permeating and influencing each other bidirectionally on TikTok — with the boundary between brand identity and community identity becoming fluid as co-creation replaces broadcast."}
+        {
+          "name": "Brand Chemistry \u2014 Authenticity-Driven Platform Connection",
+          "description": "TikTok identifying 'Brand Chem' as the defining 2025 dynamic \u2014 brands succeeding through genuine chemistry with communities rather than transactional advertising, built through Brand Fusion, Identity Osmosis, and Creative Catalysts."
+        },
+        {
+          "name": "Identity Osmosis on Social Platforms",
+          "description": "Consumer and brand identities permeating and influencing each other bidirectionally on TikTok \u2014 with the boundary between brand identity and community identity becoming fluid as co-creation replaces broadcast."
+        }
       ],
       "signals": [
-        {"name": "Generative AI Awareness Among TikTok Users Reaching Majority", "description": "Majority of TikTok users familiar with generative AI — with the platform serving as a primary channel through which mainstream consumers form attitudes and behaviors around AI tools and AI-generated content."}
+        {
+          "name": "Generative AI Awareness Among TikTok Users Reaching Majority",
+          "description": "Majority of TikTok users familiar with generative AI \u2014 with the platform serving as a primary channel through which mainstream consumers form attitudes and behaviors around AI tools and AI-generated content."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "TikTok",
+      "orgType": "Tech"
     },
     {
       "filename": "TIKTOK_WhatsNext_2024TrendReport.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Bravery That Breaks Through on Social", "description": "Brand success on TikTok in 2024 defined by bravery — willingness to take creative risks, break from conventions, and show genuine personality — with safe, predictable content failing to generate meaningful engagement."},
-        {"name": "Storytelling Unhinged — Unconventional Narrative Formats", "description": "Most effective TikTok content abandoning conventional narrative structures in favor of unexpected, non-linear, emotionally direct storytelling that holds attention by being genuinely surprising."}
+        {
+          "name": "Bravery That Breaks Through on Social",
+          "description": "Brand success on TikTok in 2024 defined by bravery \u2014 willingness to take creative risks, break from conventions, and show genuine personality \u2014 with safe, predictable content failing to generate meaningful engagement."
+        },
+        {
+          "name": "Storytelling Unhinged \u2014 Unconventional Narrative Formats",
+          "description": "Most effective TikTok content abandoning conventional narrative structures in favor of unexpected, non-linear, emotionally direct storytelling that holds attention by being genuinely surprising."
+        }
       ],
       "signals": [
-        {"name": "Curiosity Peaked as Consumer Engagement Driver", "description": "Curiosity emerging as TikTok's primary engagement mechanism — with content that creates genuine information gaps, surprise, and unexpected revelations outperforming content designed around pre-established interests."},
-        {"name": "Bridging the Trust Gap as Brand Imperative", "description": "TikTok data showing trust deficit between brands and consumers — with the most successful 2024 brands explicitly addressing and closing the trust gap through transparency, consistency, and creator partnerships."}
+        {
+          "name": "Curiosity Peaked as Consumer Engagement Driver",
+          "description": "Curiosity emerging as TikTok's primary engagement mechanism \u2014 with content that creates genuine information gaps, surprise, and unexpected revelations outperforming content designed around pre-established interests."
+        },
+        {
+          "name": "Bridging the Trust Gap as Brand Imperative",
+          "description": "TikTok data showing trust deficit between brands and consumers \u2014 with the most successful 2024 brands explicitly addressing and closing the trust gap through transparency, consistency, and creator partnerships."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "TikTok",
+      "orgType": "Tech"
     },
     {
       "filename": "TINDER_US_Year In Swipe 2024_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Intentional Dating Replacing Situationships", "description": "Dating culture shifting toward clarity and intention — with singles explicitly seeking value-aligned, authentic connections and moving away from ambiguous 'situationships' as a deliberate response to emotional exhaustion."}
+        {
+          "name": "Intentional Dating Replacing Situationships",
+          "description": "Dating culture shifting toward clarity and intention \u2014 with singles explicitly seeking value-aligned, authentic connections and moving away from ambiguous 'situationships' as a deliberate response to emotional exhaustion."
+        }
       ],
       "signals": [
-        {"name": "Loud Looking and Nano-Ships as Dating Behaviors", "description": "New dating behaviors emerging — 'loud looking' (openly communicating what you want) and 'nano-ships' (micro-communities of compatibility) — signaling a generation rewriting relationship formation norms."},
-        {"name": "20% of Singles Planning More Intentional Dating in 2025", "description": "Tinder data showing nearly 20% of singles reporting intention to date more deliberately in 2025 — with clarity about values and authenticity as their primary stated criteria, indicating a cultural shift in romantic expectations."}
+        {
+          "name": "Loud Looking and Nano-Ships as Dating Behaviors",
+          "description": "New dating behaviors emerging \u2014 'loud looking' (openly communicating what you want) and 'nano-ships' (micro-communities of compatibility) \u2014 signaling a generation rewriting relationship formation norms."
+        },
+        {
+          "name": "20% of Singles Planning More Intentional Dating in 2025",
+          "description": "Tinder data showing nearly 20% of singles reporting intention to date more deliberately in 2025 \u2014 with clarity about values and authenticity as their primary stated criteria, indicating a cultural shift in romantic expectations."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Tinder",
+      "orgType": "Tech"
     },
     {
       "filename": "TORQUE_Trends-Report-2024-2025_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Boundaries as Workplace Non-Negotiable", "description": "Employee boundaries in the workplace becoming a non-negotiable expectation — with right-to-disconnect policies, rejection of forced fun, and explicit boundary-setting transforming the employer-employee relationship."},
-        {"name": "Human Energy Consciousness in the Workplace", "description": "Growing awareness of human energy as a finite and manageable organizational resource — with employers and employees alike designing work around energy cycles, recovery, and sustainable performance rather than maximal output."}
+        {
+          "name": "Boundaries as Workplace Non-Negotiable",
+          "description": "Employee boundaries in the workplace becoming a non-negotiable expectation \u2014 with right-to-disconnect policies, rejection of forced fun, and explicit boundary-setting transforming the employer-employee relationship."
+        },
+        {
+          "name": "Human Energy Consciousness in the Workplace",
+          "description": "Growing awareness of human energy as a finite and manageable organizational resource \u2014 with employers and employees alike designing work around energy cycles, recovery, and sustainable performance rather than maximal output."
+        }
       ],
       "signals": [
-        {"name": "AI and App Overload as Workplace Reality", "description": "Proliferating AI tools and applications creating overload rather than simplification for many workers — with tool fatigue, integration complexity, and decision overhead generating a counter-reaction toward tech simplification."},
-        {"name": "Right to Disconnect Policies Appearing in APAC", "description": "Right-to-disconnect legislation and workplace policies emerging in Australia, New Zealand, and across APAC — signaling regulatory formalization of boundaries that employees have been demanding informally."}
+        {
+          "name": "AI and App Overload as Workplace Reality",
+          "description": "Proliferating AI tools and applications creating overload rather than simplification for many workers \u2014 with tool fatigue, integration complexity, and decision overhead generating a counter-reaction toward tech simplification."
+        },
+        {
+          "name": "Right to Disconnect Policies Appearing in APAC",
+          "description": "Right-to-disconnect legislation and workplace policies emerging in Australia, New Zealand, and across APAC \u2014 signaling regulatory formalization of boundaries that employees have been demanding informally."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Torque",
+      "orgType": "Agency"
     },
     {
       "filename": "TOTEM_China Marketing & Media Trends 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "China Consumer Turning Negative and Cautious", "description": "Chinese consumer sentiment deteriorating as deflationary recession takes hold — with the growth optimism that characterized China's consumer market replaced by rational, cautious, and highly selective purchasing behavior."}
+        {
+          "name": "China Consumer Turning Negative and Cautious",
+          "description": "Chinese consumer sentiment deteriorating as deflationary recession takes hold \u2014 with the growth optimism that characterized China's consumer market replaced by rational, cautious, and highly selective purchasing behavior."
+        }
       ],
       "signals": [
-        {"name": "China Marketing at Inflection Point Into 2024", "description": "China's marketing and media landscape reaching a strategic inflection — with brands that fail to adapt to cautious, value-conscious Chinese consumers being exposed as weaker players in a structurally changed market."}
+        {
+          "name": "China Marketing at Inflection Point Into 2024",
+          "description": "China's marketing and media landscape reaching a strategic inflection \u2014 with brands that fail to adapt to cautious, value-conscious Chinese consumers being exposed as weaker players in a structurally changed market."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Totem",
+      "orgType": "Agency"
     },
     {
       "filename": "TRACKSUIT - Track Record 2024_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Brand and Pop Culture Becoming Indistinguishable", "description": "The boundary between brand activity and organic pop culture moments dissolving — with brands both creating and being created by cultural movements in a feedback loop where commercial and cultural value are inseparable."}
+        {
+          "name": "Brand and Pop Culture Becoming Indistinguishable",
+          "description": "The boundary between brand activity and organic pop culture moments dissolving \u2014 with brands both creating and being created by cultural movements in a feedback loop where commercial and cultural value are inseparable."
+        }
       ],
       "signals": [
-        {"name": "Moo Deng and Brat Summer as Cultural Brand Moments", "description": "Unexpected cultural moments (baby hippo Moo Deng, Charli XCX's 'brat' summer) demonstrating the unpredictable nature of viral brand-culture intersections — and the commercial value of brands that position themselves within them."}
+        {
+          "name": "Moo Deng and Brat Summer as Cultural Brand Moments",
+          "description": "Unexpected cultural moments (baby hippo Moo Deng, Charli XCX's 'brat' summer) demonstrating the unpredictable nature of viral brand-culture intersections \u2014 and the commercial value of brands that position themselves within them."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Tracksuit",
+      "orgType": "Tech"
     }
   ]
 }

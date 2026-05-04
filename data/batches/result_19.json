@@ -5,117 +5,215 @@
       "filename": "PROWLY_PR Trends 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "AI Transforming PR Workflows", "description": "AI becoming the dominant trend shaping PR in 2024 — with 36% of PR professionals citing AI as the top trend, moving from content generation to data analysis, research, and strategic insight generation."}
+        {
+          "name": "AI Transforming PR Workflows",
+          "description": "AI becoming the dominant trend shaping PR in 2024 \u2014 with 36% of PR professionals citing AI as the top trend, moving from content generation to data analysis, research, and strategic insight generation."
+        }
       ],
       "signals": [
-        {"name": "AI for PR Research and Insight Generation", "description": "The most powerful PR use case for AI identified as data analysis and insight generation — not content creation — with AI enabling PR professionals to process documents and derive strategic intelligence at scale."}
+        {
+          "name": "AI for PR Research and Insight Generation",
+          "description": "The most powerful PR use case for AI identified as data analysis and insight generation \u2014 not content creation \u2014 with AI enabling PR professionals to process documents and derive strategic intelligence at scale."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Prowly",
+      "orgType": "Tech"
     },
     {
       "filename": "PUBLICIS COMMERCE_2023 Review & 2024 Trends.pdf",
       "year": 2023,
       "trends": [
-        {"name": "AI Integrating into All Commerce Functions", "description": "AI shifting from tactical tool to integral commerce infrastructure — embedding into content creation, data organization, search queries, product development, and fulfillment in 2024."},
-        {"name": "Retail Media and Commerce Landscape Unification", "description": "Retail media and commerce technology maturing toward greater standardization — with data measurement, attribution, and platform capabilities converging toward more unified infrastructure in 2024."}
+        {
+          "name": "AI Integrating into All Commerce Functions",
+          "description": "AI shifting from tactical tool to integral commerce infrastructure \u2014 embedding into content creation, data organization, search queries, product development, and fulfillment in 2024."
+        },
+        {
+          "name": "Retail Media and Commerce Landscape Unification",
+          "description": "Retail media and commerce technology maturing toward greater standardization \u2014 with data measurement, attribution, and platform capabilities converging toward more unified infrastructure in 2024."
+        }
       ],
       "signals": [
-        {"name": "Consumer Quality-Seeking Despite Cost Pressure", "description": "Consumers simultaneously seeking quality products and being cost-conscious — a tension that brands must navigate by demonstrating value rather than choosing between premium and value positioning."}
+        {
+          "name": "Consumer Quality-Seeking Despite Cost Pressure",
+          "description": "Consumers simultaneously seeking quality products and being cost-conscious \u2014 a tension that brands must navigate by demonstrating value rather than choosing between premium and value positioning."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Publicis Commerce",
+      "orgType": "Agency"
     },
     {
       "filename": "PWC_Emerging Trends In Real State APAC 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "APAC Real Estate Pivoting to Alternatives", "description": "Asia-Pacific real estate investors pivoting from traditional office and retail to alternative asset classes — logistics, living, and data centers — as structural shifts in work and commerce reshape demand."},
-        {"name": "Office Market Reset in APAC", "description": "Office deal volumes plummeting in major APAC markets as repricings lag reality — with foreign funds treating China as too risky and regional investors migrating to quality assets in more stable markets."}
+        {
+          "name": "APAC Real Estate Pivoting to Alternatives",
+          "description": "Asia-Pacific real estate investors pivoting from traditional office and retail to alternative asset classes \u2014 logistics, living, and data centers \u2014 as structural shifts in work and commerce reshape demand."
+        },
+        {
+          "name": "Office Market Reset in APAC",
+          "description": "Office deal volumes plummeting in major APAC markets as repricings lag reality \u2014 with foreign funds treating China as too risky and regional investors migrating to quality assets in more stable markets."
+        }
       ],
       "signals": [
-        {"name": "Emerging Asia Luring Manufacturing Relocation", "description": "India, Vietnam, Indonesia, and Southeast Asian markets attracting manufacturing investment relocating from China — creating new real estate demand for industrial and logistics infrastructure."}
+        {
+          "name": "Emerging Asia Luring Manufacturing Relocation",
+          "description": "India, Vietnam, Indonesia, and Southeast Asian markets attracting manufacturing investment relocating from China \u2014 creating new real estate demand for industrial and logistics infrastructure."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "PwC",
+      "orgType": "Consultancy"
     },
     {
       "filename": "PWC_Global Digital Trust Insights 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Cybersecurity at the Epicenter of Innovation", "description": "Security function repositioning from risk management to innovation enabler — with organizations that embed security into technology development gaining speed-to-market advantage over those that apply it afterward."},
-        {"name": "Cybersecurity Progress Stagnating Despite Budget Growth", "description": "Security spending and ambition growing while actual security improvement stagnates — with breach costs rising, cloud attack vectors unmanaged, and organizational complexity preventing effective security practice."}
+        {
+          "name": "Cybersecurity at the Epicenter of Innovation",
+          "description": "Security function repositioning from risk management to innovation enabler \u2014 with organizations that embed security into technology development gaining speed-to-market advantage over those that apply it afterward."
+        },
+        {
+          "name": "Cybersecurity Progress Stagnating Despite Budget Growth",
+          "description": "Security spending and ambition growing while actual security improvement stagnates \u2014 with breach costs rising, cloud attack vectors unmanaged, and organizational complexity preventing effective security practice."
+        }
       ],
       "signals": [
-        {"name": "Cloud Security Risk Management Plans Absent in One-Third of Organizations", "description": "Despite cloud attacks being the top cyber concern, one-third of organizations have no formal risk management plan for cloud service provider challenges — a structural readiness gap."}
+        {
+          "name": "Cloud Security Risk Management Plans Absent in One-Third of Organizations",
+          "description": "Despite cloud attacks being the top cyber concern, one-third of organizations have no formal risk management plan for cloud service provider challenges \u2014 a structural readiness gap."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "PwC",
+      "orgType": "Consultancy"
     },
     {
       "filename": "PWC_Navigating-the-global-crypto-landscape-2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Crypto Regulatory Frameworks Restoring Trust", "description": "Global regulatory and legal frameworks for digital assets maturing rapidly — with jurisdictional clarity, EU's MiCA single market, and global standard-setter alignment collectively rebuilding institutional trust in crypto."}
+        {
+          "name": "Crypto Regulatory Frameworks Restoring Trust",
+          "description": "Global regulatory and legal frameworks for digital assets maturing rapidly \u2014 with jurisdictional clarity, EU's MiCA single market, and global standard-setter alignment collectively rebuilding institutional trust in crypto."
+        }
       ],
       "signals": [
-        {"name": "EU Single Market for Digital Assets Creating Regulatory Clarity", "description": "EU's Markets in Crypto-Assets (MiCA) framework creating a harmonized single market for digital assets — providing the regulatory certainty that institutional investors require to deploy capital at scale."}
+        {
+          "name": "EU Single Market for Digital Assets Creating Regulatory Clarity",
+          "description": "EU's Markets in Crypto-Assets (MiCA) framework creating a harmonized single market for digital assets \u2014 providing the regulatory certainty that institutional investors require to deploy capital at scale."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "PwC",
+      "orgType": "Consultancy"
     },
     {
       "filename": "RED ANTLER - 2025_State_of_Brand_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Tech-to-the-Back — Invisible Technology Branding", "description": "Leading brands moving technology from front-facing differentiator to invisible infrastructure — letting product experience and human values lead, with AI and tech powering the back end without dominating the narrative."},
-        {"name": "Brand as Advocate for Optimism", "description": "Brands positioning themselves as genuine advocates for optimism in an anxious world — not toxic positivity, but evidence-based hope that provides consumers a counterweight to pervasive cultural pessimism."}
+        {
+          "name": "Tech-to-the-Back \u2014 Invisible Technology Branding",
+          "description": "Leading brands moving technology from front-facing differentiator to invisible infrastructure \u2014 letting product experience and human values lead, with AI and tech powering the back end without dominating the narrative."
+        },
+        {
+          "name": "Brand as Advocate for Optimism",
+          "description": "Brands positioning themselves as genuine advocates for optimism in an anxious world \u2014 not toxic positivity, but evidence-based hope that provides consumers a counterweight to pervasive cultural pessimism."
+        }
       ],
       "signals": [
-        {"name": "Say Less Do More as Brand Communication Principle", "description": "Most effective 2025 brand communication characterized by restraint — saying less, letting actions speak, and avoiding the verbose purpose-speak that consumers have learned to distrust."}
+        {
+          "name": "Say Less Do More as Brand Communication Principle",
+          "description": "Most effective 2025 brand communication characterized by restraint \u2014 saying less, letting actions speak, and avoiding the verbose purpose-speak that consumers have learned to distrust."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Red Antler",
+      "orgType": "Agency"
     },
     {
-      "filename": "REFINITIV - El Futuro Del Trading, La Tecnología En 2024 ES.pdf",
+      "filename": "REFINITIV - El Futuro Del Trading, La Tecnologi\u0301a En 2024 ES.pdf",
       "year": 2024,
       "trends": [
-        {"name": "AI and Automation Transforming Trading Desks", "description": "Trading desk workflows fundamentally transforming as AI, big data, and automation compress decision timelines, improve execution quality, and enable best-execution demonstration to regulators."}
+        {
+          "name": "AI and Automation Transforming Trading Desks",
+          "description": "Trading desk workflows fundamentally transforming as AI, big data, and automation compress decision timelines, improve execution quality, and enable best-execution demonstration to regulators."
+        }
       ],
       "signals": [
-        {"name": "Exploding Data Volumes Reshaping Financial Workflows", "description": "Data explosion in financial markets requiring new infrastructure and analytical approaches — with AI becoming essential for processing the volume and velocity of market data that human analysts cannot manage."}
+        {
+          "name": "Exploding Data Volumes Reshaping Financial Workflows",
+          "description": "Data explosion in financial markets requiring new infrastructure and analytical approaches \u2014 with AI becoming essential for processing the volume and velocity of market data that human analysts cannot manage."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Refinitiv (LSEG)",
+      "orgType": "Financial"
     },
     {
       "filename": "RESONATE_State-of-the-Consumer-2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Value-Based and Purpose-Driven Purchasing Coexisting", "description": "Consumer purchasing behavior simultaneously driven by economic value-seeking and purpose/values alignment — with neither dominating, creating unpredictable patterns that defy conventional segmentation."}
+        {
+          "name": "Value-Based and Purpose-Driven Purchasing Coexisting",
+          "description": "Consumer purchasing behavior simultaneously driven by economic value-seeking and purpose/values alignment \u2014 with neither dominating, creating unpredictable patterns that defy conventional segmentation."
+        }
       ],
       "signals": [
-        {"name": "AI-Powered Consumer Data Predicting Unexpected Behavior", "description": "AI-driven consumer intelligence platforms demonstrating ability to predict non-obvious consumer behaviors — outperforming traditional research methods in capturing the complexity of modern purchasing decisions."}
+        {
+          "name": "AI-Powered Consumer Data Predicting Unexpected Behavior",
+          "description": "AI-driven consumer intelligence platforms demonstrating ability to predict non-obvious consumer behaviors \u2014 outperforming traditional research methods in capturing the complexity of modern purchasing decisions."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Resonate",
+      "orgType": "Research"
     },
     {
       "filename": "RESY - Resy-Retrospective-2024_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Restaurant as Primary Third Place", "description": "Restaurants cementing their role as society's primary third place — with dining out becoming a lifestyle mainstay and leisure centerpiece as home and work environments lose their social distinctiveness."}
+        {
+          "name": "Restaurant as Primary Third Place",
+          "description": "Restaurants cementing their role as society's primary third place \u2014 with dining out becoming a lifestyle mainstay and leisure centerpiece as home and work environments lose their social distinctiveness."
+        }
       ],
       "signals": [
-        {"name": "Restaurant Vibe as Top Selection Factor", "description": "Atmosphere and 'overall vibe' becoming a primary restaurant selection criterion (cited by 1 in 4 diners) — signaling the dining experience eclipsing cuisine alone as the primary driver of restaurant choice."}
+        {
+          "name": "Restaurant Vibe as Top Selection Factor",
+          "description": "Atmosphere and 'overall vibe' becoming a primary restaurant selection criterion (cited by 1 in 4 diners) \u2014 signaling the dining experience eclipsing cuisine alone as the primary driver of restaurant choice."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Resy",
+      "orgType": "Industry"
     },
     {
       "filename": "REUTERS INSTITUTE - Trends_and_Predictions_2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "AI Search Disruption as Existential Journalism Challenge", "description": "AI-powered search fundamentally disrupting the referral model that has sustained online journalism — with generative AI answers reducing click-through to news sources and threatening publisher revenue structures."},
-        {"name": "Creatorfication of News", "description": "News production and distribution being reshaped by individual journalist-creators building direct audience relationships — with personality-driven journalism competing with and sometimes outperforming institutional brands."}
+        {
+          "name": "AI Search Disruption as Existential Journalism Challenge",
+          "description": "AI-powered search fundamentally disrupting the referral model that has sustained online journalism \u2014 with generative AI answers reducing click-through to news sources and threatening publisher revenue structures."
+        },
+        {
+          "name": "Creatorfication of News",
+          "description": "News production and distribution being reshaped by individual journalist-creators building direct audience relationships \u2014 with personality-driven journalism competing with and sometimes outperforming institutional brands."
+        }
       ],
       "signals": [
-        {"name": "Platform Uncertainty Creating New Editorial Dilemmas", "description": "News organizations facing multiple simultaneous platform risks — TikTok bans, algorithm changes, AI scraping — requiring portfolio approaches to audience development rather than platform dependency."},
-        {"name": "Newsrooms Integrating Generative AI Into Production", "description": "Major news organizations beginning to systematically integrate generative AI into newsroom workflows — for research, translation, personalization, and lower-stakes content — while debating editorial red lines."}
+        {
+          "name": "Platform Uncertainty Creating New Editorial Dilemmas",
+          "description": "News organizations facing multiple simultaneous platform risks \u2014 TikTok bans, algorithm changes, AI scraping \u2014 requiring portfolio approaches to audience development rather than platform dependency."
+        },
+        {
+          "name": "Newsrooms Integrating Generative AI Into Production",
+          "description": "Major news organizations beginning to systematically integrate generative AI into newsroom workflows \u2014 for research, translation, personalization, and lower-stakes content \u2014 while debating editorial red lines."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Reuters Institute",
+      "orgType": "Research"
     }
   ]
 }

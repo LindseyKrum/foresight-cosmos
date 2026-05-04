@@ -5,132 +5,272 @@
       "filename": "11FS PULSE_Report-2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Fintech Maturity Shift", "description": "Financial technology moving from hyper-growth to value creation and profitability as primary metrics. The era of growth-at-all-costs in fintech is structurally over."}
+        {
+          "name": "Fintech Maturity Shift",
+          "description": "Financial technology moving from hyper-growth to value creation and profitability as primary metrics. The era of growth-at-all-costs in fintech is structurally over."
+        }
       ],
       "signals": [
-        {"name": "SVB Collapse Triggering Industry Consolidation", "description": "Silicon Valley Bank failure in 2023 accelerated fintech rationalization, eliminating weak players and forcing surviving firms toward sustainable business models."},
-        {"name": "Fintech Profitability Entering Mainstream", "description": "Investor and operator focus shifting decisively from user growth metrics to unit economics and path-to-profit in financial services startups."}
+        {
+          "name": "SVB Collapse Triggering Industry Consolidation",
+          "description": "Silicon Valley Bank failure in 2023 accelerated fintech rationalization, eliminating weak players and forcing surviving firms toward sustainable business models."
+        },
+        {
+          "name": "Fintech Profitability Entering Mainstream",
+          "description": "Investor and operator focus shifting decisively from user growth metrics to unit economics and path-to-profit in financial services startups."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "11:FS",
+      "orgType": "Research"
     },
     {
       "filename": "2B AHEAD_Strategic Foresight 2035.pdf",
       "year": 2024,
       "trends": [
-        {"name": "AI Integration into Strategic Foresight", "description": "AI copilots and generative tools becoming embedded in professional foresight practice, reshaping how futures are mapped, validated, and communicated."},
-        {"name": "Decentralized Science Emergence", "description": "DeSci (Decentralized Science) challenging traditional institutional research structures, enabling open-source knowledge as a public good."},
-        {"name": "Climate Crisis as Strategic Forcing Function", "description": "Climate pressures and global decoupling restructuring both foresight methodology and the scenarios organizations must plan for through 2035."}
+        {
+          "name": "AI Integration into Strategic Foresight",
+          "description": "AI copilots and generative tools becoming embedded in professional foresight practice, reshaping how futures are mapped, validated, and communicated."
+        },
+        {
+          "name": "Decentralized Science Emergence",
+          "description": "DeSci (Decentralized Science) challenging traditional institutional research structures, enabling open-source knowledge as a public good."
+        },
+        {
+          "name": "Climate Crisis as Strategic Forcing Function",
+          "description": "Climate pressures and global decoupling restructuring both foresight methodology and the scenarios organizations must plan for through 2035."
+        }
       ],
       "signals": [
-        {"name": "Explosion of AI-Generated Foresight Content", "description": "Volume of AI-produced trend reports and futures analyses expanding rapidly, creating signal-to-noise challenges for professional foresight practitioners."},
-        {"name": "Hyper-Agile AI Startups Disrupting Incumbents", "description": "Small AI-native startups outmaneuvering traditional foresight and consulting firms through rapid iteration and lower operational overhead."}
+        {
+          "name": "Explosion of AI-Generated Foresight Content",
+          "description": "Volume of AI-produced trend reports and futures analyses expanding rapidly, creating signal-to-noise challenges for professional foresight practitioners."
+        },
+        {
+          "name": "Hyper-Agile AI Startups Disrupting Incumbents",
+          "description": "Small AI-native startups outmaneuvering traditional foresight and consulting firms through rapid iteration and lower operational overhead."
+        }
       ],
       "scenarios": [
-        {"name": "Foresight as Public Infrastructure", "description": "By 2035, strategic foresight tools and outputs become open-source public goods accessible beyond institutional gatekeepers, fundamentally democratizing futures literacy."}
-      ]
+        {
+          "name": "Foresight as Public Infrastructure",
+          "description": "By 2035, strategic foresight tools and outputs become open-source public goods accessible beyond institutional gatekeepers, fundamentally democratizing futures literacy."
+        }
+      ],
+      "org": "2b AHEAD ThinkTank",
+      "orgType": "Research"
     },
     {
       "filename": "ACCENTURE_Banking-Top-10-Trends-2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Age of AI in Financial Services", "description": "AI transforming banking operations, workforce, and product design at a pace analogous to the digital revolution of the past 25 years, but compressed into years not decades."},
-        {"name": "Generative AI Operational Integration", "description": "GenAI moving from experimentation to core banking infrastructure, embedding in customer service, risk, compliance, and product development."}
+        {
+          "name": "Age of AI in Financial Services",
+          "description": "AI transforming banking operations, workforce, and product design at a pace analogous to the digital revolution of the past 25 years, but compressed into years not decades."
+        },
+        {
+          "name": "Generative AI Operational Integration",
+          "description": "GenAI moving from experimentation to core banking infrastructure, embedding in customer service, risk, compliance, and product development."
+        }
       ],
       "signals": [
-        {"name": "Only 27% of Banks Ready to Scale GenAI", "description": "Accenture survey finds most banking institutions acknowledge GenAI's importance but lack the data, talent, and governance infrastructure to operationalize it."},
-        {"name": "AI Perceived as Opportunity Over Threat in Banking", "description": "Majority of banking executives now frame generative AI as a competitive advantage rather than a workforce threat, reversing sentiment from 2022."}
+        {
+          "name": "Only 27% of Banks Ready to Scale GenAI",
+          "description": "Accenture survey finds most banking institutions acknowledge GenAI's importance but lack the data, talent, and governance infrastructure to operationalize it."
+        },
+        {
+          "name": "AI Perceived as Opportunity Over Threat in Banking",
+          "description": "Majority of banking executives now frame generative AI as a competitive advantage rather than a workforce threat, reversing sentiment from 2022."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Accenture",
+      "orgType": "Consultancy"
     },
     {
       "filename": "ACCENTURE_Pulse-of-Change-2024-Index.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Accelerating Rate of Business Change", "description": "Rate of change affecting businesses rose 183% since 2019 and 33% in the past year alone, driven primarily by technology and climate pressures."},
-        {"name": "Technology as Primary Disruption Driver", "description": "Technology — led by generative AI — has become the dominant force reshaping organizational strategy, operations, and competitive dynamics across all sectors."}
+        {
+          "name": "Accelerating Rate of Business Change",
+          "description": "Rate of change affecting businesses rose 183% since 2019 and 33% in the past year alone, driven primarily by technology and climate pressures."
+        },
+        {
+          "name": "Technology as Primary Disruption Driver",
+          "description": "Technology \u2014 led by generative AI \u2014 has become the dominant force reshaping organizational strategy, operations, and competitive dynamics across all sectors."
+        }
       ],
       "signals": [
-        {"name": "44% of Executives Report GenAI Readiness Gap", "description": "Nearly half of C-suite leaders say their organizations need more than six months to reach meaningful scale with generative AI deployments."},
-        {"name": "Climate Rising as Second Change Driver", "description": "Climate appears twice in Accenture's top drivers of business change, indicating its transition from ESG reporting concern to operational and strategic imperative."}
+        {
+          "name": "44% of Executives Report GenAI Readiness Gap",
+          "description": "Nearly half of C-suite leaders say their organizations need more than six months to reach meaningful scale with generative AI deployments."
+        },
+        {
+          "name": "Climate Rising as Second Change Driver",
+          "description": "Climate appears twice in Accenture's top drivers of business change, indicating its transition from ESG reporting concern to operational and strategic imperative."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Accenture",
+      "orgType": "Consultancy"
     },
     {
       "filename": "ACCENTURE_Technology Vision 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Human-Centered AI Design", "description": "Technology shifting from requiring human adaptation to adapting to human behavior, language, and context — a fundamental inversion of the human-machine relationship."},
-        {"name": "AI Agent Ecosystem Proliferation", "description": "Autonomous AI agents forming interconnected ecosystems capable of taking action across complex multi-step workflows without human intervention at each step."},
-        {"name": "Spatial Computing as Interface Layer", "description": "Spatial computing technologies enabling new physical-digital interaction surfaces, moving beyond screen-based computing toward ambient and embodied interfaces."}
+        {
+          "name": "Human-Centered AI Design",
+          "description": "Technology shifting from requiring human adaptation to adapting to human behavior, language, and context \u2014 a fundamental inversion of the human-machine relationship."
+        },
+        {
+          "name": "AI Agent Ecosystem Proliferation",
+          "description": "Autonomous AI agents forming interconnected ecosystems capable of taking action across complex multi-step workflows without human intervention at each step."
+        },
+        {
+          "name": "Spatial Computing as Interface Layer",
+          "description": "Spatial computing technologies enabling new physical-digital interaction surfaces, moving beyond screen-based computing toward ambient and embodied interfaces."
+        }
       ],
       "signals": [
-        {"name": "Gen AI Producing Human-Like Creative Outputs", "description": "Generative AI creating scripts, images, and media outputs indistinguishable from human-made work, forcing new frameworks for authenticity and attribution."},
-        {"name": "AI Copilots Becoming Standard Work Tools", "description": "AI assistants transitioning from novelty to baseline productivity infrastructure in knowledge work environments across industries."}
+        {
+          "name": "Gen AI Producing Human-Like Creative Outputs",
+          "description": "Generative AI creating scripts, images, and media outputs indistinguishable from human-made work, forcing new frameworks for authenticity and attribution."
+        },
+        {
+          "name": "AI Copilots Becoming Standard Work Tools",
+          "description": "AI assistants transitioning from novelty to baseline productivity infrastructure in knowledge work environments across industries."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Accenture",
+      "orgType": "Consultancy"
     },
     {
       "filename": "ACXIOM_CX_Predictions_2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "AI-Personalized Customer Experience", "description": "AI enabling real-time hyper-personalization of customer interactions at scale, moving from segment-based to individual-level targeting."},
-        {"name": "Predictive Commerce Integration", "description": "Shoppable content and predictive personalization collapsing the distance between awareness and purchase across all digital touchpoints."}
+        {
+          "name": "AI-Personalized Customer Experience",
+          "description": "AI enabling real-time hyper-personalization of customer interactions at scale, moving from segment-based to individual-level targeting."
+        },
+        {
+          "name": "Predictive Commerce Integration",
+          "description": "Shoppable content and predictive personalization collapsing the distance between awareness and purchase across all digital touchpoints."
+        }
       ],
       "signals": [
-        {"name": "39% of Consumers Trust AI to Solve Major Problems", "description": "Consumer confidence in AI capabilities crossing a threshold that enables brands to deploy AI-facing customer experiences without significant friction."},
-        {"name": "Proactive AI Customer Service Emerging", "description": "Brands beginning to deploy AI that anticipates customer needs before they escalate, shifting from reactive to predictive service models."}
+        {
+          "name": "39% of Consumers Trust AI to Solve Major Problems",
+          "description": "Consumer confidence in AI capabilities crossing a threshold that enables brands to deploy AI-facing customer experiences without significant friction."
+        },
+        {
+          "name": "Proactive AI Customer Service Emerging",
+          "description": "Brands beginning to deploy AI that anticipates customer needs before they escalate, shifting from reactive to predictive service models."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Acxiom",
+      "orgType": "Tech"
     },
     {
       "filename": "ADM_2024-global-consumer-trends.pdf",
       "year": 2024,
       "trends": [
-        {"name": "AI-Driven Food System Transformation", "description": "Artificial intelligence entering food production, design, and consumption at multiple points simultaneously — from seed genetics to personalized nutrition."}
+        {
+          "name": "AI-Driven Food System Transformation",
+          "description": "Artificial intelligence entering food production, design, and consumption at multiple points simultaneously \u2014 from seed genetics to personalized nutrition."
+        }
       ],
       "signals": [
-        {"name": "AI-Generated Diet Personalization", "description": "Emergence of AI systems designing individualized dietary regimens based on genetic, microbiome, and lifestyle data, moving nutrition from general guidelines to precision prescriptions."},
-        {"name": "Seed AI Genetics for Food Production", "description": "AI accelerating crop genetics development, compressing decades-long breeding cycles and enabling faster adaptation to climate stress and nutritional requirements."}
+        {
+          "name": "AI-Generated Diet Personalization",
+          "description": "Emergence of AI systems designing individualized dietary regimens based on genetic, microbiome, and lifestyle data, moving nutrition from general guidelines to precision prescriptions."
+        },
+        {
+          "name": "Seed AI Genetics for Food Production",
+          "description": "AI accelerating crop genetics development, compressing decades-long breeding cycles and enabling faster adaptation to climate stress and nutritional requirements."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "ADM",
+      "orgType": "Industry"
     },
     {
       "filename": "ADWEEK_BRANDED2023_12_en_report_frontify-adweek-creativity.pdf",
       "year": 2023,
       "trends": [
-        {"name": "Attention Scarcity Economy", "description": "Consumer attention becoming a scarce, contested resource as channel proliferation and content volume outpace human cognitive bandwidth."},
-        {"name": "Short-Termism vs Brand Equity Tension", "description": "Marketing investment under sustained pressure to demonstrate immediate performance returns, systematically underfunding long-term brand building."}
+        {
+          "name": "Attention Scarcity Economy",
+          "description": "Consumer attention becoming a scarce, contested resource as channel proliferation and content volume outpace human cognitive bandwidth."
+        },
+        {
+          "name": "Short-Termism vs Brand Equity Tension",
+          "description": "Marketing investment under sustained pressure to demonstrate immediate performance returns, systematically underfunding long-term brand building."
+        }
       ],
       "signals": [
-        {"name": "Performance Marketing Crowding Out Brand Spend", "description": "Budget allocation shifting measurably from brand equity campaigns to performance-driven digital advertising as CFOs demand shorter payback periods."}
+        {
+          "name": "Performance Marketing Crowding Out Brand Spend",
+          "description": "Budget allocation shifting measurably from brand equity campaigns to performance-driven digital advertising as CFOs demand shorter payback periods."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Adweek",
+      "orgType": "Media"
     },
     {
       "filename": "AEROPLANE - 2025 Branding Trends Report_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "AI as Brand Creative Infrastructure", "description": "AI becoming embedded in brand strategy as creator, storyteller, and personalization engine — moving from campaign tool to core brand operating system."},
-        {"name": "Privacy-First Trust Architecture", "description": "Consumer demand for transparent data practices becoming a competitive differentiator, with ethical data use shifting from compliance to brand identity."}
+        {
+          "name": "AI as Brand Creative Infrastructure",
+          "description": "AI becoming embedded in brand strategy as creator, storyteller, and personalization engine \u2014 moving from campaign tool to core brand operating system."
+        },
+        {
+          "name": "Privacy-First Trust Architecture",
+          "description": "Consumer demand for transparent data practices becoming a competitive differentiator, with ethical data use shifting from compliance to brand identity."
+        }
       ],
       "signals": [
-        {"name": "AI Personas in Brand Campaigns", "description": "Brands deploying AI-powered brand personas and spokespeople (e.g. Virgin Voyages 'Jen AI') as primary customer-facing creative assets."},
-        {"name": "Purpose-Led Brand Initiatives Gaining Traction", "description": "Ethical and sustainable brand values increasingly resonating with consumers as purchase drivers, moving beyond greenwashing to structural brand commitment."}
+        {
+          "name": "AI Personas in Brand Campaigns",
+          "description": "Brands deploying AI-powered brand personas and spokespeople (e.g. Virgin Voyages 'Jen AI') as primary customer-facing creative assets."
+        },
+        {
+          "name": "Purpose-Led Brand Initiatives Gaining Traction",
+          "description": "Ethical and sustainable brand values increasingly resonating with consumers as purchase drivers, moving beyond greenwashing to structural brand commitment."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "AEROPLANE",
+      "orgType": "Agency"
     },
     {
       "filename": "ALIX PARTNERS - 2025-global-consumer-outlook_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Persistent Inflation Reshaping Consumer Behavior", "description": "Legacy inflation effects continuing to constrain consumer spending globally despite nominal price stabilization, creating structural caution in household financial decision-making."},
-        {"name": "Geopolitical Disruption of Consumer Markets", "description": "Geopolitical fragmentation and economic policy divergence creating uneven regional consumer trajectories, breaking the assumption of synchronized global recovery."}
+        {
+          "name": "Persistent Inflation Reshaping Consumer Behavior",
+          "description": "Legacy inflation effects continuing to constrain consumer spending globally despite nominal price stabilization, creating structural caution in household financial decision-making."
+        },
+        {
+          "name": "Geopolitical Disruption of Consumer Markets",
+          "description": "Geopolitical fragmentation and economic policy divergence creating uneven regional consumer trajectories, breaking the assumption of synchronized global recovery."
+        }
       ],
       "signals": [
-        {"name": "Global Consumer Spending Intent Declining for 2025", "description": "AlixPartners survey showing majority of global consumers intending to reduce discretionary spending in 2025, with particularly pronounced caution in developed markets."},
-        {"name": "Unattainable Property Prices Driving Present-Spending", "description": "Young consumers redirecting money away from long-term saving (unachievable housing) toward present-tense experience spending, reshaping savings behavior."}
+        {
+          "name": "Global Consumer Spending Intent Declining for 2025",
+          "description": "AlixPartners survey showing majority of global consumers intending to reduce discretionary spending in 2025, with particularly pronounced caution in developed markets."
+        },
+        {
+          "name": "Unattainable Property Prices Driving Present-Spending",
+          "description": "Young consumers redirecting money away from long-term saving (unachievable housing) toward present-tense experience spending, reshaping savings behavior."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "AlixPartners",
+      "orgType": "Consultancy"
     }
   ]
 }

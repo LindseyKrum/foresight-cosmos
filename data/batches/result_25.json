@@ -5,115 +5,210 @@
       "filename": "ULTRA VIOLET_Femtech Future 30-The most influential trends shaping the market in 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "FemTech Market Maturation and Scope Expansion", "description": "FemTech maturing beyond reproductive health into autoimmunity, AI companionship, and preventive care — with the term 'FemTech' expanding in definition as the market grows and diversifies into historically underserved women's health categories."}
+        {
+          "name": "FemTech Market Maturation and Scope Expansion",
+          "description": "FemTech maturing beyond reproductive health into autoimmunity, AI companionship, and preventive care \u2014 with the term 'FemTech' expanding in definition as the market grows and diversifies into historically underserved women's health categories."
+        }
       ],
       "signals": [
-        {"name": "AI for Autoimmunity Emerging in FemTech", "description": "AI tools targeting autoimmune conditions — which disproportionately affect women — emerging as a new FemTech frontier, applying machine learning to conditions where diagnostic delays for women are systemic and severe."},
-        {"name": "AI Friendship Tools Entering Personal Wellbeing Market", "description": "AI-powered friendship and companionship applications entering the women's wellness market — raising early questions about the role of artificial relationships in addressing loneliness and emotional health."}
+        {
+          "name": "AI for Autoimmunity Emerging in FemTech",
+          "description": "AI tools targeting autoimmune conditions \u2014 which disproportionately affect women \u2014 emerging as a new FemTech frontier, applying machine learning to conditions where diagnostic delays for women are systemic and severe."
+        },
+        {
+          "name": "AI Friendship Tools Entering Personal Wellbeing Market",
+          "description": "AI-powered friendship and companionship applications entering the women's wellness market \u2014 raising early questions about the role of artificial relationships in addressing loneliness and emotional health."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Ultra Violet",
+      "orgType": "Research"
     },
     {
       "filename": "UN GLOBAL PULSE_The most creative look to the future.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Creative Imagination as UN Futures Methodology", "description": "UN Global Pulse deploying creative, artistic, and speculative imagination as a methodology for futures work — arguing that the 2030 Agenda requires imaginative capacity beyond conventional policy analysis to envision genuinely sustainable futures."}
+        {
+          "name": "Creative Imagination as UN Futures Methodology",
+          "description": "UN Global Pulse deploying creative, artistic, and speculative imagination as a methodology for futures work \u2014 arguing that the 2030 Agenda requires imaginative capacity beyond conventional policy analysis to envision genuinely sustainable futures."
+        }
       ],
       "signals": [
-        {"name": "2030 Agenda Sustainability Targets in Peril", "description": "UN Global Pulse explicitly signaling that the promise of the 2030 Agenda is in jeopardy — with current trajectories insufficient to deliver the equitable, sustainable future the SDGs were designed to create."}
+        {
+          "name": "2030 Agenda Sustainability Targets in Peril",
+          "description": "UN Global Pulse explicitly signaling that the promise of the 2030 Agenda is in jeopardy \u2014 with current trajectories insufficient to deliver the equitable, sustainable future the SDGs were designed to create."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "UN Global Pulse",
+      "orgType": "UN & IGO"
     },
     {
       "filename": "UNDP_Trends_report_2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Development Landscape Undergoing Structural Change", "description": "UNDP Strategy and Futures Team identifying the global development landscape as undergoing fundamental structural change — with emerging issues requiring new foresight approaches beyond traditional development frameworks."}
+        {
+          "name": "Development Landscape Undergoing Structural Change",
+          "description": "UNDP Strategy and Futures Team identifying the global development landscape as undergoing fundamental structural change \u2014 with emerging issues requiring new foresight approaches beyond traditional development frameworks."
+        }
       ],
       "signals": [
-        {"name": "UNDP Futures Scanning System Identifying New Emerging Issues", "description": "UNDP deploying systematic futures scanning to identify emerging issues early — creating institutional capacity for anticipatory governance that enables development organizations to act ahead of crises rather than react to them."}
+        {
+          "name": "UNDP Futures Scanning System Identifying New Emerging Issues",
+          "description": "UNDP deploying systematic futures scanning to identify emerging issues early \u2014 creating institutional capacity for anticipatory governance that enables development organizations to act ahead of crises rather than react to them."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "UNDP",
+      "orgType": "UN & IGO"
     },
     {
       "filename": "UNICEF-Innocenti-Youth-Foresight-Playbook-2023.pdf",
       "year": 2023,
       "trends": [
-        {"name": "Youth-Centered Foresight as Rights-Based Practice", "description": "Youth foresight emerging as a rights-based practice — with UNICEF arguing that young people have a right to participate in futures conversations, requiring accessible tools and methodologies that enable meaningful engagement rather than token inclusion."}
+        {
+          "name": "Youth-Centered Foresight as Rights-Based Practice",
+          "description": "Youth foresight emerging as a rights-based practice \u2014 with UNICEF arguing that young people have a right to participate in futures conversations, requiring accessible tools and methodologies that enable meaningful engagement rather than token inclusion."
+        }
       ],
       "signals": [
-        {"name": "Youth Foresight Toolkits Expanding Participation Infrastructure", "description": "Dedicated youth foresight playbooks and toolkits proliferating — creating structured pathways for young people to engage in strategic futures work, closing the participation gap between youth experience and futures policymaking."}
+        {
+          "name": "Youth Foresight Toolkits Expanding Participation Infrastructure",
+          "description": "Dedicated youth foresight playbooks and toolkits proliferating \u2014 creating structured pathways for young people to engage in strategic futures work, closing the participation gap between youth experience and futures policymaking."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "UNICEF",
+      "orgType": "UN & IGO"
     },
     {
       "filename": "UPSTACK_The 2024 Technology Trends Report.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Security as Most Critical Enterprise Technology Priority", "description": "Cybersecurity consistently ranking as the most critical technology area for enterprise decision-makers — with threat sophistication, regulatory pressure, and AI-enabled attack vectors making security the unavoidable foundation of all technology strategy."},
-        {"name": "Conversational AI Transforming Customer Experience Infrastructure", "description": "Conversational AI, CCaaS, and intelligent automation converging to transform customer experience infrastructure — with enterprises redesigning customer interactions around AI-native architectures rather than retrofitting AI into existing CX stacks."}
+        {
+          "name": "Security as Most Critical Enterprise Technology Priority",
+          "description": "Cybersecurity consistently ranking as the most critical technology area for enterprise decision-makers \u2014 with threat sophistication, regulatory pressure, and AI-enabled attack vectors making security the unavoidable foundation of all technology strategy."
+        },
+        {
+          "name": "Conversational AI Transforming Customer Experience Infrastructure",
+          "description": "Conversational AI, CCaaS, and intelligent automation converging to transform customer experience infrastructure \u2014 with enterprises redesigning customer interactions around AI-native architectures rather than retrofitting AI into existing CX stacks."
+        }
       ],
       "signals": [
-        {"name": "IoT Connectivity Density Creating New Enterprise Opportunity", "description": "IoT device proliferation increasing connectivity density across enterprise environments — creating new data sources, operational visibility, and automation opportunities while simultaneously expanding the attack surface for security teams."}
+        {
+          "name": "IoT Connectivity Density Creating New Enterprise Opportunity",
+          "description": "IoT device proliferation increasing connectivity density across enterprise environments \u2014 creating new data sources, operational visibility, and automation opportunities while simultaneously expanding the attack surface for security teams."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Upstack",
+      "orgType": "Tech"
     },
     {
       "filename": "VICE_2024-Fashion-Forecast.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Inflation Navigation Reshaping Youth Fashion Consumption", "description": "Inflation forcing a fundamental recalibration of youth fashion consumption — with younger consumers developing sophisticated value navigation strategies that blend resale, rental, investment buying, and selective splurging as permanent adaptations to constrained economics."}
+        {
+          "name": "Inflation Navigation Reshaping Youth Fashion Consumption",
+          "description": "Inflation forcing a fundamental recalibration of youth fashion consumption \u2014 with younger consumers developing sophisticated value navigation strategies that blend resale, rental, investment buying, and selective splurging as permanent adaptations to constrained economics."
+        }
       ],
       "signals": [
-        {"name": "Great Vibe Shift Reorienting Youth Cultural Values", "description": "VICE's 'Great Vibe Shift' framework identifying a fundamental reorientation of youth cultural priorities — away from performative hustle and social media optimization toward authenticity, community, and personal meaning as the defining generational shift."}
+        {
+          "name": "Great Vibe Shift Reorienting Youth Cultural Values",
+          "description": "VICE's 'Great Vibe Shift' framework identifying a fundamental reorientation of youth cultural priorities \u2014 away from performative hustle and social media optimization toward authenticity, community, and personal meaning as the defining generational shift."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "VICE",
+      "orgType": "Media"
     },
     {
       "filename": "VICE_Guide to Culture_2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Empathetic AI as Emerging Cultural Code", "description": "AI designed and experienced through an empathetic lens emerging as a distinct cultural code — with youth consumers evaluating AI not primarily on capability but on whether it feels understanding, supportive, and emotionally responsive."}
+        {
+          "name": "Empathetic AI as Emerging Cultural Code",
+          "description": "AI designed and experienced through an empathetic lens emerging as a distinct cultural code \u2014 with youth consumers evaluating AI not primarily on capability but on whether it feels understanding, supportive, and emotionally responsive."
+        }
       ],
       "signals": [
-        {"name": "Wellbeing Innovation Rising as Dominant Consumer Signal", "description": "Wellbeing innovation identified as a rising dominant signal across youth consumer behavior — with mental, physical, and social health driving product, content, and brand decisions at a scale that positions wellbeing as a primary market organizing principle."}
+        {
+          "name": "Wellbeing Innovation Rising as Dominant Consumer Signal",
+          "description": "Wellbeing innovation identified as a rising dominant signal across youth consumer behavior \u2014 with mental, physical, and social health driving product, content, and brand decisions at a scale that positions wellbeing as a primary market organizing principle."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "VICE",
+      "orgType": "Media"
     },
     {
       "filename": "VML - The-Future-100-2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Made by Humans — Human Creativity as Premium Signal", "description": "Human-made creativity emerging as an explicit premium differentiator in an AI-saturated creative economy — with 'Made by Humans' becoming a quality signal, provenance claim, and cultural value statement as AI-generated content normalizes."},
-        {"name": "Analog Movement — Tactile and Physical Experience Revival", "description": "A broad analog movement gaining cultural momentum — with tactile activities, physical media, and non-digital experiences attracting consumers seeking grounding, presence, and genuine sensory engagement as counterweight to digital acceleration."}
+        {
+          "name": "Made by Humans \u2014 Human Creativity as Premium Signal",
+          "description": "Human-made creativity emerging as an explicit premium differentiator in an AI-saturated creative economy \u2014 with 'Made by Humans' becoming a quality signal, provenance claim, and cultural value statement as AI-generated content normalizes."
+        },
+        {
+          "name": "Analog Movement \u2014 Tactile and Physical Experience Revival",
+          "description": "A broad analog movement gaining cultural momentum \u2014 with tactile activities, physical media, and non-digital experiences attracting consumers seeking grounding, presence, and genuine sensory engagement as counterweight to digital acceleration."
+        }
       ],
       "signals": [
-        {"name": "Destination Solitude — Seeking Deliberate Aloneness", "description": "Destination solitude emerging as a consumer behavior — with people deliberately seeking solo travel, solo dining, and structured aloneness as restorative practice, reflecting a new relationship with solitude as self-knowledge rather than social failure."},
-        {"name": "Reality Shift — Physical and Digital Realities Colliding", "description": "VML identifying 'reality shift' as a defining 2025 dynamic — with physical and digital realities increasingly interpenetrating in ways that require consumers, brands, and institutions to develop new frameworks for navigating hybrid existence."}
+        {
+          "name": "Destination Solitude \u2014 Seeking Deliberate Aloneness",
+          "description": "Destination solitude emerging as a consumer behavior \u2014 with people deliberately seeking solo travel, solo dining, and structured aloneness as restorative practice, reflecting a new relationship with solitude as self-knowledge rather than social failure."
+        },
+        {
+          "name": "Reality Shift \u2014 Physical and Digital Realities Colliding",
+          "description": "VML identifying 'reality shift' as a defining 2025 dynamic \u2014 with physical and digital realities increasingly interpenetrating in ways that require consumers, brands, and institutions to develop new frameworks for navigating hybrid existence."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "VML",
+      "orgType": "Agency"
     },
     {
       "filename": "VML THE COCKTAIL - Trends-Review-2025_CAIG.pdf",
       "year": 2025,
       "trends": [],
       "signals": [
-        {"name": "El Bienvivir — Spanish-Market Consumer Reorientation", "description": "VML The Cocktail's Bienvivir framework identifying a Spanish and LatAm consumer reorientation toward 'living well' — with consumers adapting to present circumstances rather than aspiring toward disrupted norms, mirroring similar trends in European consumer sentiment."}
+        {
+          "name": "El Bienvivir \u2014 Spanish-Market Consumer Reorientation",
+          "description": "VML The Cocktail's Bienvivir framework identifying a Spanish and LatAm consumer reorientation toward 'living well' \u2014 with consumers adapting to present circumstances rather than aspiring toward disrupted norms, mirroring similar trends in European consumer sentiment."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "VML \u00d7 The Cocktail",
+      "orgType": "Agency"
     },
     {
       "filename": "VML_The-Future-100-2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "AIdentities — AI-Enabled Digital Identity Construction", "description": "AI enabling new forms of digital identity construction — with very lifelike AI personas, digital avatars, and AI-mediated self-expression creating an identity economy where the boundary between human and artificial self-presentation blurs."},
-        {"name": "Climate-Adaptive Lives as Design Imperative", "description": "Designing for climate-adaptive living emerging as a core innovation imperative — with products, services, and communities being redesigned around the assumption of ongoing climate disruption rather than treating climate as an exceptional event."}
+        {
+          "name": "AIdentities \u2014 AI-Enabled Digital Identity Construction",
+          "description": "AI enabling new forms of digital identity construction \u2014 with very lifelike AI personas, digital avatars, and AI-mediated self-expression creating an identity economy where the boundary between human and artificial self-presentation blurs."
+        },
+        {
+          "name": "Climate-Adaptive Lives as Design Imperative",
+          "description": "Designing for climate-adaptive living emerging as a core innovation imperative \u2014 with products, services, and communities being redesigned around the assumption of ongoing climate disruption rather than treating climate as an exceptional event."
+        }
       ],
       "signals": [
-        {"name": "AI Workforce Integration Accelerating", "description": "The AI workforce — AI systems performing roles previously held by humans — accelerating beyond narrow task automation toward integration into complex professional workflows, raising urgent questions about human economic participation."},
-        {"name": "Spatial Technology Enabling New Human Connection Modalities", "description": "Spatial computing technologies enabling new modes of human connection that transcend physical location — with VML data showing 76% of consumers believing technology helps bring people together, creating commercial opportunity for spatial-native social experiences."}
+        {
+          "name": "AI Workforce Integration Accelerating",
+          "description": "The AI workforce \u2014 AI systems performing roles previously held by humans \u2014 accelerating beyond narrow task automation toward integration into complex professional workflows, raising urgent questions about human economic participation."
+        },
+        {
+          "name": "Spatial Technology Enabling New Human Connection Modalities",
+          "description": "Spatial computing technologies enabling new modes of human connection that transcend physical location \u2014 with VML data showing 76% of consumers believing technology helps bring people together, creating commercial opportunity for spatial-native social experiences."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "VML",
+      "orgType": "Agency"
     }
   ]
 }

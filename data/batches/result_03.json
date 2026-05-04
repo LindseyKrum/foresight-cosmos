@@ -6,125 +6,253 @@
       "year": 2024,
       "trends": [],
       "signals": [
-        {"name": "Trend Reports as Curated Experience", "description": "Emerging meta-trend of foresight communication shifting toward experiential, digestible formats — trend reports designed as 'recipes' with ingredients, temperature, and preparation method."}
+        {
+          "name": "Trend Reports as Curated Experience",
+          "description": "Emerging meta-trend of foresight communication shifting toward experiential, digestible formats \u2014 trend reports designed as 'recipes' with ingredients, temperature, and preparation method."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Blackbot",
+      "orgType": "Agency"
     },
     {
       "filename": "BLACKROCK - 2025-thematic-outlook_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Rebuilding the Physical Economy", "description": "Massive capital deployment into infrastructure, manufacturing reshoring, and physical economy assets as geopolitical and policy forces prioritize domestic production capacity."},
-        {"name": "AI in Drug Discovery Acceleration", "description": "Artificial intelligence compressing pharmaceutical development cycles — over 30% of new drugs expected to incorporate AI techniques, potentially saving biotech companies billions."}
+        {
+          "name": "Rebuilding the Physical Economy",
+          "description": "Massive capital deployment into infrastructure, manufacturing reshoring, and physical economy assets as geopolitical and policy forces prioritize domestic production capacity."
+        },
+        {
+          "name": "AI in Drug Discovery Acceleration",
+          "description": "Artificial intelligence compressing pharmaceutical development cycles \u2014 over 30% of new drugs expected to incorporate AI techniques, potentially saving biotech companies billions."
+        }
       ],
       "signals": [
-        {"name": "Biotech Benefiting from Rate Cuts", "description": "Fed rate cutting cycle specifically relieving pressure on non-cash-flowing biotech companies, which are disproportionately sensitive to discount rate changes."},
-        {"name": "Bitcoin Gaining Institutional Momentum", "description": "Bitcoin increasingly treated as institutional portfolio hedge alongside gold as rate cuts and policy uncertainty increase demand for alternative stores of value."}
+        {
+          "name": "Biotech Benefiting from Rate Cuts",
+          "description": "Fed rate cutting cycle specifically relieving pressure on non-cash-flowing biotech companies, which are disproportionately sensitive to discount rate changes."
+        },
+        {
+          "name": "Bitcoin Gaining Institutional Momentum",
+          "description": "Bitcoin increasingly treated as institutional portfolio hedge alongside gold as rate cuts and policy uncertainty increase demand for alternative stores of value."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "BlackRock",
+      "orgType": "Financial"
     },
     {
       "filename": "BOMPAS PARR - Future of Food_Report_2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Food as Civilizational Design Challenge", "description": "Food systems being reimagined from the ground up in response to climate, population, and health pressures — moving beyond incremental product innovation to systemic redesign."},
-        {"name": "Optimism as Design Methodology", "description": "Leading innovation studios explicitly adopting optimism as a strategic tool, arguing that positive futures vision is prerequisite to meaningful food system transformation."}
+        {
+          "name": "Food as Civilizational Design Challenge",
+          "description": "Food systems being reimagined from the ground up in response to climate, population, and health pressures \u2014 moving beyond incremental product innovation to systemic redesign."
+        },
+        {
+          "name": "Optimism as Design Methodology",
+          "description": "Leading innovation studios explicitly adopting optimism as a strategic tool, arguing that positive futures vision is prerequisite to meaningful food system transformation."
+        }
       ],
       "signals": [
-        {"name": "Food Experience Design as Innovation Driver", "description": "Studios combining architecture, gastronomy, science, and design to create food experiences that reframe what is possible — from desert dining to inhalable beverages."}
+        {
+          "name": "Food Experience Design as Innovation Driver",
+          "description": "Studios combining architecture, gastronomy, science, and design to create food experiences that reframe what is possible \u2014 from desert dining to inhalable beverages."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Bompas & Parr",
+      "orgType": "Agency"
     },
     {
       "filename": "BOMPAS_PARR_Future of Food Drink 24.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Post-Disruption Food Normalization", "description": "After pandemic and geopolitical shocks, food trends in 2023-24 returning to tidal, long-wave shifts rather than reactive crisis responses — signaling systemic stabilization."}
+        {
+          "name": "Post-Disruption Food Normalization",
+          "description": "After pandemic and geopolitical shocks, food trends in 2023-24 returning to tidal, long-wave shifts rather than reactive crisis responses \u2014 signaling systemic stabilization."
+        }
       ],
       "signals": [
-        {"name": "Subtle Behavioral Shifts Replacing Grand Food Narratives", "description": "Consumer food behavior evolving through nuanced, overlapping micro-changes rather than the dramatic pivots of 2020-2022, requiring more granular trend detection."}
+        {
+          "name": "Subtle Behavioral Shifts Replacing Grand Food Narratives",
+          "description": "Consumer food behavior evolving through nuanced, overlapping micro-changes rather than the dramatic pivots of 2020-2022, requiring more granular trend detection."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Bompas & Parr",
+      "orgType": "Agency"
     },
     {
       "filename": "BORN SOCIAL_2024 Trend Report.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Social-First Brand Architecture", "description": "Brands fundamentally restructuring marketing strategy to originate from social platforms rather than treating social as a distribution channel for traditional campaigns."},
-        {"name": "Social Overtaking Search and TV", "description": "Social media projected to become the largest global media channel by Q4 2024 by time spent for 16-44 year olds, eclipsing search and television."}
+        {
+          "name": "Social-First Brand Architecture",
+          "description": "Brands fundamentally restructuring marketing strategy to originate from social platforms rather than treating social as a distribution channel for traditional campaigns."
+        },
+        {
+          "name": "Social Overtaking Search and TV",
+          "description": "Social media projected to become the largest global media channel by Q4 2024 by time spent for 16-44 year olds, eclipsing search and television."
+        }
       ],
       "signals": [
-        {"name": "Iconic Brands Pivoting to Social-First", "description": "Established brands like Guinness, McDonald's, Ryanair and Heinz fundamentally repositioning their marketing mix to start with social rather than TV or search."},
-        {"name": "AI-Powered Social Measurement Stacks", "description": "Brands racing to build bespoke AI-powered social measurement infrastructure, moving beyond platform analytics to integrated cross-channel attribution."}
+        {
+          "name": "Iconic Brands Pivoting to Social-First",
+          "description": "Established brands like Guinness, McDonald's, Ryanair and Heinz fundamentally repositioning their marketing mix to start with social rather than TV or search."
+        },
+        {
+          "name": "AI-Powered Social Measurement Stacks",
+          "description": "Brands racing to build bespoke AI-powered social measurement infrastructure, moving beyond platform analytics to integrated cross-channel attribution."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Born Social",
+      "orgType": "Agency"
     },
     {
       "filename": "BRITISH AIRWAYS - Travel Trends Report 2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Taste-Led Travel as Distinct Segment", "description": "A growing cohort of travelers organizing entire trips around culinary discovery and local food culture, elevating gastronomy from amenity to primary travel motivation."},
-        {"name": "Group and Collective Travel Revival", "description": "Trip Collectives — groups of friends and community organizing shared travel — growing as a social antidote to isolated individual tourism experiences."}
+        {
+          "name": "Taste-Led Travel as Distinct Segment",
+          "description": "A growing cohort of travelers organizing entire trips around culinary discovery and local food culture, elevating gastronomy from amenity to primary travel motivation."
+        },
+        {
+          "name": "Group and Collective Travel Revival",
+          "description": "Trip Collectives \u2014 groups of friends and community organizing shared travel \u2014 growing as a social antidote to isolated individual tourism experiences."
+        }
       ],
       "signals": [
-        {"name": "Paperback Tourism — Literary Travel", "description": "Travelers choosing destinations inspired by books and literature, creating a 'set-jetting' variant driven by reading rather than film and TV."},
-        {"name": "Traditional Holidays Seeing Renewed Demand", "description": "Counter-trend to experience-seeking: significant segment of UK travelers returning to familiar, predictable holiday formats as a response to uncertainty and travel complexity."}
+        {
+          "name": "Paperback Tourism \u2014 Literary Travel",
+          "description": "Travelers choosing destinations inspired by books and literature, creating a 'set-jetting' variant driven by reading rather than film and TV."
+        },
+        {
+          "name": "Traditional Holidays Seeing Renewed Demand",
+          "description": "Counter-trend to experience-seeking: significant segment of UK travelers returning to familiar, predictable holiday formats as a response to uncertainty and travel complexity."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "British Airways",
+      "orgType": "Industry"
     },
     {
       "filename": "CAPGEMINI_Consumer Trends 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Sustainability Consciousness Deepening", "description": "Consumer sustainability awareness shifting from performative to structural — shoppers increasingly seeking impact information and making it central to brand choice."},
-        {"name": "Cost-of-Living Crisis Behavioral Persistence", "description": "Consumer spending caution from cost-of-living pressure persisting into 2024 despite some macro improvement, indicating lasting behavioral change rather than temporary adjustment."}
+        {
+          "name": "Sustainability Consciousness Deepening",
+          "description": "Consumer sustainability awareness shifting from performative to structural \u2014 shoppers increasingly seeking impact information and making it central to brand choice."
+        },
+        {
+          "name": "Cost-of-Living Crisis Behavioral Persistence",
+          "description": "Consumer spending caution from cost-of-living pressure persisting into 2024 despite some macro improvement, indicating lasting behavioral change rather than temporary adjustment."
+        }
       ],
       "signals": [
-        {"name": "GenAI Influencing Shopping Behavior", "description": "Generative AI beginning to shape consumer discovery, comparison, and purchase behavior, with brands needing to optimize for AI-mediated shopping journeys."},
-        {"name": "Sustainability Impact Transparency Demanded", "description": "Consumers increasingly wanting granular data on the environmental impact of individual purchases at point of decision — driving demand for product-level sustainability labeling."}
+        {
+          "name": "GenAI Influencing Shopping Behavior",
+          "description": "Generative AI beginning to shape consumer discovery, comparison, and purchase behavior, with brands needing to optimize for AI-mediated shopping journeys."
+        },
+        {
+          "name": "Sustainability Impact Transparency Demanded",
+          "description": "Consumers increasingly wanting granular data on the environmental impact of individual purchases at point of decision \u2014 driving demand for product-level sustainability labeling."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Capgemini",
+      "orgType": "Consultancy"
     },
     {
       "filename": "CAPGEMINI_TechnoVision 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Small AI Models Displacing Large Ones", "description": "Efficient, specialized small language models challenging the dominance of massive general-purpose models — democratizing AI deployment and reducing compute requirements."},
-        {"name": "Quantum-Cyber Convergence", "description": "Quantum computing advances creating both new cybersecurity vulnerabilities and new encryption capabilities, forcing organizations to prepare for post-quantum security infrastructure."},
-        {"name": "Battery Technology Chemistry Revolution", "description": "New battery chemistries breaking the constraints of lithium-ion, enabling step-change improvements in energy storage density, safety, and cost for transportation and grid applications."}
+        {
+          "name": "Small AI Models Displacing Large Ones",
+          "description": "Efficient, specialized small language models challenging the dominance of massive general-purpose models \u2014 democratizing AI deployment and reducing compute requirements."
+        },
+        {
+          "name": "Quantum-Cyber Convergence",
+          "description": "Quantum computing advances creating both new cybersecurity vulnerabilities and new encryption capabilities, forcing organizations to prepare for post-quantum security infrastructure."
+        },
+        {
+          "name": "Battery Technology Chemistry Revolution",
+          "description": "New battery chemistries breaking the constraints of lithium-ion, enabling step-change improvements in energy storage density, safety, and cost for transportation and grid applications."
+        }
       ],
       "signals": [
-        {"name": "SpaceTech Addressing Earth's Challenges", "description": "Space infrastructure — satellites, earth observation, communications — being deployed to address terrestrial challenges including climate monitoring and precision agriculture."},
-        {"name": "Moore's Law Transforming Rather Than Dying", "description": "Semiconductor industry innovation shifting from raw transistor density to specialized chip architectures, keeping computational progress accelerating through new pathways."}
+        {
+          "name": "SpaceTech Addressing Earth's Challenges",
+          "description": "Space infrastructure \u2014 satellites, earth observation, communications \u2014 being deployed to address terrestrial challenges including climate monitoring and precision agriculture."
+        },
+        {
+          "name": "Moore's Law Transforming Rather Than Dying",
+          "description": "Semiconductor industry innovation shifting from raw transistor density to specialized chip architectures, keeping computational progress accelerating through new pathways."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Capgemini",
+      "orgType": "Consultancy"
     },
     {
       "filename": "CASSANDRA_Glossary-2023.pdf",
       "year": 2023,
       "trends": [
-        {"name": "Cultural Lexicon Accelerating", "description": "New cultural terms, concepts, and behavioral categories proliferating at accelerating rates — FOMO, situationship, lazy girl job — reflecting fragmentation of shared reference points."}
+        {
+          "name": "Cultural Lexicon Accelerating",
+          "description": "New cultural terms, concepts, and behavioral categories proliferating at accelerating rates \u2014 FOMO, situationship, lazy girl job \u2014 reflecting fragmentation of shared reference points."
+        }
       ],
       "signals": [
-        {"name": "Bed Rotting and Retreat Aesthetics", "description": "Emergence of 'bed rotting' and related intentional inactivity as aspirational lifestyle signal among younger demographics, reflecting burnout from productivity culture."},
-        {"name": "SVB Collapse Entering Cultural Vocabulary", "description": "Silicon Valley Bank failure in 2023 entering cultural lexicon as shorthand for institutional fragility and the limits of tech-sector financial assumptions."}
+        {
+          "name": "Bed Rotting and Retreat Aesthetics",
+          "description": "Emergence of 'bed rotting' and related intentional inactivity as aspirational lifestyle signal among younger demographics, reflecting burnout from productivity culture."
+        },
+        {
+          "name": "SVB Collapse Entering Cultural Vocabulary",
+          "description": "Silicon Valley Bank failure in 2023 entering cultural lexicon as shorthand for institutional fragility and the limits of tech-sector financial assumptions."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Cassandra",
+      "orgType": "Research"
     },
     {
       "filename": "CB-INSIGHTS_Tech-Trends-2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "GPU Scarcity Reshaping AI Development", "description": "Shortage of AI chips forcing companies to innovate around compute constraints — through model efficiency, synthetic data, and cloud partnerships — rather than simply buying more hardware."},
-        {"name": "DIY Software Development", "description": "AI-powered tools enabling non-engineers to build software applications, disrupting traditional engineering organizations and democratizing digital product creation."},
-        {"name": "Quantum Computing Commercialization Horizon", "description": "Quantum computing advances hinting at faster-than-expected commercialization, with real enterprise applications in cryptography, drug discovery, and logistics optimization emerging."}
+        {
+          "name": "GPU Scarcity Reshaping AI Development",
+          "description": "Shortage of AI chips forcing companies to innovate around compute constraints \u2014 through model efficiency, synthetic data, and cloud partnerships \u2014 rather than simply buying more hardware."
+        },
+        {
+          "name": "DIY Software Development",
+          "description": "AI-powered tools enabling non-engineers to build software applications, disrupting traditional engineering organizations and democratizing digital product creation."
+        },
+        {
+          "name": "Quantum Computing Commercialization Horizon",
+          "description": "Quantum computing advances hinting at faster-than-expected commercialization, with real enterprise applications in cryptography, drug discovery, and logistics optimization emerging."
+        }
       ],
       "signals": [
-        {"name": "Synthetic Data Enabling AI Training at Scale", "description": "AI-generated synthetic training data overcoming the constraints of scarce and biased real-world datasets, enabling model development in sensitive domains."},
-        {"name": "AI vs AI Cybersecurity Dogfights", "description": "Attackers and defenders both deploying AI simultaneously, creating an automated adversarial dynamic that outpaces traditional human-operated security response."},
-        {"name": "AI Drug Race Heating Up", "description": "Pharmaceutical and biotech companies racing to integrate AI across the drug development pipeline, from target identification to clinical trial design, creating winner-take-most dynamics."}
+        {
+          "name": "Synthetic Data Enabling AI Training at Scale",
+          "description": "AI-generated synthetic training data overcoming the constraints of scarce and biased real-world datasets, enabling model development in sensitive domains."
+        },
+        {
+          "name": "AI vs AI Cybersecurity Dogfights",
+          "description": "Attackers and defenders both deploying AI simultaneously, creating an automated adversarial dynamic that outpaces traditional human-operated security response."
+        },
+        {
+          "name": "AI Drug Race Heating Up",
+          "description": "Pharmaceutical and biotech companies racing to integrate AI across the drug development pipeline, from target identification to clinical trial design, creating winner-take-most dynamics."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "CB Insights",
+      "orgType": "Research"
     }
   ]
 }

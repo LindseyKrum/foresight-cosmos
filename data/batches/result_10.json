@@ -5,125 +5,244 @@
       "filename": "HELABA_Markets and Trends2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Global Economy in Transition Game", "description": "Global economy navigating a transition phase rather than clean recovery or recession — with multiple scenario branches (baseline, negative, positive) reflecting genuine uncertainty in macro trajectory."}
+        {
+          "name": "Global Economy in Transition Game",
+          "description": "Global economy navigating a transition phase rather than clean recovery or recession \u2014 with multiple scenario branches (baseline, negative, positive) reflecting genuine uncertainty in macro trajectory."
+        }
       ],
       "signals": [
-        {"name": "Real Estate Relegated from Investment Premier League", "description": "Commercial real estate losing its premium investment status in 2024 — rate sensitivity, occupancy shifts, and value corrections demoting the asset class from institutional portfolio priorities."},
-        {"name": "Dollar Winning Streak Ending", "description": "US dollar's multi-year strengthening trend forecast to reverse in 2024 as rate differentials narrow and global growth rebalances — with significant implications for EM assets and global trade."}
+        {
+          "name": "Real Estate Relegated from Investment Premier League",
+          "description": "Commercial real estate losing its premium investment status in 2024 \u2014 rate sensitivity, occupancy shifts, and value corrections demoting the asset class from institutional portfolio priorities."
+        },
+        {
+          "name": "Dollar Winning Streak Ending",
+          "description": "US dollar's multi-year strengthening trend forecast to reverse in 2024 as rate differentials narrow and global growth rebalances \u2014 with significant implications for EM assets and global trade."
+        }
       ],
       "scenarios": [
-        {"name": "Beautiful Game Scenario", "description": "Helaba's 10% probability positive scenario where global growth surprises upward, inflation normalizes, and financial conditions ease — setting the stage for broad risk asset appreciation."}
-      ]
+        {
+          "name": "Beautiful Game Scenario",
+          "description": "Helaba's 10% probability positive scenario where global growth surprises upward, inflation normalizes, and financial conditions ease \u2014 setting the stage for broad risk asset appreciation."
+        }
+      ],
+      "org": "Helaba",
+      "orgType": "Financial"
     },
     {
       "filename": "HIGHSNOBIETY_New Luxury New Rules 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Niche Culture Acceleration in Luxury", "description": "Luxury consumption fragmenting into accelerating niche subcultures where consumer identity drives brand value — displacing the traditional aspirational-mass model that defined legacy luxury."},
-        {"name": "Consumer-Led Luxury Redefinition", "description": "Luxury evolving from brand-dictated prestige to consumer-defined value — with new codes, new creators, and new inclusion paradigms rewriting the rules established over decades."}
+        {
+          "name": "Niche Culture Acceleration in Luxury",
+          "description": "Luxury consumption fragmenting into accelerating niche subcultures where consumer identity drives brand value \u2014 displacing the traditional aspirational-mass model that defined legacy luxury."
+        },
+        {
+          "name": "Consumer-Led Luxury Redefinition",
+          "description": "Luxury evolving from brand-dictated prestige to consumer-defined value \u2014 with new codes, new creators, and new inclusion paradigms rewriting the rules established over decades."
+        }
       ],
       "signals": [
-        {"name": "New Luxury Codes Replacing Heritage Signals", "description": "Traditional luxury status signals (heritage, craftsmanship claims, exclusivity) being supplemented or replaced by new codes — community belonging, creator provenance, and cultural participation."},
-        {"name": "Collaboration as Luxury Innovation Engine", "description": "Brand collaboration emerging as the primary luxury innovation mechanism — with unexpected partnerships generating cultural relevance that traditional brand-alone campaigns cannot achieve."}
+        {
+          "name": "New Luxury Codes Replacing Heritage Signals",
+          "description": "Traditional luxury status signals (heritage, craftsmanship claims, exclusivity) being supplemented or replaced by new codes \u2014 community belonging, creator provenance, and cultural participation."
+        },
+        {
+          "name": "Collaboration as Luxury Innovation Engine",
+          "description": "Brand collaboration emerging as the primary luxury innovation mechanism \u2014 with unexpected partnerships generating cultural relevance that traditional brand-alone campaigns cannot achieve."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Highsnobiety",
+      "orgType": "Media"
     },
     {
       "filename": "HILTON - 2025 Trends Report Fact Sheet_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Vacation Maximization as Travel Mindset", "description": "Travelers in 2025 adopting a maximization mindset — combining relaxation with high-impact adventures to extract maximum value from both time and financial investment in travel."},
-        {"name": "Travel Companion Diversity — Frolleagues and MeMooners", "description": "New travel companion configurations emerging — workplace friends ('Frolleagues') and solo travelers seeking self-connection ('MeMooners') — reshaping hospitality product and experience design."}
+        {
+          "name": "Vacation Maximization as Travel Mindset",
+          "description": "Travelers in 2025 adopting a maximization mindset \u2014 combining relaxation with high-impact adventures to extract maximum value from both time and financial investment in travel."
+        },
+        {
+          "name": "Travel Companion Diversity \u2014 Frolleagues and MeMooners",
+          "description": "New travel companion configurations emerging \u2014 workplace friends ('Frolleagues') and solo travelers seeking self-connection ('MeMooners') \u2014 reshaping hospitality product and experience design."
+        }
       ],
       "signals": [
-        {"name": "Hurkle-Durkling as Intentional Rest Travel", "description": "Deliberate rest and purposeful inactivity ('hurkle-durkling') becoming a recognized travel category — counter-programming to the maximization trend and reflecting wellbeing-oriented travel demand."}
+        {
+          "name": "Hurkle-Durkling as Intentional Rest Travel",
+          "description": "Deliberate rest and purposeful inactivity ('hurkle-durkling') becoming a recognized travel category \u2014 counter-programming to the maximization trend and reflecting wellbeing-oriented travel demand."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Hilton",
+      "orgType": "Industry"
     },
     {
       "filename": "HMN_UK_Media Trends 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Identity as Central Media Theme", "description": "Cultural identity — personal, communal, and brand — emerging as the organizing theme for media strategy in 2024, shaping everything from AI personalization to ecommerce emotional experience."},
-        {"name": "Emotional Ecommerce Experience", "description": "Digital commerce evolving beyond transactional utility toward emotionally resonant experiences — with identity, discovery, and human connection becoming core ecommerce design requirements."}
+        {
+          "name": "Identity as Central Media Theme",
+          "description": "Cultural identity \u2014 personal, communal, and brand \u2014 emerging as the organizing theme for media strategy in 2024, shaping everything from AI personalization to ecommerce emotional experience."
+        },
+        {
+          "name": "Emotional Ecommerce Experience",
+          "description": "Digital commerce evolving beyond transactional utility toward emotionally resonant experiences \u2014 with identity, discovery, and human connection becoming core ecommerce design requirements."
+        }
       ],
       "signals": [
-        {"name": "Cookie Loss Triggering Identity Infrastructure Rebuild", "description": "Third-party cookie deprecation forcing a fundamental rebuild of digital identity and targeting infrastructure — with first-party data, contextual, and AI-based approaches filling the gap."}
+        {
+          "name": "Cookie Loss Triggering Identity Infrastructure Rebuild",
+          "description": "Third-party cookie deprecation forcing a fundamental rebuild of digital identity and targeting infrastructure \u2014 with first-party data, contextual, and AI-based approaches filling the gap."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "HMN",
+      "orgType": "Media"
     },
     {
       "filename": "HORIZON GROUP_Future possibilities 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "National Capability to Leverage Megatrends", "description": "Countries diverging in their ability to convert global megatrends into national opportunity — with governance, infrastructure, and institutional quality determining who captures transformation benefits."}
+        {
+          "name": "National Capability to Leverage Megatrends",
+          "description": "Countries diverging in their ability to convert global megatrends into national opportunity \u2014 with governance, infrastructure, and institutional quality determining who captures transformation benefits."
+        }
       ],
       "signals": [
-        {"name": "Future Possibilities Index Measuring Country Readiness", "description": "Emergence of quantitative indices measuring countries' readiness to harness megatrends — providing governments and investors with structured foresight on national transformation potential."}
+        {
+          "name": "Future Possibilities Index Measuring Country Readiness",
+          "description": "Emergence of quantitative indices measuring countries' readiness to harness megatrends \u2014 providing governments and investors with structured foresight on national transformation potential."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Horizon Group",
+      "orgType": "Agency"
     },
     {
       "filename": "HORIZON MEDIA_Top-Trends-2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Engineered Friendship — Designed Social Connection", "description": "As organic social infrastructure weakens, intentionally engineered social experiences — run clubs, brand communities, gamified connection — filling the gap that institutions and algorithms have vacated."},
-        {"name": "Efficiency Mode as Consumer Value Shift", "description": "Consumers and brands shifting to efficiency-first orientation — extracting maximum value from existing resources rather than seeking novelty — reflecting both economic pressure and decision fatigue."}
+        {
+          "name": "Engineered Friendship \u2014 Designed Social Connection",
+          "description": "As organic social infrastructure weakens, intentionally engineered social experiences \u2014 run clubs, brand communities, gamified connection \u2014 filling the gap that institutions and algorithms have vacated."
+        },
+        {
+          "name": "Efficiency Mode as Consumer Value Shift",
+          "description": "Consumers and brands shifting to efficiency-first orientation \u2014 extracting maximum value from existing resources rather than seeking novelty \u2014 reflecting both economic pressure and decision fatigue."
+        }
       ],
       "signals": [
-        {"name": "Gaming Reality Blending Physical and Digital", "description": "Gaming mechanics, aesthetics, and social structures permeating physical reality and non-gaming contexts — with brands and media companies deploying game logic to drive engagement."},
-        {"name": "Skilled Labor Renaissance", "description": "Growing recognition and demand for skilled trade labor as economic and cultural re-evaluation of manual expertise accelerates — with implications for education, brand positioning, and workforce design."}
+        {
+          "name": "Gaming Reality Blending Physical and Digital",
+          "description": "Gaming mechanics, aesthetics, and social structures permeating physical reality and non-gaming contexts \u2014 with brands and media companies deploying game logic to drive engagement."
+        },
+        {
+          "name": "Skilled Labor Renaissance",
+          "description": "Growing recognition and demand for skilled trade labor as economic and cultural re-evaluation of manual expertise accelerates \u2014 with implications for education, brand positioning, and workforce design."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Horizon Media",
+      "orgType": "Agency"
     },
     {
       "filename": "HOUSE CAPTAIN - StratTapeVol.2_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Attitudinal Brand Voice Revival", "description": "Brands returning to distinct, opinionated, attitude-driven communication after years of purpose-washing homogeneity — differentiation through voice, perspective, and cultural specificity."},
-        {"name": "Product as Firmware — Continuous Update Model", "description": "Consumers increasingly valuing products that evolve and update post-purchase (firmware model) over static objects — with brands that enable continuous product development building stronger loyalty."}
+        {
+          "name": "Attitudinal Brand Voice Revival",
+          "description": "Brands returning to distinct, opinionated, attitude-driven communication after years of purpose-washing homogeneity \u2014 differentiation through voice, perspective, and cultural specificity."
+        },
+        {
+          "name": "Product as Firmware \u2014 Continuous Update Model",
+          "description": "Consumers increasingly valuing products that evolve and update post-purchase (firmware model) over static objects \u2014 with brands that enable continuous product development building stronger loyalty."
+        }
       ],
       "signals": [
-        {"name": "Run Clubs as Social Infrastructure", "description": "Running clubs becoming high-trust social ecosystems functionally analogous to institutional social structures — combining fitness, identity, and community in ways that brands are beginning to sponsor and emulate."},
-        {"name": "Tennis Cultural Ascent", "description": "Tennis expanding beyond its traditional demographic and cultural positioning — becoming a broader cultural touchpoint with growing brand and media investment following its mainstream moment."}
+        {
+          "name": "Run Clubs as Social Infrastructure",
+          "description": "Running clubs becoming high-trust social ecosystems functionally analogous to institutional social structures \u2014 combining fitness, identity, and community in ways that brands are beginning to sponsor and emulate."
+        },
+        {
+          "name": "Tennis Cultural Ascent",
+          "description": "Tennis expanding beyond its traditional demographic and cultural positioning \u2014 becoming a broader cultural touchpoint with growing brand and media investment following its mainstream moment."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "House Captain",
+      "orgType": "Agency"
     },
     {
       "filename": "HSBC - GPB Investment-outlook-new-growth-engines_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "New Growth Engines Replacing Post-Pandemic Drivers", "description": "Investment landscape shifting toward identification of new structural growth engines as pandemic-era tailwinds exhaust — with AI, climate action, and emerging market recovery as candidate themes."}
+        {
+          "name": "New Growth Engines Replacing Post-Pandemic Drivers",
+          "description": "Investment landscape shifting toward identification of new structural growth engines as pandemic-era tailwinds exhaust \u2014 with AI, climate action, and emerging market recovery as candidate themes."
+        }
       ],
       "signals": [
-        {"name": "Climate Action as Investment Theme Maturing", "description": "Climate-related investment themes maturing from speculative to institutional — with HSBC private banking identifying climate action as a structural growth engine alongside AI and emerging markets."}
+        {
+          "name": "Climate Action as Investment Theme Maturing",
+          "description": "Climate-related investment themes maturing from speculative to institutional \u2014 with HSBC private banking identifying climate action as a structural growth engine alongside AI and emerging markets."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "HSBC Global Private Banking",
+      "orgType": "Financial"
     },
     {
       "filename": "HUBSPOT - 2024-Social_Trends_Report_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Creator Economy Dominance of Social", "description": "Social media ecosystem fundamentally organized around creator primacy — with brands increasingly subordinating themselves to creator relationships to access authentic audience engagement."},
-        {"name": "Social Media as Primary Research Channel", "description": "Consumers using social media as their primary research and discovery engine — for products, services, and information — displacing traditional search and brand-owned channels."}
+        {
+          "name": "Creator Economy Dominance of Social",
+          "description": "Social media ecosystem fundamentally organized around creator primacy \u2014 with brands increasingly subordinating themselves to creator relationships to access authentic audience engagement."
+        },
+        {
+          "name": "Social Media as Primary Research Channel",
+          "description": "Consumers using social media as their primary research and discovery engine \u2014 for products, services, and information \u2014 displacing traditional search and brand-owned channels."
+        }
       ],
       "signals": [
-        {"name": "AI Tools Mainstream in Social Content Creation", "description": "Social media marketers broadly adopting AI tools for content creation and optimization — with AI moving from experimental to standard workflow component in social strategy."},
-        {"name": "Social Commerce Fully Embraced by Consumers", "description": "In-app social commerce completing its mainstream transition — with consumers comfortable completing purchases within social platforms, no longer requiring redirect to external retail sites."}
+        {
+          "name": "AI Tools Mainstream in Social Content Creation",
+          "description": "Social media marketers broadly adopting AI tools for content creation and optimization \u2014 with AI moving from experimental to standard workflow component in social strategy."
+        },
+        {
+          "name": "Social Commerce Fully Embraced by Consumers",
+          "description": "In-app social commerce completing its mainstream transition \u2014 with consumers comfortable completing purchases within social platforms, no longer requiring redirect to external retail sites."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "HubSpot",
+      "orgType": "Tech"
     },
     {
       "filename": "HUBSPOT_Sales Trends Report 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Sales Rep Evolving to Consultant", "description": "The informed, digitally-empowered buyer shifting the sales function from persuasion to consultation — with buyers arriving further along the purchase journey requiring sellers to add genuine expertise value."},
-        {"name": "AI Automating Sales Administrative Work", "description": "AI tools enabling sales professionals to reclaim time from administrative tasks — with sellers spending only 33% of time selling, AI rebalancing toward customer-facing activity."}
+        {
+          "name": "Sales Rep Evolving to Consultant",
+          "description": "The informed, digitally-empowered buyer shifting the sales function from persuasion to consultation \u2014 with buyers arriving further along the purchase journey requiring sellers to add genuine expertise value."
+        },
+        {
+          "name": "AI Automating Sales Administrative Work",
+          "description": "AI tools enabling sales professionals to reclaim time from administrative tasks \u2014 with sellers spending only 33% of time selling, AI rebalancing toward customer-facing activity."
+        }
       ],
       "signals": [
-        {"name": "Self-Service Sales Growing in B2B", "description": "B2B buyers increasingly preferring self-service purchase paths for lower-complexity decisions — requiring sales organizations to provide digital-first buying experiences alongside human relationships."}
+        {
+          "name": "Self-Service Sales Growing in B2B",
+          "description": "B2B buyers increasingly preferring self-service purchase paths for lower-complexity decisions \u2014 requiring sales organizations to provide digital-first buying experiences alongside human relationships."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "HubSpot",
+      "orgType": "Tech"
     }
   ]
 }

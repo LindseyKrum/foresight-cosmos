@@ -5,88 +5,158 @@
       "filename": "SNOWFLAKE_Data & AI Predictions 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Generative AI Dominant Tech Story for Foreseeable Future", "description": "Generative AI and LLMs established as the dominant technology narrative — not a passing trend but the foundational transformation affecting enterprise data, applications, cybersecurity, and all technical roles."},
-        {"name": "LLMs Transforming All Technical Roles", "description": "Large language models beginning to fundamentally transform the nature of technical roles — from data scientists to software engineers to security professionals — requiring new skills, workflows, and value propositions."}
+        {
+          "name": "Generative AI Dominant Tech Story for Foreseeable Future",
+          "description": "Generative AI and LLMs established as the dominant technology narrative \u2014 not a passing trend but the foundational transformation affecting enterprise data, applications, cybersecurity, and all technical roles."
+        },
+        {
+          "name": "LLMs Transforming All Technical Roles",
+          "description": "Large language models beginning to fundamentally transform the nature of technical roles \u2014 from data scientists to software engineers to security professionals \u2014 requiring new skills, workflows, and value propositions."
+        }
       ],
       "signals": [
-        {"name": "AI-Based Search Engines Emerging as Google Challengers", "description": "AI-native search engines (like Neeva, acquired by Snowflake) demonstrating commercial viability — signaling the beginning of a structural challenge to Google's search dominance from AI-first query interfaces."}
+        {
+          "name": "AI-Based Search Engines Emerging as Google Challengers",
+          "description": "AI-native search engines (like Neeva, acquired by Snowflake) demonstrating commercial viability \u2014 signaling the beginning of a structural challenge to Google's search dominance from AI-first query interfaces."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Snowflake",
+      "orgType": "Tech"
     },
     {
       "filename": "SOFTTECH - Technology Report2024_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Human Essence Separating from Technology", "description": "Growing concern about preserving human values, relationships, and experience as technology penetrates deeper into daily life — with the question of what is irreducibly human becoming a central design and ethical challenge."}
+        {
+          "name": "Human Essence Separating from Technology",
+          "description": "Growing concern about preserving human values, relationships, and experience as technology penetrates deeper into daily life \u2014 with the question of what is irreducibly human becoming a central design and ethical challenge."
+        }
       ],
       "signals": [],
-      "scenarios": []
+      "scenarios": [],
+      "org": "SoftTech",
+      "orgType": "Tech"
     },
     {
       "filename": "SOLVE_The 2024 IT Outlook Report.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Private Cloud Infrastructure Shift", "description": "Enterprise IT shifting toward private cloud infrastructure as security, control, and cost management concerns outweigh the public cloud advantages — creating a more hybrid, sovereignty-aware infrastructure landscape."},
-        {"name": "AI and Tech Talent Gap as Strategic Constraint", "description": "Shortage of AI and technology talent becoming a primary strategic constraint on digital transformation — with hiring challenges in AI disciplines slowing deployment of AI strategies that organizations are strategically committed to."}
+        {
+          "name": "Private Cloud Infrastructure Shift",
+          "description": "Enterprise IT shifting toward private cloud infrastructure as security, control, and cost management concerns outweigh the public cloud advantages \u2014 creating a more hybrid, sovereignty-aware infrastructure landscape."
+        },
+        {
+          "name": "AI and Tech Talent Gap as Strategic Constraint",
+          "description": "Shortage of AI and technology talent becoming a primary strategic constraint on digital transformation \u2014 with hiring challenges in AI disciplines slowing deployment of AI strategies that organizations are strategically committed to."
+        }
       ],
       "signals": [
-        {"name": "IT Teams Expected to Do More with Less", "description": "IT leaders facing simultaneous pressure to accelerate AI adoption and reduce budgets — creating tension between transformation ambition and resource reality that drives prioritization and efficiency innovations."}
+        {
+          "name": "IT Teams Expected to Do More with Less",
+          "description": "IT leaders facing simultaneous pressure to accelerate AI adoption and reduce budgets \u2014 creating tension between transformation ambition and resource reality that drives prioritization and efficiency innovations."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Solve",
+      "orgType": "Tech"
     },
     {
       "filename": "SPGMI - BigPicture2025_GenAI_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "GenAI from Hype to Value — ROI Imperative", "description": "Generative AI entering the value realization phase — with organizations moving from deployment and experimentation to demonstrating measurable business returns that justify the unprecedented infrastructure investment."},
-        {"name": "From LLMs to Modular AI Systems", "description": "Enterprise AI architecture evolving from monolithic large language model deployments toward modular, composable AI systems — enabling more targeted, cost-effective, and controllable AI applications across business functions."}
+        {
+          "name": "GenAI from Hype to Value \u2014 ROI Imperative",
+          "description": "Generative AI entering the value realization phase \u2014 with organizations moving from deployment and experimentation to demonstrating measurable business returns that justify the unprecedented infrastructure investment."
+        },
+        {
+          "name": "From LLMs to Modular AI Systems",
+          "description": "Enterprise AI architecture evolving from monolithic large language model deployments toward modular, composable AI systems \u2014 enabling more targeted, cost-effective, and controllable AI applications across business functions."
+        }
       ],
       "signals": [
-        {"name": "GenAI Dominating Capital Markets Investment Allocation", "description": "Generative AI continuing to dominate capital markets investment and attention in 2025 — with infrastructure, application, and enablement layers all attracting significant venture and institutional capital."},
-        {"name": "AI Infrastructure Taking on New Strategic Significance", "description": "The infrastructure layer of AI (compute, data, networking) gaining strategic importance as a differentiating asset — with access to AI infrastructure becoming a competitive moat for leading organizations."}
+        {
+          "name": "GenAI Dominating Capital Markets Investment Allocation",
+          "description": "Generative AI continuing to dominate capital markets investment and attention in 2025 \u2014 with infrastructure, application, and enablement layers all attracting significant venture and institutional capital."
+        },
+        {
+          "name": "AI Infrastructure Taking on New Strategic Significance",
+          "description": "The infrastructure layer of AI (compute, data, networking) gaining strategic importance as a differentiating asset \u2014 with access to AI infrastructure becoming a competitive moat for leading organizations."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "S&P Global Market Intelligence",
+      "orgType": "Research"
     },
     {
       "filename": "SPRINGWISE_Horizon_2030.pdf",
       "year": 2024,
       "trends": [
-        {"name": "2030 Sustainability Deadline as Forcing Function", "description": "The 2030 IPCC halving deadline and SDG target date operating as genuine forcing functions for innovation — compressing the timeline for sustainable technology deployment and creating urgency that earlier climate targets lacked."}
+        {
+          "name": "2030 Sustainability Deadline as Forcing Function",
+          "description": "The 2030 IPCC halving deadline and SDG target date operating as genuine forcing functions for innovation \u2014 compressing the timeline for sustainable technology deployment and creating urgency that earlier climate targets lacked."
+        }
       ],
       "signals": [
-        {"name": "Sustainable Innovation Platform Ecosystem Expanding", "description": "Global ecosystem of sustainability-focused innovation platforms, accelerators, and funding networks growing rapidly — creating infrastructure for scaling climate solutions that previously lacked commercialization pathways."}
+        {
+          "name": "Sustainable Innovation Platform Ecosystem Expanding",
+          "description": "Global ecosystem of sustainability-focused innovation platforms, accelerators, and funding networks growing rapidly \u2014 creating infrastructure for scaling climate solutions that previously lacked commercialization pathways."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Springwise",
+      "orgType": "Research"
     },
     {
       "filename": "STILLS -Trend-Report 2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Authentic Unfiltered Photography as Design Counterweight", "description": "Photography in design trending toward real, unfiltered imagery as a deliberate counterweight to AI-generated visual content — with genuine human imperfection and specificity becoming premium design signals."}
+        {
+          "name": "Authentic Unfiltered Photography as Design Counterweight",
+          "description": "Photography in design trending toward real, unfiltered imagery as a deliberate counterweight to AI-generated visual content \u2014 with genuine human imperfection and specificity becoming premium design signals."
+        }
       ],
       "signals": [
-        {"name": "AI Overload Driving Demand for Human Visual Authenticity", "description": "Consumer and designer fatigue with AI-generated imagery creating renewed demand for photography that is demonstrably human, specific, and imperfect — a reversal of the perfection aesthetic that dominated the 2010s."}
+        {
+          "name": "AI Overload Driving Demand for Human Visual Authenticity",
+          "description": "Consumer and designer fatigue with AI-generated imagery creating renewed demand for photography that is demonstrably human, specific, and imperfect \u2014 a reversal of the perfection aesthetic that dominated the 2010s."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "STILLS",
+      "orgType": "Agency"
     },
     {
       "filename": "STITCHFIX - 2025-Style Forecast_CAIG.pdf",
       "year": 2025,
       "trends": [],
       "signals": [],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Stitch Fix",
+      "orgType": "Industry"
     },
     {
       "filename": "STOCKSY - Visual Insights Report 2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Great Unconformity — Tectonic Cultural Aesthetic Shift", "description": "A fundamental, tectonic shift in visual culture and aesthetics predicted for 2025 — driven by AI, climate change, and political instability converging to create demand for authenticity, warmth, and human imperfection in visual language."},
-        {"name": "Old Soul Energy and Craft Revival in Visual Culture", "description": "Visual culture trending toward collecting, curating, handcraft, and 'old money' aesthetics — a reaction to digital acceleration that finds value in patina, history, and the irreproducible qualities of physical objects."}
+        {
+          "name": "Great Unconformity \u2014 Tectonic Cultural Aesthetic Shift",
+          "description": "A fundamental, tectonic shift in visual culture and aesthetics predicted for 2025 \u2014 driven by AI, climate change, and political instability converging to create demand for authenticity, warmth, and human imperfection in visual language."
+        },
+        {
+          "name": "Old Soul Energy and Craft Revival in Visual Culture",
+          "description": "Visual culture trending toward collecting, curating, handcraft, and 'old money' aesthetics \u2014 a reaction to digital acceleration that finds value in patina, history, and the irreproducible qualities of physical objects."
+        }
       ],
       "signals": [
-        {"name": "Friendiverse — Social Connection as Visual Subject", "description": "Friendship and genuine human connection becoming a primary subject of commercial visual content — reflecting the 'entering the friendiverse' cultural trend that prioritizes authentic relationship over aspiration."}
+        {
+          "name": "Friendiverse \u2014 Social Connection as Visual Subject",
+          "description": "Friendship and genuine human connection becoming a primary subject of commercial visual content \u2014 reflecting the 'entering the friendiverse' cultural trend that prioritizes authentic relationship over aspiration."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Stocksy",
+      "orgType": "Tech"
     },
     {
       "filename": "STORIES_2071_Stories-from-the-Future-Eng.pdf",
@@ -94,20 +164,36 @@
       "trends": [],
       "signals": [],
       "scenarios": [
-        {"name": "AI Creatures with Human Emotions — 2071", "description": "Speculative fiction scenario set in 2071 where AI entities manage human society with cancelled human interaction functions — exploring the philosophical and emotional implications of AI systems inheriting human emotional architecture while optimizing for systemic stability."}
-      ]
+        {
+          "name": "AI Creatures with Human Emotions \u2014 2071",
+          "description": "Speculative fiction scenario set in 2071 where AI entities manage human society with cancelled human interaction functions \u2014 exploring the philosophical and emotional implications of AI systems inheriting human emotional architecture while optimizing for systemic stability."
+        }
+      ],
+      "org": "Stories2071",
+      "orgType": "Research"
     },
     {
       "filename": "STRAVA - Year_in_Sport_-_The_Trend_Report-UK_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Social Fitness as Primary Sport Motivation", "description": "Sport and fitness becoming primarily social activities — with run clubs, workout partnerships, and community-based fitness displacing individual performance metrics as the dominant motivation for physical activity."},
-        {"name": "Consistency Over Heroics in Fitness Culture", "description": "Fitness culture shifting from extreme challenges and peak performance to sustainable consistency — with rest, recovery, and long-term habit formation replacing the achievement-obsessed hustle culture of the 2010s."}
+        {
+          "name": "Social Fitness as Primary Sport Motivation",
+          "description": "Sport and fitness becoming primarily social activities \u2014 with run clubs, workout partnerships, and community-based fitness displacing individual performance metrics as the dominant motivation for physical activity."
+        },
+        {
+          "name": "Consistency Over Heroics in Fitness Culture",
+          "description": "Fitness culture shifting from extreme challenges and peak performance to sustainable consistency \u2014 with rest, recovery, and long-term habit formation replacing the achievement-obsessed hustle culture of the 2010s."
+        }
       ],
       "signals": [
-        {"name": "Run Club Culture Replacing Nightclub Culture", "description": "Run clubs emerging as primary social venues for young adults — with Strava data showing a generational shift from alcohol-based nightlife toward fitness-based social connection as the dominant after-dark activity."}
+        {
+          "name": "Run Club Culture Replacing Nightclub Culture",
+          "description": "Run clubs emerging as primary social venues for young adults \u2014 with Strava data showing a generational shift from alcohol-based nightlife toward fitness-based social connection as the dominant after-dark activity."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Strava",
+      "orgType": "Industry"
     }
   ]
 }

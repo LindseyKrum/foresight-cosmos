@@ -5,124 +5,243 @@
       "filename": "OMG APAC_Trends Report 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Return of the Spectacle — Live Events Back", "description": "In-person events and live spectacles returning with full force in APAC — with audiences starved of shared physical experience driving demand for concerts, sports, and brand events beyond pre-pandemic levels."},
-        {"name": "Regulatory Overreach on Big Tech Accelerating", "description": "Governments and data regulators across APAC accelerating crackdowns on Big Tech — with data sovereignty, platform liability, and competition regulation creating a fundamentally more constrained operating environment."}
+        {
+          "name": "Return of the Spectacle \u2014 Live Events Back",
+          "description": "In-person events and live spectacles returning with full force in APAC \u2014 with audiences starved of shared physical experience driving demand for concerts, sports, and brand events beyond pre-pandemic levels."
+        },
+        {
+          "name": "Regulatory Overreach on Big Tech Accelerating",
+          "description": "Governments and data regulators across APAC accelerating crackdowns on Big Tech \u2014 with data sovereignty, platform liability, and competition regulation creating a fundamentally more constrained operating environment."
+        }
       ],
       "signals": [
-        {"name": "AI's Real Impact Under Scrutiny in APAC", "description": "APAC market beginning to critically evaluate AI's actual business impact versus hype — with early adopters reporting mixed results and organizations demanding proof of value before committing further."},
-        {"name": "Podcasts as Steadily Growing APAC Channel", "description": "Podcast consumption growing consistently across APAC markets — not explosively but steadily — building an audio audience that brands are beginning to invest in as a high-trust, high-attention channel."}
+        {
+          "name": "AI's Real Impact Under Scrutiny in APAC",
+          "description": "APAC market beginning to critically evaluate AI's actual business impact versus hype \u2014 with early adopters reporting mixed results and organizations demanding proof of value before committing further."
+        },
+        {
+          "name": "Podcasts as Steadily Growing APAC Channel",
+          "description": "Podcast consumption growing consistently across APAC markets \u2014 not explosively but steadily \u2014 building an audio audience that brands are beginning to invest in as a high-trust, high-attention channel."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Omnicom Media Group",
+      "orgType": "Agency"
     },
     {
       "filename": "OMG FUTURES - Closer to the Edge_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "AI-Generated 3D Worlds Enabling New Entertainment", "description": "AI systems capable of generating playable 3D worlds (like Google's Genie 2) emerging at the Slush frontier — signaling a transformative shift in how interactive entertainment, simulation, and training environments are created."}
+        {
+          "name": "AI-Generated 3D Worlds Enabling New Entertainment",
+          "description": "AI systems capable of generating playable 3D worlds (like Google's Genie 2) emerging at the Slush frontier \u2014 signaling a transformative shift in how interactive entertainment, simulation, and training environments are created."
+        }
       ],
       "signals": [
-        {"name": "Frontier Tech Startups Addressing Global Challenges", "description": "2024 Slush cohort of startups focusing on healthcare, climate, and disease — with AI crosscutting all domains — signaling that frontier technology is increasingly oriented toward solving large-scale human problems."}
+        {
+          "name": "Frontier Tech Startups Addressing Global Challenges",
+          "description": "2024 Slush cohort of startups focusing on healthcare, climate, and disease \u2014 with AI crosscutting all domains \u2014 signaling that frontier technology is increasingly oriented toward solving large-scale human problems."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Omnicom Media Group",
+      "orgType": "Agency"
     },
     {
       "filename": "OMG FUTURES_Closer to the Edge.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Sustainability as Standard in Tech Startups", "description": "Sustainability moving from differentiator to baseline expectation at the technology startup frontier — with environmental design built into products from inception rather than added as a feature."}
+        {
+          "name": "Sustainability as Standard in Tech Startups",
+          "description": "Sustainability moving from differentiator to baseline expectation at the technology startup frontier \u2014 with environmental design built into products from inception rather than added as a feature."
+        }
       ],
       "signals": [
-        {"name": "AI Powering Robots and Protecting Against AI Threats", "description": "AI simultaneously enabling new robotic capabilities and being deployed to protect against adversarial AI systems — a dual-use dynamic visible at Slush 2023 that foreshadows the AI safety vs. capability tension."},
-        {"name": "Human Expression, Inclusivity, and Diversity Through Technology", "description": "Emerging tech startups building products that amplify human expression and promote inclusivity — a counter-narrative to technology-as-efficiency that points toward human-centered tech development values."}
+        {
+          "name": "AI Powering Robots and Protecting Against AI Threats",
+          "description": "AI simultaneously enabling new robotic capabilities and being deployed to protect against adversarial AI systems \u2014 a dual-use dynamic visible at Slush 2023 that foreshadows the AI safety vs. capability tension."
+        },
+        {
+          "name": "Human Expression, Inclusivity, and Diversity Through Technology",
+          "description": "Emerging tech startups building products that amplify human expression and promote inclusivity \u2014 a counter-narrative to technology-as-efficiency that points toward human-centered tech development values."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Omnicom Media Group",
+      "orgType": "Agency"
     },
     {
       "filename": "OUTLIER_Fuelling the Future 24.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Real World Asset Tokenization as Web3 Growth Driver", "description": "Tokenization of real-world assets (RWA) — real estate, commodities, financial instruments — emerging as the primary growth vector for Web3 infrastructure, connecting blockchain systems to traditional asset classes."}
+        {
+          "name": "Real World Asset Tokenization as Web3 Growth Driver",
+          "description": "Tokenization of real-world assets (RWA) \u2014 real estate, commodities, financial instruments \u2014 emerging as the primary growth vector for Web3 infrastructure, connecting blockchain systems to traditional asset classes."
+        }
       ],
       "signals": [
-        {"name": "AI and Crypto Intersection Generating New Use Cases", "description": "AI and cryptocurrency systems beginning to intersect in ways that create new use cases — with AI agents requiring payment rails and crypto providing trustless settlement for automated machine-to-machine transactions."}
+        {
+          "name": "AI and Crypto Intersection Generating New Use Cases",
+          "description": "AI and cryptocurrency systems beginning to intersect in ways that create new use cases \u2014 with AI agents requiring payment rails and crypto providing trustless settlement for automated machine-to-machine transactions."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Outlier",
+      "orgType": "Research"
     },
     {
       "filename": "PINTEREST - Predicts_2025_CAIG_UK.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Rococo and Maximalist Aesthetic Revival", "description": "Rococo-inspired opulence, ornate detail, and ultra-feminine aesthetics returning across home décor, fashion, and celebrations — driven by Gen Z and Boomers seeking theatrical beauty after years of minimalism."},
-        {"name": "Surrealism Entering Everyday Consumer Aesthetics", "description": "Surrealist visual sensibility — gravity-defying centerpieces, fantastical elements, dreamlike décor — moving from art world into mainstream consumer celebrations and home design choices."}
+        {
+          "name": "Rococo and Maximalist Aesthetic Revival",
+          "description": "Rococo-inspired opulence, ornate detail, and ultra-feminine aesthetics returning across home d\u00e9cor, fashion, and celebrations \u2014 driven by Gen Z and Boomers seeking theatrical beauty after years of minimalism."
+        },
+        {
+          "name": "Surrealism Entering Everyday Consumer Aesthetics",
+          "description": "Surrealist visual sensibility \u2014 gravity-defying centerpieces, fantastical elements, dreamlike d\u00e9cor \u2014 moving from art world into mainstream consumer celebrations and home design choices."
+        }
       ],
       "signals": [
-        {"name": "Pinterest Search Data as Leading Cultural Indicator", "description": "Pinterest's search and save data proving highly predictive of emerging consumer trends 12+ months out — with platform position at the intent-to-purchase stage giving unique foresight on aesthetic and lifestyle direction."}
+        {
+          "name": "Pinterest Search Data as Leading Cultural Indicator",
+          "description": "Pinterest's search and save data proving highly predictive of emerging consumer trends 12+ months out \u2014 with platform position at the intent-to-purchase stage giving unique foresight on aesthetic and lifestyle direction."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Pinterest",
+      "orgType": "Tech"
     },
     {
       "filename": "PION - Youth Trends Report 2024_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Youth AI Ambivalence — The AI Debacle", "description": "Young consumers simultaneously fascinated by and anxious about AI — welcoming its capabilities while fearing its implications for jobs, creativity, and truth, creating a generation-defining tension with technology."},
-        {"name": "Youth Nostalgia as Coping Mechanism", "description": "Young consumers turning to nostalgia when times are tough — with economic anxiety, global instability, and uncertain futures driving demand for familiar cultural touchstones from recent decades."}
+        {
+          "name": "Youth AI Ambivalence \u2014 The AI Debacle",
+          "description": "Young consumers simultaneously fascinated by and anxious about AI \u2014 welcoming its capabilities while fearing its implications for jobs, creativity, and truth, creating a generation-defining tension with technology."
+        },
+        {
+          "name": "Youth Nostalgia as Coping Mechanism",
+          "description": "Young consumers turning to nostalgia when times are tough \u2014 with economic anxiety, global instability, and uncertain futures driving demand for familiar cultural touchstones from recent decades."
+        }
       ],
       "signals": [
-        {"name": "Youth Travel and IRL Experience Economy Booming", "description": "Young consumers prioritizing travel and in-person experiences over material goods — with the experience economy capturing a growing share of youth spending as digital saturation increases the premium on physical presence."},
-        {"name": "Gen Activist and Cancel Culture Debate Intensifying", "description": "Youth activism and cancel culture dynamics intensifying — with young consumers holding brands and individuals to higher accountability standards while also debating the limits and consequences of cancellation."}
+        {
+          "name": "Youth Travel and IRL Experience Economy Booming",
+          "description": "Young consumers prioritizing travel and in-person experiences over material goods \u2014 with the experience economy capturing a growing share of youth spending as digital saturation increases the premium on physical presence."
+        },
+        {
+          "name": "Gen Activist and Cancel Culture Debate Intensifying",
+          "description": "Youth activism and cancel culture dynamics intensifying \u2014 with young consumers holding brands and individuals to higher accountability standards while also debating the limits and consequences of cancellation."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Pion",
+      "orgType": "Research"
     },
     {
       "filename": "PLAN A - Sustainability Trends 2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Sustainability Becoming Non-Negotiable Business Requirement", "description": "Sustainability transitioning from strategic differentiator to baseline business requirement — with climate-driven disruption, regulatory enforcement (CSRD), and investor demands making sustainability integration mandatory."},
-        {"name": "Great Sustainability Bifurcation", "description": "Business world splitting into those embedding genuine sustainability transformation and those making incremental adjustments — with the gap between leaders and laggards becoming a material competitive and regulatory differentiator."},
-        {"name": "AI in Sustainability — Benefits vs. Costs", "description": "AI simultaneously offering significant sustainability optimization capabilities and creating new environmental burdens (energy, water, e-waste) — with organizations needing to explicitly weigh AI's net sustainability impact."}
+        {
+          "name": "Sustainability Becoming Non-Negotiable Business Requirement",
+          "description": "Sustainability transitioning from strategic differentiator to baseline business requirement \u2014 with climate-driven disruption, regulatory enforcement (CSRD), and investor demands making sustainability integration mandatory."
+        },
+        {
+          "name": "Great Sustainability Bifurcation",
+          "description": "Business world splitting into those embedding genuine sustainability transformation and those making incremental adjustments \u2014 with the gap between leaders and laggards becoming a material competitive and regulatory differentiator."
+        },
+        {
+          "name": "AI in Sustainability \u2014 Benefits vs. Costs",
+          "description": "AI simultaneously offering significant sustainability optimization capabilities and creating new environmental burdens (energy, water, e-waste) \u2014 with organizations needing to explicitly weigh AI's net sustainability impact."
+        }
       ],
       "signals": [
-        {"name": "Los Angeles Wildfires January 2025 as Climate Reality Marker", "description": "LA wildfires accelerating corporate sustainability urgency — a specific high-profile climate event pushing sustainability from strategic aspiration to operational necessity for organizations in climate-exposed markets."},
-        {"name": "CSRD Implementation Driving European Sustainability Infrastructure", "description": "Corporate Sustainability Reporting Directive (CSRD) compelling European businesses to build sustainability measurement and reporting infrastructure — creating new data, governance, and accountability requirements."}
+        {
+          "name": "Los Angeles Wildfires January 2025 as Climate Reality Marker",
+          "description": "LA wildfires accelerating corporate sustainability urgency \u2014 a specific high-profile climate event pushing sustainability from strategic aspiration to operational necessity for organizations in climate-exposed markets."
+        },
+        {
+          "name": "CSRD Implementation Driving European Sustainability Infrastructure",
+          "description": "Corporate Sustainability Reporting Directive (CSRD) compelling European businesses to build sustainability measurement and reporting infrastructure \u2014 creating new data, governance, and accountability requirements."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Plan A",
+      "orgType": "Consultancy"
     },
     {
       "filename": "POSITIVE LUXURY - Real_Change_Report_2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Sustainable Luxury as Standard, Not Premium", "description": "Luxury brands required to demonstrate genuine sustainability — not as positioning but as operational reality — with climate disruption making sustainability a prerequisite for luxury's promise of lasting value."},
-        {"name": "Transparency as Competitive Advantage in Luxury", "description": "Trailblazing transparency about supply chain, environmental impact, and social practices becoming a genuine luxury competitive advantage — with consumers and regulators demanding substance over sustainability storytelling."}
+        {
+          "name": "Sustainable Luxury as Standard, Not Premium",
+          "description": "Luxury brands required to demonstrate genuine sustainability \u2014 not as positioning but as operational reality \u2014 with climate disruption making sustainability a prerequisite for luxury's promise of lasting value."
+        },
+        {
+          "name": "Transparency as Competitive Advantage in Luxury",
+          "description": "Trailblazing transparency about supply chain, environmental impact, and social practices becoming a genuine luxury competitive advantage \u2014 with consumers and regulators demanding substance over sustainability storytelling."
+        }
       ],
       "signals": [
-        {"name": "2030 Climate Deadlines Coming Into View for Luxury Brands", "description": "With 2030 climate commitments now within a 5-year horizon, luxury brands facing accountability for pledges made in 2019-2021 — with reporting requirements and stakeholder expectations demanding delivery proof."}
+        {
+          "name": "2030 Climate Deadlines Coming Into View for Luxury Brands",
+          "description": "With 2030 climate commitments now within a 5-year horizon, luxury brands facing accountability for pledges made in 2019-2021 \u2014 with reporting requirements and stakeholder expectations demanding delivery proof."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Positive Luxury",
+      "orgType": "Research"
     },
     {
       "filename": "PR LAB - Public Relations Trends 2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Authentic PR as Primary Communications Paradigm", "description": "Public relations shifting toward genuine authenticity — real voices, real beliefs, meaningful storytelling — as audiences distinguish performative purpose from actual organizational values and behavior."},
-        {"name": "Employee Advocacy as PR Infrastructure", "description": "Employee advocacy becoming a primary PR channel — with authentic employee voices generating trust and reach that paid media and corporate messaging cannot replicate in a skeptical information environment."}
+        {
+          "name": "Authentic PR as Primary Communications Paradigm",
+          "description": "Public relations shifting toward genuine authenticity \u2014 real voices, real beliefs, meaningful storytelling \u2014 as audiences distinguish performative purpose from actual organizational values and behavior."
+        },
+        {
+          "name": "Employee Advocacy as PR Infrastructure",
+          "description": "Employee advocacy becoming a primary PR channel \u2014 with authentic employee voices generating trust and reach that paid media and corporate messaging cannot replicate in a skeptical information environment."
+        }
       ],
       "signals": [
-        {"name": "Micro-Influencers Achieving Macro Impact", "description": "Micro-influencers with highly engaged niche audiences proving as or more effective than macro-influencers — shifting PR investment toward specificity, trust, and community depth over broadcast reach."},
-        {"name": "LinkedIn as Corporate PR Platform Maturing", "description": "LinkedIn emerging as a primary platform for senior leader thought leadership and organizational narrative — with B2B and institutional communications increasingly centered on professional network credibility."}
+        {
+          "name": "Micro-Influencers Achieving Macro Impact",
+          "description": "Micro-influencers with highly engaged niche audiences proving as or more effective than macro-influencers \u2014 shifting PR investment toward specificity, trust, and community depth over broadcast reach."
+        },
+        {
+          "name": "LinkedIn as Corporate PR Platform Maturing",
+          "description": "LinkedIn emerging as a primary platform for senior leader thought leadership and organizational narrative \u2014 with B2B and institutional communications increasingly centered on professional network credibility."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "PR Lab",
+      "orgType": "Agency"
     },
     {
       "filename": "PROPHET_RRB-2023-Report.pdf",
       "year": 2023,
       "trends": [
-        {"name": "Relentless Relevance as Brand Survival Requirement", "description": "Brand relevance becoming a survival requirement rather than a differentiator — with 90% of brands raising relevance scores as the penalty for irrelevance grows in a crowded, distracted consumer environment."},
-        {"name": "Emotional Resonance Driving Brand Value", "description": "Heart-based brand connection — emotional resonance, values alignment, and personal meaning — becoming increasingly important relative to rational product features and functional benefits in driving brand choice."}
+        {
+          "name": "Relentless Relevance as Brand Survival Requirement",
+          "description": "Brand relevance becoming a survival requirement rather than a differentiator \u2014 with 90% of brands raising relevance scores as the penalty for irrelevance grows in a crowded, distracted consumer environment."
+        },
+        {
+          "name": "Emotional Resonance Driving Brand Value",
+          "description": "Heart-based brand connection \u2014 emotional resonance, values alignment, and personal meaning \u2014 becoming increasingly important relative to rational product features and functional benefits in driving brand choice."
+        }
       ],
       "signals": [
-        {"name": "Record 90% of Brands Improving Relevance Scores", "description": "Prophet's 8th annual study showing record relevance improvement across brands — signaling either genuine quality improvement or the competitive floor rising as all brands invest in relevance at the same time."}
+        {
+          "name": "Record 90% of Brands Improving Relevance Scores",
+          "description": "Prophet's 8th annual study showing record relevance improvement across brands \u2014 signaling either genuine quality improvement or the competitive floor rising as all brands invest in relevance at the same time."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Prophet",
+      "orgType": "Consultancy"
     }
   ]
 }

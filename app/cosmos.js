@@ -691,15 +691,35 @@ function openPanel({ type, data: obj }, cosmos) {
 
   // Sources (all types)
   if (obj.sources?.length) {
+    const ORG_TYPE_COLORS = {
+      'Consultancy':  '#7eb8f7',
+      'Financial':    '#f5c842',
+      'Agency':       '#ff85c2',
+      'Research':     '#88ffaa',
+      'Tech':         '#a78bfa',
+      'Industry':     '#fb923c',
+      'Government':   '#94a3b8',
+      'UN & IGO':     '#34d399',
+      'Media':        '#f87171',
+    };
     sources.innerHTML = `
-      <div class="panel-section-label">Sources</div>
+      <div class="panel-section-label">Sources (${obj.sources.length})</div>
       <div id="panel-sources">
-        ${obj.sources.map(s => `
+        ${obj.sources.map(s => {
+          const typeColor = ORG_TYPE_COLORS[s.orgType] || '#aaa';
+          return `
           <div class="source-item">
-            <span class="source-name">${s.report}</span>
-            <span class="source-year">${s.year}</span>
-            ${s.url ? `<a class="source-link" href="${s.url}" target="_blank">↗</a>` : ''}
-          </div>`).join('')}
+            <div style="flex:1;min-width:0;">
+              ${s.org ? `<div style="font-size:11px;color:rgba(232,228,217,0.75);margin-bottom:2px;">${s.org}</div>` : ''}
+              <div style="font-size:10px;color:rgba(232,228,217,0.35);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${s.report}</div>
+            </div>
+            <div style="display:flex;align-items:center;gap:8px;flex-shrink:0;">
+              ${s.orgType ? `<span style="font-size:9px;letter-spacing:0.08em;text-transform:uppercase;color:${typeColor};opacity:0.85;border:1px solid ${typeColor}44;padding:2px 7px;border-radius:10px;">${s.orgType}</span>` : ''}
+              <span class="source-year">${s.year}</span>
+              ${s.url ? `<a class="source-link" href="${s.url}" target="_blank">↗</a>` : ''}
+            </div>
+          </div>`;
+        }).join('')}
       </div>`;
   }
 

@@ -5,113 +5,205 @@
       "filename": "TRANSLINK CORPORATE FINANCE_2024 Megatrends Report.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Middle Market M&A as Dominant Deal Driver", "description": "Middle market M&A demonstrating stability and pipeline strength as large-cap deals suffer from higher rates — with generational succession, consolidation cycles, and strategic divestiture creating robust deal flow."},
-        {"name": "Industry Hybridization — Race for Data", "description": "Industry boundaries blurring as data becomes the primary competitive asset — with cross-sector M&A accelerating as companies acquire data capabilities across traditional industry lines to compete in the platform economy."}
+        {
+          "name": "Middle Market M&A as Dominant Deal Driver",
+          "description": "Middle market M&A demonstrating stability and pipeline strength as large-cap deals suffer from higher rates \u2014 with generational succession, consolidation cycles, and strategic divestiture creating robust deal flow."
+        },
+        {
+          "name": "Industry Hybridization \u2014 Race for Data",
+          "description": "Industry boundaries blurring as data becomes the primary competitive asset \u2014 with cross-sector M&A accelerating as companies acquire data capabilities across traditional industry lines to compete in the platform economy."
+        }
       ],
       "signals": [
-        {"name": "Generational Succession Driving M&A Supply", "description": "Baby Boomer business owners reaching succession age — creating a wave of mid-market businesses coming to market as entrepreneurs seek exits, fueling deal supply independent of economic conditions."}
+        {
+          "name": "Generational Succession Driving M&A Supply",
+          "description": "Baby Boomer business owners reaching succession age \u2014 creating a wave of mid-market businesses coming to market as entrepreneurs seek exits, fueling deal supply independent of economic conditions."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Translink Corporate Finance",
+      "orgType": "Financial"
     },
     {
       "filename": "TRENDO.MX - Tendencias 2025_CAIG.pdf",
       "year": 2025,
       "trends": [],
       "signals": [
-        {"name": "Latin American Consumer Trends Diverging from Global Patterns", "description": "Trendo MX identifying distinctly local Latin American consumer directions — arguing that LatAm consumer behavior cannot be derived from European or US trend reports but requires regional-specific research and foresight."}
+        {
+          "name": "Latin American Consumer Trends Diverging from Global Patterns",
+          "description": "Trendo MX identifying distinctly local Latin American consumer directions \u2014 arguing that LatAm consumer behavior cannot be derived from European or US trend reports but requires regional-specific research and foresight."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Trendo.mx",
+      "orgType": "Research"
     },
     {
       "filename": "TRENDWATCHING - Trend Report 2025_Highlights_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "LoopLife — AI-Enabled Circular Economy Normalization", "description": "AI making circular economy behaviors — resale, rental, repair, recycling — simpler and more accessible, normalizing looplife consumption patterns that previously required significant consumer effort and awareness."},
-        {"name": "Sensescaping — Multisensory Experience Design", "description": "Brands and spaces designing deliberately for multisensory experience — scent, sound, texture, taste — as a strategy for creating memorable encounters in an increasingly visual and digital-first world."},
-        {"name": "Worthwise — Value Beyond Price", "description": "Consumers demanding demonstrable worth — not just value for money but meaningful contribution to their lives, communities, and planet — raising the bar for what justifies consumer spending in a skeptical economy."},
-        {"name": "Humanifesto — Brands Declaring Human Values", "description": "Brands articulating explicit human values manifestos — taking clear positions on what human flourishing means and committing to it operationally — as a counter to AI-driven homogenization and purpose fatigue."}
+        {
+          "name": "LoopLife \u2014 AI-Enabled Circular Economy Normalization",
+          "description": "AI making circular economy behaviors \u2014 resale, rental, repair, recycling \u2014 simpler and more accessible, normalizing looplife consumption patterns that previously required significant consumer effort and awareness."
+        },
+        {
+          "name": "Sensescaping \u2014 Multisensory Experience Design",
+          "description": "Brands and spaces designing deliberately for multisensory experience \u2014 scent, sound, texture, taste \u2014 as a strategy for creating memorable encounters in an increasingly visual and digital-first world."
+        },
+        {
+          "name": "Worthwise \u2014 Value Beyond Price",
+          "description": "Consumers demanding demonstrable worth \u2014 not just value for money but meaningful contribution to their lives, communities, and planet \u2014 raising the bar for what justifies consumer spending in a skeptical economy."
+        },
+        {
+          "name": "Humanifesto \u2014 Brands Declaring Human Values",
+          "description": "Brands articulating explicit human values manifestos \u2014 taking clear positions on what human flourishing means and committing to it operationally \u2014 as a counter to AI-driven homogenization and purpose fatigue."
+        }
       ],
       "signals": [
-        {"name": "AI-Powered Markdown Optimization Reducing Food Waste", "description": "AI tools automatically adjusting food prices and promotions to reduce waste at retail — an early commercial signal of AI enabling circular behaviors at scale without requiring consumer behavior change."}
+        {
+          "name": "AI-Powered Markdown Optimization Reducing Food Waste",
+          "description": "AI tools automatically adjusting food prices and promotions to reduce waste at retail \u2014 an early commercial signal of AI enabling circular behaviors at scale without requiring consumer behavior change."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "TrendWatching",
+      "orgType": "Research"
     },
     {
       "filename": "TRENDWATCHING_2024-Trend-Check.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Exchange Economy Replacing Expectation Economy", "description": "The era of consumer expectations (brands delivering what consumers demand) giving way to an exchange economy — where brands and consumers collaborate to solve the world's most urgent problems together."}
+        {
+          "name": "Exchange Economy Replacing Expectation Economy",
+          "description": "The era of consumer expectations (brands delivering what consumers demand) giving way to an exchange economy \u2014 where brands and consumers collaborate to solve the world's most urgent problems together."
+        }
       ],
       "signals": [
-        {"name": "Cross-Industry Collaboration as Problem-Solving Model", "description": "Most effective 2024 solutions to complex consumer and societal challenges coming from cross-industry collaboration — with single-industry approaches insufficient for the interconnected problems of climate, health, and inequality."}
+        {
+          "name": "Cross-Industry Collaboration as Problem-Solving Model",
+          "description": "Most effective 2024 solutions to complex consumer and societal challenges coming from cross-industry collaboration \u2014 with single-industry approaches insufficient for the interconnected problems of climate, health, and inequality."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "TrendWatching",
+      "orgType": "Research"
     },
     {
       "filename": "TRIPLE A - The State of Global Cryptocurrency Ownership.pdf",
       "year": 2024,
       "trends": [],
       "signals": [],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Triple-A",
+      "orgType": "Research"
     },
     {
       "filename": "UBS - Year Ahead 2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Roaring 20s — Next Stage", "description": "UBS framing the mid-2020s as the next stage of a 'Roaring 20s' decade — with rising equity markets, solid economic growth, and AI-driven technological breakthroughs defining the period despite pandemic, war, and societal challenges."}
+        {
+          "name": "Roaring 20s \u2014 Next Stage",
+          "description": "UBS framing the mid-2020s as the next stage of a 'Roaring 20s' decade \u2014 with rising equity markets, solid economic growth, and AI-driven technological breakthroughs defining the period despite pandemic, war, and societal challenges."
+        }
       ],
       "signals": [
-        {"name": "Seizing AI as Core Investment Thesis for 2025", "description": "UBS positioning AI as the primary investment opportunity of 2025 — with 'seize the AI' framing directing private and institutional capital toward AI infrastructure, applications, and AI-enabled sector transformation."}
+        {
+          "name": "Seizing AI as Core Investment Thesis for 2025",
+          "description": "UBS positioning AI as the primary investment opportunity of 2025 \u2014 with 'seize the AI' framing directing private and institutional capital toward AI infrastructure, applications, and AI-enabled sector transformation."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "UBS",
+      "orgType": "Financial"
     },
     {
       "filename": "UBS_Trends-in-philanthropy-2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Blended Finance Catalyzing Private Capital for Impact", "description": "Blended finance emerging as a primary mechanism for mobilizing private capital toward sustainable development — using concessional capital to de-risk investments that commercial investors would otherwise avoid."}
+        {
+          "name": "Blended Finance Catalyzing Private Capital for Impact",
+          "description": "Blended finance emerging as a primary mechanism for mobilizing private capital toward sustainable development \u2014 using concessional capital to de-risk investments that commercial investors would otherwise avoid."
+        }
       ],
       "signals": [
-        {"name": "First-Loss Capital Enabling Innovative Impact Pilots", "description": "Philanthropic and public first-loss capital structures enabling high-risk, high-potential impact pilots to attract commercial co-investment — creating a replicable model for scaling solutions to systemic global challenges."}
+        {
+          "name": "First-Loss Capital Enabling Innovative Impact Pilots",
+          "description": "Philanthropic and public first-loss capital structures enabling high-risk, high-potential impact pilots to attract commercial co-investment \u2014 creating a replicable model for scaling solutions to systemic global challenges."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "UBS",
+      "orgType": "Financial"
     },
     {
       "filename": "UBS_Year Ahead 2024 Investment Report.pdf",
       "year": 2024,
       "trends": [
-        {"name": "First Trillion-Dollar AI Company Marking New Era", "description": "2023 seeing the first AI-focused company reach trillion-dollar valuation — marking a watershed moment that legitimizes AI as the defining investment and economic theme of the decade."}
+        {
+          "name": "First Trillion-Dollar AI Company Marking New Era",
+          "description": "2023 seeing the first AI-focused company reach trillion-dollar valuation \u2014 marking a watershed moment that legitimizes AI as the defining investment and economic theme of the decade."
+        }
       ],
       "signals": [
-        {"name": "Bond Yields at 15-Year Highs Restructuring Finance", "description": "Bond yields reaching their highest levels in over 15 years in 2023 — fundamentally restructuring the investment landscape, reviving fixed income's role, and creating new valuation frameworks for all risk assets."}
+        {
+          "name": "Bond Yields at 15-Year Highs Restructuring Finance",
+          "description": "Bond yields reaching their highest levels in over 15 years in 2023 \u2014 fundamentally restructuring the investment landscape, reviving fixed income's role, and creating new valuation frameworks for all risk assets."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "UBS",
+      "orgType": "Financial"
     },
     {
       "filename": "UDEMY_ Global Learning & Skills Trends Report 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Skills-Based Economy Replacing Credentials", "description": "Labor market restructuring around demonstrated skills rather than formal credentials — with AI and automation driving demand for specific capabilities that traditional education systems cannot certify fast enough."},
-        {"name": "Generative AI Skills as Urgency Learning Category", "description": "Learning and development organizations identifying generative AI skills adaptation as an urgent organizational priority — with workers needing to rapidly develop AI collaboration competencies that formal education cannot deliver at speed."}
+        {
+          "name": "Skills-Based Economy Replacing Credentials",
+          "description": "Labor market restructuring around demonstrated skills rather than formal credentials \u2014 with AI and automation driving demand for specific capabilities that traditional education systems cannot certify fast enough."
+        },
+        {
+          "name": "Generative AI Skills as Urgency Learning Category",
+          "description": "Learning and development organizations identifying generative AI skills adaptation as an urgent organizational priority \u2014 with workers needing to rapidly develop AI collaboration competencies that formal education cannot deliver at speed."
+        }
       ],
       "signals": [
-        {"name": "Leadership Development as Critical Skill Category", "description": "Strong leadership capability identified as a critical skills gap — with organizational navigation of AI transformation, ambiguity, and change requiring human leadership qualities that AI cannot provide."}
+        {
+          "name": "Leadership Development as Critical Skill Category",
+          "description": "Strong leadership capability identified as a critical skills gap \u2014 with organizational navigation of AI transformation, ambiguity, and change requiring human leadership qualities that AI cannot provide."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Udemy",
+      "orgType": "Tech"
     },
     {
       "filename": "ULTRA VIOLET - FemTech+Futures+2035_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "FemTech Entering Radical Opportunity Era", "description": "Women's health technology at an inflection point — with AI-enabled diagnostics, wearable health monitoring, reproductive technology, and personalized medicine creating a decade of transformative opportunity in an historically underserved market."}
+        {
+          "name": "FemTech Entering Radical Opportunity Era",
+          "description": "Women's health technology at an inflection point \u2014 with AI-enabled diagnostics, wearable health monitoring, reproductive technology, and personalized medicine creating a decade of transformative opportunity in an historically underserved market."
+        }
       ],
       "signals": [
-        {"name": "At-Home AI Diagnostics for Women's Health Emerging", "description": "AI-powered home diagnostic tools beginning to address women's health conditions that previously required clinical settings — democratizing access to early detection and personalized health management."},
-        {"name": "Artificial Womb Technology on Research Horizon", "description": "Artificial womb and ectogenesis research advancing — creating future scenarios where reproductive technology offers new forms of agency and autonomy that will reshape biological, social, and ethical frameworks around reproduction."}
+        {
+          "name": "At-Home AI Diagnostics for Women's Health Emerging",
+          "description": "AI-powered home diagnostic tools beginning to address women's health conditions that previously required clinical settings \u2014 democratizing access to early detection and personalized health management."
+        },
+        {
+          "name": "Artificial Womb Technology on Research Horizon",
+          "description": "Artificial womb and ectogenesis research advancing \u2014 creating future scenarios where reproductive technology offers new forms of agency and autonomy that will reshape biological, social, and ethical frameworks around reproduction."
+        }
       ],
       "scenarios": [
-        {"name": "FemTech 2035 — AI-Enabled Women's Health Revolution", "description": "Ultra Violet's 10-year scenario where AI diagnostics, personalized medicine, and reproductive technology converge to fundamentally transform women's health outcomes — if ethically governed and equitably distributed."}
-      ]
+        {
+          "name": "FemTech 2035 \u2014 AI-Enabled Women's Health Revolution",
+          "description": "Ultra Violet's 10-year scenario where AI diagnostics, personalized medicine, and reproductive technology converge to fundamentally transform women's health outcomes \u2014 if ethically governed and equitably distributed."
+        }
+      ],
+      "org": "Ultra Violet",
+      "orgType": "Research"
     }
   ]
 }

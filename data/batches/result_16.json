@@ -5,110 +5,196 @@
       "filename": "MELTWATER - 2025 State of Social Global Report_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Social Media Intelligence as Business Imperative", "description": "Social media evolving from communications channel to strategic business intelligence source — with 2025 social teams focused on converting social data into actionable organizational insight."}
+        {
+          "name": "Social Media Intelligence as Business Imperative",
+          "description": "Social media evolving from communications channel to strategic business intelligence source \u2014 with 2025 social teams focused on converting social data into actionable organizational insight."
+        }
       ],
       "signals": [
-        {"name": "AI Transforming Social Media Workflows", "description": "AI tools becoming standard infrastructure for social media teams — transforming content planning, publishing, and measurement from manual to automated, freeing teams for strategy and creativity."}
+        {
+          "name": "AI Transforming Social Media Workflows",
+          "description": "AI tools becoming standard infrastructure for social media teams \u2014 transforming content planning, publishing, and measurement from manual to automated, freeing teams for strategy and creativity."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Meltwater",
+      "orgType": "Tech"
     },
     {
       "filename": "MERCER - Economic-and-market-outlook-2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Descent from Peak Rates — Policy Navigation Challenge", "description": "Central banks navigating the technically complex descent from peak interest rates — with inflation-growth balance delicate enough that miscalibration could trigger either recession or reflation."}
+        {
+          "name": "Descent from Peak Rates \u2014 Policy Navigation Challenge",
+          "description": "Central banks navigating the technically complex descent from peak interest rates \u2014 with inflation-growth balance delicate enough that miscalibration could trigger either recession or reflation."
+        }
       ],
       "signals": [
-        {"name": "China Growth Uncertainty as Systemic Variable", "description": "China's growth trajectory becoming a systemic uncertainty for global markets — with property sector distress, weak domestic demand, and policy response creating wide scenario dispersion for EM assets."},
-        {"name": "DM Central Banks Reaching Terminal Rates by End-2025", "description": "Developed market central banks (ex-Japan) expected to reach terminal rates by end of 2025 — signaling the end of the rate hiking cycle and beginning of a new, more complex monetary policy environment."}
+        {
+          "name": "China Growth Uncertainty as Systemic Variable",
+          "description": "China's growth trajectory becoming a systemic uncertainty for global markets \u2014 with property sector distress, weak domestic demand, and policy response creating wide scenario dispersion for EM assets."
+        },
+        {
+          "name": "DM Central Banks Reaching Terminal Rates by End-2025",
+          "description": "Developed market central banks (ex-Japan) expected to reach terminal rates by end of 2025 \u2014 signaling the end of the rate hiking cycle and beginning of a new, more complex monetary policy environment."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Mercer",
+      "orgType": "Consultancy"
     },
     {
       "filename": "MESSARI_Crypto-theses-for-2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Crypto Industry Post-Credit-Crisis Rebuild", "description": "Crypto industry rebuilding from its first credit crisis — with survivors (Coinbase, Kraken, Circle) operating on stronger foundations while Wall Street institutional embrace becomes imminent regardless of skepticism."},
-        {"name": "AI and Crypto Convergence", "description": "AI and cryptocurrency systems beginning to intersect — with AI agents potentially needing crypto payment rails and blockchain infrastructure providing the trustless settlement layer for machine-to-machine economic activity."}
+        {
+          "name": "Crypto Industry Post-Credit-Crisis Rebuild",
+          "description": "Crypto industry rebuilding from its first credit crisis \u2014 with survivors (Coinbase, Kraken, Circle) operating on stronger foundations while Wall Street institutional embrace becomes imminent regardless of skepticism."
+        },
+        {
+          "name": "AI and Crypto Convergence",
+          "description": "AI and cryptocurrency systems beginning to intersect \u2014 with AI agents potentially needing crypto payment rails and blockchain infrastructure providing the trustless settlement layer for machine-to-machine economic activity."
+        }
       ],
       "signals": [
-        {"name": "Wall Street Crypto Embrace Now Inevitable", "description": "Messari identifying Wall Street's institutional adoption of crypto as no longer conditional but inevitable — driven by ETF approval, stablecoin infrastructure, and client demand creating irreversible integration momentum."}
+        {
+          "name": "Wall Street Crypto Embrace Now Inevitable",
+          "description": "Messari identifying Wall Street's institutional adoption of crypto as no longer conditional but inevitable \u2014 driven by ETF approval, stablecoin infrastructure, and client demand creating irreversible integration momentum."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Messari",
+      "orgType": "Research"
     },
     {
       "filename": "META - BR Plan & Go 2025_CAIG.pdf",
       "year": 2025,
       "trends": [],
       "signals": [
-        {"name": "Brazilian Consumers Planning Increased Spending in 2025", "description": "Meta research showing Brazilian consumers entering 2025 with stronger spending intentions than 2024 — signaling consumer confidence recovery in a key emerging market that influences regional sentiment."}
+        {
+          "name": "Brazilian Consumers Planning Increased Spending in 2025",
+          "description": "Meta research showing Brazilian consumers entering 2025 with stronger spending intentions than 2024 \u2014 signaling consumer confidence recovery in a key emerging market that influences regional sentiment."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Meta",
+      "orgType": "Tech"
     },
     {
       "filename": "META - MX Plan & Go 2025_CAIG.pdf",
       "year": 2025,
       "trends": [],
       "signals": [
-        {"name": "AI as Core Business Strategy in Latin America", "description": "Meta positioning AI as the central business strategy theme for Mexican and Latin American advertisers in 2025 — signaling LatAm's acceleration from AI awareness to AI operational deployment."}
+        {
+          "name": "AI as Core Business Strategy in Latin America",
+          "description": "Meta positioning AI as the central business strategy theme for Mexican and Latin American advertisers in 2025 \u2014 signaling LatAm's acceleration from AI awareness to AI operational deployment."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Meta",
+      "orgType": "Tech"
     },
     {
       "filename": "METRICOOL - 2025-Social-Media-Study_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Social Media Platform Fragmentation Accelerating", "description": "Social media landscape spreading across an expanding number of platforms — with Metricool's 8-platform analysis revealing no single platform dominance and increasing audience and content distribution complexity."}
+        {
+          "name": "Social Media Platform Fragmentation Accelerating",
+          "description": "Social media landscape spreading across an expanding number of platforms \u2014 with Metricool's 8-platform analysis revealing no single platform dominance and increasing audience and content distribution complexity."
+        }
       ],
       "signals": [],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Metricool",
+      "orgType": "Tech"
     },
     {
       "filename": "MICHAEL HEALY-REHN_Ontological Shocks-2024 in Trends.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Ontological Shocks Disrupting Trend Methodology", "description": "Unexpected discontinuities — conflicts, climate disasters, technological ruptures — exposing the limitations of conventional trend forecasting and demanding scenario-based, uncertainty-embracing foresight approaches."}
+        {
+          "name": "Ontological Shocks Disrupting Trend Methodology",
+          "description": "Unexpected discontinuities \u2014 conflicts, climate disasters, technological ruptures \u2014 exposing the limitations of conventional trend forecasting and demanding scenario-based, uncertainty-embracing foresight approaches."
+        }
       ],
       "signals": [
-        {"name": "Traditional Trend Prediction Models Becoming Obsolete", "description": "Signal-to-headline trend prediction methodology increasingly inadequate as ontological shocks — events that fundamentally alter the nature of things — occur faster than models can accommodate."}
+        {
+          "name": "Traditional Trend Prediction Models Becoming Obsolete",
+          "description": "Signal-to-headline trend prediction methodology increasingly inadequate as ontological shocks \u2014 events that fundamentally alter the nature of things \u2014 occur faster than models can accommodate."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Michael Healy-Rehn",
+      "orgType": "Research"
     },
     {
       "filename": "MICROSOFT_NewFutureOfWork_Report2023.pdf",
       "year": 2023,
       "trends": [
-        {"name": "AI Redefining Knowledge Work Fundamentally", "description": "AI and the future of work entering a rare transformative moment where decades-old work models are challenged — requiring research to actively shape outcomes rather than describe outcomes already determined."},
-        {"name": "Hybrid Work Becoming Permanent Architecture", "description": "Hybrid work transitioning from emergency accommodation to permanent organizational design — with new norms, tools, and management practices needed for a world where presence and location are variable."}
+        {
+          "name": "AI Redefining Knowledge Work Fundamentally",
+          "description": "AI and the future of work entering a rare transformative moment where decades-old work models are challenged \u2014 requiring research to actively shape outcomes rather than describe outcomes already determined."
+        },
+        {
+          "name": "Hybrid Work Becoming Permanent Architecture",
+          "description": "Hybrid work transitioning from emergency accommodation to permanent organizational design \u2014 with new norms, tools, and management practices needed for a world where presence and location are variable."
+        }
       ],
       "signals": [
-        {"name": "AI Research Role in Defining Future of Work", "description": "Microsoft identifying research as unusually powerful in 2023 — with the future of AI and work genuinely underdetermined, making evidence-based research a genuine input into how the future unfolds."}
+        {
+          "name": "AI Research Role in Defining Future of Work",
+          "description": "Microsoft identifying research as unusually powerful in 2023 \u2014 with the future of AI and work genuinely underdetermined, making evidence-based research a genuine input into how the future unfolds."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Microsoft",
+      "orgType": "Tech"
     },
     {
       "filename": "MOMENTUM WW - Little-Book-of-Trends-2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Reinvention Over Reset as Consumer Mindset", "description": "Consumer psychology shifting from reset (returning to normal) to reinvention (building something new) — with community, connection, and revitalization driving consumer behavior into 2025."},
-        {"name": "Technology and Wellness Fusion", "description": "Technology and wellness converging into integrated lifestyle systems — with consumers adopting tech-enabled wellness practices that make digital and physical health management inseparable."}
+        {
+          "name": "Reinvention Over Reset as Consumer Mindset",
+          "description": "Consumer psychology shifting from reset (returning to normal) to reinvention (building something new) \u2014 with community, connection, and revitalization driving consumer behavior into 2025."
+        },
+        {
+          "name": "Technology and Wellness Fusion",
+          "description": "Technology and wellness converging into integrated lifestyle systems \u2014 with consumers adopting tech-enabled wellness practices that make digital and physical health management inseparable."
+        }
       ],
       "signals": [
-        {"name": "Consumer-Driven Positive Transformation", "description": "Momentum WW identifying a consumer movement toward active, positive personal and community transformation — with brands positioned as enablers of this movement rather than mere product providers."}
+        {
+          "name": "Consumer-Driven Positive Transformation",
+          "description": "Momentum WW identifying a consumer movement toward active, positive personal and community transformation \u2014 with brands positioned as enablers of this movement rather than mere product providers."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Momentum Worldwide",
+      "orgType": "Agency"
     },
     {
       "filename": "MONOTYPE - Revision_2025_Report_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Typography as Cultural Signal Across AI Era", "description": "Typography evolving as a primary cultural signal in response to AI-generated visual content — with human-designed type asserting identity, authenticity, and values in a world of algorithmically produced imagery."},
-        {"name": "Visual Language Responding to Social Contract Shifts", "description": "Graphic and typographic design reflecting and responding to changing social contracts around freedom, justice, generational continuity, and environmental responsibility — design as social document."}
+        {
+          "name": "Typography as Cultural Signal Across AI Era",
+          "description": "Typography evolving as a primary cultural signal in response to AI-generated visual content \u2014 with human-designed type asserting identity, authenticity, and values in a world of algorithmically produced imagery."
+        },
+        {
+          "name": "Visual Language Responding to Social Contract Shifts",
+          "description": "Graphic and typographic design reflecting and responding to changing social contracts around freedom, justice, generational continuity, and environmental responsibility \u2014 design as social document."
+        }
       ],
       "signals": [
-        {"name": "AI and Multimedia Reshaping Typography Possibilities", "description": "AI tools and multimedia integration creating new possibilities for typographic expression — enabling dynamic, context-responsive, and personalized type that static print design never allowed."}
+        {
+          "name": "AI and Multimedia Reshaping Typography Possibilities",
+          "description": "AI tools and multimedia integration creating new possibilities for typographic expression \u2014 enabling dynamic, context-responsive, and personalized type that static print design never allowed."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Monotype",
+      "orgType": "Tech"
     }
   ]
 }

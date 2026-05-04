@@ -45,6 +45,8 @@ def build_cosmos(entries):
         filename = entry["filename"]
         year     = entry.get("year", CURRENT_YEAR)
         source_report = filename.replace(".pdf", "")
+        org      = entry.get("org", "Unknown")
+        org_type = entry.get("orgType", "Research")
 
         # Collect trend IDs for this entry
         entry_trend_ids = []
@@ -56,7 +58,7 @@ def build_cosmos(entries):
                 "id":          tid,
                 "name":        t["name"],
                 "description": t["description"],
-                "sources":     [{"report": source_report, "year": year, "url": ""}],
+                "sources":     [{"report": source_report, "year": year, "url": "", "org": org, "orgType": org_type}],
                 "signals":     [],
                 "scenarios":   [],
                 "firstSeen":   year,
@@ -76,7 +78,7 @@ def build_cosmos(entries):
                 "id":          sid,
                 "name":        sig["name"],
                 "description": sig["description"],
-                "sources":     [{"report": source_report, "year": year, "url": ""}],
+                "sources":     [{"report": source_report, "year": year, "url": "", "org": org, "orgType": org_type}],
                 "firstSeen":   year,
                 "lastSeen":    year,
                 "strength":    0.6,   # default; bumped for multi-source
@@ -98,7 +100,7 @@ def build_cosmos(entries):
                 "name":        sc["name"],
                 "description": sc["description"],
                 "trend":       parent_trend,
-                "sources":     [{"report": source_report, "year": year, "url": ""}],
+                "sources":     [{"report": source_report, "year": year, "url": "", "org": org, "orgType": org_type}],
             })
             # Register scenario with its parent trend
             for tr in trends:

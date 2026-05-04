@@ -5,122 +5,238 @@
       "filename": "CES_Tech Trends To Watch 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Gen Z as Technology's New Economic Center", "description": "Gen Z (86% identify tech as essential to their lives) becoming the dominant consumer force shaping technology product design, marketing, and investment."},
-        {"name": "Global Connectivity Acceleration", "description": "5.4 billion people projected online by 2027, with the bulk of new users coming from emerging markets — reshaping digital product design and creating new economic power centers."}
+        {
+          "name": "Gen Z as Technology's New Economic Center",
+          "description": "Gen Z (86% identify tech as essential to their lives) becoming the dominant consumer force shaping technology product design, marketing, and investment."
+        },
+        {
+          "name": "Global Connectivity Acceleration",
+          "description": "5.4 billion people projected online by 2027, with the bulk of new users coming from emerging markets \u2014 reshaping digital product design and creating new economic power centers."
+        }
       ],
       "signals": [
-        {"name": "AI and Robotics Co-Evolution at CES", "description": "CES 2024 revealing AI and robotics increasingly presented as integrated systems rather than separate domains — a convergence signaling coming operational fusion."},
-        {"name": "Gen Z Splurging on Tech Over Other Categories", "description": "Gen Z demonstrating higher propensity to prioritize technology spending versus other discretionary categories, validating tech as the dominant consumer value category for the cohort."}
+        {
+          "name": "AI and Robotics Co-Evolution at CES",
+          "description": "CES 2024 revealing AI and robotics increasingly presented as integrated systems rather than separate domains \u2014 a convergence signaling coming operational fusion."
+        },
+        {
+          "name": "Gen Z Splurging on Tech Over Other Categories",
+          "description": "Gen Z demonstrating higher propensity to prioritize technology spending versus other discretionary categories, validating tech as the dominant consumer value category for the cohort."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Consumer Electronics Show (CES)",
+      "orgType": "Research"
     },
     {
       "filename": "COINBASE - 2025 Crypto Market Outlook_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Crypto Asset Class Institutionalization", "description": "Cryptocurrency transitioning from alternative to institutional mainstream following ETF approval, tokenization growth, and stablecoin payment integration at scale."},
-        {"name": "Stablecoin Integration into Global Payments", "description": "Stablecoins achieving meaningful integration into global payments infrastructure, moving beyond crypto-native use toward cross-border settlement and remittance at scale."}
+        {
+          "name": "Crypto Asset Class Institutionalization",
+          "description": "Cryptocurrency transitioning from alternative to institutional mainstream following ETF approval, tokenization growth, and stablecoin payment integration at scale."
+        },
+        {
+          "name": "Stablecoin Integration into Global Payments",
+          "description": "Stablecoins achieving meaningful integration into global payments infrastructure, moving beyond crypto-native use toward cross-border settlement and remittance at scale."
+        }
       ],
       "signals": [
-        {"name": "Spot Bitcoin ETF Approved in US 2024", "description": "US regulatory approval of spot Bitcoin ETFs marking a watershed moment for institutional access and signaling broader regulatory normalization of crypto assets."},
-        {"name": "Tokenization of Financial Products Accelerating", "description": "Real-world asset tokenization — bonds, funds, real estate — expanding rapidly as blockchain infrastructure matures and regulatory clarity improves."},
-        {"name": "Pro-Crypto US Political Environment Post-2024 Election", "description": "2024 US election result creating favorable regulatory environment for crypto industry, potentially enabling significant policy and infrastructure advances in 2025."}
+        {
+          "name": "Spot Bitcoin ETF Approved in US 2024",
+          "description": "US regulatory approval of spot Bitcoin ETFs marking a watershed moment for institutional access and signaling broader regulatory normalization of crypto assets."
+        },
+        {
+          "name": "Tokenization of Financial Products Accelerating",
+          "description": "Real-world asset tokenization \u2014 bonds, funds, real estate \u2014 expanding rapidly as blockchain infrastructure matures and regulatory clarity improves."
+        },
+        {
+          "name": "Pro-Crypto US Political Environment Post-2024 Election",
+          "description": "2024 US election result creating favorable regulatory environment for crypto industry, potentially enabling significant policy and infrastructure advances in 2025."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Coinbase",
+      "orgType": "Tech"
     },
     {
       "filename": "COINBASE_2024 Crypto Market Outlook.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Layer 2 Blockchain Scaling", "description": "Layer 2 networks maturing to handle the throughput required for mainstream adoption, making blockchain infrastructure viable for high-volume financial and commercial applications."}
+        {
+          "name": "Layer 2 Blockchain Scaling",
+          "description": "Layer 2 networks maturing to handle the throughput required for mainstream adoption, making blockchain infrastructure viable for high-volume financial and commercial applications."
+        }
       ],
       "signals": [
-        {"name": "Tokenization of Real-World Assets Beginning", "description": "Traditional financial assets beginning to be represented on blockchain infrastructure, bridging crypto-native systems with conventional capital markets."}
+        {
+          "name": "Tokenization of Real-World Assets Beginning",
+          "description": "Traditional financial assets beginning to be represented on blockchain infrastructure, bridging crypto-native systems with conventional capital markets."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Coinbase",
+      "orgType": "Tech"
     },
     {
       "filename": "COLIN LEWIS_The Seven Challenges for Retail Media in 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Retail Media as Primary Ad Infrastructure", "description": "Retail media networks transitioning from niche opportunity to the dominant advertising infrastructure, rivaling search and social in scale and strategic importance."}
+        {
+          "name": "Retail Media as Primary Ad Infrastructure",
+          "description": "Retail media networks transitioning from niche opportunity to the dominant advertising infrastructure, rivaling search and social in scale and strategic importance."
+        }
       ],
       "signals": [
-        {"name": "Retail Media Coverage Reaching Financial Press", "description": "Retail media moving from industry journals to Financial Times and WSJ coverage, signaling mainstream recognition of its economic significance."},
-        {"name": "AI and Copyright Tension in Marketing", "description": "AI-generated content raising unresolved copyright and attribution questions in marketing and media contexts, creating legal risk alongside creative opportunity."}
+        {
+          "name": "Retail Media Coverage Reaching Financial Press",
+          "description": "Retail media moving from industry journals to Financial Times and WSJ coverage, signaling mainstream recognition of its economic significance."
+        },
+        {
+          "name": "AI and Copyright Tension in Marketing",
+          "description": "AI-generated content raising unresolved copyright and attribution questions in marketing and media contexts, creating legal risk alongside creative opportunity."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Colin Lewis",
+      "orgType": "Consultancy"
     },
     {
       "filename": "CONTAGIOUS - Grand Prix Insights 2024_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Culture Hacking as Brand Strategy", "description": "Brands succeeding by embedding themselves in organic cultural moments and subcultures rather than broadcasting polished campaigns — authenticity through cultural participation."}
+        {
+          "name": "Culture Hacking as Brand Strategy",
+          "description": "Brands succeeding by embedding themselves in organic cultural moments and subcultures rather than broadcasting polished campaigns \u2014 authenticity through cultural participation."
+        }
       ],
       "signals": [
-        {"name": "Gender Equity in Sports as Brand Opportunity", "description": "Women's football and sport generating significant creative and commercial momentum for brands willing to invest ahead of mainstream recognition."},
-        {"name": "Influencer-Brand Collaboration Evolving into Co-Creation", "description": "Successful brand campaigns (e.g. Michael CeraVe) showing creators as genuine co-creators rather than distribution channels, fundamentally changing brand partnership models."}
+        {
+          "name": "Gender Equity in Sports as Brand Opportunity",
+          "description": "Women's football and sport generating significant creative and commercial momentum for brands willing to invest ahead of mainstream recognition."
+        },
+        {
+          "name": "Influencer-Brand Collaboration Evolving into Co-Creation",
+          "description": "Successful brand campaigns (e.g. Michael CeraVe) showing creators as genuine co-creators rather than distribution channels, fundamentally changing brand partnership models."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Contagious",
+      "orgType": "Research"
     },
     {
       "filename": "CONTAGIOUS - IQ Download 2024_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Anti-AI Marketing as Differentiation", "description": "Brands explicitly positioning against AI-generated content as a trust and authenticity signal — the first clear counter-current to AI adoption in creative work."},
-        {"name": "Distrust and Fakery as Cultural Context", "description": "Widespread skepticism about authenticity of media, brand communications, and public information shaping consumer receptivity to all marketing messages."}
+        {
+          "name": "Anti-AI Marketing as Differentiation",
+          "description": "Brands explicitly positioning against AI-generated content as a trust and authenticity signal \u2014 the first clear counter-current to AI adoption in creative work."
+        },
+        {
+          "name": "Distrust and Fakery as Cultural Context",
+          "description": "Widespread skepticism about authenticity of media, brand communications, and public information shaping consumer receptivity to all marketing messages."
+        }
       ],
       "signals": [
-        {"name": "TikTok as Primary Search for Gen Z", "description": "Gen Z increasingly using TikTok as their primary search and discovery interface, displacing Google for product, local, and cultural queries."},
-        {"name": "Long-Form Content Revival on YouTube", "description": "YouTube experiencing renewed engagement with longer-form content as audiences seek depth and context in contrast to algorithmically optimized short-form."}
+        {
+          "name": "TikTok as Primary Search for Gen Z",
+          "description": "Gen Z increasingly using TikTok as their primary search and discovery interface, displacing Google for product, local, and cultural queries."
+        },
+        {
+          "name": "Long-Form Content Revival on YouTube",
+          "description": "YouTube experiencing renewed engagement with longer-form content as audiences seek depth and context in contrast to algorithmically optimized short-form."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Contagious",
+      "orgType": "Research"
     },
     {
       "filename": "CONTAGIOUS_Radar 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "AI as Industry's Defining Challenge", "description": "AI replacing previous disruptions (mobile, social) as the primary strategic question for every sector — combining opportunity and threat in unprecedented simultaneity."}
+        {
+          "name": "AI as Industry's Defining Challenge",
+          "description": "AI replacing previous disruptions (mobile, social) as the primary strategic question for every sector \u2014 combining opportunity and threat in unprecedented simultaneity."
+        }
       ],
       "signals": [
-        {"name": "3.5x Increase in AI Search Interest in One Year", "description": "Google Search data showing 3.5x increase in 'artificial intelligence' searches year-over-year, marking mainstream awareness tipping point."},
-        {"name": "Brand Purpose Under Pressure", "description": "Purpose-driven brand positioning facing increasing skepticism and backlash as consumers distinguish authentic commitment from marketing positioning."}
+        {
+          "name": "3.5x Increase in AI Search Interest in One Year",
+          "description": "Google Search data showing 3.5x increase in 'artificial intelligence' searches year-over-year, marking mainstream awareness tipping point."
+        },
+        {
+          "name": "Brand Purpose Under Pressure",
+          "description": "Purpose-driven brand positioning facing increasing skepticism and backlash as consumers distinguish authentic commitment from marketing positioning."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Contagious",
+      "orgType": "Research"
     },
     {
       "filename": "CORRS_M&A 2024 Outlook.pdf",
       "year": 2024,
       "trends": [
-        {"name": "M&A Strategy Shifting Under Higher Rates", "description": "Corporate acquisition strategy fundamentally recalibrating as higher interest rate environment makes leveraged deals more expensive and strategic fit more important than financial engineering."}
+        {
+          "name": "M&A Strategy Shifting Under Higher Rates",
+          "description": "Corporate acquisition strategy fundamentally recalibrating as higher interest rate environment makes leveraged deals more expensive and strategic fit more important than financial engineering."
+        }
       ],
       "signals": [],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Corrs Chambers Westgarth",
+      "orgType": "Consultancy"
     },
     {
       "filename": "CREATOR IQ - The State of Creator Marketing 2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Creator Economy Disrupting Traditional Media Buying", "description": "Creator marketing now a primary advertising channel rather than supplement — brands allocating major budgets to creator partnerships as a core media strategy."},
-        {"name": "Influencer Marketing Industry Scaling to $480B by 2027", "description": "The creator economy projected to reach $480 billion in value by 2027, validating its transition from experimental to institutional marketing infrastructure."}
+        {
+          "name": "Creator Economy Disrupting Traditional Media Buying",
+          "description": "Creator marketing now a primary advertising channel rather than supplement \u2014 brands allocating major budgets to creator partnerships as a core media strategy."
+        },
+        {
+          "name": "Influencer Marketing Industry Scaling to $480B by 2027",
+          "description": "The creator economy projected to reach $480 billion in value by 2027, validating its transition from experimental to institutional marketing infrastructure."
+        }
       ],
       "signals": [
-        {"name": "AI-Led Influencer Campaign Tools Maturing", "description": "AI tools for influencer discovery, brief creation, and performance measurement becoming standard infrastructure for creator marketing programs."},
-        {"name": "Niche Creators Outperforming Mass Influencers", "description": "Brands reporting better ROI from highly specific niche creators versus broad-reach macro-influencers, shifting investment toward specificity over scale."}
+        {
+          "name": "AI-Led Influencer Campaign Tools Maturing",
+          "description": "AI tools for influencer discovery, brief creation, and performance measurement becoming standard infrastructure for creator marketing programs."
+        },
+        {
+          "name": "Niche Creators Outperforming Mass Influencers",
+          "description": "Brands reporting better ROI from highly specific niche creators versus broad-reach macro-influencers, shifting investment toward specificity over scale."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Creator IQ",
+      "orgType": "Tech"
     },
     {
       "filename": "CREATOR IQ_2024 Influencer Marketing Trends.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Creator Content Outperforming Traditional Digital Advertising", "description": "Creator-led sponsored content consistently delivering higher ROI than conventional digital advertising formats across brand and performance metrics."}
+        {
+          "name": "Creator Content Outperforming Traditional Digital Advertising",
+          "description": "Creator-led sponsored content consistently delivering higher ROI than conventional digital advertising formats across brand and performance metrics."
+        }
       ],
       "signals": [
-        {"name": "One in Four Brands Spending $1M+ on Influencers", "description": "Significant share of brands committing seven-figure annual budgets to influencer marketing, confirming its mainstream budget category status."},
-        {"name": "55% of Organizations Increasing Influencer Investment YoY", "description": "Majority of organizations growing influencer marketing allocations year-over-year, indicating structural shift rather than experimental spend."}
+        {
+          "name": "One in Four Brands Spending $1M+ on Influencers",
+          "description": "Significant share of brands committing seven-figure annual budgets to influencer marketing, confirming its mainstream budget category status."
+        },
+        {
+          "name": "55% of Organizations Increasing Influencer Investment YoY",
+          "description": "Majority of organizations growing influencer marketing allocations year-over-year, indicating structural shift rather than experimental spend."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Creator IQ",
+      "orgType": "Tech"
     }
   ]
 }

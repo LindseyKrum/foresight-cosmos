@@ -5,114 +5,203 @@
       "filename": "WARC_TIKTOK - Unlocking_business_impact_through_personal_cultural_relevance_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Personal and Cultural Relevance as Media Future", "description": "The future of media built on personal and cultural relevance — with brands that establish authentic viewpoints within consumer identity and cultural communities generating trust, loyalty, and commercial outcomes that attention-based advertising cannot replicate."}
+        {
+          "name": "Personal and Cultural Relevance as Media Future",
+          "description": "The future of media built on personal and cultural relevance \u2014 with brands that establish authentic viewpoints within consumer identity and cultural communities generating trust, loyalty, and commercial outcomes that attention-based advertising cannot replicate."
+        }
       ],
       "signals": [
-        {"name": "Brands Succeeding Through Cultural Integration Over Interruption", "description": "WARC/TikTok research demonstrating that brands integrated into cultural moments outperform brands that interrupt them — with content indistinguishable from organic culture generating superior business impact across awareness, consideration, and conversion."}
+        {
+          "name": "Brands Succeeding Through Cultural Integration Over Interruption",
+          "description": "WARC/TikTok research demonstrating that brands integrated into cultural moments outperform brands that interrupt them \u2014 with content indistinguishable from organic culture generating superior business impact across awareness, consideration, and conversion."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "WARC \u00d7 TikTok",
+      "orgType": "Research"
     },
     {
       "filename": "WEBER FORECAST_Unlock 24.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Generation Alpha Entering Consumer Consciousness", "description": "Generation Alpha — the largest generation in history, born 2010-2024 — beginning to register as a distinct consumer force, with gaming, digital-native behaviors, and climate awareness shaping a generational profile meaningfully different from Gen Z."},
-        {"name": "Return to Simplicity as Cultural Counter-Trend", "description": "A deliberate return to simplicity emerging as a cultural counter-trend — with consumers, particularly younger ones, choosing less complex, less mediated, and less optimized lives in reaction to digital saturation and information overload."}
+        {
+          "name": "Generation Alpha Entering Consumer Consciousness",
+          "description": "Generation Alpha \u2014 the largest generation in history, born 2010-2024 \u2014 beginning to register as a distinct consumer force, with gaming, digital-native behaviors, and climate awareness shaping a generational profile meaningfully different from Gen Z."
+        },
+        {
+          "name": "Return to Simplicity as Cultural Counter-Trend",
+          "description": "A deliberate return to simplicity emerging as a cultural counter-trend \u2014 with consumers, particularly younger ones, choosing less complex, less mediated, and less optimized lives in reaction to digital saturation and information overload."
+        }
       ],
       "signals": [
-        {"name": "Political Engagement Rising Among Youth", "description": "Youth political participation increasing — with younger generations attending protests, demanding accountability on climate and social issues, and expressing political identity through consumption and cultural participation in ways that create new brand risk and opportunity."}
+        {
+          "name": "Political Engagement Rising Among Youth",
+          "description": "Youth political participation increasing \u2014 with younger generations attending protests, demanding accountability on climate and social issues, and expressing political identity through consumption and cultural participation in ways that create new brand risk and opportunity."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Weber Forecast",
+      "orgType": "Research"
     },
     {
       "filename": "WEF_Global Risks Report 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Polycrisis Intensifying — Climate and Conflict Converging", "description": "WEF Global Risks Report framing the global risk landscape as a converging polycrisis — with climate change and geopolitical conflict amplifying each other's effects, creating compounding instability that single-domain responses cannot address."},
-        {"name": "AI Governance Deficit as Systemic Risk", "description": "The gap between AI capability and AI governance identified as a systemic global risk — with AI systems making consequential decisions faster than regulatory, institutional, and social frameworks can adapt, creating structural vulnerability."}
+        {
+          "name": "Polycrisis Intensifying \u2014 Climate and Conflict Converging",
+          "description": "WEF Global Risks Report framing the global risk landscape as a converging polycrisis \u2014 with climate change and geopolitical conflict amplifying each other's effects, creating compounding instability that single-domain responses cannot address."
+        },
+        {
+          "name": "AI Governance Deficit as Systemic Risk",
+          "description": "The gap between AI capability and AI governance identified as a systemic global risk \u2014 with AI systems making consequential decisions faster than regulatory, institutional, and social frameworks can adapt, creating structural vulnerability."
+        }
       ],
       "signals": [
-        {"name": "Climate Adaptation Investment Falling Short of Scale Needed", "description": "WEF data showing climate-change adaptation efforts falling short of the type, scale, and intensity required — creating growing exposure as physical climate impacts accelerate while adaptation infrastructure lags behind."}
+        {
+          "name": "Climate Adaptation Investment Falling Short of Scale Needed",
+          "description": "WEF data showing climate-change adaptation efforts falling short of the type, scale, and intensity required \u2014 creating growing exposure as physical climate impacts accelerate while adaptation infrastructure lags behind."
+        }
       ],
       "scenarios": [
-        {"name": "AI in Charge — 2026 Risk Scenario", "description": "WEF Global Risks Report scenario where AI systems assume consequential decision-making authority across critical domains by 2026 — examining the governance failures, economic disruptions, and social instabilities that could result from premature AI delegation."}
-      ]
+        {
+          "name": "AI in Charge \u2014 2026 Risk Scenario",
+          "description": "WEF Global Risks Report scenario where AI systems assume consequential decision-making authority across critical domains by 2026 \u2014 examining the governance failures, economic disruptions, and social instabilities that could result from premature AI delegation."
+        }
+      ],
+      "org": "World Economic Forum",
+      "orgType": "Research"
     },
     {
       "filename": "WEF_Global_Cybersecurity_Outlook_2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Cybersecurity as Collective Resilience Imperative", "description": "Cybersecurity evolving from an individual organizational responsibility to a collective resilience challenge — requiring coordinated action across governments, industries, and civil society to build trustworthy digital infrastructure at the scale modern economies depend on."}
+        {
+          "name": "Cybersecurity as Collective Resilience Imperative",
+          "description": "Cybersecurity evolving from an individual organizational responsibility to a collective resilience challenge \u2014 requiring coordinated action across governments, industries, and civil society to build trustworthy digital infrastructure at the scale modern economies depend on."
+        }
       ],
       "signals": [
-        {"name": "Emerging Technologies Creating New Fear and New Vulnerability", "description": "WEF cybersecurity research showing that each new technology generation — AI, quantum, spatial computing — creates familiar patterns of fear alongside genuinely new attack surfaces, requiring continuous adaptation of security strategy rather than point-in-time solutions."}
+        {
+          "name": "Emerging Technologies Creating New Fear and New Vulnerability",
+          "description": "WEF cybersecurity research showing that each new technology generation \u2014 AI, quantum, spatial computing \u2014 creates familiar patterns of fear alongside genuinely new attack surfaces, requiring continuous adaptation of security strategy rather than point-in-time solutions."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "World Economic Forum",
+      "orgType": "Research"
     },
     {
       "filename": "WEF_The Rise of Global Digital Jobs 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Digital Jobs as Global Economic Inclusion Infrastructure", "description": "WEF/Capgemini identifying the rise of global digital jobs as a structural economic shift — with technology adoption, green transition, and remote work jointly creating opportunities for digitally skilled workers across geographies previously excluded from high-value employment."}
+        {
+          "name": "Digital Jobs as Global Economic Inclusion Infrastructure",
+          "description": "WEF/Capgemini identifying the rise of global digital jobs as a structural economic shift \u2014 with technology adoption, green transition, and remote work jointly creating opportunities for digitally skilled workers across geographies previously excluded from high-value employment."
+        }
       ],
       "signals": [
-        {"name": "Green Transition and AI Jointly Reshaping Labor Market Structure", "description": "The green transition and AI adoption operating simultaneously to reshape labor market structure — creating demand for new skill sets at the intersection of sustainability knowledge and digital capability, requiring new education and workforce development models."}
+        {
+          "name": "Green Transition and AI Jointly Reshaping Labor Market Structure",
+          "description": "The green transition and AI adoption operating simultaneously to reshape labor market structure \u2014 creating demand for new skill sets at the intersection of sustainability knowledge and digital capability, requiring new education and workforce development models."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "World Economic Forum",
+      "orgType": "Research"
     },
     {
       "filename": "WGSN - Future_Consumer_2026_CAIG.pdf",
       "year": 2026,
       "trends": [
-        {"name": "Consumer Fragmentation into Distinct Value Archetypes", "description": "WGSN identifying four distinct consumer archetypes for 2026 — Impartialists (facts over fiction), Autonomists (self-determined values), Gleamers (simpler life), and a fourth profile — representing a fragmentation of consumer identity into clearly differentiated value orientations that require targeted strategies."}
+        {
+          "name": "Consumer Fragmentation into Distinct Value Archetypes",
+          "description": "WGSN identifying four distinct consumer archetypes for 2026 \u2014 Impartialists (facts over fiction), Autonomists (self-determined values), Gleamers (simpler life), and a fourth profile \u2014 representing a fragmentation of consumer identity into clearly differentiated value orientations that require targeted strategies."
+        }
       ],
       "signals": [
-        {"name": "Gleamers — Burnout-Driven Simplicity Seekers Emerging", "description": "WGSN's Gleamer consumer archetype — burnout survivors seeking rural revitalization, chosen families, and simpler definitions of fulfilment — emerging as a significant market segment, indicating that recovery from hustle culture is reshaping consumer geography, community, and spending priorities."},
-        {"name": "Impartialists Demanding Radical Transparency", "description": "WGSN's Impartialist consumer archetype — skeptical of disinformation and demanding unvarnished facts over polished storytelling — emerging as a significant market force, requiring brands to adopt honest, simplified, evidence-based communication strategies."}
+        {
+          "name": "Gleamers \u2014 Burnout-Driven Simplicity Seekers Emerging",
+          "description": "WGSN's Gleamer consumer archetype \u2014 burnout survivors seeking rural revitalization, chosen families, and simpler definitions of fulfilment \u2014 emerging as a significant market segment, indicating that recovery from hustle culture is reshaping consumer geography, community, and spending priorities."
+        },
+        {
+          "name": "Impartialists Demanding Radical Transparency",
+          "description": "WGSN's Impartialist consumer archetype \u2014 skeptical of disinformation and demanding unvarnished facts over polished storytelling \u2014 emerging as a significant market force, requiring brands to adopt honest, simplified, evidence-based communication strategies."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "WGSN",
+      "orgType": "Research"
     },
     {
       "filename": "WORLD ECONOMIC FORUM - Responsible Metaverse Maturity Model.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Responsible Metaverse Standards Codifying", "description": "WEF Global Future Council on Metaverse codifying responsible metaverse standards — establishing a maturity model that defines what responsible technology integration looks like across emerging, developing, and mature organizational stages of metaverse adoption."}
+        {
+          "name": "Responsible Metaverse Standards Codifying",
+          "description": "WEF Global Future Council on Metaverse codifying responsible metaverse standards \u2014 establishing a maturity model that defines what responsible technology integration looks like across emerging, developing, and mature organizational stages of metaverse adoption."
+        }
       ],
       "signals": [
-        {"name": "Metaverse Maturity Widely Variable Across Organizations", "description": "Organizational metaverse maturity spanning from 'just beginning to understand' through 'fully integrated' — with this wide distribution indicating that responsible metaverse standards are entering the market at a moment when most organizations are still at early stages."}
+        {
+          "name": "Metaverse Maturity Widely Variable Across Organizations",
+          "description": "Organizational metaverse maturity spanning from 'just beginning to understand' through 'fully integrated' \u2014 with this wide distribution indicating that responsible metaverse standards are entering the market at a moment when most organizations are still at early stages."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "World Economic Forum",
+      "orgType": "Research"
     },
     {
       "filename": "WORLD FOOD PROGRAMME_HungerMap-Global insights and key trends.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Acute Food Insecurity at Humanitarian Scale", "description": "Global acute food insecurity operating at humanitarian scale — with 693+ million people lacking sufficient food consumption across 87 countries, 193 million experiencing acute hunger in 53 countries, and 828 million chronically undernourished, requiring systemic rather than episodic response."}
+        {
+          "name": "Acute Food Insecurity at Humanitarian Scale",
+          "description": "Global acute food insecurity operating at humanitarian scale \u2014 with 693+ million people lacking sufficient food consumption across 87 countries, 193 million experiencing acute hunger in 53 countries, and 828 million chronically undernourished, requiring systemic rather than episodic response."
+        }
       ],
       "signals": [
-        {"name": "Near-Real-Time Hunger Monitoring Becoming Operational Infrastructure", "description": "WFP's HungerMapLIVE establishing near-real-time global food security monitoring as operational infrastructure — enabling anticipatory action on acute hunger crises rather than retrospective response, representing a new paradigm for humanitarian early warning systems."}
+        {
+          "name": "Near-Real-Time Hunger Monitoring Becoming Operational Infrastructure",
+          "description": "WFP's HungerMapLIVE establishing near-real-time global food security monitoring as operational infrastructure \u2014 enabling anticipatory action on acute hunger crises rather than retrospective response, representing a new paradigm for humanitarian early warning systems."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "World Food Programme",
+      "orgType": "UN & IGO"
     },
     {
       "filename": "YONDR_TrendsReport_CreativeTech2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Creative Technology as Primary Brand Engagement Platform", "description": "AI, spatial computing, and virtual worlds converging into a creative technology platform for brand engagement — with brands no longer choosing between digital channels but building integrated immersive experiences that meet virtual-native consumers on their own terms."}
+        {
+          "name": "Creative Technology as Primary Brand Engagement Platform",
+          "description": "AI, spatial computing, and virtual worlds converging into a creative technology platform for brand engagement \u2014 with brands no longer choosing between digital channels but building integrated immersive experiences that meet virtual-native consumers on their own terms."
+        }
       ],
       "signals": [
-        {"name": "Hyper-Personalized AI Agents Emerging as Brand Storytelling Frontier", "description": "AI agents capable of knowing and adapting to individual consumers at near-personal depth emerging as the next frontier of brand storytelling — moving beyond segmented personalization toward genuinely individualized brand relationships at scale."}
+        {
+          "name": "Hyper-Personalized AI Agents Emerging as Brand Storytelling Frontier",
+          "description": "AI agents capable of knowing and adapting to individual consumers at near-personal depth emerging as the next frontier of brand storytelling \u2014 moving beyond segmented personalization toward genuinely individualized brand relationships at scale."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "YONDR",
+      "orgType": "Agency"
     },
     {
       "filename": "YOUPIX - Vem Ai 2025_CAIG.pdf",
       "year": 2025,
       "trends": [],
       "signals": [
-        {"name": "Brazilian Creator Economy Entering Strategic Maturity Phase", "description": "YOUPIX identifying the Brazilian creator economy entering a maturity phase in 2025 — with 61% of brands planning to increase creator economy investment despite industry turbulence, signaling that creator marketing is moving from experimental to strategic in LatAm's largest market."}
+        {
+          "name": "Brazilian Creator Economy Entering Strategic Maturity Phase",
+          "description": "YOUPIX identifying the Brazilian creator economy entering a maturity phase in 2025 \u2014 with 61% of brands planning to increase creator economy investment despite industry turbulence, signaling that creator marketing is moving from experimental to strategic in LatAm's largest market."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "YOUPIX",
+      "orgType": "Research"
     }
   ]
 }

@@ -6,114 +6,209 @@
       "year": 2024,
       "trends": [],
       "signals": [],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Strava",
+      "orgType": "Industry"
     },
     {
       "filename": "STRAVA_Global-Report-2023.pdf",
       "year": 2023,
       "trends": [
-        {"name": "Motivation Science Replacing Raw Achievement in Fitness", "description": "Sport and fitness culture shifting from pure achievement metrics toward understanding and optimizing the psychological drivers of motivation — with 'why' and 'how' becoming as important as performance data."}
+        {
+          "name": "Motivation Science Replacing Raw Achievement in Fitness",
+          "description": "Sport and fitness culture shifting from pure achievement metrics toward understanding and optimizing the psychological drivers of motivation \u2014 with 'why' and 'how' becoming as important as performance data."
+        }
       ],
       "signals": [
-        {"name": "120 Million Athletes on Strava Generating Behavioral Data", "description": "Strava's 120 million+ user base generating unprecedented population-level fitness behavioral data — enabling insights into global exercise patterns that reveal broader cultural shifts in wellbeing priorities."}
+        {
+          "name": "120 Million Athletes on Strava Generating Behavioral Data",
+          "description": "Strava's 120 million+ user base generating unprecedented population-level fitness behavioral data \u2014 enabling insights into global exercise patterns that reveal broader cultural shifts in wellbeing priorities."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Strava",
+      "orgType": "Industry"
     },
     {
       "filename": "SYNDIO_Workplace-Equity-Trends-Report-2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Pay Equity as Strategic Business Advantage", "description": "Workplace equity transitioning from compliance requirement to strategic business differentiator — with leading organizations proactively using pay equity analysis and demographic transparency as talent and brand assets."},
-        {"name": "Employment Outcome Equity Beyond Pay", "description": "Equity analysis expanding beyond pay to encompass all employment outcomes — promotions, performance reviews, retention, and career development — as the full dimensions of workplace fairness become visible and actionable."}
+        {
+          "name": "Pay Equity as Strategic Business Advantage",
+          "description": "Workplace equity transitioning from compliance requirement to strategic business differentiator \u2014 with leading organizations proactively using pay equity analysis and demographic transparency as talent and brand assets."
+        },
+        {
+          "name": "Employment Outcome Equity Beyond Pay",
+          "description": "Equity analysis expanding beyond pay to encompass all employment outcomes \u2014 promotions, performance reviews, retention, and career development \u2014 as the full dimensions of workplace fairness become visible and actionable."
+        }
       ],
       "signals": [
-        {"name": "Mature Organizations Sharing Demographic Data Publicly", "description": "Leading equity-mature organizations voluntarily publishing demographic data — creating a transparency norm that will increasingly distinguish employers and shape talent market expectations."}
+        {
+          "name": "Mature Organizations Sharing Demographic Data Publicly",
+          "description": "Leading equity-mature organizations voluntarily publishing demographic data \u2014 creating a transparency norm that will increasingly distinguish employers and shape talent market expectations."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Syndio",
+      "orgType": "Tech"
     },
     {
       "filename": "TALENT ALPHA_The Future of Work Report AI-ed 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "AI as Most Profound Change in Human History", "description": "Leading AI researchers (including Stuart Russell) characterizing AI's emergence as the most profound change in human history — with both positive and negative outcomes possible depending on how humanity manages the transition."}
+        {
+          "name": "AI as Most Profound Change in Human History",
+          "description": "Leading AI researchers (including Stuart Russell) characterizing AI's emergence as the most profound change in human history \u2014 with both positive and negative outcomes possible depending on how humanity manages the transition."
+        }
       ],
       "signals": [
-        {"name": "AI Control Problem as Existential Priority", "description": "The AI control problem — ensuring AI systems remain aligned with human values as they become more capable — identified by leading researchers as the defining challenge of the AI transition period."}
+        {
+          "name": "AI Control Problem as Existential Priority",
+          "description": "The AI control problem \u2014 ensuring AI systems remain aligned with human values as they become more capable \u2014 identified by leading researchers as the defining challenge of the AI transition period."
+        }
       ],
       "scenarios": [
-        {"name": "Positive and Negative AI Futures Both Available", "description": "Talent Alpha/Intelligent Leadership Hub scenario framework showing that both positive and negative AI transition outcomes are genuinely available — with human choices about governance, design, and deployment determining which materializes."}
-      ]
+        {
+          "name": "Positive and Negative AI Futures Both Available",
+          "description": "Talent Alpha/Intelligent Leadership Hub scenario framework showing that both positive and negative AI transition outcomes are genuinely available \u2014 with human choices about governance, design, and deployment determining which materializes."
+        }
+      ],
+      "org": "Talent Alpha",
+      "orgType": "Tech"
     },
     {
       "filename": "TBWA_Backslash-2024-Edges-Glossary.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Cultural Edges with Scale and Longevity", "description": "TBWA's Backslash methodology identifying deep cultural shifts with genuine staying power — as distinct from surface trends — tracking how major global forces like climate, AI, and identity are shifting trajectory."},
-        {"name": "Climate Credit as Emerging Cultural Force", "description": "A new cultural dynamic emerging around climate credibility and accountability — with individuals, brands, and institutions seeking and granting 'climate credit' based on demonstrated environmental action rather than stated intention."}
+        {
+          "name": "Cultural Edges with Scale and Longevity",
+          "description": "TBWA's Backslash methodology identifying deep cultural shifts with genuine staying power \u2014 as distinct from surface trends \u2014 tracking how major global forces like climate, AI, and identity are shifting trajectory."
+        },
+        {
+          "name": "Climate Credit as Emerging Cultural Force",
+          "description": "A new cultural dynamic emerging around climate credibility and accountability \u2014 with individuals, brands, and institutions seeking and granting 'climate credit' based on demonstrated environmental action rather than stated intention."
+        }
       ],
       "signals": [
-        {"name": "Intimate AI as New Cultural Edge", "description": "AI becoming intimately embedded in personal life — relationships, creativity, emotional support — creating a new cultural edge around the appropriate intimacy of human-AI relationships and the identity questions they raise."}
+        {
+          "name": "Intimate AI as New Cultural Edge",
+          "description": "AI becoming intimately embedded in personal life \u2014 relationships, creativity, emotional support \u2014 creating a new cultural edge around the appropriate intimacy of human-AI relationships and the identity questions they raise."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "TBWA",
+      "orgType": "Agency"
     },
     {
       "filename": "TERRITORY INFLUENCE_Trends 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Long-Term Brand-Creator Collaborations Replacing Transactional Influencer Deals", "description": "Influencer marketing evolving from one-off sponsored posts to sustained, long-term brand-creator partnerships — with relationship depth generating authenticity and consistency that short-term campaigns cannot achieve."},
-        {"name": "Paid UGC as Professional Creator Category", "description": "Paid user-generated content emerging as a distinct professional creator category — with brands commissioning UGC-style content that combines the authenticity of organic posts with the production control of branded content."}
+        {
+          "name": "Long-Term Brand-Creator Collaborations Replacing Transactional Influencer Deals",
+          "description": "Influencer marketing evolving from one-off sponsored posts to sustained, long-term brand-creator partnerships \u2014 with relationship depth generating authenticity and consistency that short-term campaigns cannot achieve."
+        },
+        {
+          "name": "Paid UGC as Professional Creator Category",
+          "description": "Paid user-generated content emerging as a distinct professional creator category \u2014 with brands commissioning UGC-style content that combines the authenticity of organic posts with the production control of branded content."
+        }
       ],
       "signals": [
-        {"name": "Strong Brand Communities as Influence Multiplier", "description": "Community-building becoming a primary influencer marketing strategy — with strong brand communities amplifying content reach and generating organic advocacy that paid distribution alone cannot replicate."}
+        {
+          "name": "Strong Brand Communities as Influence Multiplier",
+          "description": "Community-building becoming a primary influencer marketing strategy \u2014 with strong brand communities amplifying content reach and generating organic advocacy that paid distribution alone cannot replicate."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Territory Influence",
+      "orgType": "Agency"
     },
     {
       "filename": "THE BLOCK_2024 Digital Assets Outlook_Report.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Blockchain Infrastructure Maturing Post-Deleveraging", "description": "Blockchain industry emerging from 2022-2023 credit crisis with stronger infrastructure — with composable DeFi, stablecoin proliferation, and scalable block space creating a more robust foundation for institutional adoption."}
+        {
+          "name": "Blockchain Infrastructure Maturing Post-Deleveraging",
+          "description": "Blockchain industry emerging from 2022-2023 credit crisis with stronger infrastructure \u2014 with composable DeFi, stablecoin proliferation, and scalable block space creating a more robust foundation for institutional adoption."
+        }
       ],
       "signals": [
-        {"name": "DeFi Applications Becoming Composable at Scale", "description": "Decentralized finance applications achieving composability — enabling complex financial products built from interoperable DeFi primitives — creating a structural foundation for a parallel financial system distinct from TradFi."}
+        {
+          "name": "DeFi Applications Becoming Composable at Scale",
+          "description": "Decentralized finance applications achieving composability \u2014 enabling complex financial products built from interoperable DeFi primitives \u2014 creating a structural foundation for a parallel financial system distinct from TradFi."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "The Block",
+      "orgType": "Research"
     },
     {
       "filename": "THE DRAWING ARM - Trend Report_Art will save the world_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Art as Strategic Business Differentiator", "description": "Art and creative distinction emerging as a primary business strategy for cutting through a landscape of algorithmic uniformity — with genuine artistic investment creating the emotional connection that product features cannot."}
+        {
+          "name": "Art as Strategic Business Differentiator",
+          "description": "Art and creative distinction emerging as a primary business strategy for cutting through a landscape of algorithmic uniformity \u2014 with genuine artistic investment creating the emotional connection that product features cannot."
+        }
       ],
       "signals": [
-        {"name": "Demand for Distinction in Era of Ordinary Proliferation", "description": "Business landscape characterized by proliferation of the ordinary — with algorithmic and AI-generated sameness creating intense demand for genuine creative distinction that only human artistic vision can deliver."}
+        {
+          "name": "Demand for Distinction in Era of Ordinary Proliferation",
+          "description": "Business landscape characterized by proliferation of the ordinary \u2014 with algorithmic and AI-generated sameness creating intense demand for genuine creative distinction that only human artistic vision can deliver."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "The Drawing Arm",
+      "orgType": "Agency"
     },
     {
       "filename": "THE INSIGHTS FAMILY - Future_Forecast 2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Era of Empowered Youth", "description": "Children and young people entering 2025 as a newly empowered consumer and cultural force — with AI tools, digital platforms, and shifting family dynamics giving younger generations unprecedented agency and influence."},
-        {"name": "Gaming Crossing into Real World — Agnostic Engagement", "description": "Gaming mechanics, communities, and experiences extending into physical reality as an agnostic engagement platform — with game logic applied to education, social interaction, and brand experiences for younger consumers."}
+        {
+          "name": "Era of Empowered Youth",
+          "description": "Children and young people entering 2025 as a newly empowered consumer and cultural force \u2014 with AI tools, digital platforms, and shifting family dynamics giving younger generations unprecedented agency and influence."
+        },
+        {
+          "name": "Gaming Crossing into Real World \u2014 Agnostic Engagement",
+          "description": "Gaming mechanics, communities, and experiences extending into physical reality as an agnostic engagement platform \u2014 with game logic applied to education, social interaction, and brand experiences for younger consumers."
+        }
       ],
       "signals": [
-        {"name": "AI Empowering the Next Generation of Learners", "description": "AI tools creating new possibilities for child development and education — with AI tutoring, creative tools, and personalized learning potentially bridging skill gaps while raising new questions about AI dependency."},
-        {"name": "Family Mental and Physical Health as Primary Industry Focus", "description": "Kids and family industry increasingly oriented toward mental and physical health needs — with wellbeing infrastructure for modern families emerging as the dominant growth and innovation focus."}
+        {
+          "name": "AI Empowering the Next Generation of Learners",
+          "description": "AI tools creating new possibilities for child development and education \u2014 with AI tutoring, creative tools, and personalized learning potentially bridging skill gaps while raising new questions about AI dependency."
+        },
+        {
+          "name": "Family Mental and Physical Health as Primary Industry Focus",
+          "description": "Kids and family industry increasingly oriented toward mental and physical health needs \u2014 with wellbeing infrastructure for modern families emerging as the dominant growth and innovation focus."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "The Insights Family",
+      "orgType": "Research"
     },
     {
       "filename": "THE MEDIA STORE - Trends-5-for-2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Consumer Acceptance of New Circumstances", "description": "2025's most prevalent consumer trend: acceptance — consumers adapting to and making peace with new economic, technological, and social realities rather than resisting or mourning pre-disruption norms."},
-        {"name": "Simplicity as Consumer Premium", "description": "Consumers increasingly valuing simplicity — in products, interfaces, communication, and experiences — as a premium response to information overload, decision fatigue, and technological complexity."}
+        {
+          "name": "Consumer Acceptance of New Circumstances",
+          "description": "2025's most prevalent consumer trend: acceptance \u2014 consumers adapting to and making peace with new economic, technological, and social realities rather than resisting or mourning pre-disruption norms."
+        },
+        {
+          "name": "Simplicity as Consumer Premium",
+          "description": "Consumers increasingly valuing simplicity \u2014 in products, interfaces, communication, and experiences \u2014 as a premium response to information overload, decision fatigue, and technological complexity."
+        }
       ],
       "signals": [
-        {"name": "Consumer Rejection of Excess Technology", "description": "A counter-current of consumer rejection emerging against excess technology — with deliberate tech minimalism, digital detox, and preference for analog experiences gaining cultural momentum."}
+        {
+          "name": "Consumer Rejection of Excess Technology",
+          "description": "A counter-current of consumer rejection emerging against excess technology \u2014 with deliberate tech minimalism, digital detox, and preference for analog experiences gaining cultural momentum."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "The Media Store",
+      "orgType": "Agency"
     }
   ]
 }

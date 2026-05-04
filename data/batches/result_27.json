@@ -5,49 +5,93 @@
       "filename": "YOUTUBE - Trends fandom report 2024_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Fans as Active Creators Reshaping Culture", "description": "Fandom shifting from passive consumption to active cultural creation — with fans producing, remixing, and distributing content that shapes popular culture at scale, blurring the boundary between audience and author and creating a new model of culture formation."}
+        {
+          "name": "Fans as Active Creators Reshaping Culture",
+          "description": "Fandom shifting from passive consumption to active cultural creation \u2014 with fans producing, remixing, and distributing content that shapes popular culture at scale, blurring the boundary between audience and author and creating a new model of culture formation."
+        }
       ],
       "signals": [
-        {"name": "AI Tools Enabling Fan-Created Culture at New Scale", "description": "AI and generative tools expanding the creative capabilities of fans — enabling content creation, remixing, and cultural participation that previously required professional production resources, accelerating the shift from consumer fandom to creator fandom."},
-        {"name": "Fandom Fulfilling Core Psychosocial Needs", "description": "YouTube/KR&I research showing fandom fulfilling core human psychosocial needs — identity formation, self-care, and social connection — reframing fandom from frivolous pastime to genuine wellbeing infrastructure with implications for how brands build community."}
+        {
+          "name": "AI Tools Enabling Fan-Created Culture at New Scale",
+          "description": "AI and generative tools expanding the creative capabilities of fans \u2014 enabling content creation, remixing, and cultural participation that previously required professional production resources, accelerating the shift from consumer fandom to creator fandom."
+        },
+        {
+          "name": "Fandom Fulfilling Core Psychosocial Needs",
+          "description": "YouTube/KR&I research showing fandom fulfilling core human psychosocial needs \u2014 identity formation, self-care, and social connection \u2014 reframing fandom from frivolous pastime to genuine wellbeing infrastructure with implications for how brands build community."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "YouTube",
+      "orgType": "Tech"
     },
     {
       "filename": "YOUTUBE_Culture Trends_Report_2023.pdf",
       "year": 2023,
       "trends": [
-        {"name": "Democratization of Creative Tools Redefining Cultural Power", "description": "Rapid democratization of creative tools — AI-enhanced video, editing software, distribution platforms — redistributing cultural power from professional gatekeepers to everyday creators, enabling fan-driven content to achieve mainstream reach and influence."}
+        {
+          "name": "Democratization of Creative Tools Redefining Cultural Power",
+          "description": "Rapid democratization of creative tools \u2014 AI-enhanced video, editing software, distribution platforms \u2014 redistributing cultural power from professional gatekeepers to everyday creators, enabling fan-driven content to achieve mainstream reach and influence."
+        }
       ],
       "signals": [
-        {"name": "AI-Enhanced Video and Fan Remixing Going Mainstream", "description": "AI-enhanced video presenters and fan-remixed content achieving millions of views on YouTube in 2023 — signaling that AI-augmented creation and participatory remix culture have crossed from niche experimentation to mainstream cultural production."},
-        {"name": "Multiformat Multidevice Consumption Becoming Default", "description": "Multiformat and multi-device media consumption normalizing as the default viewer behavior — requiring content creators and brands to design for fragmented attention and fluid context-switching rather than single-format, linear consumption."}
+        {
+          "name": "AI-Enhanced Video and Fan Remixing Going Mainstream",
+          "description": "AI-enhanced video presenters and fan-remixed content achieving millions of views on YouTube in 2023 \u2014 signaling that AI-augmented creation and participatory remix culture have crossed from niche experimentation to mainstream cultural production."
+        },
+        {
+          "name": "Multiformat Multidevice Consumption Becoming Default",
+          "description": "Multiformat and multi-device media consumption normalizing as the default viewer behavior \u2014 requiring content creators and brands to design for fragmented attention and fluid context-switching rather than single-format, linear consumption."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "YouTube",
+      "orgType": "Tech"
     },
     {
       "filename": "YOUTUBE__Global_trends_report_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Digital Franchise Emerging as New Cultural IP Model", "description": "The digital franchise emerging as a new model for cultural intellectual property — with creator-driven content universes, fan communities, and platform-native cultural touchstones developing franchise-like properties that rival traditional entertainment IP in reach and loyalty."}
+        {
+          "name": "Digital Franchise Emerging as New Cultural IP Model",
+          "description": "The digital franchise emerging as a new model for cultural intellectual property \u2014 with creator-driven content universes, fan communities, and platform-native cultural touchstones developing franchise-like properties that rival traditional entertainment IP in reach and loyalty."
+        }
       ],
       "signals": [
-        {"name": "Fandom-Driven Moments Propelling Global Pop Culture in 2024", "description": "YouTube's year-end analysis showing fandom-driven moments as primary propellants of global pop culture in 2024 — with creator-community dynamics determining what becomes culturally significant rather than traditional media industry gatekeepers."}
+        {
+          "name": "Fandom-Driven Moments Propelling Global Pop Culture in 2024",
+          "description": "YouTube's year-end analysis showing fandom-driven moments as primary propellants of global pop culture in 2024 \u2014 with creator-community dynamics determining what becomes culturally significant rather than traditional media industry gatekeepers."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "YouTube",
+      "orgType": "Tech"
     },
     {
       "filename": "ZENDESK - CX Trends 2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Human-Centric AI as Customer Experience Differentiator", "description": "Human-centric AI — AI that enhances rather than replaces human connection in customer experience — emerging as the defining differentiator between CX leaders and laggards, with 70% of consumers already perceiving a clear gap forming between organizations that use AI well and those that don't."}
+        {
+          "name": "Human-Centric AI as Customer Experience Differentiator",
+          "description": "Human-centric AI \u2014 AI that enhances rather than replaces human connection in customer experience \u2014 emerging as the defining differentiator between CX leaders and laggards, with 70% of consumers already perceiving a clear gap forming between organizations that use AI well and those that don't."
+        }
       ],
       "signals": [
-        {"name": "Shadow AI Adoption Surging Among Customer-Facing Employees", "description": "Employees turning to unapproved external AI tools (shadow AI) to meet their needs when corporate AI tools fail to satisfy them — signaling a gap between enterprise AI deployment and frontline employee requirements that creates security risk and drives unauthorized innovation simultaneously."},
-        {"name": "CX AI Early Adopters 128% More Likely to Report High ROI", "description": "Zendesk data showing CX AI early adopters 128% more likely to report high ROI from their AI tools — creating a compounding competitive advantage for organizations that moved first and a growing strategic deficit for those that delayed AI adoption in customer experience."},
-        {"name": "AI Usage in Customer Experience Surging 250%", "description": "AI usage in customer experience growing 250% — with this acceleration indicating that AI in CX has moved from pilot to mainstream deployment, making AI capability a baseline expectation for consumers rather than a differentiating innovation."}
+        {
+          "name": "Shadow AI Adoption Surging Among Customer-Facing Employees",
+          "description": "Employees turning to unapproved external AI tools (shadow AI) to meet their needs when corporate AI tools fail to satisfy them \u2014 signaling a gap between enterprise AI deployment and frontline employee requirements that creates security risk and drives unauthorized innovation simultaneously."
+        },
+        {
+          "name": "CX AI Early Adopters 128% More Likely to Report High ROI",
+          "description": "Zendesk data showing CX AI early adopters 128% more likely to report high ROI from their AI tools \u2014 creating a compounding competitive advantage for organizations that moved first and a growing strategic deficit for those that delayed AI adoption in customer experience."
+        },
+        {
+          "name": "AI Usage in Customer Experience Surging 250%",
+          "description": "AI usage in customer experience growing 250% \u2014 with this acceleration indicating that AI in CX has moved from pilot to mainstream deployment, making AI capability a baseline expectation for consumers rather than a differentiating innovation."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Zendesk",
+      "orgType": "Tech"
     }
   ]
 }

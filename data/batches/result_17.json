@@ -5,122 +5,235 @@
       "filename": "MONTE CARLO_Data & AI Trend Report.pdf",
       "year": 2024,
       "trends": [
-        {"name": "GenAI Operationalization Year", "description": "2024 marked as the year of operationalizing generative AI — moving from LLM experimentation to production deployment, data contracts, and reliable AI pipelines integrated into business systems."},
-        {"name": "Data Reliability Engineering as AI Foundation", "description": "Data reliability engineering emerging as a critical discipline as AI systems require trustworthy data — with data observability and quality infrastructure becoming prerequisites for production AI."}
+        {
+          "name": "GenAI Operationalization Year",
+          "description": "2024 marked as the year of operationalizing generative AI \u2014 moving from LLM experimentation to production deployment, data contracts, and reliable AI pipelines integrated into business systems."
+        },
+        {
+          "name": "Data Reliability Engineering as AI Foundation",
+          "description": "Data reliability engineering emerging as a critical discipline as AI systems require trustworthy data \u2014 with data observability and quality infrastructure becoming prerequisites for production AI."
+        }
       ],
       "signals": [
-        {"name": "RAG Pipelines and Vector Databases Becoming Standard", "description": "Retrieval-Augmented Generation (RAG) and vector database infrastructure moving from emerging to standard components of enterprise AI architecture — enabling AI systems to access proprietary knowledge at scale."},
-        {"name": "Chief Data and AI Officers Gaining Strategic Remit", "description": "CDO/CAIO role evolving from data governance to strategic business driver — with AI making data leadership a C-suite priority alongside CEO, CFO, and CTO."}
+        {
+          "name": "RAG Pipelines and Vector Databases Becoming Standard",
+          "description": "Retrieval-Augmented Generation (RAG) and vector database infrastructure moving from emerging to standard components of enterprise AI architecture \u2014 enabling AI systems to access proprietary knowledge at scale."
+        },
+        {
+          "name": "Chief Data and AI Officers Gaining Strategic Remit",
+          "description": "CDO/CAIO role evolving from data governance to strategic business driver \u2014 with AI making data leadership a C-suite priority alongside CEO, CFO, and CTO."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Monte Carlo Data",
+      "orgType": "Tech"
     },
     {
       "filename": "NATWEST - The-Year-Ahead-2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "Fiscal Forever — Government Spending as Structural Force", "description": "Government fiscal expansion transitioning from election promise to structural reality across developed markets — with high public spending becoming the permanent operating environment for financial markets."}
+        {
+          "name": "Fiscal Forever \u2014 Government Spending as Structural Force",
+          "description": "Government fiscal expansion transitioning from election promise to structural reality across developed markets \u2014 with high public spending becoming the permanent operating environment for financial markets."
+        }
       ],
       "signals": [
-        {"name": "Incumbent Governments Punished by Cost-of-Living Voters", "description": "2024's global electoral cycle delivering consistent punishment to incumbents as still-high prices weigh on living standards — creating a global political dynamic that shapes fiscal policy for years."},
-        {"name": "Major Central Banks Reaching Terminal Rates March 2025", "description": "NatWest forecasting major central banks reaching terminal rates as early as March 2025 — signaling the rate-cutting cycle completing its first phase and entering a hold or moderate-cut phase."}
+        {
+          "name": "Incumbent Governments Punished by Cost-of-Living Voters",
+          "description": "2024's global electoral cycle delivering consistent punishment to incumbents as still-high prices weigh on living standards \u2014 creating a global political dynamic that shapes fiscal policy for years."
+        },
+        {
+          "name": "Major Central Banks Reaching Terminal Rates March 2025",
+          "description": "NatWest forecasting major central banks reaching terminal rates as early as March 2025 \u2014 signaling the rate-cutting cycle completing its first phase and entering a hold or moderate-cut phase."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "NatWest",
+      "orgType": "Financial"
     },
     {
       "filename": "NEWZOO_2024 Games market trend report.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Generative AI Entering Game Development", "description": "Generative AI beginning to transform game development workflows — from AI-generated 3D worlds to AI-assisted content creation — marking the dawn of a new era in interactive entertainment production."},
-        {"name": "Transmedia Gaming Convergence", "description": "Gaming properties expanding across film, TV, merchandise, and live experiences — with game IP becoming the dominant entertainment franchise format and transmedia releases reshaping the industry."}
+        {
+          "name": "Generative AI Entering Game Development",
+          "description": "Generative AI beginning to transform game development workflows \u2014 from AI-generated 3D worlds to AI-assisted content creation \u2014 marking the dawn of a new era in interactive entertainment production."
+        },
+        {
+          "name": "Transmedia Gaming Convergence",
+          "description": "Gaming properties expanding across film, TV, merchandise, and live experiences \u2014 with game IP becoming the dominant entertainment franchise format and transmedia releases reshaping the industry."
+        }
       ],
       "signals": [
-        {"name": "Gaming Industry Layoffs Alongside Record Revenue", "description": "Games industry experiencing significant layoffs even as revenue hits records — signaling a structural consolidation and efficiency shift rather than sector decline, reshaping the employment landscape."},
-        {"name": "PC and Console Gaming Market Outlook Optimistic Through 2026", "description": "Newzoo data projecting continued PC and console gaming revenue growth through 2026 — with total market CAGR driven by live-service game models and emerging market penetration."}
+        {
+          "name": "Gaming Industry Layoffs Alongside Record Revenue",
+          "description": "Games industry experiencing significant layoffs even as revenue hits records \u2014 signaling a structural consolidation and efficiency shift rather than sector decline, reshaping the employment landscape."
+        },
+        {
+          "name": "PC and Console Gaming Market Outlook Optimistic Through 2026",
+          "description": "Newzoo data projecting continued PC and console gaming revenue growth through 2026 \u2014 with total market CAGR driven by live-service game models and emerging market penetration."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Newzoo",
+      "orgType": "Research"
     },
     {
       "filename": "NEXTATLAS - Unveiling 2025_CAIG.pdf",
       "year": 2025,
       "trends": [
-        {"name": "GLP-1 Satiety Shift Reshaping Consumption", "description": "GLP-1 drugs (Ozempic, Wegovy) creating a new normal where satiety is decoupled from fulfillment — consumers on appetite-suppressing medications developing new consumption patterns that reshape food, beverage, and retail."},
-        {"name": "Impulse and Craving Suppression as Cultural Shift", "description": "A broader cultural movement toward deliberate restraint from impulse and craving — extending beyond pharmacological satiety to a values-based muting of overconsumption signals that redefines status and awareness."}
+        {
+          "name": "GLP-1 Satiety Shift Reshaping Consumption",
+          "description": "GLP-1 drugs (Ozempic, Wegovy) creating a new normal where satiety is decoupled from fulfillment \u2014 consumers on appetite-suppressing medications developing new consumption patterns that reshape food, beverage, and retail."
+        },
+        {
+          "name": "Impulse and Craving Suppression as Cultural Shift",
+          "description": "A broader cultural movement toward deliberate restraint from impulse and craving \u2014 extending beyond pharmacological satiety to a values-based muting of overconsumption signals that redefines status and awareness."
+        }
       ],
       "signals": [
-        {"name": "AI-Powered Early Adopter Intelligence at Scale", "description": "Nextatlas deploying AI to track 300K+ early adopters on social media — creating always-on, unbiased early signal detection infrastructure that identifies emerging trends before mainstream adoption."}
+        {
+          "name": "AI-Powered Early Adopter Intelligence at Scale",
+          "description": "Nextatlas deploying AI to track 300K+ early adopters on social media \u2014 creating always-on, unbiased early signal detection infrastructure that identifies emerging trends before mainstream adoption."
+        }
       ],
       "scenarios": [
-        {"name": "Ozempic-Driven Consumption Scenario", "description": "A future consumer landscape reshaped by GLP-1 drug adoption — where reduced appetite, lower food consumption, and new notions of satiety create structural shifts in food, beverage, fitness, and fashion markets."}
-      ]
+        {
+          "name": "Ozempic-Driven Consumption Scenario",
+          "description": "A future consumer landscape reshaped by GLP-1 drug adoption \u2014 where reduced appetite, lower food consumption, and new notions of satiety create structural shifts in food, beverage, fitness, and fashion markets."
+        }
+      ],
+      "org": "Nextatlas",
+      "orgType": "Research"
     },
     {
       "filename": "NEXTATLAS_FashionTrends2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Post-Irony Fashion — Authentic Messiness", "description": "Fashion trend toward genuine, unpolished aesthetics — cowboy core, meme style, kitsch — as consumers seek authentic self-expression over aspirational perfection, challenging traditional luxury and status signals."},
-        {"name": "Craftsmanship Renaissance in Fashion", "description": "Intricate handcraft — jacquard, crochet, embroidery — re-emerging as a premium fashion signal in reaction to mass production and digital uniformity, with made-by-hand becoming a luxury differentiator."}
+        {
+          "name": "Post-Irony Fashion \u2014 Authentic Messiness",
+          "description": "Fashion trend toward genuine, unpolished aesthetics \u2014 cowboy core, meme style, kitsch \u2014 as consumers seek authentic self-expression over aspirational perfection, challenging traditional luxury and status signals."
+        },
+        {
+          "name": "Craftsmanship Renaissance in Fashion",
+          "description": "Intricate handcraft \u2014 jacquard, crochet, embroidery \u2014 re-emerging as a premium fashion signal in reaction to mass production and digital uniformity, with made-by-hand becoming a luxury differentiator."
+        }
       ],
       "signals": [
-        {"name": "Corporate Chic and Office Siren Aesthetics Rising", "description": "Professional and 'office siren' aesthetics gaining cultural momentum — with boxy silhouettes and business casual elevated to fashion-forward status, reflecting renewed investment in professional identity."}
+        {
+          "name": "Corporate Chic and Office Siren Aesthetics Rising",
+          "description": "Professional and 'office siren' aesthetics gaining cultural momentum \u2014 with boxy silhouettes and business casual elevated to fashion-forward status, reflecting renewed investment in professional identity."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Nextatlas",
+      "orgType": "Research"
     },
     {
       "filename": "NEXXWORKS_Look Up! The 2024 Trend Report.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Radical Uncertainty as Strategic Condition", "description": "The pace of change — driven by generative AI above all — making conventional trend forecasting structurally unreliable, demanding organizations prepare for radical uncertainty rather than predicted futures."}
+        {
+          "name": "Radical Uncertainty as Strategic Condition",
+          "description": "The pace of change \u2014 driven by generative AI above all \u2014 making conventional trend forecasting structurally unreliable, demanding organizations prepare for radical uncertainty rather than predicted futures."
+        }
       ],
       "signals": [
-        {"name": "Trend Reports Obsolescing Faster Than Published", "description": "Technology acceleration causing trend content to become partially obsolete between writing and publication — a meta-signal of the pace problem that undermines traditional strategic planning horizons."}
+        {
+          "name": "Trend Reports Obsolescing Faster Than Published",
+          "description": "Technology acceleration causing trend content to become partially obsolete between writing and publication \u2014 a meta-signal of the pace problem that undermines traditional strategic planning horizons."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Nexxworks",
+      "orgType": "Consultancy"
     },
     {
       "filename": "NIELSEN_2023 Marketing Report.pdf",
       "year": 2023,
       "trends": [
-        {"name": "Measurement Confidence Crisis in Digital Marketing", "description": "Marketers experiencing a crisis of confidence in their ability to measure holistic marketing ROI — with increasing channel complexity, privacy changes, and fragmented attribution creating structural measurement gaps."},
-        {"name": "CTV Becoming Primary Digital Ad Channel", "description": "Connected TV receiving disproportionate share of global advertising budget growth — with brands shifting TV budgets toward CTV as streaming viewership scales and targeting capabilities mature."}
+        {
+          "name": "Measurement Confidence Crisis in Digital Marketing",
+          "description": "Marketers experiencing a crisis of confidence in their ability to measure holistic marketing ROI \u2014 with increasing channel complexity, privacy changes, and fragmented attribution creating structural measurement gaps."
+        },
+        {
+          "name": "CTV Becoming Primary Digital Ad Channel",
+          "description": "Connected TV receiving disproportionate share of global advertising budget growth \u2014 with brands shifting TV budgets toward CTV as streaming viewership scales and targeting capabilities mature."
+        }
       ],
       "signals": [
-        {"name": "Digital Spend Edging Out All Other Investments Despite Headwinds", "description": "Digital advertising maintaining priority spend allocation even amid economic headwinds — demonstrating digital's structural dominance in the marketing mix regardless of macroeconomic pressure."}
+        {
+          "name": "Digital Spend Edging Out All Other Investments Despite Headwinds",
+          "description": "Digital advertising maintaining priority spend allocation even amid economic headwinds \u2014 demonstrating digital's structural dominance in the marketing mix regardless of macroeconomic pressure."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Nielsen",
+      "orgType": "Research"
     },
     {
       "filename": "OFCOM - Online-nation-2024_CAIG.pdf",
       "year": 2024,
       "trends": [
-        {"name": "UK Online Landscape Reaching Saturation", "description": "UK internet penetration and online service usage approaching saturation levels — shifting the competitive dynamic from access growth to attention retention, content quality, and safety regulation."}
+        {
+          "name": "UK Online Landscape Reaching Saturation",
+          "description": "UK internet penetration and online service usage approaching saturation levels \u2014 shifting the competitive dynamic from access growth to attention retention, content quality, and safety regulation."
+        }
       ],
       "signals": [],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Ofcom",
+      "orgType": "Government"
     },
     {
       "filename": "OGILVY_2024 Media Predictions.pdf",
       "year": 2024,
       "trends": [
-        {"name": "AI Enabling Contextual Advertising Renaissance", "description": "AI making contextual advertising — targeting based on content environment rather than user identity — newly powerful, offering a privacy-safe targeting alternative as identity signals degrade."},
-        {"name": "Shifting Eyes to Ears for Overstimulated Audiences", "description": "Audience attention migrating from visual to audio media as visual content saturation drives overstimulation — with podcasts, audio advertising, and voice interfaces gaining share of engagement time."}
+        {
+          "name": "AI Enabling Contextual Advertising Renaissance",
+          "description": "AI making contextual advertising \u2014 targeting based on content environment rather than user identity \u2014 newly powerful, offering a privacy-safe targeting alternative as identity signals degrade."
+        },
+        {
+          "name": "Shifting Eyes to Ears for Overstimulated Audiences",
+          "description": "Audience attention migrating from visual to audio media as visual content saturation drives overstimulation \u2014 with podcasts, audio advertising, and voice interfaces gaining share of engagement time."
+        }
       ],
       "signals": [
-        {"name": "Gaming as Brand Engagement Arena", "description": "Gaming environments maturing as legitimate brand engagement channels — with in-game advertising, brand collaborations, and gaming partnerships entering mainstream media planning for major advertisers."},
-        {"name": "TikTok Replacing Google as Search for Younger Audiences", "description": "TikTok functioning as primary search interface for younger demographics — blurring lines between social entertainment and information discovery in ways that require entirely new search and discovery marketing strategies."}
+        {
+          "name": "Gaming as Brand Engagement Arena",
+          "description": "Gaming environments maturing as legitimate brand engagement channels \u2014 with in-game advertising, brand collaborations, and gaming partnerships entering mainstream media planning for major advertisers."
+        },
+        {
+          "name": "TikTok Replacing Google as Search for Younger Audiences",
+          "description": "TikTok functioning as primary search interface for younger demographics \u2014 blurring lines between social entertainment and information discovery in ways that require entirely new search and discovery marketing strategies."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Ogilvy",
+      "orgType": "Agency"
     },
     {
       "filename": "OGILVY_Social Media Trends 2024.pdf",
       "year": 2024,
       "trends": [
-        {"name": "Social 3.0 — Culture-First Brand Reset", "description": "Social media entering its third era — moving from brand broadcasting to conversation to genuine cultural participation — requiring brands to operate as culture contributors rather than interrupters."},
-        {"name": "Bottom-Up Culture Emergence", "description": "Cultural production shifting decisively from top-down institutional creation to bottom-up, bubble-up emergence from communities and creators — with brands needing to follow and amplify rather than direct."}
+        {
+          "name": "Social 3.0 \u2014 Culture-First Brand Reset",
+          "description": "Social media entering its third era \u2014 moving from brand broadcasting to conversation to genuine cultural participation \u2014 requiring brands to operate as culture contributors rather than interrupters."
+        },
+        {
+          "name": "Bottom-Up Culture Emergence",
+          "description": "Cultural production shifting decisively from top-down institutional creation to bottom-up, bubble-up emergence from communities and creators \u2014 with brands needing to follow and amplify rather than direct."
+        }
       ],
       "signals": [
-        {"name": "Energy and Velocity of Bottom-Up Culture Accelerating", "description": "The speed and intensity with which bottom-up cultural moments emerge and spread increasing — compressing the window brands have to authentically participate before a moment becomes saturated or appropriated."}
+        {
+          "name": "Energy and Velocity of Bottom-Up Culture Accelerating",
+          "description": "The speed and intensity with which bottom-up cultural moments emerge and spread increasing \u2014 compressing the window brands have to authentically participate before a moment becomes saturated or appropriated."
+        }
       ],
-      "scenarios": []
+      "scenarios": [],
+      "org": "Ogilvy",
+      "orgType": "Agency"
     }
   ]
 }
