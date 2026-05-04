@@ -837,6 +837,51 @@
       letter-spacing: 0.05em;
     }
 
+    /* ── View toggle ── */
+    #view-toggle {
+      position: fixed;
+      top: 70px;
+      left: 32px;
+      display: flex;
+      gap: 5px;
+      z-index: 10;
+    }
+    .view-btn {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.14);
+      color: rgba(232,228,217,0.52);
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 5px 11px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.2s;
+    }
+    .view-btn:hover {
+      background: rgba(255,255,255,0.10);
+      color: rgba(232,228,217,0.85);
+    }
+    .view-btn.active {
+      background: rgba(176,200,255,0.13);
+      border-color: rgba(176,200,255,0.38);
+      color: rgba(176,200,255,0.95);
+    }
+
+    /* ── View overlay (Horizon / Timeline SVG layer) ── */
+    #view-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 5;
+      display: none;
+      background: rgba(0,0,8,0.88);
+      overflow: hidden;
+    }
+
+    /* Smooth opacity transition when switching views */
+    #canvas-container canvas { transition: opacity 0.4s ease; }
+
     /* ══════════════════════════════════════════════════════
        Mobile  (≤ 767 px)
        ══════════════════════════════════════════════════════ */
@@ -1014,6 +1059,14 @@
 
       /* ── Toast — above filter bar ── */
       #copy-toast { bottom: 110px; }
+
+      /* ── View toggle — centered below title on mobile ── */
+      #view-toggle {
+        top: 46px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .view-btn { font-size: 9px; padding: 4px 9px; touch-action: manipulation; }
     }
 
     /* ── Very small screens (≤ 380 px) ── */
@@ -1069,6 +1122,12 @@
   <p id="report-count"></p>
 </div>
 
+<div id="view-toggle">
+  <button class="view-btn active" data-view="cosmos">◎ Cosmos</button>
+  <button class="view-btn" data-view="horizon">◯ Horizon</button>
+  <button class="view-btn" data-view="timeline">◯ Timeline</button>
+</div>
+
 <div id="filters">
   <button class="filter-btn active" data-filter="all">All</button>
   <button class="filter-btn" data-filter="signals">Signals</button>
@@ -1090,6 +1149,8 @@
 </div>
 
 <div id="copy-toast">⎘ Link copied</div>
+
+<div id="view-overlay"></div>
 
 <div id="canvas-container"></div>
 

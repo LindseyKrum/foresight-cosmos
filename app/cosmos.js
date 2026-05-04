@@ -911,6 +911,220 @@ async function init() {
       closeUpdatesDrawer();
     }
   });
+
+  // ── View switching: Cosmos / Horizon / Timeline ───────────────────────────
+  const viewOverlay = document.getElementById('view-overlay');
+  let currentView   = 'cosmos';
+
+  function getHorizonYear(sig) {
+    if (sig.horizonYear) return sig.horizonYear;
+    if (sig.horizon === 'near')   return 2027;
+    if (sig.horizon === 'medium') return 2031;
+    if (sig.horizon === 'far')    return 2037;
+    return Math.max(2025, sig.lastSeen ?? 2025);
+  }
+
+  // Shared helper: wire hover-tooltip + click on SVG signal dots
+  function wireOverlayDots(cls, getBaseOp) {
+    const tip     = document.getElementById('tooltip');
+    const tipType = document.getElementById('tooltip-type');
+    const tipName = document.getElementById('tooltip-name');
+    viewOverlay.querySelectorAll(`.${cls}`).forEach(el => {
+      const sig = data.signals.find(s => s.id === el.dataset.id);
+      el.addEventListener('mouseover', e => {
+        el.setAttribute('opacity', '1');
+        if (!isMobile) {
+          tipType.textContent = 'Signal';
+          tipName.textContent = el.dataset.name;
+          tip.style.display   = 'block';
+          tip.style.left      = (e.clientX + 16) + 'px';
+          tip.style.top       = e.clientY + 'px';
+        }
+      });
+      el.addEventListener('mousemove', e => {
+        if (!isMobile) {
+          tip.style.left = (e.clientX + 16) + 'px';
+          tip.style.top  = e.clientY + 'px';
+        }
+      });
+      el.addEventListener('mouseout', () => {
+        el.setAttribute('opacity', getBaseOp(sig, el));
+        if (!isMobile) tip.style.display = 'none';
+      });
+      el.addEventListener('click', e => {
+        e.stopPropagation();
+        if (sig) openPanel({ type: 'signal', data: sig }, data);
+      });
+    });
+  }
+
+  // ── Horizon view: concentric rings ────────────────────────────────────────
+  function renderHorizonView() {
+    const W = window.innerWidth, H = window.innerHeight;
+    const cx = W / 2, cy = H / 2;
+    const maxR = Math.min(W, H) * 0.42;
+
+    const RINGS = [
+      { key: 'near',   label: 'NEAR · 2026–2028',   r1: maxR * 0.24, r2: maxR * 0.52,
+        fill: 'rgba(176,200,255,0.09)', stroke: 'rgba(176,200,255,0.16)' },
+      { key: 'medium', label: 'MEDIUM · 2028–2033',  r1: maxR * 0.52, r2: maxR * 0.76,
+        fill: 'rgba(245,200,66,0.07)',  stroke: 'rgba(245,200,66,0.13)'  },
+      { key: 'far',    label: 'FAR · 2034+',          r1: maxR * 0.76, r2: maxR * 1.00,
+        fill: 'rgba(255,120,60,0.06)',  stroke: 'rgba(255,120,60,0.11)'  },
+    ];
+
+    const bins = { near: [], medium: [], far: [] };
+    data.signals.forEach(sig => {
+      const h = sig.horizon || 'near';
+      if (bins[h]) bins[h].push(sig);
+    });
+
+    const defs = RINGS.map(r => `
+      <mask id="hm-${r.key}">
+        <circle cx="${cx}" cy="${cy}" r="${r.r2.toFixed(1)}" fill="white"/>
+        <circle cx="${cx}" cy="${cy}" r="${r.r1.toFixed(1)}" fill="black"/>
+      </mask>`).join('');
+
+    const ringsSVG = RINGS.map(r => `
+      <circle cx="${cx}" cy="${cy}" r="${r.r2.toFixed(1)}" fill="${r.fill}" mask="url(#hm-${r.key})"/>
+      <circle cx="${cx}" cy="${cy}" r="${r.r2.toFixed(1)}" fill="none" stroke="${r.stroke}" stroke-width="1"/>
+      <text x="${cx}" y="${(cy - r.r2 + 16).toFixed(1)}" text-anchor="middle"
+            font-family="Georgia,serif" font-size="9" letter-spacing="1.5"
+            fill="rgba(232,228,217,0.25)">${r.label}</text>`).join('');
+
+    const nowR  = RINGS[0].r1;
+    const hubSVG = `
+      <circle cx="${cx}" cy="${cy}" r="${nowR.toFixed(1)}" fill="rgba(176,200,255,0.05)" stroke="rgba(176,200,255,0.18)" stroke-width="1"/>
+      <text x="${cx}" y="${(cy - 7).toFixed(1)}" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="rgba(232,228,217,0.45)" letter-spacing="2">NOW</text>
+      <text x="${cx}" y="${(cy + 10).toFixed(1)}" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="rgba(232,228,217,0.28)">2025</text>`;
+
+    const dotsSVG = RINGS.flatMap(ring => {
+      const sigs   = bins[ring.key] || [];
+      const midR   = (ring.r1 + ring.r2) / 2;
+      const spread = (ring.r2 - ring.r1) * 0.30;
+      return sigs.map((sig, i) => {
+        const angle  = (i / sigs.length) * Math.PI * 2 - Math.PI / 2;
+        const jitter = (((i * 2654435761) >>> 0) % 1000 / 1000 - 0.5) * spread * 1.8;
+        const r  = midR + jitter;
+        const x  = cx + Math.cos(angle) * r;
+        const y  = cy + Math.sin(angle) * r;
+        const sz = 3 + (sig.strength ?? 0.5) * 3.5;
+        const pc = PLANET_COLORS[sig.connections?.[0]] ?? new THREE.Color(0.68, 0.82, 1.0);
+        const hex = '#' + pc.getHexString();
+        const op  = ring.key === 'far' ? '0.50' : '0.68';
+        const nm  = sig.name.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
+        return `<circle class="h-sig" data-id="${sig.id}" data-name="${nm}"
+          cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${sz.toFixed(1)}"
+          fill="${hex}" opacity="${op}" style="cursor:pointer;"/>`;
+      });
+    }).join('');
+
+    viewOverlay.innerHTML = `
+      <svg width="${W}" height="${H}" xmlns="http://www.w3.org/2000/svg" style="position:absolute;inset:0;">
+        <defs>${defs}</defs>
+        ${ringsSVG}${hubSVG}${dotsSVG}
+      </svg>`;
+
+    wireOverlayDots('h-sig', (sig) => sig?.horizon === 'far' ? '0.50' : '0.68');
+  }
+
+  // ── Timeline view: trend swimlanes ────────────────────────────────────────
+  function renderTimelineView() {
+    const W  = window.innerWidth, H = window.innerHeight;
+    const ML = W < 600 ? 110 : 200, MR = 40, MT = 56, MB = 44;
+    const drawW = W - ML - MR, drawH = H - MT - MB;
+
+    const Y0 = 2023, Y1 = 2040, NOW = 2025.5;
+    const yearToX = yr => ML + ((yr - Y0) / (Y1 - Y0)) * drawW;
+    const rowH    = drawH / data.trends.length;
+    const maxLbl  = W < 600 ? 14 : 22;
+
+    let svg = `<svg width="${W}" height="${H}" xmlns="http://www.w3.org/2000/svg" style="position:absolute;inset:0;">`;
+
+    // Swimlane rows
+    const trendRow = {};
+    data.trends.forEach((trend, i) => {
+      trendRow[trend.id] = i;
+      const y   = MT + i * rowH;
+      const pc  = PLANET_COLORS[trend.id] ?? new THREE.Color(0.96, 0.78, 0.26);
+      const hex = '#' + pc.getHexString();
+      if (i % 2 === 0) {
+        svg += `<rect x="${ML}" y="${y}" width="${drawW}" height="${rowH}" fill="rgba(255,255,255,0.013)"/>`;
+      }
+      svg += `<line x1="${ML}" y1="${y + rowH}" x2="${W - MR}" y2="${y + rowH}" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>`;
+      const name = trend.name.length > maxLbl ? trend.name.slice(0, maxLbl) + '…' : trend.name;
+      svg += `<circle cx="${ML - 5}" cy="${(y + rowH / 2).toFixed(1)}" r="2.5" fill="${hex}" opacity="0.6"/>`;
+      svg += `<text x="${ML - 11}" y="${(y + rowH / 2 + 4).toFixed(1)}" text-anchor="end"
+        font-family="Georgia,serif" font-size="${W < 600 ? 8 : 9}" fill="${hex}99">${name}</text>`;
+    });
+
+    // Year grid lines + labels
+    for (let yr = Y0; yr <= Y1; yr++) {
+      const x = yearToX(yr);
+      svg += `<line x1="${x.toFixed(1)}" y1="${MT}" x2="${x.toFixed(1)}" y2="${H - MB}" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>`;
+      if (yr % 2 === 0 && yr > Y0) {
+        svg += `<text x="${x.toFixed(1)}" y="${MT - 8}" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="rgba(232,228,217,0.28)">${yr}</text>`;
+      }
+    }
+
+    // NOW dashed line
+    const nowX = yearToX(NOW);
+    svg += `
+      <line x1="${nowX.toFixed(1)}" y1="${MT - 4}" x2="${nowX.toFixed(1)}" y2="${H - MB}" stroke="rgba(176,200,255,0.30)" stroke-width="1" stroke-dasharray="4,4"/>
+      <text x="${nowX.toFixed(1)}" y="${MT - 12}" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="rgba(176,200,255,0.50)" letter-spacing="1">NOW</text>`;
+
+    // Signal dots
+    data.signals.forEach((sig, si) => {
+      const tid = sig.connections?.[0];
+      if (tid === undefined || trendRow[tid] === undefined) return;
+      const yr    = Math.min(Y1, Math.max(Y0, getHorizonYear(sig)));
+      const row   = trendRow[tid];
+      const xBase = yearToX(yr);
+      const xJit  = ((si * 1597) % 20) - 10;
+      const x     = Math.max(ML + 4, Math.min(W - MR - 4, xBase + xJit));
+      const yJit  = (((si * 2654435761) >>> 0) % 1000 / 1000 - 0.5) * rowH * 0.50;
+      const y     = MT + row * rowH + rowH / 2 + yJit;
+      const r     = 3 + (sig.strength ?? 0.5) * 3;
+      const pc    = PLANET_COLORS[tid] ?? new THREE.Color(0.68, 0.82, 1.0);
+      const hex   = '#' + pc.getHexString();
+      const op    = (sig.lastSeen ?? 0) >= 2025 ? '0.80' : '0.44';
+      const nm    = sig.name.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
+      svg += `<circle class="t-sig" data-id="${sig.id}" data-name="${nm}" data-base-op="${op}"
+        cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r.toFixed(1)}"
+        fill="${hex}" opacity="${op}" style="cursor:pointer;"/>`;
+    });
+
+    svg += '</svg>';
+    viewOverlay.innerHTML = svg;
+    wireOverlayDots('t-sig', (sig, el) => el.dataset.baseOp);
+  }
+
+  // ── switchView ────────────────────────────────────────────────────────────
+  function switchView(mode) {
+    currentView = mode;
+    const isCosmos = mode === 'cosmos';
+    renderer.domElement.style.opacity       = isCosmos ? '1' : '0.06';
+    renderer.domElement.style.pointerEvents = isCosmos ? 'auto' : 'none';
+    controls.enabled = isCosmos;
+
+    if (viewOverlay) viewOverlay.style.display = isCosmos ? 'none' : 'block';
+    if (mode === 'horizon')  renderHorizonView();
+    if (mode === 'timeline') renderTimelineView();
+
+    document.querySelectorAll('.view-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.view === mode);
+    });
+  }
+
+  document.querySelectorAll('.view-btn').forEach(btn => {
+    btn.addEventListener('click', () => switchView(btn.dataset.view));
+  });
+
+  // Re-render 2D view on resize
+  window.addEventListener('resize', () => {
+    if (currentView === 'horizon')  renderHorizonView();
+    if (currentView === 'timeline') renderTimelineView();
+  });
 }
 
 // ── Panel ───────────────────────────────────────────────────────────────────
