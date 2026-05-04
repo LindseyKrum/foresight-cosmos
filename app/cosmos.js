@@ -720,6 +720,21 @@ function openPanel({ type, data: obj }, cosmos) {
   document.getElementById('panel-title').textContent = obj.name;
   document.getElementById('panel-desc').textContent  = obj.description;
 
+  // Report attribution line
+  const noteEl = document.getElementById('panel-report-note');
+  if (noteEl) {
+    if (obj.sources?.length) {
+      const orgs = [...new Set(obj.sources.map(s => s.org).filter(Boolean))];
+      const years = [...new Set(obj.sources.map(s => s.year).filter(Boolean))].sort();
+      const yearStr = years.length > 1 ? `${years[0]}–${years[years.length-1]}` : years[0];
+      const orgStr = orgs.slice(0,3).join(', ') + (orgs.length > 3 ? ` +${orgs.length-3} more` : '');
+      noteEl.textContent = `Extracted from ${orgStr}${yearStr ? ' · ' + yearStr : ''}`;
+      noteEl.style.display = 'block';
+    } else {
+      noteEl.style.display = 'none';
+    }
+  }
+
   const dying    = document.getElementById('dying-notice-container');
   const recency  = document.getElementById('panel-recency-container');
   const ecology  = document.getElementById('panel-ecology-container');
