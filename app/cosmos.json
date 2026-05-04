@@ -620,19 +620,39 @@
           "url": "",
           "org": "Allianz Global Investors",
           "orgType": "Financial"
+        },
+        {
+          "report": "BANCO SANTANDER - Informe de Mercado 2024 ES",
+          "year": 2024,
+          "url": "",
+          "org": "Banco Santander",
+          "orgType": "Financial"
+        },
+        {
+          "report": "ING - Bank_Outlook_2025_CAIG",
+          "year": 2025,
+          "url": "",
+          "org": "ING",
+          "orgType": "Financial"
         }
       ],
-      "firstSeen": 2025,
+      "firstSeen": 2024,
       "lastSeen": 2025,
-      "strength": 0.8,
+      "strength": 0.96,
       "connections": [
         "t014",
         "t015"
       ],
       "drivers": [
-        "technological-acceleration"
+        "technological-acceleration",
+        "economic-realignment"
       ],
-      "tensions": []
+      "tensions": [],
+      "mergeCount": 3,
+      "mergedFrom": [
+        "s047",
+        "s182"
+      ]
     },
     {
       "id": "s025",
@@ -1202,30 +1222,6 @@
       "tensions": []
     },
     {
-      "id": "s047",
-      "name": "Interest Rate Cuts Beginning in 2024",
-      "description": "Central banks initiating rate cutting cycle in 2024 after aggressive tightening, creating new investment regime with implications across bonds, equities, and real assets.",
-      "sources": [
-        {
-          "report": "BANCO SANTANDER - Informe de Mercado 2024 ES",
-          "year": 2024,
-          "url": "",
-          "org": "Banco Santander",
-          "orgType": "Financial"
-        }
-      ],
-      "firstSeen": 2024,
-      "lastSeen": 2024,
-      "strength": 0.8,
-      "connections": [
-        "t014"
-      ],
-      "drivers": [
-        "economic-realignment"
-      ],
-      "tensions": []
-    },
-    {
       "id": "s048",
       "name": "AI Features Becoming Advertising Platform Differentiator",
       "description": "Major ad platforms competing on AI-powered creative tools, audience targeting, and measurement capabilities as the primary basis of advertiser choice.",
@@ -1462,19 +1458,30 @@
           "url": "",
           "org": "Bitcoin Suisse",
           "orgType": "Financial"
+        },
+        {
+          "report": "PWC_Navigating-the-global-crypto-landscape-2024",
+          "year": 2024,
+          "url": "",
+          "org": "PwC",
+          "orgType": "Consultancy"
         }
       ],
       "firstSeen": 2024,
       "lastSeen": 2024,
-      "strength": 0.8,
+      "strength": 0.88,
       "connections": [
         "t015"
       ],
       "drivers": [
-        "governance-regulatory-change",
-        "technological-acceleration"
+        "technological-acceleration",
+        "governance-regulatory-change"
       ],
-      "tensions": []
+      "tensions": [],
+      "mergeCount": 2,
+      "mergedFrom": [
+        "s277"
+      ]
     },
     {
       "id": "s058",
@@ -2186,57 +2193,6 @@
       "tensions": []
     },
     {
-      "id": "s086",
-      "name": "TikTok as Primary Search for Gen Z",
-      "description": "Gen Z increasingly using TikTok as their primary search and discovery interface, displacing Google for product, local, and cultural queries.",
-      "sources": [
-        {
-          "report": "CONTAGIOUS - IQ Download 2024_CAIG",
-          "year": 2024,
-          "url": "",
-          "org": "Contagious",
-          "orgType": "Research"
-        }
-      ],
-      "firstSeen": 2024,
-      "lastSeen": 2024,
-      "strength": 0.8,
-      "connections": [
-        "t004",
-        "t006"
-      ],
-      "drivers": [
-        "demographic-shift"
-      ],
-      "tensions": []
-    },
-    {
-      "id": "s087",
-      "name": "Long-Form Content Revival on YouTube",
-      "description": "YouTube experiencing renewed engagement with longer-form content as audiences seek depth and context in contrast to algorithmically optimized short-form.",
-      "sources": [
-        {
-          "report": "CONTAGIOUS - IQ Download 2024_CAIG",
-          "year": 2024,
-          "url": "",
-          "org": "Contagious",
-          "orgType": "Research"
-        }
-      ],
-      "firstSeen": 2024,
-      "lastSeen": 2024,
-      "strength": 0.8,
-      "connections": [
-        "t004",
-        "t006"
-      ],
-      "drivers": [
-        "technological-acceleration",
-        "demographic-shift"
-      ],
-      "tensions": []
-    },
-    {
       "id": "s088",
       "name": "3.5x Increase in AI Search Interest in One Year",
       "description": "Google Search data showing 3.5x increase in 'artificial intelligence' searches year-over-year, marking mainstream awareness tipping point.",
@@ -2374,18 +2330,31 @@
           "url": "",
           "org": "Creator IQ",
           "orgType": "Tech"
+        },
+        {
+          "report": "KANTAR_Marketing_Trends_2024",
+          "year": 2024,
+          "url": "",
+          "org": "Kantar",
+          "orgType": "Research"
         }
       ],
       "firstSeen": 2024,
       "lastSeen": 2024,
-      "strength": 0.8,
+      "strength": 0.88,
       "connections": [
-        "t005"
+        "t005",
+        "t006"
       ],
       "drivers": [
+        "technological-acceleration",
         "economic-realignment"
       ],
-      "tensions": []
+      "tensions": [],
+      "mergeCount": 2,
+      "mergedFrom": [
+        "s213"
+      ]
     },
     {
       "id": "s094",
@@ -2552,19 +2521,32 @@
           "url": "",
           "org": "Deloitte",
           "orgType": "Consultancy"
+        },
+        {
+          "report": "MONTE CARLO_Data & AI Trend Report",
+          "year": 2024,
+          "url": "",
+          "org": "Monte Carlo Data",
+          "orgType": "Tech"
         }
       ],
-      "firstSeen": 2025,
+      "firstSeen": 2024,
       "lastSeen": 2025,
-      "strength": 0.8,
+      "strength": 0.88,
       "connections": [
-        "t001",
-        "t015"
+        "t015",
+        "t002",
+        "t001"
       ],
       "drivers": [
-        "technological-acceleration"
+        "technological-acceleration",
+        "governance-regulatory-change"
       ],
-      "tensions": []
+      "tensions": [],
+      "mergeCount": 2,
+      "mergedFrom": [
+        "s246"
+      ]
     },
     {
       "id": "s101",
@@ -2962,30 +2944,12 @@
       "description": "YouTube experiencing renewed growth in long-form content engagement as audiences seek substantive depth \u2014 a counter-signal to the short-form dominance narrative.",
       "sources": [
         {
-          "report": "DIGITAL VOICES - The State of Influence_Insights Report 2025_CAIG",
-          "year": 2025,
+          "report": "CONTAGIOUS - IQ Download 2024_CAIG",
+          "year": 2024,
           "url": "",
-          "org": "Digital Voices",
-          "orgType": "Agency"
-        }
-      ],
-      "firstSeen": 2025,
-      "lastSeen": 2025,
-      "strength": 0.8,
-      "connections": [
-        "t005"
-      ],
-      "drivers": [
-        "economic-realignment",
-        "demographic-shift"
-      ],
-      "tensions": []
-    },
-    {
-      "id": "s117",
-      "name": "TikTok Redefining Search for Gen Z",
-      "description": "TikTok functioning as the primary search and discovery engine for Gen Z consumers, fundamentally challenging Google's dominance in information-seeking behavior.",
-      "sources": [
+          "org": "Contagious",
+          "orgType": "Research"
+        },
         {
           "report": "DIGITAL VOICES - The State of Influence_Insights Report 2025_CAIG",
           "year": 2025,
@@ -2994,16 +2958,71 @@
           "orgType": "Agency"
         }
       ],
-      "firstSeen": 2025,
+      "firstSeen": 2024,
       "lastSeen": 2025,
-      "strength": 0.8,
+      "strength": 0.88,
       "connections": [
-        "t005"
+        "t005",
+        "t004",
+        "t006"
       ],
       "drivers": [
-        "demographic-shift"
+        "technological-acceleration",
+        "demographic-shift",
+        "economic-realignment"
       ],
-      "tensions": []
+      "tensions": [],
+      "mergeCount": 2,
+      "mergedFrom": [
+        "s087"
+      ]
+    },
+    {
+      "id": "s117",
+      "name": "TikTok Redefining Search for Gen Z",
+      "description": "TikTok functioning as the primary search and discovery engine for Gen Z consumers, fundamentally challenging Google's dominance in information-seeking behavior.",
+      "sources": [
+        {
+          "report": "CONTAGIOUS - IQ Download 2024_CAIG",
+          "year": 2024,
+          "url": "",
+          "org": "Contagious",
+          "orgType": "Research"
+        },
+        {
+          "report": "DIGITAL VOICES - The State of Influence_Insights Report 2025_CAIG",
+          "year": 2025,
+          "url": "",
+          "org": "Digital Voices",
+          "orgType": "Agency"
+        },
+        {
+          "report": "OGILVY_2024 Media Predictions",
+          "year": 2024,
+          "url": "",
+          "org": "Ogilvy",
+          "orgType": "Agency"
+        }
+      ],
+      "firstSeen": 2024,
+      "lastSeen": 2025,
+      "strength": 0.96,
+      "connections": [
+        "t005",
+        "t018",
+        "t004",
+        "t006"
+      ],
+      "drivers": [
+        "demographic-shift",
+        "technological-acceleration"
+      ],
+      "tensions": [],
+      "mergeCount": 3,
+      "mergedFrom": [
+        "s086",
+        "s256"
+      ]
     },
     {
       "id": "s118",
@@ -4670,30 +4689,6 @@
       "tensions": []
     },
     {
-      "id": "s182",
-      "name": "ECB Rate Cuts Benefiting Bank Loan Quality",
-      "description": "European Central Bank rate cuts expected to improve bank loan portfolio quality in 2025 \u2014 reducing credit costs after elevated levels, benefiting banks with exposure to rate-sensitive borrowers.",
-      "sources": [
-        {
-          "report": "ING - Bank_Outlook_2025_CAIG",
-          "year": 2025,
-          "url": "",
-          "org": "ING",
-          "orgType": "Financial"
-        }
-      ],
-      "firstSeen": 2025,
-      "lastSeen": 2025,
-      "strength": 0.8,
-      "connections": [
-        "t014"
-      ],
-      "drivers": [
-        "economic-realignment"
-      ],
-      "tensions": []
-    },
-    {
       "id": "s183",
       "name": "Sustainable Bank Bond Issuance Slowing",
       "description": "Green and sustainable bank bond issuance expected to grow only modestly in 2025, signaling that sustainable finance growth is entering a more measured phase after the initial rush.",
@@ -5452,32 +5447,6 @@
       "tensions": []
     },
     {
-      "id": "s213",
-      "name": "59% of Marketers Increasing Influencer Spend in 2024",
-      "description": "Majority of global marketers committed to increasing influencer content investment in 2024 \u2014 with half having invested in 2023, indicating accelerating mainstream adoption of creator channels.",
-      "sources": [
-        {
-          "report": "KANTAR_Marketing_Trends_2024",
-          "year": 2024,
-          "url": "",
-          "org": "Kantar",
-          "orgType": "Research"
-        }
-      ],
-      "firstSeen": 2024,
-      "lastSeen": 2024,
-      "strength": 0.8,
-      "connections": [
-        "t005",
-        "t006"
-      ],
-      "drivers": [
-        "economic-realignment",
-        "technological-acceleration"
-      ],
-      "tensions": []
-    },
-    {
       "id": "s214",
       "name": "Open-Source Trend Intelligence Culture Emerging",
       "description": "A community-based, open-source approach to trend report curation and sharing gaining traction \u2014 with collaborative aggregation of hundreds of trend reports annually creating a shared intelligence commons.",
@@ -6075,18 +6044,30 @@
           "url": "",
           "org": "Mercer",
           "orgType": "Consultancy"
+        },
+        {
+          "report": "NATWEST - The-Year-Ahead-2025_CAIG",
+          "year": 2025,
+          "url": "",
+          "org": "NatWest",
+          "orgType": "Financial"
         }
       ],
       "firstSeen": 2025,
       "lastSeen": 2025,
-      "strength": 0.8,
+      "strength": 0.88,
       "connections": [
-        "t014"
+        "t014",
+        "t013"
       ],
       "drivers": [
         "economic-realignment"
       ],
-      "tensions": []
+      "tensions": [],
+      "mergeCount": 2,
+      "mergedFrom": [
+        "s248"
+      ]
     },
     {
       "id": "s238",
@@ -6292,32 +6273,6 @@
       "tensions": []
     },
     {
-      "id": "s246",
-      "name": "Chief Data and AI Officers Gaining Strategic Remit",
-      "description": "CDO/CAIO role evolving from data governance to strategic business driver \u2014 with AI making data leadership a C-suite priority alongside CEO, CFO, and CTO.",
-      "sources": [
-        {
-          "report": "MONTE CARLO_Data & AI Trend Report",
-          "year": 2024,
-          "url": "",
-          "org": "Monte Carlo Data",
-          "orgType": "Tech"
-        }
-      ],
-      "firstSeen": 2024,
-      "lastSeen": 2024,
-      "strength": 0.8,
-      "connections": [
-        "t001",
-        "t002"
-      ],
-      "drivers": [
-        "technological-acceleration",
-        "governance-regulatory-change"
-      ],
-      "tensions": []
-    },
-    {
       "id": "s247",
       "name": "Incumbent Governments Punished by Cost-of-Living Voters",
       "description": "2024's global electoral cycle delivering consistent punishment to incumbents as still-high prices weigh on living standards \u2014 creating a global political dynamic that shapes fiscal policy for years.",
@@ -6338,30 +6293,6 @@
       ],
       "drivers": [
         "governance-regulatory-change"
-      ],
-      "tensions": []
-    },
-    {
-      "id": "s248",
-      "name": "Major Central Banks Reaching Terminal Rates March 2025",
-      "description": "NatWest forecasting major central banks reaching terminal rates as early as March 2025 \u2014 signaling the rate-cutting cycle completing its first phase and entering a hold or moderate-cut phase.",
-      "sources": [
-        {
-          "report": "NATWEST - The-Year-Ahead-2025_CAIG",
-          "year": 2025,
-          "url": "",
-          "org": "NatWest",
-          "orgType": "Financial"
-        }
-      ],
-      "firstSeen": 2025,
-      "lastSeen": 2025,
-      "strength": 0.8,
-      "connections": [
-        "t013"
-      ],
-      "drivers": [
-        "economic-realignment"
       ],
       "tensions": []
     },
@@ -6545,32 +6476,6 @@
       "drivers": [
         "technological-acceleration",
         "demographic-shift"
-      ],
-      "tensions": []
-    },
-    {
-      "id": "s256",
-      "name": "TikTok Replacing Google as Search for Younger Audiences",
-      "description": "TikTok functioning as primary search interface for younger demographics \u2014 blurring lines between social entertainment and information discovery in ways that require entirely new search and discovery marketing strategies.",
-      "sources": [
-        {
-          "report": "OGILVY_2024 Media Predictions",
-          "year": 2024,
-          "url": "",
-          "org": "Ogilvy",
-          "orgType": "Agency"
-        }
-      ],
-      "firstSeen": 2024,
-      "lastSeen": 2024,
-      "strength": 0.8,
-      "connections": [
-        "t006",
-        "t018"
-      ],
-      "drivers": [
-        "demographic-shift",
-        "technological-acceleration"
       ],
       "tensions": []
     },
@@ -7092,31 +6997,6 @@
       "tensions": []
     },
     {
-      "id": "s277",
-      "name": "EU Single Market for Digital Assets Creating Regulatory Clarity",
-      "description": "EU's Markets in Crypto-Assets (MiCA) framework creating a harmonized single market for digital assets \u2014 providing the regulatory certainty that institutional investors require to deploy capital at scale.",
-      "sources": [
-        {
-          "report": "PWC_Navigating-the-global-crypto-landscape-2024",
-          "year": 2024,
-          "url": "",
-          "org": "PwC",
-          "orgType": "Consultancy"
-        }
-      ],
-      "firstSeen": 2024,
-      "lastSeen": 2024,
-      "strength": 0.8,
-      "connections": [
-        "t015"
-      ],
-      "drivers": [
-        "technological-acceleration",
-        "governance-regulatory-change"
-      ],
-      "tensions": []
-    },
-    {
       "id": "s278",
       "name": "Say Less Do More as Brand Communication Principle",
       "description": "Most effective 2025 brand communication characterized by restraint \u2014 saying less, letting actions speak, and avoiding the verbose purpose-speak that consumers have learned to distrust.",
@@ -7517,18 +7397,30 @@
           "url": "",
           "org": "Siemens",
           "orgType": "Tech"
+        },
+        {
+          "report": "WORLD ECONOMIC FORUM - Responsible Metaverse Maturity Model",
+          "year": 2024,
+          "url": "",
+          "org": "World Economic Forum",
+          "orgType": "Research"
         }
       ],
       "firstSeen": 2024,
       "lastSeen": 2024,
-      "strength": 0.8,
+      "strength": 0.88,
       "connections": [
         "t015"
       ],
       "drivers": [
-        "technological-acceleration"
+        "technological-acceleration",
+        "governance-regulatory-change"
       ],
-      "tensions": []
+      "tensions": [],
+      "mergeCount": 2,
+      "mergedFrom": [
+        "s356"
+      ]
     },
     {
       "id": "s294",
@@ -9148,31 +9040,6 @@
       "tensions": []
     },
     {
-      "id": "s356",
-      "name": "Metaverse Maturity Widely Variable Across Organizations",
-      "description": "Organizational metaverse maturity spanning from 'just beginning to understand' through 'fully integrated' \u2014 with this wide distribution indicating that responsible metaverse standards are entering the market at a moment when most organizations are still at early stages.",
-      "sources": [
-        {
-          "report": "WORLD ECONOMIC FORUM - Responsible Metaverse Maturity Model",
-          "year": 2024,
-          "url": "",
-          "org": "World Economic Forum",
-          "orgType": "Research"
-        }
-      ],
-      "firstSeen": 2024,
-      "lastSeen": 2024,
-      "strength": 0.8,
-      "connections": [
-        "t015"
-      ],
-      "drivers": [
-        "technological-acceleration",
-        "governance-regulatory-change"
-      ],
-      "tensions": []
-    },
-    {
       "id": "s357",
       "name": "Near-Real-Time Hunger Monitoring Becoming Operational Infrastructure",
       "description": "WFP's HungerMapLIVE establishing near-real-time global food security monitoring as operational infrastructure \u2014 enabling anticipatory action on acute hunger crises rather than retrospective response, representing a new paradigm for humanitarian early warning systems.",
@@ -9400,13 +9267,18 @@
         "t003"
       ],
       "drivers": [
-        "technological-acceleration"
+        "technological-acceleration",
+        "demographic-shift"
       ],
       "tensions": [
         {
           "signal": "s249",
           "label": "AI productivity vs. job displacement"
         }
+      ],
+      "mergeCount": 2,
+      "mergedFrom": [
+        "s367"
       ]
     },
     {
@@ -9438,31 +9310,6 @@
           "label": "AI productivity vs. job displacement"
         }
       ]
-    },
-    {
-      "id": "s367",
-      "name": "AI Usage in Customer Experience Surging 250%",
-      "description": "AI usage in customer experience growing 250% \u2014 with this acceleration indicating that AI in CX has moved from pilot to mainstream deployment, making AI capability a baseline expectation for consumers rather than a differentiating innovation.",
-      "sources": [
-        {
-          "report": "ZENDESK - CX Trends 2025_CAIG",
-          "year": 2025,
-          "url": "",
-          "org": "Zendesk",
-          "orgType": "Tech"
-        }
-      ],
-      "firstSeen": 2025,
-      "lastSeen": 2025,
-      "strength": 0.8,
-      "connections": [
-        "t003"
-      ],
-      "drivers": [
-        "technological-acceleration",
-        "demographic-shift"
-      ],
-      "tensions": []
     }
   ],
   "trends": [
@@ -9721,7 +9568,6 @@
         "s200",
         "s219",
         "s245",
-        "s246",
         "s295",
         "s297",
         "s298",
@@ -9856,7 +9702,7 @@
         "s138",
         "s155",
         "s245",
-        "s246",
+        "s100",
         "s258",
         "s259",
         "s276",
@@ -9868,12 +9714,12 @@
       "scenarios": [],
       "firstSeen": 2023,
       "lastSeen": 2025,
-      "mass": 1.6,
+      "mass": 2.5,
       "convergenceScore": 0.444,
       "convergenceLabel": "Emerging",
       "orgTypeBreakdown": {
         "Agency": 4,
-        "Consultancy": 5,
+        "Consultancy": 6,
         "Research": 3,
         "Tech": 5
       },
@@ -10089,7 +9935,6 @@
         "s341",
         "s365",
         "s366",
-        "s367",
         "s101"
       ],
       "scenarios": [
@@ -10103,7 +9948,7 @@
       "orgTypeBreakdown": {
         "Research": 10,
         "Consultancy": 6,
-        "Tech": 14,
+        "Tech": 13,
         "Government": 2,
         "Agency": 3
       },
@@ -10214,8 +10059,8 @@
         "s017",
         "s035",
         "s036",
-        "s086",
-        "s087",
+        "s117",
+        "s116",
         "s109",
         "s110",
         "s132",
@@ -10234,11 +10079,11 @@
       "scenarios": [],
       "firstSeen": 2024,
       "lastSeen": 2025,
-      "mass": 1.76,
+      "mass": 2.5,
       "convergenceScore": 0.556,
       "convergenceLabel": "Cross-sector",
       "orgTypeBreakdown": {
-        "Agency": 10,
+        "Agency": 13,
         "Tech": 2,
         "Research": 5,
         "Financial": 2,
@@ -10460,7 +10305,6 @@
         "s173",
         "s174",
         "s190",
-        "s213",
         "s228",
         "s257",
         "s282",
@@ -10482,14 +10326,14 @@
       "scenarios": [],
       "firstSeen": 2023,
       "lastSeen": 2025,
-      "mass": 2.12,
+      "mass": 2.5,
       "convergenceScore": 0.444,
       "convergenceLabel": "Emerging",
       "orgTypeBreakdown": {
         "Tech": 17,
         "Financial": 2,
-        "Agency": 8,
-        "Research": 6
+        "Agency": 9,
+        "Research": 8
       },
       "drivers": [
         "technological-acceleration",
@@ -10838,8 +10682,8 @@
         "s083",
         "s084",
         "s085",
-        "s086",
-        "s087",
+        "s117",
+        "s116",
         "s096",
         "s097",
         "s111",
@@ -10858,13 +10702,12 @@
         "s187",
         "s201",
         "s212",
-        "s213",
+        "s093",
         "s214",
         "s229",
         "s230",
         "s254",
         "s255",
-        "s256",
         "s270",
         "s271",
         "s272",
@@ -10897,13 +10740,13 @@
       "convergenceScore": 0.778,
       "convergenceLabel": "Universal",
       "orgTypeBreakdown": {
-        "Tech": 16,
+        "Tech": 17,
         "Media": 3,
         "Consultancy": 5,
         "Financial": 4,
         "Research": 14,
-        "Industry": 2,
-        "Agency": 20
+        "Agency": 22,
+        "Industry": 2
       },
       "drivers": [
         "technological-acceleration",
@@ -11504,7 +11347,7 @@
       ],
       "firstSeen": 2023,
       "lastSeen": 2025,
-      "mass": 2.03,
+      "mass": 2.5,
       "convergenceScore": 0.556,
       "convergenceLabel": "Cross-sector",
       "orgTypeBreakdown": {
@@ -11702,7 +11545,7 @@
       ],
       "firstSeen": 2024,
       "lastSeen": 2025,
-      "mass": 2.33,
+      "mass": 2.5,
       "convergenceScore": 0.667,
       "convergenceLabel": "Cross-sector",
       "orgTypeBreakdown": {
@@ -11868,7 +11711,7 @@
       "scenarios": [],
       "firstSeen": 2023,
       "lastSeen": 2025,
-      "mass": 1.72,
+      "mass": 2.5,
       "convergenceScore": 0.556,
       "convergenceLabel": "Cross-sector",
       "orgTypeBreakdown": {
@@ -12011,7 +11854,7 @@
       "scenarios": [],
       "firstSeen": 2023,
       "lastSeen": 2025,
-      "mass": 1.48,
+      "mass": 2.5,
       "convergenceScore": 0.444,
       "convergenceLabel": "Emerging",
       "orgTypeBreakdown": {
@@ -12212,7 +12055,7 @@
       ],
       "firstSeen": 2024,
       "lastSeen": 2028,
-      "mass": 2.11,
+      "mass": 2.5,
       "convergenceScore": 0.778,
       "convergenceLabel": "Universal",
       "orgTypeBreakdown": {
@@ -12416,7 +12259,7 @@
         "s226",
         "s227",
         "s247",
-        "s248",
+        "s237",
         "s289",
         "s291",
         "s038",
@@ -12435,7 +12278,7 @@
       "convergenceScore": 0.667,
       "convergenceLabel": "Cross-sector",
       "orgTypeBreakdown": {
-        "Consultancy": 3,
+        "Consultancy": 4,
         "Financial": 14,
         "Research": 10,
         "Agency": 3,
@@ -12684,7 +12527,6 @@
         "s019",
         "s024",
         "s025",
-        "s047",
         "s050",
         "s051",
         "s106",
@@ -12696,7 +12538,6 @@
         "s151",
         "s152",
         "s172",
-        "s182",
         "s183",
         "s184",
         "s185",
@@ -12732,7 +12573,7 @@
       "orgTypeBreakdown": {
         "Research": 6,
         "Consultancy": 6,
-        "Financial": 30
+        "Financial": 31
       },
       "drivers": [
         "economic-realignment"
@@ -13001,25 +12842,23 @@
         "s239",
         "s240",
         "s263",
-        "s277",
         "s293",
         "s308",
-        "s356",
         "s024"
       ],
       "scenarios": [],
       "firstSeen": 2023,
       "lastSeen": 2025,
-      "mass": 2.44,
+      "mass": 2.5,
       "convergenceScore": 0.667,
       "convergenceLabel": "Cross-sector",
       "orgTypeBreakdown": {
         "Research": 7,
-        "Financial": 8,
+        "Financial": 10,
         "Media": 3,
+        "Consultancy": 6,
         "Agency": 1,
-        "Tech": 12,
-        "Consultancy": 6
+        "Tech": 13
       },
       "drivers": [
         "technological-acceleration"
@@ -13134,7 +12973,7 @@
       "scenarios": [],
       "firstSeen": 2024,
       "lastSeen": 2025,
-      "mass": 1.44,
+      "mass": 2.5,
       "convergenceScore": 0.556,
       "convergenceLabel": "Cross-sector",
       "orgTypeBreakdown": {
@@ -13235,7 +13074,7 @@
       "scenarios": [],
       "firstSeen": 2024,
       "lastSeen": 2025,
-      "mass": 1.36,
+      "mass": 2.5,
       "convergenceScore": 0.444,
       "convergenceLabel": "Emerging",
       "orgTypeBreakdown": {
@@ -13374,20 +13213,20 @@
         "s168",
         "s230",
         "s255",
-        "s256"
+        "s117"
       ],
       "scenarios": [],
       "firstSeen": 2024,
       "lastSeen": 2025,
-      "mass": 1.64,
+      "mass": 2.5,
       "convergenceScore": 0.667,
       "convergenceLabel": "Cross-sector",
       "orgTypeBreakdown": {
         "Consultancy": 2,
         "Industry": 2,
-        "Research": 9,
+        "Research": 10,
         "Media": 1,
-        "Agency": 5,
+        "Agency": 6,
         "Tech": 2
       },
       "drivers": [
@@ -13521,7 +13360,7 @@
       "scenarios": [],
       "firstSeen": 2023,
       "lastSeen": 2025,
-      "mass": 1.56,
+      "mass": 2.5,
       "convergenceScore": 0.556,
       "convergenceLabel": "Cross-sector",
       "orgTypeBreakdown": {
