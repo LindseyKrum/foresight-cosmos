@@ -804,6 +804,104 @@
     }
     #search-results::-webkit-scrollbar { width: 3px; }
     #search-results::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); }
+
+    /* ── Industry relevance lens ── */
+    #industry-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    #industry-input {
+      background: rgba(15,15,40,0.88);
+      border: 1px solid rgba(255,255,255,0.16);
+      color: rgba(232,228,217,0.85);
+      font-family: inherit;
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      padding: 5px 12px 5px 28px;
+      border-radius: 16px;
+      width: 200px;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    #industry-input:focus {
+      border-color: rgba(176,200,255,0.40);
+      box-shadow: 0 0 12px rgba(140,180,255,0.14);
+    }
+    #industry-input::placeholder { color: rgba(232,228,217,0.30); }
+    #industry-icon {
+      position: absolute;
+      top: 6px;
+      left: 10px;
+      font-size: 13px;
+      color: rgba(176,200,255,0.45);
+      pointer-events: none;
+      z-index: 1;
+    }
+    #industry-clear {
+      background: none;
+      border: none;
+      color: rgba(232,228,217,0.28);
+      cursor: pointer;
+      font-size: 13px;
+      line-height: 1;
+      padding: 0;
+      display: none;
+      transition: color 0.2s;
+    }
+    #industry-clear:hover { color: rgba(232,228,217,0.7); }
+    #industry-results {
+      background: rgba(4,4,18,0.95);
+      border: 1px solid rgba(255,255,255,0.09);
+      border-radius: 8px;
+      backdrop-filter: blur(12px);
+      width: 280px;
+      display: none;
+      max-height: 360px;
+      overflow-y: auto;
+    }
+    #industry-results::-webkit-scrollbar { width: 3px; }
+    #industry-results::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); }
+    .ind-result-item {
+      padding: 10px 14px;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .ind-result-item:last-child { border-bottom: none; }
+    .ind-result-item:hover { background: rgba(255,255,255,0.05); }
+    .ind-result-bar {
+      display: inline-block;
+      width: 36px;
+      height: 2px;
+      background: rgba(255,255,255,0.07);
+      border-radius: 1px;
+      vertical-align: middle;
+      margin-left: 5px;
+      overflow: hidden;
+      position: relative;
+      top: -1px;
+    }
+    .ind-result-bar-fill {
+      height: 100%;
+      border-radius: 1px;
+    }
+    .ind-result-meta {
+      font-size: 9px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(232,228,217,0.28);
+      margin-bottom: 3px;
+    }
+    .ind-result-name {
+      font-size: 12px;
+      line-height: 1.4;
+      margin-bottom: 2px;
+    }
+    .ind-result-trend {
+      font-size: 10px;
+      color: rgba(232,228,217,0.3);
+    }
     .search-result-item {
       padding: 9px 16px;
       cursor: pointer;
@@ -1004,6 +1102,9 @@
       }
       .driver-btn { font-size: 9px; min-height: 28px; touch-action: manipulation; }
 
+      /* ── Industry lens — hide on mobile (too cramped) ── */
+      #industry-row, #industry-results { display: none !important; }
+
       /* ── Search — icon until focused ── */
       #search-wrap { top: 10px; right: 12px !important; z-index: 14; }
       #search-input {
@@ -1173,6 +1274,14 @@
     <input id="search-input" type="text" placeholder="Search signals &amp; trends…" autocomplete="off" spellcheck="false">
   </div>
   <div id="search-results"></div>
+  <div id="industry-row">
+    <div style="position:relative;">
+      <span id="industry-icon">◈</span>
+      <input id="industry-input" type="text" placeholder="Filter by your industry…" autocomplete="off" spellcheck="false">
+    </div>
+    <button id="industry-clear" title="Clear industry filter">✕</button>
+  </div>
+  <div id="industry-results"></div>
 </div>
 
 <div id="nav-hint">

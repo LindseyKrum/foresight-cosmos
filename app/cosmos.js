@@ -912,6 +912,153 @@ async function init() {
     }
   });
 
+  // ── Industry relevance lens ───────────────────────────────────────────────
+  const INDUSTRY_KEYWORDS = {
+    healthcare:     ['health','medical','medicine','clinical','patient','hospital','pharma','biotech','wellness','drug','therapy','diagnosis','treatment','physician','genomic','wearable'],
+    finance:        ['financial','banking','bank','investment','capital','trading','market','wealth','fintech','crypto','currency','asset','fund','portfolio','insurance','risk','credit','payment','defi'],
+    technology:     ['tech','software','hardware','digital','platform','cloud','data','algorithm','developer','startup','app','saas','api','automation','ai','machine learning','semiconductor','quantum'],
+    retail:         ['retail','consumer','shopping','commerce','store','brand','product','customer','ecommerce','supply chain','merchandise','fashion','luxury','d2c','omnichannel'],
+    education:      ['education','learning','school','university','student','teacher','training','curriculum','edtech','classroom','academic','credential','upskilling'],
+    media:          ['media','content','entertainment','streaming','creator','social','advertising','journalism','publishing','broadcast','audience','influencer','generative'],
+    energy:         ['energy','renewable','solar','wind','oil','gas','electricity','power','grid','battery','climate','carbon','emission','sustainability','hydrogen','nuclear'],
+    government:     ['government','policy','regulation','public','civic','democracy','election','governance','state','federal','military','defense','national security','geopolitics'],
+    agriculture:    ['agriculture','food','farming','crop','livestock','nutrition','supply chain','organic','agrotech','water','rural','fertilizer'],
+    manufacturing:  ['manufacturing','industrial','factory','production','supply chain','automation','robotics','materials','logistics','operations','3d printing','quality'],
+    transportation: ['transport','logistics','shipping','aviation','automotive','mobility','fleet','infrastructure','urban','ev','electric vehicle','autonomous','drone'],
+    real_estate:    ['real estate','property','housing','construction','urban','office','commercial','residential','proptech','rent','mortgage'],
+    hospitality:    ['hospitality','travel','tourism','hotel','restaurant','experience','leisure','booking','destination'],
+    legal:          ['legal','law','compliance','regulation','contract','intellectual property','privacy','liability','litigation'],
+    consulting:     ['consulting','strategy','advisory','management','transformation','enterprise','b2b','professional services'],
+  };
+
+  // Flatten keyword → set of expanded terms for a query string
+  function expandIndustryQuery(q) {
+    const words = q.toLowerCase().split(/\s+/).filter(w => w.length > 2);
+    const terms = new Set(words);
+    Object.entries(INDUSTRY_KEYWORDS).forEach(([ind, kws]) => {
+      const indWords = ind.replace('_', ' ').split(' ');
+      if (words.some(w => indWords.some(iw => iw.startsWith(w) || w.startsWith(iw)))) {
+        kws.forEach(k => terms.add(k));
+      }
+    });
+    return [...terms];
+  }
+
+  function scoreSignalForIndustry(sig, terms) {
+    const name = sig.name.toLowerCase();
+    const desc = sig.description.toLowerCase();
+    let score  = 0;
+    terms.forEach(t => {
+      if (name.includes(t)) score += 5;
+      if (desc.includes(t)) score += 1;
+    });
+    // Driver bonus
+    const DRIVER_INDUSTRY = {
+      'technological-acceleration':       ['technology','tech','fintech','healthtech','edtech','media','manufacturing'],
+      'economic-realignment':             ['finance','banking','retail','manufacturing','real_estate','consulting'],
+      'demographic-shift':                ['healthcare','education','retail','real_estate','government','hospitality'],
+      'geopolitical-fragmentation':       ['government','energy','manufacturing','transportation','legal'],
+      'resource-environmental-pressure':  ['energy','agriculture','manufacturing','transportation'],
+      'governance-regulatory-change':     ['finance','healthcare','technology','government','energy','legal'],
+      'cultural-reorientation':           ['media','retail','education','hospitality','consulting'],
+    };
+    (sig.drivers || []).forEach(driver => {
+      const relevantInds = DRIVER_INDUSTRY[driver] || [];
+      if (relevantInds.some(ind => terms.some(t => ind.replace('_',' ').includes(t) || t.includes(ind.replace('_',' '))))) {
+        score += 2;
+      }
+    });
+    return score;
+  }
+
+  const industryInput   = document.getElementById('industry-input');
+  const industryResults = document.getElementById('industry-results');
+  const industryClear   = document.getElementById('industry-clear');
+
+  function clearIndustryFilter() {
+    if (industryInput) industryInput.value = '';
+    if (industryResults) industryResults.style.display = 'none';
+    if (industryClear) industryClear.style.display = 'none';
+    // Restore all signal opacities (respect active driver filter)
+    signalMeshList.forEach(({ mesh }) => {
+      mesh.material.opacity = mesh.userData.baseOp;
+    });
+  }
+
+  if (industryInput) {
+    industryInput.addEventListener('input', () => {
+      const q = industryInput.value.trim();
+      if (q.length < 2) { clearIndustryFilter(); return; }
+
+      industryClear.style.display = 'block';
+      const terms  = expandIndustryQuery(q);
+      const scored = data.signals
+        .map(sig => ({ sig, score: scoreSignalForIndustry(sig, terms) }))
+        .filter(({ score }) => score > 0)
+        .sort((a, b) => b.score - a.score);
+
+      const maxScore = scored[0]?.score || 1;
+      const top      = scored.slice(0, 8);
+      const topIds   = new Set(top.map(({ sig }) => sig.id));
+
+      // Dim non-matching signals in 3D cosmos
+      signalMeshList.forEach(({ mesh, sig }) => {
+        mesh.material.opacity = topIds.has(sig.id) ? mesh.userData.baseOp : 0.04;
+      });
+
+      if (top.length === 0) {
+        industryResults.style.display = 'block';
+        industryResults.innerHTML = `<div style="padding:14px 16px;font-size:11px;color:rgba(232,228,217,0.3);font-style:italic;">No strong matches found — try a broader term</div>`;
+        return;
+      }
+
+      const headerColor = 'rgba(176,200,255,0.75)';
+      industryResults.style.display = 'block';
+      industryResults.innerHTML = `
+        <div style="padding:10px 14px 8px;font-size:9px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(232,228,217,0.28);border-bottom:1px solid rgba(255,255,255,0.06);">
+          Top signals for <span style="color:${headerColor};font-style:normal;">${q}</span>
+        </div>
+        ${top.map(({ sig, score }) => {
+          const trend = data.trends.find(t => sig.connections?.includes(t.id));
+          const pc    = PLANET_COLORS[sig.connections?.[0]] ?? new THREE.Color(0.68, 0.82, 1.0);
+          const hex   = '#' + pc.getHexString();
+          const pct   = Math.round((score / maxScore) * 100);
+          return `<div class="ind-result-item" data-sid="${sig.id}">
+            <div class="ind-result-meta">relevance<span class="ind-result-bar"><span class="ind-result-bar-fill" style="width:${pct}%;background:${hex};"></span></span></div>
+            <div class="ind-result-name" style="color:${hex}cc;">${sig.name}</div>
+            ${trend ? `<div class="ind-result-trend">↑ ${trend.name}</div>` : ''}
+          </div>`;
+        }).join('')}`;
+
+      industryResults.querySelectorAll('.ind-result-item').forEach(el => {
+        el.addEventListener('click', () => {
+          const sig = data.signals.find(s => s.id === el.dataset.sid);
+          if (!sig) return;
+          if (currentView === 'cosmos') {
+            const pos = signalPos[sig.id];
+            if (pos) flyTo(pos.clone().add(new THREE.Vector3(0, 4, 14)), pos.clone());
+          }
+          openPanel({ type: 'signal', data: sig }, data);
+        });
+      });
+    });
+
+    industryInput.addEventListener('keydown', e => {
+      if (e.key === 'Escape') clearIndustryFilter();
+    });
+  }
+
+  if (industryClear) {
+    industryClear.addEventListener('click', clearIndustryFilter);
+  }
+
+  // Close industry results when clicking outside search-wrap
+  document.addEventListener('click', e => {
+    if (!document.getElementById('search-wrap').contains(e.target)) {
+      if (industryResults) industryResults.style.display = 'none';
+    }
+  });
+
   // ── View switching: Cosmos / Horizon / Timeline ───────────────────────────
   const viewOverlay = document.getElementById('view-overlay');
   let currentView   = 'cosmos';
